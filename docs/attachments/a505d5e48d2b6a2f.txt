@@ -1,0 +1,11 @@
+[2024-11-19 12:26:28] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-84c","position":"Senior Test Automation","photo":"20406","biography":"Some biography","slug":"first-best-tester-84c","leaderships":["624"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-84c","metaDescription":"FirstMetaDescription-6afdf290-af7e-495e-87f6-eb9c98f2ba0f","allowIndexing":true},"locale":"uk"}}
+[2024-11-19 12:26:28] INFO: Sending GET request to /employees/396 with params: {}
+[2024-11-19 12:26:28] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-84c","position":"Junior Test Automation","photo":"20407","biography":"Some biography","slug":"second-best-tester-84c","leaderships":["624","625"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-84c","metaDescription":"SecondMetaDescription-75733233-d361-402d-b431-1c48a1d84b04","allowIndexing":true},"locale":"uk"}}
+[2024-11-19 12:26:28] INFO: Sending GET request to /employees/397 with params: {}
+[2024-11-19 12:26:32] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-11-19 12:26:35] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en does not include part: /en
+[2024-11-19 12:26:40] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/about/first-leadership-84c includes expected part: /about/first-leadership-84c
+[2024-11-19 12:26:40] INFO: Sending PUT request to /employees/396 with data: {"data":{"name":"UpdatedEmployee-84c","position":"Lead Test Automation","photo":"20407","biography":"Some updated biography","slug":"updated-tester-84c","leaderships":["624","625"]}}
+[2024-11-19 12:26:43] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/about/second-leadership-84c includes expected part: /about/second-leadership-84c
+[2024-11-19 12:26:43] INFO: Sending DELETE request to /employees/396
+[2024-11-19 12:26:43] INFO: Sending DELETE request to /employees/397

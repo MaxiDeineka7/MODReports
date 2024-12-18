@@ -1,0 +1,14 @@
+[2024-11-11 21:17:44] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-9f3","position":"Senior Test Automation","photo":"20093","biography":"Some biography","slug":"first-best-tester-9f3","leaderships":["456"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-9f3","metaDescription":"FirstMetaDescription-83e8561c-a873-4e33-81e7-9c19e0f56acc","allowIndexing":true},"locale":"uk"}}
+[2024-11-11 21:17:44] INFO: Sending GET request to /employees/238 with params: {}
+[2024-11-11 21:17:44] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-9f3","position":"Junior Test Automation","photo":"20094","biography":"Some biography","slug":"second-best-tester-9f3","leaderships":["456","457"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-9f3","metaDescription":"SecondMetaDescription-488ebc1d-6f0a-4f50-8b5a-107be6a2c853","allowIndexing":true},"locale":"uk"}}
+[2024-11-11 21:17:44] INFO: Sending GET request to /employees/239 with params: {}
+[2024-11-11 21:17:47] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-11-11 21:17:52] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/about/first-leadership-9f3 includes expected part: /about/first-leadership-9f3
+[2024-11-11 21:17:52] INFO: Sending PUT request to /leaderships/456 with data: {"data":{"name":"UpdatedEmployee-9f3","position":"Lead Test Automation","photo":"20094","biography":"Some updated biography","slug":"updated-tester-9f3","leaderships":["456","457"]}}
+[2024-11-11 21:18:03] INFO: Sending DELETE request to /employees/238
+[2024-11-11 21:18:04] INFO: Sending DELETE request to /employees/239
+[2024-11-11 21:18:04] INFO: Sending DELETE request to /upload/files/20093
+[2024-11-11 21:18:04] INFO: Sending DELETE request to /upload/files/20094
+[2024-11-11 21:18:04] INFO: Sending DELETE request to /leaderships/456
+[2024-11-11 21:18:04] INFO: Sending DELETE request to /leaderships/457
+[2024-11-11 21:18:04] INFO: Sending DELETE request to /leaderships/458

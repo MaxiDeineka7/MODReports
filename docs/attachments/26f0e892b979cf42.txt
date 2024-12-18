@@ -1,0 +1,21 @@
+[2024-11-11 22:15:48] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-11-11 22:15:49] INFO: Sending GET request to /upload/files/20129 with params: {}
+[2024-11-11 22:15:49] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-11-11 22:15:53] INFO: Sending GET request to /upload/files/20131 with params: {}
+[2024-11-11 22:15:53] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-b8e","people":[],"slug":"first-leadership-b8e","order":0,"locale":"uk"}}
+[2024-11-11 22:15:53] INFO: Sending GET request to /leaderships/501 with params: {}
+[2024-11-11 22:15:53] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-b8e","people":[],"slug":"second-leadership-b8e","order":0,"locale":"uk"}}
+[2024-11-11 22:15:53] INFO: Sending GET request to /leaderships/502 with params: {}
+[2024-11-11 22:15:54] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"Leadership-b8e","people":[],"slug":"leadership-b8e","order":0,"locale":"en"}}
+[2024-11-11 22:15:54] INFO: Sending GET request to /leaderships/503 with params: {}
+[2024-11-11 22:15:54] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-b8e","position":"Senior Test Automation","photo":"20129","biography":"Some biography","slug":"first-best-tester-b8e","leaderships":["501"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-b8e","metaDescription":"FirstMetaDescription-1dca5cf4-d8d3-41b5-8698-bf7cf5542b7b","allowIndexing":true},"locale":"uk"}}
+[2024-11-11 22:15:54] INFO: Sending GET request to /employees/270 with params: {}
+[2024-11-11 22:15:54] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-b8e","position":"Junior Test Automation","photo":"20131","biography":"Some biography","slug":"second-best-tester-b8e","leaderships":["501","502"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-b8e","metaDescription":"SecondMetaDescription-e3743a2c-f7aa-40da-b15c-0c89d6f788b9","allowIndexing":true},"locale":"uk"}}
+[2024-11-11 22:15:54] INFO: Sending GET request to /employees/271 with params: {}
+[2024-11-11 22:15:57] INFO: Sending DELETE request to /employees/270
+[2024-11-11 22:15:57] INFO: Sending DELETE request to /employees/271
+[2024-11-11 22:15:57] INFO: Sending DELETE request to /upload/files/20129
+[2024-11-11 22:15:57] INFO: Sending DELETE request to /upload/files/20131
+[2024-11-11 22:15:57] INFO: Sending DELETE request to /leaderships/501
+[2024-11-11 22:15:57] INFO: Sending DELETE request to /leaderships/502
+[2024-11-11 22:15:57] INFO: Sending DELETE request to /leaderships/503

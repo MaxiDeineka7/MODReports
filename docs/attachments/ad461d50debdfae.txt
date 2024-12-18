@@ -1,0 +1,16 @@
+[2024-10-31 18:00:16] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-10-31 18:00:18] INFO: Sending GET request to /upload/files/19773 with params: {}
+[2024-10-31 18:00:18] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-10-31 18:00:26] INFO: Sending GET request to /upload/files/19776 with params: {}
+[2024-10-31 18:00:27] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstTab-f41","people":[],"slug":"first-tab-f41","order":0,"seo":{"id":0,"metaTitle":"MetaTitle-f41","metaDescription":"MetaDescription-be2b73b1-4332-4f49-955f-9e19f827fded","allowIndexing":true},"locale":"uk"}}
+[2024-10-31 18:00:27] INFO: Sending GET request to /leaderships/282 with params: {}
+[2024-10-31 18:00:27] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondTab-f41","people":[],"slug":"second-tab-f41","order":0,"seo":{"id":0,"metaTitle":"MetaTitle-f41","metaDescription":"MetaDescription-2f26fa97-0d40-4573-8803-4e71e98c901d","allowIndexing":true},"locale":"uk"}}
+[2024-10-31 18:00:27] INFO: Sending GET request to /leaderships/283 with params: {}
+[2024-10-31 18:00:27] INFO: Sending POST request to /employees with data: {"data":{"name":"TestEmployee-f41","position":"Test Automation","photo":"19773","biography":"Some biography","slug":"the-best-tester-f41","leaderships":["282","283"],"seo":{"id":0,"metaTitle":"MetaTitle-f41","metaDescription":"MetaDescription-e5c635ee-b055-4d5e-bd0b-91ae0b3f45e3","allowIndexing":true},"locale":"uk"}}
+[2024-10-31 18:00:27] INFO: Sending GET request to /employees/138 with params: {}
+[2024-10-31 18:00:38] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-10-31 18:00:58] INFO: Sending DELETE request to /employees/138
+[2024-10-31 18:00:58] INFO: Sending DELETE request to /upload/files/19773
+[2024-10-31 18:00:59] INFO: Sending DELETE request to /upload/files/19776
+[2024-10-31 18:00:59] INFO: Sending DELETE request to /leaderships/282
+[2024-10-31 18:00:59] INFO: Sending DELETE request to /leaderships/283

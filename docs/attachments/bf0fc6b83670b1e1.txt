@@ -1,0 +1,20 @@
+[2024-11-11 21:49:04] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-11-11 21:49:05] INFO: Sending GET request to /upload/files/20109 with params: {}
+[2024-11-11 21:49:05] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-11-11 21:49:08] INFO: Sending GET request to /upload/files/20110 with params: {}
+[2024-11-11 21:49:08] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-d69","people":[],"slug":"first-leadership-d69","order":0,"locale":"uk"}}
+[2024-11-11 21:49:08] INFO: Sending GET request to /leaderships/480 with params: {}
+[2024-11-11 21:49:08] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-d69","people":[],"slug":"second-leadership-d69","order":0,"locale":"uk"}}
+[2024-11-11 21:49:08] INFO: Sending GET request to /leaderships/481 with params: {}
+[2024-11-11 21:49:08] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"Leadership-d69","people":[],"slug":"leadership-d69","order":0,"locale":"en"}}
+[2024-11-11 21:49:08] INFO: Sending GET request to /leaderships/482 with params: {}
+[2024-11-11 21:49:08] INFO: Sending POST request to /employees with data: {"data":{"name":"Employee-d69","position":"Senior Test Automation","photo":"20109","biography":"Some biography","slug":"best-tester-d69","leaderships":["482"],"seo":{"id":0,"metaTitle":"MetaTitle-d69","metaDescription":"MetaDescription-49a7e231-475c-4b9e-b106-dfa49f65880f","allowIndexing":true},"locale":"en"}}
+[2024-11-11 21:49:08] INFO: Sending GET request to /employees/252 with params: {}
+[2024-11-11 21:49:12] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-11-11 21:49:12] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/en does not contain expected part: https://frontend.main.testdev.mod.gov.ua/. Error: page.waitForURL: Target page, context or browser has been closed
+[2024-11-11 21:49:12] INFO: Sending DELETE request to /employees/252
+[2024-11-11 21:49:13] INFO: Sending DELETE request to /upload/files/20109
+[2024-11-11 21:49:13] INFO: Sending DELETE request to /upload/files/20110
+[2024-11-11 21:49:14] INFO: Sending DELETE request to /leaderships/480
+[2024-11-11 21:49:14] INFO: Sending DELETE request to /leaderships/481
+[2024-11-11 21:49:14] INFO: Sending DELETE request to /leaderships/482

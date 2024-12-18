@@ -1,0 +1,9 @@
+[2024-10-31 12:12:15] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"title":"Орієнтовні втрати армії РФ за 07.10.2024","losses":[{"id":94,"quantity":"663239"},{"id":95,"quantity":"4157"},{"id":96,"quantity":"4452"},{"id":97,"quantity":"9711"},{"id":98,"quantity":"727"}],"locale":"uk"}}
+{
+  data: {
+    title: 'Орієнтовні втрати армії РФ за 07.10.2024',
+    losses: [ [Object], [Object], [Object], [Object], [Object] ],
+    locale: 'uk'
+  }
+}
+[2024-10-31 12:12:54] INFO: Sending GET request to /loss/?locale=uk&populate=* with params: {}

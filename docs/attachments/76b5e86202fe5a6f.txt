@@ -1,0 +1,7 @@
+[2024-11-11 22:10:44] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-11-11 22:10:47] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: /news?tags=Відсіч+агресору
+[2024-11-11 22:11:02] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/en/news?tags=losses does not contain expected part: /news?tags=Відсіч+агресору. Error: page.waitForURL: Timeout 15000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "load"
+  navigated to "https://frontend.main.testdev.mod.gov.ua/en/news?tags=losses"
+============================================================

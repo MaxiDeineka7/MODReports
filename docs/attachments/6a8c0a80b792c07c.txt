@@ -1,0 +1,19 @@
+[2024-11-11 21:17:22] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-11-11 21:17:23] INFO: Sending GET request to /upload/files/20093 with params: {}
+[2024-11-11 21:17:23] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-11-11 21:17:25] INFO: Sending GET request to /upload/files/20094 with params: {}
+[2024-11-11 21:17:26] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-9f3","people":[],"slug":"first-leadership-9f3","order":0,"locale":"uk"}}
+[2024-11-11 21:17:26] INFO: Sending GET request to /leaderships/456 with params: {}
+[2024-11-11 21:17:26] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-9f3","people":[],"slug":"second-leadership-9f3","order":0,"locale":"uk"}}
+[2024-11-11 21:17:26] INFO: Sending GET request to /leaderships/457 with params: {}
+[2024-11-11 21:17:26] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"Leadership-9f3","people":[],"slug":"leadership-9f3","order":0,"locale":"en"}}
+[2024-11-11 21:17:26] INFO: Sending GET request to /leaderships/458 with params: {}
+[2024-11-11 21:17:26] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-9f3","position":"Senior Test Automation","photo":"20093","biography":"Some biography","slug":"first-best-tester-9f3","leaderships":["456"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-9f3","metaDescription":"FirstMetaDescription-9070e7e2-e2df-4337-871a-5265f0b55fdd","allowIndexing":true},"locale":"uk"}}
+[2024-11-11 21:17:26] INFO: Sending GET request to /employees/236 with params: {}
+[2024-11-11 21:17:26] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-9f3","position":"Junior Test Automation","photo":"20094","biography":"Some biography","slug":"second-best-tester-9f3","leaderships":["456","457"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-9f3","metaDescription":"SecondMetaDescription-cae29f2c-fbc9-442e-818f-c053cafe375e","allowIndexing":true},"locale":"uk"}}
+[2024-11-11 21:17:26] INFO: Sending GET request to /employees/237 with params: {}
+[2024-11-11 21:17:30] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-11-11 21:17:40] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/about/first-leadership-9f3 includes expected part: /about/first-leadership-9f3
+[2024-11-11 21:17:41] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/about/second-leadership-9f3 includes expected part: /about/second-best-tester-9f3
+[2024-11-11 21:17:42] INFO: Sending DELETE request to /employees/236
+[2024-11-11 21:17:42] INFO: Sending DELETE request to /employees/237

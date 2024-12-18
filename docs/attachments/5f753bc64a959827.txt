@@ -1,0 +1,4 @@
+[2024-10-31 17:34:38] INFO: Waiting for URL to include: https://frontend.main.testdev.mod.gov.ua/
+[2024-10-31 17:34:38] INFO: Current URL: https://frontend.main.testdev.mod.gov.ua/en
+[2024-10-31 17:34:44] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"title":"Орієнтовні втрати армії РФ за 07.10.2024","losses":[{"id":94,"quantity":"089829"},{"id":95,"quantity":"4395"},{"id":96,"quantity":"4700"},{"id":97,"quantity":"6960"},{"id":98,"quantity":"106"}],"locale":"uk"}}
+[2024-10-31 17:34:45] INFO: Sending GET request to /loss/?locale=uk&populate=* with params: {}

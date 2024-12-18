@@ -1,0 +1,20 @@
+[2024-11-11 14:21:48] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-11-11 14:21:49] INFO: Sending GET request to /upload/files/20035 with params: {}
+[2024-11-11 14:21:49] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-11-11 14:21:52] INFO: Sending GET request to /upload/files/20036 with params: {}
+[2024-11-11 14:21:52] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-a11","people":[],"slug":"first-leadership-a11","order":0,"locale":"uk"}}
+[2024-11-11 14:21:52] INFO: Sending GET request to /leaderships/369 with params: {}
+[2024-11-11 14:21:52] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-a11","people":[],"slug":"second-leadership-a11","order":0,"locale":"uk"}}
+[2024-11-11 14:21:52] INFO: Sending GET request to /leaderships/370 with params: {}
+[2024-11-11 14:21:52] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"Leadership-a11","people":[],"slug":"leadership-a11","order":0,"locale":"en"}}
+[2024-11-11 14:21:52] INFO: Sending GET request to /leaderships/371 with params: {}
+[2024-11-11 14:21:52] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-a11","position":"Senior Test Automation","photo":"20035","biography":"Some biography","slug":"the-best-tester-a11","leaderships":["369"],"seo":{"id":0,"metaTitle":"MetaTitle-a11","metaDescription":"MetaDescription-8f8e5808-edab-4dbc-8031-7cee920125be","allowIndexing":true},"locale":"uk"}}
+[2024-11-11 14:21:52] INFO: Sending GET request to /employees/179 with params: {}
+[2024-11-11 14:21:52] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-a11","position":"Junior Test Automation","photo":"20035","biography":"Some biography","slug":"the-best-tester-a11","leaderships":["369","370"],"seo":{"id":0,"metaTitle":"MetaTitle-a11","metaDescription":"MetaDescription-7e81fc02-2c32-4c43-a090-cef3fae8c4f3","allowIndexing":true},"locale":"uk"}}
+[2024-11-11 14:21:52] ERROR: Failed to send POST request: Request failed with status code 400
+[2024-11-11 14:21:52] INFO: Sending DELETE request to /employees/179
+[2024-11-11 14:21:52] INFO: Sending DELETE request to /upload/files/20035
+[2024-11-11 14:21:52] INFO: Sending DELETE request to /upload/files/20036
+[2024-11-11 14:21:53] INFO: Sending DELETE request to /leaderships/369
+[2024-11-11 14:21:53] INFO: Sending DELETE request to /leaderships/370
+[2024-11-11 14:21:53] INFO: Sending DELETE request to /leaderships/371

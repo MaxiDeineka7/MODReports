@@ -1,0 +1,19 @@
+LossEntity {
+  id: 4,
+  title: 'Орієнтовні втрати армії РФ за період 15.07.2024-21.07.2024',
+  locale: 'uk',
+  losses: [
+    { id: 48, title: 'Особовий склад', quantity: 999999 },
+    { id: 49, title: 'Танки', quantity: 1111 },
+    { id: 50, title: 'Бойові машини', quantity: 4444 },
+    { id: 51, title: 'БПЛА', quantity: 2222 },
+    { id: 52, title: 'Артилерійські системи', quantity: 888 }
+  ]
+}
+{
+  data: {
+    title: 'Updated Орієнтовні втрати армії РФ за період 15.07.2024-21.07.2024',
+    losses: [ [Object], [Object], [Object], [Object], [Object] ],
+    locale: 'uk'
+  }
+}
