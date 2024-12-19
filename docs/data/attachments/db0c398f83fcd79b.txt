@@ -1,0 +1,13 @@
+LossEntity {
+  id: 14,
+  title: 'Test',
+  locale: 'en',
+  losses: [
+    { id: 99, title: 'Test', quantity: 123 },
+    { id: 100, title: 'Test', quantity: 40 },
+    { id: 102, title: 'Test', quantity: 2 },
+    { id: 103, title: 'Test', quantity: 456 },
+    { id: 101, title: 'Test', quantity: 30 }
+  ]
+}
+Test

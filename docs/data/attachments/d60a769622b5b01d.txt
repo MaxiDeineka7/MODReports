@@ -1,0 +1,3 @@
+[2024-10-31 17:44:36] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-10-31 17:44:38] INFO: Sending GET request to /quick-link/?locale=en&populate=* with params: {}
+[2024-10-31 17:44:39] INFO: Sending PUT request to /quick-link/?locale=uk with data: {"data":{"link":[{"id":312,"title":"Долучитися до війська","url":"https://army.gov.ua/#fil"},{"id":313,"title":"Електронна черга ТЦК","url":"https://q.mod.gov.ua/registration-place"},{"id":314,"title":"Отримати акредитацію","url":"/otrimati-akreditacziyu-zsu"},{"id":315,"title":"Стати постачальником","url":"https://dotua.org/"}]}}

@@ -1,0 +1,14 @@
+[2024-11-11 22:06:24] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-1ef","position":"Senior Test Automation","photo":"20119","biography":"Some biography","slug":"first-best-tester-1ef","leaderships":["497"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-1ef","metaDescription":"FirstMetaDescription-6b6fb7de-26ab-4cfc-a3fe-8b82e13f92ba","allowIndexing":true},"locale":"en"}}
+[2024-11-11 22:06:24] INFO: Sending GET request to /employees/266 with params: {}
+[2024-11-11 22:06:24] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-1ef","position":"Junior Test Automation","photo":"20119","biography":"Some biography","slug":"second-best-tester-1ef","leaderships":["497"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-1ef","metaDescription":"SecondMetaDescription-33188357-fa66-400f-abba-5fc2fc5e7002","allowIndexing":true},"locale":"en"}}
+[2024-11-11 22:06:24] INFO: Sending GET request to /employees/267 with params: {}
+[2024-11-11 22:06:27] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-11-11 22:06:30] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about/leadership-1ef includes expected part: /en/about/leadership-1ef
+[2024-11-11 22:06:30] INFO: Sending PUT request to /employees/266 with data: {"data":{"name":"UpdatedEmployee-1ef","position":"Lead Test Automation","photo":"20120","biography":"Some updated biography","slug":"updated-tester-1ef"}}
+[2024-11-11 22:06:31] INFO: Sending DELETE request to /employees/266
+[2024-11-11 22:06:31] INFO: Sending DELETE request to /employees/267
+[2024-11-11 22:06:32] INFO: Sending DELETE request to /upload/files/20119
+[2024-11-11 22:06:32] INFO: Sending DELETE request to /upload/files/20120
+[2024-11-11 22:06:32] INFO: Sending DELETE request to /leaderships/495
+[2024-11-11 22:06:32] INFO: Sending DELETE request to /leaderships/496
+[2024-11-11 22:06:32] INFO: Sending DELETE request to /leaderships/497

@@ -1,0 +1,23 @@
+[2024-11-26 11:19:17] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-11-26 11:19:18] INFO: Sending GET request to /upload/files/20608 with params: {}
+[2024-11-26 11:19:18] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-11-26 11:19:20] INFO: Sending GET request to /upload/files/20609 with params: {}
+[2024-11-26 11:19:21] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-b48","people":[],"slug":"first-leadership-b48","order":0,"locale":"uk"}}
+[2024-11-26 11:19:21] INFO: Sending GET request to /leaderships/736 with params: {}
+[2024-11-26 11:19:21] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-b48","people":[],"slug":"second-leadership-b48","order":0,"locale":"uk"}}
+[2024-11-26 11:19:21] INFO: Sending GET request to /leaderships/737 with params: {}
+[2024-11-26 11:19:21] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-b48","position":"Senior Test Automation","photo":"20608","biography":"Some biography","slug":"first-best-tester-b48","leaderships":["736"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-b48","metaDescription":"FirstMetaDescription-b4ed03c0-5c0a-4eac-841a-c285f3d2d6de","allowIndexing":true},"locale":"uk"}}
+[2024-11-26 11:19:21] INFO: Sending GET request to /employees/512 with params: {}
+[2024-11-26 11:19:21] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-b48","position":"Junior Test Automation","photo":"20609","biography":"Some biography","slug":"second-best-tester-b48","leaderships":["736","737"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-b48","metaDescription":"SecondMetaDescription-e6fd8ed4-c3dc-473f-b4d5-51d8a1dff43c","allowIndexing":true},"locale":"uk"}}
+[2024-11-26 11:19:21] INFO: Sending GET request to /employees/513 with params: {}
+[2024-11-26 11:19:30] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/ includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-11-26 11:19:45] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/ does not contain expected part: https://frontend.main.testdev.mod.gov.ua/. Error: page.waitForURL: Timeout 15000ms exceeded.
+=========================== logs ===========================
+  "domcontentloaded" event fired
+============================================================
+[2024-11-26 11:19:45] INFO: Sending DELETE request to /employees/512
+[2024-11-26 11:19:46] INFO: Sending DELETE request to /employees/513
+[2024-11-26 11:19:46] INFO: Sending DELETE request to /leaderships/736
+[2024-11-26 11:19:46] INFO: Sending DELETE request to /leaderships/737
+[2024-11-26 11:19:46] INFO: Sending DELETE request to /upload/files/20608
+[2024-11-26 11:19:46] INFO: Sending DELETE request to /upload/files/20609

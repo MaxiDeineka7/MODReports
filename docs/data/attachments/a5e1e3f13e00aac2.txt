@@ -1,0 +1,64 @@
+[2024-11-12 11:37:42] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-11-12 11:37:48] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en does not include part: /en
+[2024-11-12 11:37:49] INFO: Sending GET request to /loss/?locale=uk&populate=* with params: {}
+{
+  data: {
+    title: 'Орієнтовні втрати армії РФ за 07.10.2024',
+    losses: [ [Object], [Object], [Object], [Object], [Object] ],
+    locale: 'uk'
+  }
+}
+LossEntity {
+  id: 13,
+  title: 'Орієнтовні втрати армії РФ за 07.10.2024',
+  locale: 'uk',
+  link: '/news?page=1&tags=Відсіч+агресору',
+  losses: [
+    { id: 94, title: 'Особовий склад', quantity: 746659 },
+    { id: 95, title: 'Танки', quantity: 1935 },
+    { id: 96, title: 'Бойові машини', quantity: 7739 },
+    { id: 97, title: 'БПЛА', quantity: 3211 },
+    { id: 98, title: 'Артилерійські системи', quantity: 21 }
+  ]
+}
+[2024-11-12 11:37:49] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"title":"Орієнтовні втрати армії РФ за 07.10.2024","losses":[{"id":94,"quantity":"409046"},{"id":95,"quantity":"8606"},{"id":96,"quantity":"0142"},{"id":97,"quantity":"2608"},{"id":98,"quantity":"119"}],"locale":"uk"}}
+LossEntity {
+  id: 13,
+  title: 'Орієнтовні втрати армії РФ за 07.10.2024',
+  locale: 'uk',
+  link: '/news?page=1&tags=Відсіч+агресору',
+  losses: [
+    { id: 94, title: 'Особовий склад', quantity: 746659 },
+    { id: 95, title: 'Танки', quantity: 1935 },
+    { id: 96, title: 'Бойові машини', quantity: 7739 },
+    { id: 97, title: 'БПЛА', quantity: 3211 },
+    { id: 98, title: 'Артилерійські системи', quantity: 21 }
+  ]
+}
+LossEntity {
+  id: 13,
+  title: 'Орієнтовні втрати армії РФ за 07.10.2024',
+  locale: 'uk',
+  link: '/news?page=1&tags=Відсіч+агресору',
+  losses: [
+    { id: 94, title: 'Особовий склад', quantity: 746659 },
+    { id: 95, title: 'Танки', quantity: 1935 },
+    { id: 96, title: 'Бойові машини', quantity: 7739 },
+    { id: 97, title: 'БПЛА', quantity: 3211 },
+    { id: 98, title: 'Артилерійські системи', quantity: 21 }
+  ]
+}
+[2024-11-12 11:38:13] INFO: Sending GET request to /loss/?locale=uk&populate=* with params: {}
+LossEntity {
+  id: 13,
+  title: 'Орієнтовні втрати армії РФ за 07.10.2024',
+  locale: 'uk',
+  link: '/news?page=1&tags=Відсіч+агресору',
+  losses: [
+    { id: 94, title: 'Особовий склад', quantity: 409046 },
+    { id: 95, title: 'Танки', quantity: 8606 },
+    { id: 96, title: 'Бойові машини', quantity: 142 },
+    { id: 97, title: 'БПЛА', quantity: 2608 },
+    { id: 98, title: 'Артилерійські системи', quantity: 119 }
+  ]
+}

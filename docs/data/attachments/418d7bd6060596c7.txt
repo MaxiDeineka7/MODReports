@@ -1,0 +1,9 @@
+Request failed with status code 400
+Error details: {
+  data: null,
+  error: {
+    status: 400,
+    name: 'Error',
+    message: 'invalid JSON, only supports object and array'
+  }
+}

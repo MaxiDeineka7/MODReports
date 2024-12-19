@@ -1,0 +1,20 @@
+[2024-11-11 21:56:04] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-11-11 21:56:05] INFO: Sending GET request to /upload/files/20115 with params: {}
+[2024-11-11 21:56:05] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-11-11 21:56:08] INFO: Sending GET request to /upload/files/20116 with params: {}
+[2024-11-11 21:56:08] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-aed","people":[],"slug":"first-leadership-aed","order":0,"locale":"uk"}}
+[2024-11-11 21:56:08] INFO: Sending GET request to /leaderships/489 with params: {}
+[2024-11-11 21:56:08] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-aed","people":[],"slug":"second-leadership-aed","order":0,"locale":"uk"}}
+[2024-11-11 21:56:08] INFO: Sending GET request to /leaderships/490 with params: {}
+[2024-11-11 21:56:09] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"Leadership-aed","people":[],"slug":"leadership-aed","order":0,"locale":"en"}}
+[2024-11-11 21:56:09] INFO: Sending GET request to /leaderships/491 with params: {}
+[2024-11-11 21:56:09] INFO: Sending POST request to /employees with data: {"data":{"name":"Employee-aed","position":"Senior Test Automation","photo":"20115","biography":"Some biography","slug":"best-tester-aed","leaderships":["491"],"seo":{"id":0,"metaTitle":"MetaTitle-aed","metaDescription":"MetaDescription-0ddd7e71-08e9-4f81-8ebc-7616d45c19f2","allowIndexing":true},"locale":"en"}}
+[2024-11-11 21:56:09] INFO: Sending GET request to /employees/255 with params: {}
+[2024-11-11 21:56:09] INFO: Sending POST request to /employees with data: {"data":{"name":"Employee-aed","position":"Senior Test Automation","photo":"20115","biography":"Some biography","slug":"best-tester-aed","leaderships":["491"],"seo":{"id":0,"metaTitle":"MetaTitle-aed","metaDescription":"MetaDescription-be903f90-5dea-441d-b2ec-24df1b1099c3","allowIndexing":true},"locale":"en"}}
+[2024-11-11 21:56:09] ERROR: Failed to send POST request: Request failed with status code 400
+[2024-11-11 21:56:09] INFO: Sending DELETE request to /employees/255
+[2024-11-11 21:56:09] INFO: Sending DELETE request to /upload/files/20115
+[2024-11-11 21:56:09] INFO: Sending DELETE request to /upload/files/20116
+[2024-11-11 21:56:09] INFO: Sending DELETE request to /leaderships/489
+[2024-11-11 21:56:09] INFO: Sending DELETE request to /leaderships/490
+[2024-11-11 21:56:09] INFO: Sending DELETE request to /leaderships/491

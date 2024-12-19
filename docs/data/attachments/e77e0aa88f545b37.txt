@@ -1,0 +1,6 @@
+[2024-11-26 11:18:51] INFO: Sending GET request to /footer/?locale=en&populate[sections][populate]=* with params: {}
+[2024-11-26 11:19:00] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-11-26 11:19:15] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/en does not contain expected part: https://frontend.main.testdev.mod.gov.ua/. Error: page.waitForURL: Timeout 15000ms exceeded.
+=========================== logs ===========================
+  "domcontentloaded" event fired
+============================================================

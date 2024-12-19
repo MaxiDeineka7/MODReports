@@ -1,0 +1,20 @@
+[2024-10-31 18:01:01] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-10-31 18:01:02] INFO: Sending GET request to /upload/files/19784 with params: {}
+[2024-10-31 18:01:03] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-10-31 18:01:06] INFO: Sending GET request to /upload/files/19785 with params: {}
+[2024-10-31 18:01:06] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstTab-622","people":[],"slug":"first-tab-622","order":0,"seo":{"id":0,"metaTitle":"MetaTitle-622","metaDescription":"MetaDescription-5ed8ce05-a630-4b4f-9907-57117c6671b1","allowIndexing":true},"locale":"uk"}}
+[2024-10-31 18:01:06] INFO: Sending GET request to /leaderships/284 with params: {}
+[2024-10-31 18:01:06] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondTab-622","people":[],"slug":"second-tab-622","order":0,"seo":{"id":0,"metaTitle":"MetaTitle-622","metaDescription":"MetaDescription-98c8e3ab-e014-4307-8623-5dcf1e775be9","allowIndexing":true},"locale":"uk"}}
+[2024-10-31 18:01:06] INFO: Sending GET request to /leaderships/285 with params: {}
+[2024-10-31 18:01:06] INFO: Sending POST request to /employees with data: {"data":{"name":"TestEmployee-622","position":"Test Automation","photo":"19784","biography":"Some biography","slug":"the-best-tester-622","leaderships":["284","285"],"seo":{"id":0,"metaTitle":"MetaTitle-622","metaDescription":"MetaDescription-3cc391e8-574d-4d9a-954e-c5de2fecf49e","allowIndexing":true},"locale":"uk"}}
+[2024-10-31 18:01:07] INFO: Sending GET request to /employees/139 with params: {}
+[2024-10-31 18:01:12] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-10-31 18:01:15] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/en does not contain expected part: https://frontend.main.testdev.mod.gov.ua/. Error: page.waitForURL: Target page, context or browser has been closed
+=========================== logs ===========================
+  "domcontentloaded" event fired
+============================================================
+[2024-10-31 18:01:15] INFO: Sending DELETE request to /employees/139
+[2024-10-31 18:01:15] INFO: Sending DELETE request to /upload/files/19784
+[2024-10-31 18:01:15] INFO: Sending DELETE request to /upload/files/19785
+[2024-10-31 18:01:15] INFO: Sending DELETE request to /leaderships/284
+[2024-10-31 18:01:16] INFO: Sending DELETE request to /leaderships/285

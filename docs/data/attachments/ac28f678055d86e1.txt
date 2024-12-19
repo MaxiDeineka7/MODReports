@@ -1,0 +1,14 @@
+[2024-11-14 14:41:56] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-c70","position":"Senior Test Automation","photo":"20329","biography":"Some biography","slug":"first-best-tester-c70","leaderships":["593"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-c70","metaDescription":"FirstMetaDescription-fa925d15-0145-48f7-820e-fe6a48115a6b","allowIndexing":true},"locale":"en"}}
+[2024-11-14 14:41:56] INFO: Sending GET request to /employees/360 with params: {}
+[2024-11-14 14:41:56] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-c70","position":"Junior Test Automation","photo":"20329","biography":"Some biography","slug":"second-best-tester-c70","leaderships":["593"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-c70","metaDescription":"SecondMetaDescription-6d82e04b-52ea-4ddd-baa3-0d84d5ac1d3f","allowIndexing":true},"locale":"en"}}
+[2024-11-14 14:41:56] INFO: Sending GET request to /employees/361 with params: {}
+[2024-11-14 14:42:00] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-11-14 14:42:03] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about/leadership-c70 includes expected part: /en/about/leadership-c70
+[2024-11-14 14:42:03] INFO: Sending PUT request to /employees/360 with data: {"data":{"name":"UpdatedEmployee-c70","position":"Lead Test Automation","photo":"20330","biography":"Some updated biography","slug":"updated-tester-c70"}}
+[2024-11-14 14:42:05] INFO: Sending DELETE request to /employees/360
+[2024-11-14 14:42:05] INFO: Sending DELETE request to /employees/361
+[2024-11-14 14:42:06] INFO: Sending DELETE request to /upload/files/20329
+[2024-11-14 14:42:06] INFO: Sending DELETE request to /upload/files/20330
+[2024-11-14 14:42:06] INFO: Sending DELETE request to /leaderships/591
+[2024-11-14 14:42:06] INFO: Sending DELETE request to /leaderships/592
+[2024-11-14 14:42:06] INFO: Sending DELETE request to /leaderships/593
