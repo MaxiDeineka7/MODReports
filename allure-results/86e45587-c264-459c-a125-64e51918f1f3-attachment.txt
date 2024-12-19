@@ -1,0 +1,14 @@
+[2024-12-19 12:44:04] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-89e","position":"Senior Test Automation","photo":"21805","biography":"Some biography","slug":"first-best-tester-89e","leaderships":["1370"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-89e","metaDescription":"FirstMetaDescription-071fcfe0-0464-4e41-b9d6-d1514a3af838","allowIndexing":true},"locale":"en"}}
+[2024-12-19 12:44:04] INFO: Sending GET request to /employees/1272 with params: {}
+[2024-12-19 12:44:04] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-89e","position":"Junior Test Automation","photo":"21806","biography":"Some biography","slug":"second-best-tester-89e","leaderships":["1370","1371"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-89e","metaDescription":"SecondMetaDescription-f7520ccb-f895-4df2-95d1-5516b8cb06e6","allowIndexing":true},"locale":"en"}}
+[2024-12-19 12:44:04] INFO: Sending GET request to /employees/1273 with params: {}
+[2024-12-19 12:44:09] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-12-19 12:44:20] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about-us/first-leadership-89e includes expected part: en/about-us/first-leadership-89e
+[2024-12-19 12:44:20] INFO: Sending PUT request to /employees/1272 with data: {"data":{"name":"UpdatedEmployee-89e","position":"Lead Test Automation","photo":"21806","biography":"Some updated biography","slug":"updated-tester-89e","leaderships":["1370","1371"]}}
+[2024-12-19 12:44:27] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about-us/second-leadership-89e includes expected part: en/about-us/second-leadership-89e
+[2024-12-19 12:44:28] INFO: Sending DELETE request to /employees/1272
+[2024-12-19 12:44:28] INFO: Sending DELETE request to /employees/1273
+[2024-12-19 12:44:28] INFO: Sending DELETE request to /leaderships/1370
+[2024-12-19 12:44:29] INFO: Sending DELETE request to /leaderships/1371
+[2024-12-19 12:44:29] INFO: Sending DELETE request to /upload/files/21805
+[2024-12-19 12:44:29] INFO: Sending DELETE request to /upload/files/21806

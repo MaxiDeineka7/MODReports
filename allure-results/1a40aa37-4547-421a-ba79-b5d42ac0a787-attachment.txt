@@ -1,0 +1,17 @@
+[2024-12-19 12:39:14] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-12-19 12:39:16] INFO: Sending GET request to /upload/files/21797 with params: {}
+[2024-12-19 12:39:17] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-12-19 12:39:25] INFO: Sending GET request to /upload/files/21798 with params: {}
+[2024-12-19 12:39:25] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-6bc","people":[],"slug":"first-leadership-6bc","order":0,"locale":"en"}}
+[2024-12-19 12:39:25] INFO: Sending GET request to /leaderships/1366 with params: {}
+[2024-12-19 12:39:25] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-6bc","people":[],"slug":"second-leadership-6bc","order":0,"locale":"en"}}
+[2024-12-19 12:39:26] INFO: Sending GET request to /leaderships/1367 with params: {}
+[2024-12-19 12:39:26] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-6bc","position":"Senior Test Automation","photo":"21797","biography":"Some biography","slug":"first-best-tester-6bc","leaderships":["1366"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-6bc","metaDescription":"FirstMetaDescription-5e358cab-68d3-4397-950f-b0f0320235b0","allowIndexing":true},"locale":"en"}}
+[2024-12-19 12:39:26] INFO: Sending GET request to /employees/1262 with params: {}
+[2024-12-19 12:39:26] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-6bc","position":"Junior Test Automation","photo":"21798","biography":"Some biography","slug":"second-best-tester-6bc","leaderships":["1366","1367"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-6bc","metaDescription":"SecondMetaDescription-b7ac1991-401e-422f-ae28-f631557fe286","allowIndexing":true},"locale":"en"}}
+[2024-12-19 12:39:26] INFO: Sending GET request to /employees/1263 with params: {}
+[2024-12-19 12:39:31] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-12-19 12:39:41] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about-us/first-leadership-6bc includes expected part: en/about-us/first-leadership-6bc
+[2024-12-19 12:39:44] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about-us/second-best-tester-6bc includes expected part: en/about-us/second-best-tester-6bc
+[2024-12-19 12:39:45] INFO: Sending DELETE request to /employees/1262
+[2024-12-19 12:39:45] INFO: Sending DELETE request to /employees/1263
