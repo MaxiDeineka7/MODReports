@@ -1,4 +1,0 @@
-[2024-11-14 19:16:22] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
-[2024-11-14 19:16:25] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en does not include part: /en
-[2024-11-14 19:16:28] INFO: Sending GET request to /quick-link/?locale=uk&populate=* with params: {}
-[2024-11-14 19:16:29] INFO: Sending PUT request to /quick-link/?locale=uk with data: {"data":{"link":[{"id":312,"title":"Updated Долучитися до війська 44-cd9","url":"https://www.google.com/"},{"id":313,"title":"Updated Електронна черга ТЦК-cd9","url":"https://www.google.com/"},{"id":314,"title":"Updated Отримати акредитацію-cd9","url":"https://www.google.com/"},{"id":315,"title":"Updated Стати постачальником-cd9","url":"https://www.google.com/"}]}}

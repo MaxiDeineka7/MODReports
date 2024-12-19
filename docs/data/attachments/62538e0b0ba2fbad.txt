@@ -1,9 +1,0 @@
-[2024-11-11 22:17:05] INFO: Sending GET request to /loss/?locale=uk&populate=* with params: {}
-[2024-11-11 22:17:05] INFO: Sending GET request to /loss/?locale=en&populate=* with params: {}
-[2024-11-11 22:17:08] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
-[2024-11-11 22:17:10] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: /news?tags=Відсіч+агресору
-[2024-11-11 22:17:25] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/en/news?tags=losses does not contain expected part: /news?tags=Відсіч+агресору. Error: page.waitForURL: Timeout 15000ms exceeded.
-=========================== logs ===========================
-waiting for navigation until "load"
-  navigated to "https://frontend.main.testdev.mod.gov.ua/en/news?tags=losses"
-============================================================
