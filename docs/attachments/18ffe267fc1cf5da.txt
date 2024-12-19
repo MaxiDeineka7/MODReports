@@ -1,9 +1,0 @@
-[2024-11-12 11:14:02] INFO: Sending GET request to /footer/?locale=uk&populate[sections][populate]=* with params: {}
-[2024-11-12 11:14:02] INFO: Sending GET request to /footer/?locale=en&populate[sections][populate]=* with params: {}
-[2024-11-12 11:14:05] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
-[2024-11-12 11:14:10] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en does not include part: en
-[2024-11-12 11:14:25] ERROR: URL https://frontend.main.testdev.mod.gov.ua/ still contains the part: en. Error: page.waitForURL: Timeout 15000ms exceeded.
-=========================== logs ===========================
-waiting for navigation until "load"
-  navigated to "https://frontend.main.testdev.mod.gov.ua/"
-============================================================

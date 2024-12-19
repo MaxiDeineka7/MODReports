@@ -1,7 +1,0 @@
-[2024-11-26 11:18:51] INFO: Sending GET request to /quick-link/?locale=en&populate=* with params: {}
-[2024-11-26 11:19:00] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
-[2024-11-26 11:19:15] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/en does not contain expected part: https://frontend.main.testdev.mod.gov.ua/. Error: page.waitForURL: Timeout 15000ms exceeded.
-=========================== logs ===========================
-  "domcontentloaded" event fired
-============================================================
-[2024-11-26 11:19:16] INFO: Sending PUT request to /quick-link/?locale=en with data: {"data":{"link":[{"id":324,"title":"test","url":"/test"},{"id":326,"title":"/test1","url":"/test1"},{"id":325,"title":"/test2","url":"/test2"},{"id":327,"title":"/test33","url":"/test3"}]}}

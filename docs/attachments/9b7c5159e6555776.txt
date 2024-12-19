@@ -1,9 +1,0 @@
-[2024-11-11 22:15:59] INFO: Sending POST request to /upload with data: [object FormData]
-[2024-11-11 22:16:00] INFO: Sending GET request to /upload/files/20134 with params: {}
-[2024-11-11 22:16:00] INFO: Sending POST request to /upload with data: [object FormData]
-[2024-11-11 22:16:05] INFO: Sending GET request to /upload/files/20136 with params: {}
-[2024-11-11 22:16:05] INFO: Sending POST request to /innovative-projects with data: {"data":{"title":"NewProjectEN-d65","subtitle":"Цей проект створений автоматизовано в тестувальницьких цілях.","image":"20134","link":"https://www.google.com/","order":0,"locale":"en"}}
-[2024-11-11 22:16:07] INFO: Sending GET request to /innovative-projects/196 with params: {}
-[2024-11-11 22:16:07] INFO: Sending DELETE request to /innovative-projects/196
-[2024-11-11 22:16:07] INFO: Sending DELETE request to /upload/files/20134
-[2024-11-11 22:16:07] INFO: Sending DELETE request to /upload/files/20136

@@ -1,9 +1,0 @@
-[2024-11-11 22:21:24] INFO: Sending GET request to /loss/?locale=uk&populate=* with params: {}
-[2024-11-11 22:21:25] INFO: Sending GET request to /loss/?locale=en&populate=* with params: {}
-[2024-11-11 22:21:32] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
-[2024-11-11 22:22:08] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/ includes expected part: /news?tags=Відсіч+агресору
-[2024-11-11 22:22:12] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/news?tags=%D0%92%D1%96%D0%B4%D1%81%D1%96%D1%87+%D0%B0%D0%B3%D1%80%D0%B5%D1%81%D0%BE%D1%80%D1%83 does not contain expected part: /news?tags=Відсіч+агресору. Error: page.waitForURL: Test timeout of 30000ms exceeded.
-=========================== logs ===========================
-waiting for navigation until "load"
-  navigated to "https://frontend.main.testdev.mod.gov.ua/news?tags=%D0%92%D1%96%D0%B4%D1%81%D1%96%D1%87+%D0%B0%D0%B3%D1%80%D0%B5%D1%81%D0%BE%D1%80%D1%83"
-============================================================
