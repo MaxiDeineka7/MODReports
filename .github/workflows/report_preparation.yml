@@ -26,4 +26,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PAT_TOKEN }}
+          publish_branch: main
           publish_dir: ./docs
