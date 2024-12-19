@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "allure-results/**"
+  workflow_dispatch:
 
 jobs:
   Generate_Report:
