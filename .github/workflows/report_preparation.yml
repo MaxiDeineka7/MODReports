@@ -1,0 +1,30 @@
+name: Generate Allure Report
+
+on:
+  push:
+    paths:
+      - "allure-results/**"
+  workflow_dispatch:
+
+jobs:
+  Generate_Report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Install Allure CLI
+        run: |
+          npm install -g allure-commandline --save-dev
+
+      - name: Generate Allure Report
+        run: |
+          allure generate allure-results --clean -o docs
+          touch docs/.nojekyll
+
+      - name: Deploy Allure Report
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.PAT_TOKEN }}
+          publish_branch: main
+          publish_dir: ./docs
