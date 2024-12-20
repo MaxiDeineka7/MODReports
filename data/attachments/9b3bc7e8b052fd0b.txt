@@ -1,0 +1,14 @@
+[2024-12-20 12:55:24] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-5a7","position":"Senior Test Automation","photo":"22024","biography":"Some biography","slug":"first-best-tester-5a7","leaderships":["1454"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-5a7","metaDescription":"FirstMetaDescription-be90de43-00e4-4065-84f3-7d9dfe26a34a","allowIndexing":true},"locale":"uk"}}
+[2024-12-20 12:55:24] INFO: Sending GET request to /employees/1430 with params: {}
+[2024-12-20 12:55:25] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-5a7","position":"Junior Test Automation","photo":"22025","biography":"Some biography","slug":"second-best-tester-5a7","leaderships":["1454","1455"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-5a7","metaDescription":"SecondMetaDescription-ede7c7bb-0f0d-4817-b806-30ebbd1ad337","allowIndexing":true},"locale":"uk"}}
+[2024-12-20 12:55:25] INFO: Sending GET request to /employees/1431 with params: {}
+[2024-12-20 12:55:29] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/ includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-12-20 12:55:43] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/pro-nas/first-leadership-5a7 includes expected part: /pro-nas/first-leadership-5a7
+[2024-12-20 12:55:44] INFO: Sending PUT request to /employees/1430 with data: {"data":{"name":"UpdatedEmployee-5a7","position":"Lead Test Automation","photo":"22025","biography":"Some updated biography","slug":"updated-tester-5a7","leaderships":["1454","1455"]}}
+[2024-12-20 12:55:48] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/pro-nas/second-leadership-5a7 includes expected part: /pro-nas/second-leadership-5a7
+[2024-12-20 12:55:48] INFO: Sending DELETE request to /employees/1430
+[2024-12-20 12:55:49] INFO: Sending DELETE request to /employees/1431
+[2024-12-20 12:55:49] INFO: Sending DELETE request to /leaderships/1454
+[2024-12-20 12:55:49] INFO: Sending DELETE request to /leaderships/1455
+[2024-12-20 12:55:49] INFO: Sending DELETE request to /upload/files/22024
+[2024-12-20 12:55:50] INFO: Sending DELETE request to /upload/files/22025

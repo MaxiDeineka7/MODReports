@@ -1,0 +1,17 @@
+[2024-12-20 12:54:45] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-12-20 12:54:48] INFO: Sending GET request to /upload/files/22024 with params: {}
+[2024-12-20 12:54:48] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-12-20 12:54:56] INFO: Sending GET request to /upload/files/22025 with params: {}
+[2024-12-20 12:54:56] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-5a7","people":[],"slug":"first-leadership-5a7","order":0,"locale":"uk"}}
+[2024-12-20 12:54:56] INFO: Sending GET request to /leaderships/1454 with params: {}
+[2024-12-20 12:54:56] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-5a7","people":[],"slug":"second-leadership-5a7","order":0,"locale":"uk"}}
+[2024-12-20 12:54:56] INFO: Sending GET request to /leaderships/1455 with params: {}
+[2024-12-20 12:54:57] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-5a7","position":"Senior Test Automation","photo":"22024","biography":"Some biography","slug":"first-best-tester-5a7","leaderships":["1454"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-5a7","metaDescription":"FirstMetaDescription-e85c4d21-668e-40a6-babb-48571fd1fbd2","allowIndexing":true},"locale":"uk"}}
+[2024-12-20 12:54:57] INFO: Sending GET request to /employees/1428 with params: {}
+[2024-12-20 12:54:57] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-5a7","position":"Junior Test Automation","photo":"22025","biography":"Some biography","slug":"second-best-tester-5a7","leaderships":["1454","1455"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-5a7","metaDescription":"SecondMetaDescription-248b6704-9cd9-4526-b417-71f413b62861","allowIndexing":true},"locale":"uk"}}
+[2024-12-20 12:54:57] INFO: Sending GET request to /employees/1429 with params: {}
+[2024-12-20 12:55:05] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/ includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-12-20 12:55:17] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/pro-nas/first-leadership-5a7 includes expected part: /pro-nas/first-leadership-5a7
+[2024-12-20 12:55:23] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/pro-nas/second-best-tester-5a7 includes expected part: /pro-nas/second-best-tester-5a7
+[2024-12-20 12:55:23] INFO: Sending DELETE request to /employees/1428
+[2024-12-20 12:55:24] INFO: Sending DELETE request to /employees/1429
