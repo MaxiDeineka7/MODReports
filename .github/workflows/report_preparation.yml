@@ -21,25 +21,25 @@ jobs:
         run: |
           allure generate allure-results --clean -o docs
 
-      - name: Deploy Allure Report
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add docs
-          git commit -m "Deploy Allure Report"
-          git push https://${{ secrets.PAT_TOKEN }}@github.com/MaxiDeineka7/MODReports.git
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
-
       # - name: Deploy Allure Report
       #   run: |
       #     git config user.name "GitHub Actions"
       #     git config user.email "actions@github.com"
-      #     git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/MaxiDeineka7/MODReports.git
-      #     git checkout main
-      #     git pull origin main
-      #     git add docs/*
+      #     git add docs
       #     git commit -m "Deploy Allure Report"
-      #     git push origin main --force
+      #     git push https://${{ secrets.PAT_TOKEN }}@github.com/MaxiDeineka7/MODReports.git
       #   env:
       #     GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+
+      - name: Deploy Allure Report
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git remote set-url origin https://${{ secrets.PAT_TOKEN }}@github.com/MaxiDeineka7/MODReports.git
+          git checkout main
+          git pull origin main
+          git add docs/*
+          git commit -m "Deploy Allure Report"
+          git push https://${{ secrets.PAT_TOKEN }}@github.com/MaxiDeineka7/MODReports.git
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
