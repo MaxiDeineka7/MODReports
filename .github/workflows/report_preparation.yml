@@ -21,15 +21,15 @@ jobs:
         run: |
           allure generate allure-results --clean -o docs
 
-      # - name: Deploy Allure Report
-      #   run: |
-      #     git config user.name "GitHub Actions"
-      #     git config user.email "actions@github.com"
-      #     git add docs
-      #     git commit -m "Deploy Allure Report"
-      #     git push https://${{ secrets.PAT_TOKEN }}@github.com/MaxiDeineka7/MODReports.git
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+      - name: Deploy Allure Report
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add allure-report
+          git commit -m "Deploy Allure Report"
+          git push https://${{ secrets.PAT_TOKEN }}@github.com/MaxiDeineka7/MODReports.git
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
 
       - name: Deploy to GitHub Pages
         uses: actions/configure-pages@v3
@@ -37,7 +37,7 @@ jobs:
       - name: Upload to GitHub Pages
         uses: actions/upload-pages-artifact@v1
         with:
-          path: docs
+          path: allure-report
 
       - name: Deploy
         uses: actions/deploy-pages@v1
