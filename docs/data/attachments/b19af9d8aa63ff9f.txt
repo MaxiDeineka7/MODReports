@@ -1,0 +1,4 @@
+[2024-12-20 12:53:58] INFO: Sending GET request to /media-link/?locale=en&populate=* with params: {}
+[2024-12-20 12:54:01] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-12-20 12:54:05] INFO: Sending PUT request to /media-link/?locale=en with data: {"data":{"link":[{"id":231,"title":"Updated Media 112-813","url":"https://www.google.com/"},{"id":291,"title":"Some eng media 22","url":"/media-1"},{"id":328,"title":"Some eng media 23","url":"/media-2"}]}}
+[2024-12-20 12:54:09] INFO: Sending PUT request to /media-link/?locale=en with data: {"data":{"link":[{"id":231,"title":"Media 112","url":"/media"},{"id":291,"title":"Some eng media 22","url":"/media-1"},{"id":328,"title":"Some eng media 23","url":"/media-2"}]}}
