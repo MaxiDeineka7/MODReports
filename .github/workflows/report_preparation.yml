@@ -21,13 +21,6 @@ jobs:
         run: |
           allure generate allure-results --clean -o docs
 
-      # - name: Deploy Allure Report
-      #   uses: peaceiris/actions-gh-pages@v4
-      #   with:
-      #     personal_token: ${{ secrets.PAT_TOKEN }}
-      #     publish_branch: main
-      #     publish_dir: ./docs
-
       - name: Deploy Allure Report
         run: |
           git config user.name "GitHub Actions"
