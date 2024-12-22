@@ -31,13 +31,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
 
-      - name: Deploy to GitHub Pages
-        uses: actions/configure-pages@v3
-
-      - name: Upload to GitHub Pages
+      - name: Publish Allure Report to GitHub Pages
         uses: actions/upload-pages-artifact@v1
         with:
-          path: allure-report
-
-      - name: Deploy
-        uses: actions/deploy-pages@v1
+          path: ./allure-report
