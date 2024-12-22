@@ -1,4 +1,0 @@
-[2024-12-20 14:30:38] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
-[2024-12-20 14:30:45] INFO: Sending GET request to /loss/?locale=en&populate=* with params: {}
-[2024-12-20 14:30:46] INFO: Sending PUT request to /loss/?locale=en&populate=* with data: {"data":{"title":"Test Title","losses":[{"id":99,"quantity":"982068"},{"id":100,"quantity":"1430"},{"id":102,"quantity":"4191"},{"id":103,"quantity":"4847"},{"id":101,"quantity":"432"}],"locale":"en"}}
-[2024-12-20 14:30:48] INFO: Sending GET request to /loss/?locale=en&populate=* with params: {}
