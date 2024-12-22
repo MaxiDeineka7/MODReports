@@ -1,0 +1,10 @@
+[2024-12-22 12:35:01] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-12-22 12:35:03] INFO: Sending GET request to /upload/files/19 with params: {}
+[2024-12-22 12:35:04] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-12-22 12:35:12] INFO: Sending GET request to /upload/files/20 with params: {}
+[2024-12-22 12:35:12] INFO: Sending POST request to /innovative-projects with data: {"data":{"title":"NewProject-468","subtitle":"Цей проект створений автоматизовано в тестувальницьких цілях.","image":"19","link":"https://www.google.com/","order":0,"locale":"uk"}}
+[2024-12-22 12:35:16] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/ includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-12-22 12:35:29] INFO: Sending GET request to /innovative-projects/4 with params: {}
+[2024-12-22 12:35:29] INFO: Sending DELETE request to /innovative-projects/4
+[2024-12-22 12:35:29] INFO: Sending DELETE request to /upload/files/19
+[2024-12-22 12:35:29] INFO: Sending DELETE request to /upload/files/20
