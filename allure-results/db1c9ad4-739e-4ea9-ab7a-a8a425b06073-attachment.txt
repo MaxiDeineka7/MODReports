@@ -1,0 +1,17 @@
+[2024-12-22 12:54:30] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-12-22 12:54:32] INFO: Sending GET request to /upload/files/45 with params: {}
+[2024-12-22 12:54:32] INFO: Sending POST request to /upload with data: [object FormData]
+[2024-12-22 12:54:43] INFO: Sending GET request to /upload/files/47 with params: {}
+[2024-12-22 12:54:43] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-d4d","people":[],"slug":"first-leadership-d4d","order":0,"locale":"uk"}}
+[2024-12-22 12:54:43] INFO: Sending GET request to /leaderships/15 with params: {}
+[2024-12-22 12:54:43] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-d4d","people":[],"slug":"second-leadership-d4d","order":0,"locale":"uk"}}
+[2024-12-22 12:54:43] INFO: Sending GET request to /leaderships/16 with params: {}
+[2024-12-22 12:54:43] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-d4d","position":"Senior Test Automation","photo":"45","biography":"Some biography","slug":"first-best-tester-d4d","leaderships":["15"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-d4d","metaDescription":"FirstMetaDescription-f41aadd4-54cb-41b7-a900-e011e9241274","allowIndexing":true},"locale":"uk"}}
+[2024-12-22 12:54:44] INFO: Sending GET request to /employees/25 with params: {}
+[2024-12-22 12:54:44] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-d4d","position":"Junior Test Automation","photo":"47","biography":"Some biography","slug":"second-best-tester-d4d","leaderships":["15","16"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-d4d","metaDescription":"SecondMetaDescription-6e85882a-2f30-4b49-830f-23d10d4de86e","allowIndexing":true},"locale":"uk"}}
+[2024-12-22 12:54:44] INFO: Sending GET request to /employees/26 with params: {}
+[2024-12-22 12:54:49] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/ includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-12-22 12:54:58] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/pro-nas/first-leadership-d4d includes expected part: /pro-nas/first-leadership-d4d
+[2024-12-22 12:55:01] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/pro-nas/second-best-tester-d4d includes expected part: /pro-nas/second-best-tester-d4d
+[2024-12-22 12:55:02] INFO: Sending DELETE request to /employees/25
+[2024-12-22 12:55:02] INFO: Sending DELETE request to /employees/26
