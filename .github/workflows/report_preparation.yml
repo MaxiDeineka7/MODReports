@@ -9,6 +9,12 @@ on:
 jobs:
   Generate_Report:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
