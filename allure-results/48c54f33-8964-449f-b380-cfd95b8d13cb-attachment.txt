@@ -1,0 +1,14 @@
+[2024-12-23 14:39:35] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-d71","position":"Senior Test Automation","photo":"310","biography":"Some biography","slug":"first-best-tester-d71","leaderships":["105"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-d71","metaDescription":"FirstMetaDescription-bc1524f1-ada9-4631-8b0c-f6febbd3e60f","allowIndexing":true},"locale":"en"}}
+[2024-12-23 14:39:35] INFO: Sending GET request to /employees/210 with params: {}
+[2024-12-23 14:39:35] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-d71","position":"Junior Test Automation","photo":"311","biography":"Some biography","slug":"second-best-tester-d71","leaderships":["105","106"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-d71","metaDescription":"SecondMetaDescription-cabc3cbc-557f-41dd-a764-e66c2091ef44","allowIndexing":true},"locale":"en"}}
+[2024-12-23 14:39:35] INFO: Sending GET request to /employees/211 with params: {}
+[2024-12-23 14:39:40] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2024-12-23 14:39:51] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about-us/first-leadership-d71 includes expected part: en/about-us/first-leadership-d71
+[2024-12-23 14:39:52] INFO: Sending PUT request to /employees/210 with data: {"data":{"name":"UpdatedEmployee-d71","position":"Lead Test Automation","photo":"311","biography":"Some updated biography","slug":"updated-tester-d71","leaderships":["105","106"]}}
+[2024-12-23 14:39:57] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about-us/second-leadership-d71 includes expected part: en/about-us/second-leadership-d71
+[2024-12-23 14:39:57] INFO: Sending DELETE request to /employees/210
+[2024-12-23 14:39:57] INFO: Sending DELETE request to /employees/211
+[2024-12-23 14:39:59] INFO: Sending DELETE request to /leaderships/105
+[2024-12-23 14:39:59] INFO: Sending DELETE request to /leaderships/106
+[2024-12-23 14:39:59] INFO: Sending DELETE request to /upload/files/310
+[2024-12-23 14:39:59] INFO: Sending DELETE request to /upload/files/311
