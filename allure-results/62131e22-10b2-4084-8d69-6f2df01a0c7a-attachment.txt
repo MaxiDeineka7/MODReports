@@ -1,0 +1,14 @@
+[2025-01-06 12:00:11] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-92a","position":"Senior Test Automation","photo":"960","biography":"Some biography","slug":"first-best-tester-92a","leaderships":["385"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-92a","metaDescription":"FirstMetaDescription-137aeded-17be-4aac-a7ea-6fac7ed2a4d5","allowIndexing":true},"locale":"uk"}}
+[2025-01-06 12:00:12] INFO: Sending GET request to /employees/650 with params: {}
+[2025-01-06 12:00:12] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-92a","position":"Junior Test Automation","photo":"962","biography":"Some biography","slug":"second-best-tester-92a","leaderships":["385","386"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-92a","metaDescription":"SecondMetaDescription-a359e9e0-da23-445c-a744-b4874d56e8fa","allowIndexing":true},"locale":"uk"}}
+[2025-01-06 12:00:12] INFO: Sending GET request to /employees/651 with params: {}
+[2025-01-06 12:00:16] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/ includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-06 12:00:22] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/pro-nas/first-leadership-92a includes expected part: /pro-nas/first-leadership-92a
+[2025-01-06 12:00:22] INFO: Sending PUT request to /employees/650 with data: {"data":{"name":"UpdatedEmployee-92a","position":"Lead Test Automation","photo":"962","biography":"Some updated biography","slug":"updated-tester-92a","leaderships":["385","386"]}}
+[2025-01-06 12:00:28] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/pro-nas/second-leadership-92a includes expected part: /pro-nas/second-leadership-92a
+[2025-01-06 12:00:28] INFO: Sending DELETE request to /employees/650
+[2025-01-06 12:00:29] INFO: Sending DELETE request to /employees/651
+[2025-01-06 12:00:29] INFO: Sending DELETE request to /leaderships/385
+[2025-01-06 12:00:29] INFO: Sending DELETE request to /leaderships/386
+[2025-01-06 12:00:30] INFO: Sending DELETE request to /upload/files/960
+[2025-01-06 12:00:30] INFO: Sending DELETE request to /upload/files/962
