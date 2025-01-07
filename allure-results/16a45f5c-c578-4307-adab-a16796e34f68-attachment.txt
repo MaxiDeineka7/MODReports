@@ -1,9 +1,0 @@
-[2025-01-06 12:12:20] INFO: Sending POST request to /upload with data: [object FormData]
-[2025-01-06 12:12:25] INFO: Sending GET request to /upload/files/984 with params: {}
-[2025-01-06 12:12:25] INFO: Sending POST request to /upload with data: [object FormData]
-[2025-01-06 12:12:42] INFO: Sending GET request to /upload/files/986 with params: {}
-[2025-01-06 12:12:42] INFO: Sending POST request to /innovative-projects with data: {"data":{"title":"NewProject-204","subtitle":"Цей проект створений автоматизовано в тестувальницьких цілях.","image":"984","link":"https://www.google.com/","order":0,"locale":"uk"}}
-[2025-01-06 12:12:48] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/ includes expected part: https://frontend.main.testdev.mod.gov.ua/
-[2025-01-06 12:12:53] INFO: Sending DELETE request to /innovative-projects/336
-[2025-01-06 12:12:57] INFO: Sending GET request to /innovative-projects/336 with params: {}
-[2025-01-06 12:12:57] ERROR: Failed to send GET request: Request failed with status code 404
