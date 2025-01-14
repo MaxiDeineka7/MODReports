@@ -1,0 +1,17 @@
+[2025-01-14 10:09:35] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-01-14 10:09:37] INFO: Sending GET request to /upload/files/1310 with params: {}
+[2025-01-14 10:09:37] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-01-14 10:09:46] INFO: Sending GET request to /upload/files/1311 with params: {}
+[2025-01-14 10:09:46] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-cda","people":[],"slug":"first-leadership-cda","order":0,"locale":"uk"}}
+[2025-01-14 10:09:46] INFO: Sending GET request to /leaderships/523 with params: {}
+[2025-01-14 10:09:46] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-cda","people":[],"slug":"second-leadership-cda","order":0,"locale":"uk"}}
+[2025-01-14 10:09:46] INFO: Sending GET request to /leaderships/524 with params: {}
+[2025-01-14 10:09:46] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-cda","position":"Senior Test Automation","photo":"1310","biography":"Some biography","slug":"first-best-tester-cda","leaderships":["523"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-cda","metaDescription":"FirstMetaDescription-d31678b6-f0f4-4f38-9059-fc7341c14c9c","allowIndexing":true},"locale":"uk"}}
+[2025-01-14 10:09:46] INFO: Sending GET request to /employees/880 with params: {}
+[2025-01-14 10:09:46] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-cda","position":"Junior Test Automation","photo":"1311","biography":"Some biography","slug":"second-best-tester-cda","leaderships":["523","524"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-cda","metaDescription":"SecondMetaDescription-81f87ba6-0409-4ff5-87f7-a9fee00336c5","allowIndexing":true},"locale":"uk"}}
+[2025-01-14 10:09:47] INFO: Sending GET request to /employees/881 with params: {}
+[2025-01-14 10:09:50] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/ includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-14 10:10:00] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/pro-nas/first-leadership-cda includes expected part: /pro-nas/first-leadership-cda
+[2025-01-14 10:10:04] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/pro-nas/second-best-tester-cda includes expected part: /pro-nas/second-best-tester-cda
+[2025-01-14 10:10:04] INFO: Sending DELETE request to /employees/880
+[2025-01-14 10:10:05] INFO: Sending DELETE request to /employees/881
