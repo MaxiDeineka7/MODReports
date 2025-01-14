@@ -1,0 +1,8 @@
+[2025-01-14 09:19:39] INFO: Sending GET request to /assistance-categories/?locale=uk&populate=* with params: {}
+[2025-01-14 09:19:43] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/ includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-14 09:19:50] INFO: Sending PUT request to /assistance-categories/266 with data: {"data":{"title":"UpdatedFirstCategory-c67","locale":"uk"}}
+[2025-01-14 09:19:50] INFO: Sending PUT request to /assistances/163 with data: {"data":{"title":"UpdatedFirstService-c67","description":"Updated First best service you have ever seen","link":"/updated-first-service-c67","assistance_categories":[266,267],"locale":"uk"}}
+[2025-01-14 09:19:54] INFO: Sending DELETE request to /assistance-categories/266
+[2025-01-14 09:19:54] INFO: Sending DELETE request to /assistance-categories/267
+[2025-01-14 09:19:54] INFO: Sending DELETE request to /assistances/163
+[2025-01-14 09:19:54] INFO: Sending DELETE request to /assistances/164
