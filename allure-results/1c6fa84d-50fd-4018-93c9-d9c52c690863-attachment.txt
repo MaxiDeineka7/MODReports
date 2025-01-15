@@ -1,7 +1,0 @@
-[2025-01-14 10:08:58] INFO: Sending POST request to /innovative-projects with data: {"data":{"title":"NewProject-ba6","subtitle":"Цей проект створений автоматизовано в тестувальницьких цілях.","image":"1304","link":"https://www.google.com/","order":0,"locale":"en"}}
-[2025-01-14 10:09:01] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
-[2025-01-14 10:09:07] INFO: Sending PUT request to /innovative-projects/443 with data: {"data":{"title":"UpdatedProject-ba6","subtitle":"Цей проект створений та оновлений автоматизовано в тестувальницьких цілях.","image":"1305","link":"https://www.bing.com/"}}
-[2025-01-14 10:09:09] INFO: Sending GET request to /innovative-projects/443 with params: {}
-[2025-01-14 10:09:09] INFO: Sending DELETE request to /innovative-projects/443
-[2025-01-14 10:09:10] INFO: Sending DELETE request to /upload/files/1304
-[2025-01-14 10:09:10] INFO: Sending DELETE request to /upload/files/1305

@@ -1,0 +1,22 @@
+[2025-01-15 09:27:04] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-01-15 09:27:07] INFO: Sending GET request to /upload/files/1346 with params: {}
+[2025-01-15 09:27:07] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-01-15 09:27:14] INFO: Sending GET request to /upload/files/1347 with params: {}
+[2025-01-15 09:27:15] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-b18","people":[],"slug":"first-leadership-b18","order":0,"locale":"en"}}
+[2025-01-15 09:27:15] INFO: Sending GET request to /leaderships/537 with params: {}
+[2025-01-15 09:27:15] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-b18","people":[],"slug":"second-leadership-b18","order":0,"locale":"en"}}
+[2025-01-15 09:27:15] INFO: Sending GET request to /leaderships/538 with params: {}
+[2025-01-15 09:27:15] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-b18","position":"Senior Test Automation","photo":"1346","biography":"Some biography","slug":"first-best-tester-b18","leaderships":["537"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-b18","metaDescription":"FirstMetaDescription-bc6f5676-75f6-402e-9456-910948ad861c","allowIndexing":true},"locale":"en"}}
+[2025-01-15 09:27:16] INFO: Sending GET request to /employees/902 with params: {}
+[2025-01-15 09:27:16] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-b18","position":"Junior Test Automation","photo":"1347","biography":"Some biography","slug":"second-best-tester-b18","leaderships":["537","538"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-b18","metaDescription":"SecondMetaDescription-6273deb2-3725-4b0b-970b-4e5d5e6ceb35","allowIndexing":true},"locale":"en"}}
+[2025-01-15 09:27:17] INFO: Sending GET request to /employees/903 with params: {}
+[2025-01-15 09:27:21] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-15 09:27:29] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about-us/first-leadership-b18 includes expected part: en/about-us/first-leadership-b18
+[2025-01-15 09:27:29] INFO: Sending PUT request to /employees/902 with data: {"data":{"name":"UpdatedEmployee-b18","position":"Lead Test Automation","photo":"1347","biography":"Some updated biography","slug":"updated-tester-b18","leaderships":["537","538"]}}
+[2025-01-15 09:27:34] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about-us/second-leadership-b18 includes expected part: en/about-us/second-leadership-b18
+[2025-01-15 09:27:35] INFO: Sending DELETE request to /employees/902
+[2025-01-15 09:27:35] INFO: Sending DELETE request to /employees/903
+[2025-01-15 09:27:36] INFO: Sending DELETE request to /leaderships/537
+[2025-01-15 09:27:36] INFO: Sending DELETE request to /leaderships/538
+[2025-01-15 09:27:36] INFO: Sending DELETE request to /upload/files/1346
+[2025-01-15 09:27:36] INFO: Sending DELETE request to /upload/files/1347
