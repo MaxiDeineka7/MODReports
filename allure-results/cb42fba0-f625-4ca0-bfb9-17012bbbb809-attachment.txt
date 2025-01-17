@@ -1,0 +1,14 @@
+[2025-01-17 09:23:41] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-da9","position":"Senior Test Automation","photo":"1396","biography":"Some biography","slug":"first-best-tester-da9","leaderships":["554"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-da9","metaDescription":"FirstMetaDescription-a3fed136-0e79-4117-907c-d0efc80af6ae","allowIndexing":true},"locale":"en"}}
+[2025-01-17 09:23:41] INFO: Sending GET request to /employees/930 with params: {}
+[2025-01-17 09:23:41] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-da9","position":"Junior Test Automation","photo":"1397","biography":"Some biography","slug":"second-best-tester-da9","leaderships":["554","555"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-da9","metaDescription":"SecondMetaDescription-7dae9a4c-620f-414a-bf91-d45a779fd5da","allowIndexing":true},"locale":"en"}}
+[2025-01-17 09:23:41] INFO: Sending GET request to /employees/931 with params: {}
+[2025-01-17 09:23:45] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-17 09:23:50] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about-us/first-leadership-da9 includes expected part: en/about-us/first-leadership-da9
+[2025-01-17 09:23:50] INFO: Sending PUT request to /employees/930 with data: {"data":{"name":"UpdatedEmployee-da9","position":"Lead Test Automation","photo":"1397","biography":"Some updated biography","slug":"updated-tester-da9","leaderships":["554","555"]}}
+[2025-01-17 09:23:54] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about-us/second-leadership-da9 includes expected part: en/about-us/second-leadership-da9
+[2025-01-17 09:23:54] INFO: Sending DELETE request to /employees/930
+[2025-01-17 09:23:54] INFO: Sending DELETE request to /employees/931
+[2025-01-17 09:23:55] INFO: Sending DELETE request to /leaderships/554
+[2025-01-17 09:23:55] INFO: Sending DELETE request to /leaderships/555
+[2025-01-17 09:23:55] INFO: Sending DELETE request to /upload/files/1396
+[2025-01-17 09:23:56] INFO: Sending DELETE request to /upload/files/1397
