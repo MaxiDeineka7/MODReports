@@ -1,0 +1,19 @@
+[2025-01-20 09:22:14] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-01-20 09:22:17] INFO: Sending GET request to /upload/files/1479 with params: {}
+[2025-01-20 09:22:17] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-01-20 09:22:25] INFO: Sending GET request to /upload/files/1480 with params: {}
+[2025-01-20 09:22:26] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-b4a","people":[],"slug":"first-leadership-b4a","order":0,"locale":"en"}}
+[2025-01-20 09:22:26] INFO: Sending GET request to /leaderships/584 with params: {}
+[2025-01-20 09:22:26] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-b4a","people":[],"slug":"second-leadership-b4a","order":0,"locale":"en"}}
+[2025-01-20 09:22:26] INFO: Sending GET request to /leaderships/585 with params: {}
+[2025-01-20 09:22:26] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-b4a","position":"Senior Test Automation","photo":"1479","biography":"Some biography","slug":"first-best-tester-b4a","leaderships":["584"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-b4a","metaDescription":"FirstMetaDescription-311ec8bd-f70c-4a8b-9307-0fe2dd62a17a","allowIndexing":true},"locale":"en"}}
+[2025-01-20 09:22:26] INFO: Sending GET request to /employees/984 with params: {}
+[2025-01-20 09:22:26] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-b4a","position":"Junior Test Automation","photo":"1480","biography":"Some biography","slug":"second-best-tester-b4a","leaderships":["584","585"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-b4a","metaDescription":"SecondMetaDescription-22fe57d9-d984-40c1-97eb-d1e45be70afc","allowIndexing":true},"locale":"en"}}
+[2025-01-20 09:22:27] INFO: Sending GET request to /employees/985 with params: {}
+[2025-01-20 09:22:30] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-20 09:22:42] INFO: Sending DELETE request to /employees/984
+[2025-01-20 09:22:43] INFO: Sending DELETE request to /employees/985
+[2025-01-20 09:22:43] INFO: Sending DELETE request to /leaderships/584
+[2025-01-20 09:22:44] INFO: Sending DELETE request to /leaderships/585
+[2025-01-20 09:22:44] INFO: Sending DELETE request to /upload/files/1479
+[2025-01-20 09:22:45] INFO: Sending DELETE request to /upload/files/1480
