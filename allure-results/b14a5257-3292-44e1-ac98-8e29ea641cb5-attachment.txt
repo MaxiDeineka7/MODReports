@@ -1,0 +1,17 @@
+[2025-01-21 09:20:57] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-01-21 09:21:00] INFO: Sending GET request to /upload/files/1592 with params: {}
+[2025-01-21 09:21:01] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-01-21 09:21:08] INFO: Sending GET request to /upload/files/1593 with params: {}
+[2025-01-21 09:21:09] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-700","people":[],"slug":"first-leadership-700","order":0,"locale":"en"}}
+[2025-01-21 09:21:09] INFO: Sending GET request to /leaderships/624 with params: {}
+[2025-01-21 09:21:09] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-700","people":[],"slug":"second-leadership-700","order":0,"locale":"en"}}
+[2025-01-21 09:21:09] INFO: Sending GET request to /leaderships/625 with params: {}
+[2025-01-21 09:21:09] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-700","position":"Senior Test Automation","photo":"1592","biography":"Some biography","slug":"first-best-tester-700","leaderships":["624"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-700","metaDescription":"FirstMetaDescription-21f68454-2e48-4fd1-bc69-7d7a04c0c12a","allowIndexing":true},"locale":"en"}}
+[2025-01-21 09:21:09] INFO: Sending GET request to /employees/1058 with params: {}
+[2025-01-21 09:21:09] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-700","position":"Junior Test Automation","photo":"1593","biography":"Some biography","slug":"second-best-tester-700","leaderships":["624","625"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-700","metaDescription":"SecondMetaDescription-320823a1-220c-4d22-9946-cfc6f49f3424","allowIndexing":true},"locale":"en"}}
+[2025-01-21 09:21:09] INFO: Sending GET request to /employees/1059 with params: {}
+[2025-01-21 09:21:12] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-21 09:21:17] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about-us/first-leadership-700 includes expected part: en/about-us/first-leadership-700
+[2025-01-21 09:21:18] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about-us/second-best-tester-700 includes expected part: en/about-us/second-best-tester-700
+[2025-01-21 09:21:18] INFO: Sending DELETE request to /employees/1058
+[2025-01-21 09:21:19] INFO: Sending DELETE request to /employees/1059

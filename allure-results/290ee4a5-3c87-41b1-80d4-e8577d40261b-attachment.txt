@@ -1,0 +1,14 @@
+[2025-01-21 09:21:19] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-700","position":"Senior Test Automation","photo":"1592","biography":"Some biography","slug":"first-best-tester-700","leaderships":["624"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-700","metaDescription":"FirstMetaDescription-6026a49b-e1e2-43da-995b-d204ee33d713","allowIndexing":true},"locale":"en"}}
+[2025-01-21 09:21:19] INFO: Sending GET request to /employees/1060 with params: {}
+[2025-01-21 09:21:19] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-700","position":"Junior Test Automation","photo":"1593","biography":"Some biography","slug":"second-best-tester-700","leaderships":["624","625"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-700","metaDescription":"SecondMetaDescription-d633ee1a-625f-4e7f-b961-83fb1a26ac83","allowIndexing":true},"locale":"en"}}
+[2025-01-21 09:21:20] INFO: Sending GET request to /employees/1061 with params: {}
+[2025-01-21 09:21:23] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-21 09:21:28] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about-us/first-leadership-700 includes expected part: en/about-us/first-leadership-700
+[2025-01-21 09:21:28] INFO: Sending PUT request to /employees/1060 with data: {"data":{"name":"UpdatedEmployee-700","position":"Lead Test Automation","photo":"1593","biography":"Some updated biography","slug":"updated-tester-700","leaderships":["624","625"]}}
+[2025-01-21 09:21:33] INFO: Verify that URL https://frontend.main.testdev.mod.gov.ua/en/about-us/second-leadership-700 includes expected part: en/about-us/second-leadership-700
+[2025-01-21 09:21:33] INFO: Sending DELETE request to /employees/1060
+[2025-01-21 09:21:33] INFO: Sending DELETE request to /employees/1061
+[2025-01-21 09:21:33] INFO: Sending DELETE request to /leaderships/624
+[2025-01-21 09:21:34] INFO: Sending DELETE request to /leaderships/625
+[2025-01-21 09:21:34] INFO: Sending DELETE request to /upload/files/1592
+[2025-01-21 09:21:34] INFO: Sending DELETE request to /upload/files/1593
