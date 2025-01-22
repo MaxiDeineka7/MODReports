@@ -1,0 +1,5 @@
+[2025-01-22 10:39:05] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-22 10:39:06] INFO: Sending GET request to /loss/?locale=uk&populate=* with params: {}
+[2025-01-22 10:39:07] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"title":"Орієнтовні втрати армії РФ за 07.10.2024","losses":[{"id":7,"quantity":"477481"},{"id":6,"quantity":"1417"},{"id":8,"quantity":"2102"},{"id":9,"quantity":"8940"},{"id":10,"quantity":"335"}],"locale":"uk"}}
+[2025-01-22 10:39:08] INFO: Sending GET request to /loss/?locale=uk&populate=* with params: {}
+[2025-01-22 10:39:08] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"link":null,"locale":"uk"}}
