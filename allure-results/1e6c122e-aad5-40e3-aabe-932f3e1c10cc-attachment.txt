@@ -1,0 +1,18 @@
+[2025-01-27 09:43:43] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-01-27 09:43:45] INFO: Sending GET request to /upload/files/2207 with params: {}
+[2025-01-27 09:43:45] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-01-27 09:43:54] INFO: Sending GET request to /upload/files/2209 with params: {}
+[2025-01-27 09:43:54] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-282","people":[],"slug":"first-leadership-282","order":0,"locale":"en"}}
+[2025-01-27 09:43:54] INFO: Sending GET request to /leaderships/842 with params: {}
+[2025-01-27 09:43:54] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-282","people":[],"slug":"second-leadership-282","order":0,"locale":"en"}}
+[2025-01-27 09:43:55] INFO: Sending GET request to /leaderships/843 with params: {}
+[2025-01-27 09:43:55] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-282","position":"Senior Test Automation","photo":"2207","biography":"Some biography","slug":"first-best-tester-282","leaderships":["842"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-282","metaDescription":"FirstMetaDescription-fcf893ea-4ff0-409c-981f-0186cd625808","allowIndexing":true},"locale":"en"}}
+[2025-01-27 09:43:55] INFO: Sending GET request to /employees/1430 with params: {}
+[2025-01-27 09:43:55] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-282","position":"Junior Test Automation","photo":"2209","biography":"Some biography","slug":"second-best-tester-282","leaderships":["842","843"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-282","metaDescription":"SecondMetaDescription-a1988081-17e5-4a19-aeba-ce8e702c69c3","allowIndexing":true},"locale":"en"}}
+[2025-01-27 09:43:55] INFO: Sending GET request to /employees/1431 with params: {}
+[2025-01-27 09:43:55] INFO: Sending DELETE request to /employees/1430
+[2025-01-27 09:43:55] INFO: Sending DELETE request to /employees/1431
+[2025-01-27 09:43:56] INFO: Sending DELETE request to /leaderships/842
+[2025-01-27 09:43:56] INFO: Sending DELETE request to /leaderships/843
+[2025-01-27 09:43:56] INFO: Sending DELETE request to /upload/files/2207
+[2025-01-27 09:43:56] INFO: Sending DELETE request to /upload/files/2209

@@ -1,0 +1,10 @@
+[2025-01-27 09:46:11] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-27 09:46:14] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"link":null,"locale":"uk"}}
+[2025-01-27 09:46:18] INFO: Verify that URL includes expected part: /news?tags=Відсіч+агресору
+[2025-01-27 09:46:18] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-27 09:46:18] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"link":"/services","locale":"uk"}}
+[2025-01-27 09:46:20] INFO: Verify that URL includes expected part: /services
+[2025-01-27 09:46:21] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-27 09:46:21] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"link":"https://www.google.com","locale":"uk"}}
+[2025-01-27 09:46:23] INFO: Verify that URL includes expected part: https://www.google.com
+[2025-01-27 09:46:23] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"link":null,"locale":"uk"}}
