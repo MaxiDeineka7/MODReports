@@ -1,0 +1,6 @@
+[2025-01-28 13:02:03] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-28 13:02:05] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"link":null,"locale":"uk"}}
+[2025-01-28 13:02:07] INFO: Verify that URL includes expected part: /news?tags=Відсіч+агресору
+[2025-01-28 13:02:10] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-28 13:02:10] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"link":"/services","locale":"uk"}}
+[2025-01-28 13:02:22] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"link":null,"locale":"uk"}}

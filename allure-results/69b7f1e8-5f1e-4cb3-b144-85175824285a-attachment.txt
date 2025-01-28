@@ -1,0 +1,14 @@
+[2025-01-28 13:04:29] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-00c","position":"Senior Test Automation","photo":"2489","biography":"Some biography","slug":"first-best-tester-00c","leaderships":["935"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-00c","metaDescription":"FirstMetaDescription-6e333446-0345-4316-857c-4154e6e30018","allowIndexing":true},"locale":"uk"}}
+[2025-01-28 13:04:29] INFO: Sending GET request to /employees/1580 with params: {}
+[2025-01-28 13:04:29] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-00c","position":"Junior Test Automation","photo":"2490","biography":"Some biography","slug":"second-best-tester-00c","leaderships":["935","936"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-00c","metaDescription":"SecondMetaDescription-8501f805-9643-4c9b-905c-12ac3e9ae37b","allowIndexing":true},"locale":"uk"}}
+[2025-01-28 13:04:30] INFO: Sending GET request to /employees/1581 with params: {}
+[2025-01-28 13:04:35] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-28 13:04:45] INFO: Verify that URL includes expected part: /pro-nas/first-leadership-00c
+[2025-01-28 13:04:45] INFO: Sending PUT request to /employees/1580 with data: {"data":{"name":"UpdatedEmployee-00c","position":"Lead Test Automation","photo":"2490","biography":"Some updated biography","slug":"updated-tester-00c","leaderships":["935","936"]}}
+[2025-01-28 13:04:50] INFO: Verify that URL includes expected part: /pro-nas/second-leadership-00c
+[2025-01-28 13:04:50] INFO: Sending DELETE request to /employees/1580
+[2025-01-28 13:04:50] INFO: Sending DELETE request to /employees/1581
+[2025-01-28 13:04:51] INFO: Sending DELETE request to /leaderships/935
+[2025-01-28 13:04:51] INFO: Sending DELETE request to /leaderships/936
+[2025-01-28 13:04:51] INFO: Sending DELETE request to /upload/files/2489
+[2025-01-28 13:04:52] INFO: Sending DELETE request to /upload/files/2490

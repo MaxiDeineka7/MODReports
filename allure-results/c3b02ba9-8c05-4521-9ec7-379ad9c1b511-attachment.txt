@@ -1,9 +1,0 @@
-[2025-01-28 09:19:34] INFO: Sending POST request to /upload with data: [object FormData]
-[2025-01-28 09:19:36] INFO: Sending GET request to /upload/files/2344 with params: {}
-[2025-01-28 09:19:36] INFO: Sending POST request to /upload with data: [object FormData]
-[2025-01-28 09:19:53] INFO: Sending GET request to /upload/files/2346 with params: {}
-[2025-01-28 09:19:53] INFO: Sending POST request to /innovative-projects with data: {"data":{"title":"NewProject-cae","subtitle":"Цей проект створений автоматизовано в тестувальницьких цілях.","image":"2344","link":"https://www.google.com/","order":0,"locale":"uk"}}
-[2025-01-28 09:19:54] INFO: Sending GET request to /innovative-projects/749 with params: {}
-[2025-01-28 09:19:54] INFO: Sending DELETE request to /innovative-projects/749
-[2025-01-28 09:19:54] INFO: Sending DELETE request to /upload/files/2344
-[2025-01-28 09:19:54] INFO: Sending DELETE request to /upload/files/2346
