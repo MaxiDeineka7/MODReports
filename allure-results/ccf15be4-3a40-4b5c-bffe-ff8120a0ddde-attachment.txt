@@ -1,0 +1,13 @@
+[2025-01-28 09:20:43] INFO: Sending POST request to /assistance-categories with data: {"data":{"title":"FirstCategory-b90","locale":"en"}}
+[2025-01-28 09:20:43] INFO: Sending GET request to /assistance-categories/823 with params: {}
+[2025-01-28 09:20:43] INFO: Sending POST request to /assistance-categories with data: {"data":{"title":"SecondCategory-b90","locale":"en"}}
+[2025-01-28 09:20:44] INFO: Sending GET request to /assistance-categories/824 with params: {}
+[2025-01-28 09:20:44] INFO: Sending POST request to /assistances with data: {"data":{"title":"FirstService-b90","description":"First best service you have ever seen","link":"/first-service-b90","assistance_categories":[823,824],"locale":"en"}}
+[2025-01-28 09:20:44] INFO: Sending GET request to /assistances/715 with params: {}
+[2025-01-28 09:20:44] INFO: Sending POST request to /assistances with data: {"data":{"title":"SecondService-b90","description":"Second best service you have ever seen","link":"https://www.google.com/","assistance_categories":[823],"locale":"en"}}
+[2025-01-28 09:20:44] INFO: Sending GET request to /assistances/716 with params: {}
+[2025-01-28 09:20:44] INFO: Sending GET request to /assistance-categories/?locale=en&populate=* with params: {}
+[2025-01-28 09:20:45] INFO: Sending DELETE request to /assistance-categories/823
+[2025-01-28 09:20:45] INFO: Sending DELETE request to /assistance-categories/824
+[2025-01-28 09:20:45] INFO: Sending DELETE request to /assistances/715
+[2025-01-28 09:20:45] INFO: Sending DELETE request to /assistances/716
