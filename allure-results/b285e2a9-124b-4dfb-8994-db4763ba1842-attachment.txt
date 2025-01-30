@@ -1,0 +1,22 @@
+[2025-01-30 09:26:11] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-01-30 09:26:15] INFO: Sending GET request to /upload/files/2747 with params: {}
+[2025-01-30 09:26:15] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-01-30 09:26:32] INFO: Sending GET request to /upload/files/2749 with params: {}
+[2025-01-30 09:26:32] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-4bf","people":[],"slug":"first-leadership-4bf","order":0,"locale":"uk"}}
+[2025-01-30 09:26:32] INFO: Sending GET request to /leaderships/951 with params: {}
+[2025-01-30 09:26:33] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-4bf","people":[],"slug":"second-leadership-4bf","order":0,"locale":"uk"}}
+[2025-01-30 09:26:33] INFO: Sending GET request to /leaderships/952 with params: {}
+[2025-01-30 09:26:33] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-4bf","position":"Senior Test Automation","photo":"2747","biography":"Some biography","slug":"first-best-tester-4bf","leaderships":["951"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-4bf","metaDescription":"FirstMetaDescription-133700f7-8d0f-4d11-bf41-1e518bcc3e8d","allowIndexing":true},"locale":"uk"}}
+[2025-01-30 09:26:33] INFO: Sending GET request to /employees/1606 with params: {}
+[2025-01-30 09:26:33] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-4bf","position":"Junior Test Automation","photo":"2749","biography":"Some biography","slug":"second-best-tester-4bf","leaderships":["951","952"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-4bf","metaDescription":"SecondMetaDescription-20e61cc3-9570-49c9-8275-aa16e964ad83","allowIndexing":true},"locale":"uk"}}
+[2025-01-30 09:26:33] INFO: Sending GET request to /employees/1607 with params: {}
+[2025-01-30 09:26:38] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-01-30 09:26:43] INFO: Verify that URL includes expected part: /pro-nas/first-leadership-4bf
+[2025-01-30 09:26:43] INFO: Sending PUT request to /employees/1606 with data: {"data":{"name":"UpdatedEmployee-4bf","position":"Lead Test Automation","photo":"2749","biography":"Some updated biography","slug":"updated-tester-4bf","leaderships":["951","952"]}}
+[2025-01-30 09:26:46] INFO: Verify that URL includes expected part: /pro-nas/second-leadership-4bf
+[2025-01-30 09:26:46] INFO: Sending DELETE request to /employees/1606
+[2025-01-30 09:26:47] INFO: Sending DELETE request to /employees/1607
+[2025-01-30 09:26:47] INFO: Sending DELETE request to /leaderships/951
+[2025-01-30 09:26:47] INFO: Sending DELETE request to /leaderships/952
+[2025-01-30 09:26:47] INFO: Sending DELETE request to /upload/files/2747
+[2025-01-30 09:26:47] INFO: Sending DELETE request to /upload/files/2749
