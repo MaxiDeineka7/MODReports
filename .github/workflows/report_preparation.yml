@@ -42,13 +42,12 @@ jobs:
           cp -r allure-report/history allure-results/
 
       - name: Upload Allure Report Artifact for Pages
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v2
         with:
-          name: allure-report
           path: ./allure-report
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2
 
       - name: Commit History and Results to Main
         run: |
