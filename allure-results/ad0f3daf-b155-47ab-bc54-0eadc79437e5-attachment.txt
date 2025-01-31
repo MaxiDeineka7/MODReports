@@ -1,0 +1,10 @@
+[2025-01-31 09:21:30] INFO: Sending POST request to /assistance-categories with data: {"data":{"title":"FirstCategory-61d","locale":"en"}}
+[2025-01-31 09:21:30] INFO: Sending GET request to /assistance-categories/941 with params: {}
+[2025-01-31 09:21:30] INFO: Sending POST request to /assistance-categories with data: {"data":{"title":"SecondCategory-61d","locale":"en"}}
+[2025-01-31 09:21:31] INFO: Sending GET request to /assistance-categories/942 with params: {}
+[2025-01-31 09:21:31] INFO: Sending POST request to /assistances with data: {"data":{"title":"FirstService-61d","description":"First best service you have ever seen","link":"/first-service-61d","assistance_categories":[941,942],"locale":"en"}}
+[2025-01-31 09:21:31] INFO: Sending GET request to /assistances/833 with params: {}
+[2025-01-31 09:21:31] INFO: Sending POST request to /assistances with data: {"data":{"title":"SecondService-61d","description":"Second best service you have ever seen","link":"https://www.google.com/","assistance_categories":[941],"locale":"en"}}
+[2025-01-31 09:21:31] INFO: Sending GET request to /assistances/834 with params: {}
+[2025-01-31 09:21:31] INFO: Sending GET request to /assistance-categories/?locale=en&populate=* with params: {}
+[2025-01-31 09:21:36] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
