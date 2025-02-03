@@ -41,10 +41,10 @@ jobs:
           mkdir -p allure-report/history
           cp -r allure-report/history allure-results/
 
-      - name: Upload Allure Report Artifact for Pages
-        uses: actions/upload-pages-artifact@v2
+      - name: Upload Allure Report to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: ./allure-report
+          path: allure-report
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
