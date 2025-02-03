@@ -48,6 +48,8 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
+        with:
+          artifact_name: github-pages
 
       - name: Commit History and Results to Main
         run: |
