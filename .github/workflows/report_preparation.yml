@@ -47,6 +47,13 @@ jobs:
           path: ./allure-report
           name: github-pages
 
+      - name: Debug - List Available Artifacts
+        run: |
+          echo "Available Artifacts:"
+          gh run view --json artifacts --jq '.artifacts[].name'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
         with:
