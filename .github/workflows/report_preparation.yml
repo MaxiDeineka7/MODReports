@@ -45,12 +45,9 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./allure-report
-          name: github-pages
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
-        with:
-          artifact_name: ./allure-report
+        uses: actions/deploy-pages@v3
 
       - name: Commit History and Results to Main
         run: |
