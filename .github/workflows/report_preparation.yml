@@ -44,10 +44,13 @@ jobs:
       - name: Upload Allure Report to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: allure-report
+          path: ./allure-report
+          name: github-pages
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
+        with:
+          artifact_name: github-pages
 
       - name: Commit History and Results to Main
         run: |
