@@ -1,0 +1,19 @@
+[2025-02-03 09:29:25] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-02-03 09:29:28] INFO: Sending GET request to /upload/files/2921 with params: {}
+[2025-02-03 09:29:28] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-02-03 09:29:35] INFO: Sending GET request to /upload/files/2922 with params: {}
+[2025-02-03 09:29:36] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-44b","people":[],"slug":"first-leadership-44b","order":0,"locale":"en"}}
+[2025-02-03 09:29:36] INFO: Sending GET request to /leaderships/981 with params: {}
+[2025-02-03 09:29:36] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-44b","people":[],"slug":"second-leadership-44b","order":0,"locale":"en"}}
+[2025-02-03 09:29:36] INFO: Sending GET request to /leaderships/982 with params: {}
+[2025-02-03 09:29:36] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-44b","position":"Senior Test Automation","photo":"2921","biography":"Some biography","slug":"first-best-tester-44b","leaderships":["981"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-44b","metaDescription":"FirstMetaDescription-1fe06f08-b1fd-44bc-b1db-ed1b25f2c2ad","allowIndexing":true},"locale":"en"}}
+[2025-02-03 09:29:37] INFO: Sending GET request to /employees/1658 with params: {}
+[2025-02-03 09:29:37] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-44b","position":"Junior Test Automation","photo":"2922","biography":"Some biography","slug":"second-best-tester-44b","leaderships":["981","982"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-44b","metaDescription":"SecondMetaDescription-0d27e86a-9642-497b-bca0-e80b001d809a","allowIndexing":true},"locale":"en"}}
+[2025-02-03 09:29:37] INFO: Sending GET request to /employees/1659 with params: {}
+[2025-02-03 09:29:42] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-03 09:30:07] INFO: Sending DELETE request to /employees/1658
+[2025-02-03 09:30:07] INFO: Sending DELETE request to /employees/1659
+[2025-02-03 09:30:07] INFO: Sending DELETE request to /leaderships/981
+[2025-02-03 09:30:08] INFO: Sending DELETE request to /leaderships/982
+[2025-02-03 09:30:08] INFO: Sending DELETE request to /upload/files/2921
+[2025-02-03 09:30:08] INFO: Sending DELETE request to /upload/files/2922
