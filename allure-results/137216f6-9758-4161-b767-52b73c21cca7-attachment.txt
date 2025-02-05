@@ -1,0 +1,14 @@
+[2025-02-05 09:24:45] INFO: Sending POST request to /assistance-categories with data: {"data":{"title":"FirstCategory-4ca","locale":"uk"}}
+[2025-02-05 09:24:45] INFO: Sending GET request to /assistance-categories/1105 with params: {}
+[2025-02-05 09:24:45] INFO: Sending POST request to /assistance-categories with data: {"data":{"title":"SecondCategory-4ca","locale":"uk"}}
+[2025-02-05 09:24:46] INFO: Sending GET request to /assistance-categories/1106 with params: {}
+[2025-02-05 09:24:46] INFO: Sending POST request to /assistances with data: {"data":{"title":"FirstService-4ca","description":"First best service you have ever seen","link":"/first-service-4ca","assistance_categories":[1105,1106],"locale":"uk"}}
+[2025-02-05 09:24:46] INFO: Sending GET request to /assistances/997 with params: {}
+[2025-02-05 09:24:46] INFO: Sending POST request to /assistances with data: {"data":{"title":"SecondService-4ca","description":"Second best service you have ever seen","link":"https://www.google.com/","assistance_categories":[1105],"locale":"uk"}}
+[2025-02-05 09:24:46] INFO: Sending GET request to /assistances/998 with params: {}
+[2025-02-05 09:24:46] INFO: Sending GET request to /assistance-categories/?locale=uk&populate=* with params: {}
+[2025-02-05 09:24:51] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-05 09:24:57] INFO: Sending DELETE request to /assistance-categories/1105
+[2025-02-05 09:24:57] INFO: Sending DELETE request to /assistance-categories/1106
+[2025-02-05 09:24:58] INFO: Sending DELETE request to /assistances/997
+[2025-02-05 09:24:58] INFO: Sending DELETE request to /assistances/998
