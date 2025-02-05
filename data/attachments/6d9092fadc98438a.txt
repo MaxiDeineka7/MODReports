@@ -1,0 +1,25 @@
+[2025-02-05 00:51:27] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-02-05 00:51:30] INFO: Sending GET request to /upload/files/3304 with params: {}
+[2025-02-05 00:51:31] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-02-05 00:51:48] INFO: Sending GET request to /upload/files/3306 with params: {}
+[2025-02-05 00:51:48] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-4d2","people":[],"slug":"first-leadership-4d2","order":0,"locale":"uk"}}
+[2025-02-05 00:51:48] INFO: Sending GET request to /leaderships/1071 with params: {}
+[2025-02-05 00:51:48] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-4d2","people":[],"slug":"second-leadership-4d2","order":0,"locale":"uk"}}
+[2025-02-05 00:51:48] INFO: Sending GET request to /leaderships/1072 with params: {}
+[2025-02-05 00:51:48] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-4d2","position":"Senior Test Automation","photo":"3304","biography":"Some biography","slug":"first-best-tester-4d2","leaderships":["1071"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-4d2","metaDescription":"FirstMetaDescription-00260bb6-f569-4fc6-b6c9-8fdbb776251a","allowIndexing":true},"locale":"uk"}}
+[2025-02-05 00:51:49] INFO: Sending GET request to /employees/1812 with params: {}
+[2025-02-05 00:51:49] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-4d2","position":"Junior Test Automation","photo":"3306","biography":"Some biography","slug":"second-best-tester-4d2","leaderships":["1071","1072"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-4d2","metaDescription":"SecondMetaDescription-d4a99d4c-019d-4121-9d2d-6208f362ae6c","allowIndexing":true},"locale":"uk"}}
+[2025-02-05 00:51:49] INFO: Sending GET request to /employees/1813 with params: {}
+[2025-02-05 00:51:56] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-05 00:52:02] INFO: Verify that URL includes expected part: /pro-nas/first-leadership-4d2
+[2025-02-05 00:52:03] INFO: Verify that URL includes expected part: /pro-nas/second-best-tester-4d2
+[2025-02-05 00:52:18] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/pro-nas/second-leadership-4d2 does not contain expected part: /pro-nas/second-best-tester-4d2. Error: page.waitForURL: Timeout 15000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "domcontentloaded"
+============================================================
+[2025-02-05 00:52:18] INFO: Sending DELETE request to /employees/1812
+[2025-02-05 00:52:18] INFO: Sending DELETE request to /employees/1813
+[2025-02-05 00:52:18] INFO: Sending DELETE request to /leaderships/1071
+[2025-02-05 00:52:19] INFO: Sending DELETE request to /leaderships/1072
+[2025-02-05 00:52:19] INFO: Sending DELETE request to /upload/files/3304
+[2025-02-05 00:52:19] INFO: Sending DELETE request to /upload/files/3306
