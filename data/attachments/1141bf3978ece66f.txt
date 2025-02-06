@@ -1,0 +1,17 @@
+[2025-02-06 15:53:04] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-02-06 15:53:06] INFO: Sending GET request to /upload/files/3607 with params: {}
+[2025-02-06 15:53:06] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-02-06 15:53:21] INFO: Sending GET request to /upload/files/3609 with params: {}
+[2025-02-06 15:53:22] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-fc3","people":[],"slug":"first-leadership-fc3","order":0,"locale":"en"}}
+[2025-02-06 15:53:25] INFO: Sending GET request to /leaderships/1143 with params: {}
+[2025-02-06 15:53:25] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-fc3","people":[],"slug":"second-leadership-fc3","order":0,"locale":"en"}}
+[2025-02-06 15:53:26] INFO: Sending GET request to /leaderships/1144 with params: {}
+[2025-02-06 15:53:26] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-fc3","position":"Senior Test Automation","photo":"3607","biography":"Some biography","slug":"first-best-tester-fc3","leaderships":["1143"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-fc3","metaDescription":"FirstMetaDescription-aa51f357-18bd-4a9b-aaa3-3a40ebb47a7d","allowIndexing":true},"locale":"en"}}
+[2025-02-06 15:53:26] INFO: Sending GET request to /employees/1940 with params: {}
+[2025-02-06 15:53:26] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-fc3","position":"Junior Test Automation","photo":"3609","biography":"Some biography","slug":"second-best-tester-fc3","leaderships":["1143","1144"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-fc3","metaDescription":"SecondMetaDescription-67d016c5-3885-4df8-bfef-7af282f820f6","allowIndexing":true},"locale":"en"}}
+[2025-02-06 15:53:26] INFO: Sending GET request to /employees/1941 with params: {}
+[2025-02-06 15:53:33] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-06 15:53:42] INFO: Verify that URL includes expected part: en/about-us/first-leadership-fc3
+[2025-02-06 15:53:44] INFO: Verify that URL includes expected part: en/about-us/second-best-tester-fc3
+[2025-02-06 15:53:45] INFO: Sending DELETE request to /employees/1940
+[2025-02-06 15:53:46] INFO: Sending DELETE request to /employees/1941

@@ -1,0 +1,9 @@
+[2025-02-06 15:57:18] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-06 15:57:23] INFO: Verify that URL includes expected part: explain-article-56d-1
+[2025-02-06 15:57:24] INFO: Sending PUT request to /explain-articles/1643 with data: {"data":{"highlight":false}}
+[2025-02-06 15:57:25] INFO: Sending DELETE request to /explain-articles/1643
+[2025-02-06 15:57:25] INFO: Sending PUT request to /explain-articles/1644 with data: {"data":{"highlight":false}}
+[2025-02-06 15:57:25] INFO: Sending DELETE request to /explain-articles/1644
+[2025-02-06 15:57:25] INFO: Sending DELETE request to /explain-articles/1645
+[2025-02-06 15:57:25] INFO: Sending PUT request to /explain-articles/1646 with data: {"data":{"highlight":false}}
+[2025-02-06 15:57:25] INFO: Sending DELETE request to /explain-articles/1646
