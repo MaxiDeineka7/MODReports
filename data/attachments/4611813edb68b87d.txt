@@ -1,0 +1,18 @@
+[2025-02-07 09:27:07] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-02-07 09:27:09] INFO: Sending GET request to /upload/files/3663 with params: {}
+[2025-02-07 09:27:10] INFO: Sending POST request to /explain-articles with data: {"data":{"title":"ExplainArticle-2cf-1","subtitle":"highlight is TRUE","content":"test content","slug":"explain-article-2cf-1","highlight":true,"locale":"en","cover":"3663","seo":{"id":0,"metaTitle":"MetaTitle-2cf-1","metaDescription":"MetaDescription-7f2eba5d-9ad2-449c-9e18-e98f538e62ee"}}}
+[2025-02-07 09:27:10] INFO: Sending GET request to /explain-articles/1675 with params: {}
+[2025-02-07 09:27:10] INFO: Sending POST request to /explain-articles with data: {"data":{"title":"ExplainArticle-2cf-2","subtitle":"highlight is TRUE","content":"test content","slug":"explain-article-2cf-2","highlight":true,"locale":"en","cover":"3663","seo":{"id":0,"metaTitle":"MetaTitle-2cf-2","metaDescription":"MetaDescription-15db7c96-2b4f-4ea4-8112-4a690bf290d9"}}}
+[2025-02-07 09:27:10] INFO: Sending GET request to /explain-articles/1676 with params: {}
+[2025-02-07 09:27:10] INFO: Sending POST request to /explain-articles with data: {"data":{"title":"ExplainArticle-2cf-3","subtitle":"highlight is FALSE","content":"test content","slug":"explain-article-2cf-3","highlight":false,"locale":"en","cover":"3663","seo":{"id":0,"metaTitle":"MetaTitle-2cf-3","metaDescription":"MetaDescription-4782e950-804b-42bc-ba91-2120d4603b3d"}}}
+[2025-02-07 09:27:10] INFO: Sending GET request to /explain-articles/1677 with params: {}
+[2025-02-07 09:27:10] INFO: Sending POST request to /explain-articles with data: {"data":{"title":"ExplainArticle-2cf-4","subtitle":"highlight is TRUE","content":"test content","slug":"explain-article-2cf-4","highlight":true,"locale":"en","cover":"3663","seo":{"id":0,"metaTitle":"MetaTitle-2cf-4","metaDescription":"MetaDescription-82d0e312-a197-4a40-96b2-6c63a20c8b17"}}}
+[2025-02-07 09:27:10] INFO: Sending GET request to /explain-articles/1678 with params: {}
+[2025-02-07 09:27:14] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-07 09:27:41] INFO: Sending PUT request to /explain-articles/1675 with data: {"data":{"highlight":false}}
+[2025-02-07 09:27:41] INFO: Sending DELETE request to /explain-articles/1675
+[2025-02-07 09:27:41] INFO: Sending PUT request to /explain-articles/1676 with data: {"data":{"highlight":false}}
+[2025-02-07 09:27:41] INFO: Sending DELETE request to /explain-articles/1676
+[2025-02-07 09:27:42] INFO: Sending DELETE request to /explain-articles/1677
+[2025-02-07 09:27:42] INFO: Sending PUT request to /explain-articles/1678 with data: {"data":{"highlight":false}}
+[2025-02-07 09:27:42] INFO: Sending DELETE request to /explain-articles/1678

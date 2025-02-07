@@ -1,0 +1,21 @@
+[2025-02-07 09:18:56] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-02-07 09:18:58] INFO: Sending GET request to /upload/files/3635 with params: {}
+[2025-02-07 09:18:58] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-02-07 09:19:08] INFO: Sending GET request to /upload/files/3637 with params: {}
+[2025-02-07 09:19:08] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-ffb","people":[],"slug":"first-leadership-ffb","order":0,"locale":"uk"}}
+[2025-02-07 09:19:08] INFO: Sending GET request to /leaderships/1151 with params: {}
+[2025-02-07 09:19:08] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-ffb","people":[],"slug":"second-leadership-ffb","order":0,"locale":"uk"}}
+[2025-02-07 09:19:09] INFO: Sending GET request to /leaderships/1152 with params: {}
+[2025-02-07 09:19:09] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-ffb","position":"Senior Test Automation","photo":"3635","biography":"Some biography","slug":"first-best-tester-ffb","leaderships":["1151"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-ffb","metaDescription":"FirstMetaDescription-9a97f786-9998-4ac2-b397-9f0240198d83","allowIndexing":true},"locale":"uk"}}
+[2025-02-07 09:19:09] INFO: Sending GET request to /employees/1956 with params: {}
+[2025-02-07 09:19:09] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-ffb","position":"Junior Test Automation","photo":"3637","biography":"Some biography","slug":"second-best-tester-ffb","leaderships":["1151","1152"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-ffb","metaDescription":"SecondMetaDescription-638c4d76-3208-4837-9312-70e56a76814d","allowIndexing":true},"locale":"uk"}}
+[2025-02-07 09:19:09] INFO: Sending GET request to /employees/1957 with params: {}
+[2025-02-07 09:19:53] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-07 09:19:59] INFO: Verify that URL includes expected part: /pro-nas/first-leadership-ffb
+[2025-02-07 09:20:03] INFO: Verify that URL includes expected part: /pro-nas/second-best-tester-ffb
+[2025-02-07 09:20:03] INFO: Sending DELETE request to /employees/1956
+[2025-02-07 09:20:04] INFO: Sending DELETE request to /employees/1957
+[2025-02-07 09:20:04] INFO: Sending DELETE request to /leaderships/1151
+[2025-02-07 09:20:04] INFO: Sending DELETE request to /leaderships/1152
+[2025-02-07 09:20:04] INFO: Sending DELETE request to /upload/files/3635
+[2025-02-07 09:20:05] INFO: Sending DELETE request to /upload/files/3637
