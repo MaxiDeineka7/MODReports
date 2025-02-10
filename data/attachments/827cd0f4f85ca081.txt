@@ -1,0 +1,14 @@
+[2025-02-10 09:25:17] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-8fd","position":"Senior Test Automation","photo":"3679","biography":"Some biography","slug":"first-best-tester-8fd","leaderships":["1166"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-8fd","metaDescription":"FirstMetaDescription-3fa8d1e9-ad90-44c5-9209-80d4dfc220f4","allowIndexing":true},"locale":"uk"}}
+[2025-02-10 09:25:17] INFO: Sending GET request to /employees/1982 with params: {}
+[2025-02-10 09:25:18] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-8fd","position":"Junior Test Automation","photo":"3680","biography":"Some biography","slug":"second-best-tester-8fd","leaderships":["1166","1167"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-8fd","metaDescription":"SecondMetaDescription-8e3860fc-786b-4438-bfc2-97f594d5edb9","allowIndexing":true},"locale":"uk"}}
+[2025-02-10 09:25:18] INFO: Sending GET request to /employees/1983 with params: {}
+[2025-02-10 09:25:23] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-10 09:25:33] INFO: Verify that URL includes expected part: /pro-nas/first-leadership-8fd
+[2025-02-10 09:25:34] INFO: Sending PUT request to /employees/1982 with data: {"data":{"name":"UpdatedEmployee-8fd","position":"Lead Test Automation","photo":"3680","biography":"Some updated biography","slug":"updated-tester-8fd","leaderships":["1166","1167"]}}
+[2025-02-10 09:25:38] INFO: Verify that URL includes expected part: /pro-nas/second-leadership-8fd
+[2025-02-10 09:25:39] INFO: Sending DELETE request to /employees/1982
+[2025-02-10 09:25:39] INFO: Sending DELETE request to /employees/1983
+[2025-02-10 09:25:40] INFO: Sending DELETE request to /leaderships/1166
+[2025-02-10 09:25:40] INFO: Sending DELETE request to /leaderships/1167
+[2025-02-10 09:25:40] INFO: Sending DELETE request to /upload/files/3679
+[2025-02-10 09:25:40] INFO: Sending DELETE request to /upload/files/3680
