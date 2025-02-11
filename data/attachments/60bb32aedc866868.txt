@@ -1,0 +1,17 @@
+[2025-02-11 09:22:24] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-02-11 09:22:26] INFO: Sending GET request to /upload/files/4066 with params: {}
+[2025-02-11 09:22:27] INFO: Sending POST request to /upload with data: [object FormData]
+[2025-02-11 09:22:35] INFO: Sending GET request to /upload/files/4067 with params: {}
+[2025-02-11 09:22:35] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"FirstLeadership-8f1","people":[],"slug":"first-leadership-8f1","order":0,"locale":"en"}}
+[2025-02-11 09:22:35] INFO: Sending GET request to /leaderships/1224 with params: {}
+[2025-02-11 09:22:35] INFO: Sending POST request to /leaderships with data: {"data":{"tab_title":"SecondLeadership-8f1","people":[],"slug":"second-leadership-8f1","order":0,"locale":"en"}}
+[2025-02-11 09:22:35] INFO: Sending GET request to /leaderships/1225 with params: {}
+[2025-02-11 09:22:35] INFO: Sending POST request to /employees with data: {"data":{"name":"FirstEmployee-8f1","position":"Senior Test Automation","photo":"4066","biography":"Some biography","slug":"first-best-tester-8f1","leaderships":["1224"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-8f1","metaDescription":"FirstMetaDescription-916a7ecc-2ae4-41d8-8f54-3e82bf4d7b45","allowIndexing":true},"locale":"en"}}
+[2025-02-11 09:22:35] INFO: Sending GET request to /employees/2088 with params: {}
+[2025-02-11 09:22:36] INFO: Sending POST request to /employees with data: {"data":{"name":"SecondEmployee-8f1","position":"Junior Test Automation","photo":"4067","biography":"Some biography","slug":"second-best-tester-8f1","leaderships":["1224","1225"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-8f1","metaDescription":"SecondMetaDescription-ada4efd1-6845-4f43-908c-7639c84a9963","allowIndexing":true},"locale":"en"}}
+[2025-02-11 09:22:36] INFO: Sending GET request to /employees/2089 with params: {}
+[2025-02-11 09:22:43] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-11 09:22:49] INFO: Verify that URL includes expected part: en/about-us/first-leadership-8f1
+[2025-02-11 09:22:52] INFO: Verify that URL includes expected part: en/about-us/second-best-tester-8f1
+[2025-02-11 09:22:53] INFO: Sending DELETE request to /employees/2088
+[2025-02-11 09:22:54] INFO: Sending DELETE request to /employees/2089
