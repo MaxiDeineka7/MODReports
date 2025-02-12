@@ -1,0 +1,11 @@
+[2025-02-12 09:19:25] INFO: Sending POST request to /upload? with data: [object FormData]
+[2025-02-12 09:19:28] INFO: Sending GET request to /upload/files/4091 with params: {}
+[2025-02-12 09:19:29] INFO: Sending POST request to /explain-articles? with data: {"data":{"title":"ExplainArticle-8d1-1","subtitle":"highlight is TRUE","content":"test content","slug":"explain-article-8d1-1","highlight":true,"locale":"uk","cover":"4091","seo":{"id":0,"metaTitle":"MetaTitle-8d1-1","metaDescription":"MetaDescription-52b5b5e7-ff3b-4b0f-b91f-ac48fc9eb63e"}}}
+[2025-02-12 09:19:29] INFO: Sending GET request to /explain-articles/1971 with params: {}
+[2025-02-12 09:19:29] INFO: Sending POST request to /explain-articles? with data: {"data":{"title":"ExplainArticle-8d1-2","subtitle":"highlight is TRUE","content":"test content","slug":"explain-article-8d1-2","highlight":true,"locale":"uk","cover":"4091","seo":{"id":0,"metaTitle":"MetaTitle-8d1-2","metaDescription":"MetaDescription-c4ed9bd1-6109-4442-a670-436da1222797"}}}
+[2025-02-12 09:19:29] INFO: Sending GET request to /explain-articles/1972 with params: {}
+[2025-02-12 09:19:29] INFO: Sending POST request to /explain-articles? with data: {"data":{"title":"ExplainArticle-8d1-3","subtitle":"highlight is FALSE","content":"test content","slug":"explain-article-8d1-3","highlight":false,"locale":"uk","cover":"4091","seo":{"id":0,"metaTitle":"MetaTitle-8d1-3","metaDescription":"MetaDescription-127f9457-41a0-42ea-9213-df07eaabbae8"}}}
+[2025-02-12 09:19:30] INFO: Sending GET request to /explain-articles/1973 with params: {}
+[2025-02-12 09:19:30] INFO: Sending POST request to /explain-articles? with data: {"data":{"title":"ExplainArticle-8d1-4","subtitle":"highlight is TRUE","content":"test content","slug":"explain-article-8d1-4","highlight":true,"locale":"uk","cover":"4091","seo":{"id":0,"metaTitle":"MetaTitle-8d1-4","metaDescription":"MetaDescription-5ba39c04-f880-4d6a-9169-f10db4d2fc5b"}}}
+[2025-02-12 09:19:30] INFO: Sending GET request to /explain-articles/1974 with params: {}
+[2025-02-12 09:19:39] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
