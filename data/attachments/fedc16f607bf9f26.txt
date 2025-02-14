@@ -1,0 +1,14 @@
+[2025-02-14 09:30:13] INFO: Sending POST request to /employees? with data: {"data":{"name":"FirstEmployee-b57","position":"Senior Test Automation","photo":"4322","biography":"Some biography","slug":"first-best-tester-b57","leaderships":["1270"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-b57","metaDescription":"FirstMetaDescription-961f8e4d-906f-4c54-8f14-756f0558d5c1","allowIndexing":true},"locale":"en"}}
+[2025-02-14 09:30:13] INFO: Sending GET request to /employees/2178 with params: {}
+[2025-02-14 09:30:13] INFO: Sending POST request to /employees? with data: {"data":{"name":"SecondEmployee-b57","position":"Junior Test Automation","photo":"4323","biography":"Some biography","slug":"second-best-tester-b57","leaderships":["1270","1271"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-b57","metaDescription":"SecondMetaDescription-6b004a12-84cb-4f37-a1be-ea08a5e4c6a6","allowIndexing":true},"locale":"en"}}
+[2025-02-14 09:30:14] INFO: Sending GET request to /employees/2179 with params: {}
+[2025-02-14 09:30:19] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-14 09:30:31] INFO: Verify that URL includes expected part: en/about-us/first-leadership-b57
+[2025-02-14 09:30:31] INFO: Sending PUT request to /employees/2178 with data: {"data":{"name":"UpdatedEmployee-b57","position":"Lead Test Automation","photo":"4323","biography":"Some updated biography","slug":"updated-tester-b57","leaderships":["1270","1271"]}}
+[2025-02-14 09:30:40] INFO: Verify that URL includes expected part: en/about-us/second-leadership-b57
+[2025-02-14 09:30:40] INFO: Sending DELETE request to /employees/2178
+[2025-02-14 09:30:40] INFO: Sending DELETE request to /employees/2179
+[2025-02-14 09:30:42] INFO: Sending DELETE request to /leaderships/1270
+[2025-02-14 09:30:42] INFO: Sending DELETE request to /leaderships/1271
+[2025-02-14 09:30:42] INFO: Sending DELETE request to /upload/files/4322
+[2025-02-14 09:30:43] INFO: Sending DELETE request to /upload/files/4323
