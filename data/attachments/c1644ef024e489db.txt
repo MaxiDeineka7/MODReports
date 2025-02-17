@@ -1,4 +1,0 @@
-[2025-02-14 09:30:10] INFO: Sending POST request to /upload? with data: [object FormData]
-[2025-02-14 09:30:13] INFO: Sending GET request to /upload/files/4324 with params: {}
-[2025-02-14 09:30:13] INFO: Sending POST request to /explain-articles? with data: {"data":{"title":"ExplainArticle-714-1","subtitle":"highlight is TRUE","content":"test content","slug":"explain-article-714-1","highlight":true,"locale":"en","cover":"4324","seo":{"id":0,"metaTitle":"MetaTitle-714-1","metaDescription":"MetaDescription-eb0a8825-4146-42eb-8719-91f3cb9eb226"}}}
-[2025-02-14 09:30:13] ERROR: Failed to send POST request: Request failed with status code 400
