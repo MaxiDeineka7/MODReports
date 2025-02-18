@@ -1,8 +1,0 @@
-[2025-02-17 09:28:56] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
-[2025-02-17 09:29:01] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"link":null,"locale":"uk"}}
-[2025-02-17 09:29:06] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
-[2025-02-17 09:29:06] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"link":"/services","locale":"uk"}}
-[2025-02-17 09:29:12] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
-[2025-02-17 09:29:12] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"link":"https://www.google.com","locale":"uk"}}
-[2025-02-17 09:29:17] INFO: Verify that URL includes expected part: https://www.google.com
-[2025-02-17 09:29:17] INFO: Sending PUT request to /loss/?locale=uk&populate=* with data: {"data":{"link":null,"locale":"uk"}}
