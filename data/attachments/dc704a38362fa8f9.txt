@@ -1,0 +1,18 @@
+[2025-02-19 09:31:14] INFO: Sending POST request to /tags? with data: {"data":{"tag":"AutoTag-d25","locale":"en"}}
+[2025-02-19 09:31:15] INFO: Sending GET request to /tags/581 with params: {}
+[2025-02-19 09:31:15] INFO: Sending POST request to /upload? with data: [object FormData]
+[2025-02-19 09:31:16] INFO: Sending GET request to /upload/files/5222 with params: {}
+[2025-02-19 09:31:17] INFO: Sending POST request to /upload? with data: [object FormData]
+[2025-02-19 09:31:19] INFO: Sending GET request to /upload/files/5223 with params: {}
+[2025-02-19 09:31:19] INFO: Sending POST request to /news?populate=* with data: {"data":{"title":"Test first news","slug":"test-d25","highlight":false,"content":"The First news for test","seo":{"id":0,"metaTitle":"Meta title for the First news","metaDescription":"Meta description for the First news","allowIndexing":false},"tags":["581"],"locale":"en"}}
+[2025-02-19 09:31:19] INFO: Sending GET request to /news/2850 with params: {}
+[2025-02-19 09:31:19] INFO: Sending POST request to /news?populate=* with data: {"data":{"title":"Test first highlighted news","slug":"test-highlight-d25","highlight":true,"cover":["5223"],"content":"The First highlighted news for test","seo":{"id":0,"metaTitle":"Meta title for the First highlighted news","metaDescription":"Meta description for the First highlighted news","allowIndexing":false},"tags":["581"],"locale":"en"}}
+[2025-02-19 09:31:19] INFO: Sending GET request to /news/2850 with params: {}
+[2025-02-19 09:31:19] INFO: Sending GET request to /news/?locale=en&populate=* with params: {}
+[2025-02-19 09:31:20] INFO: Sending GET request to /news/?locale=en&populate=*&filters[highlight][$eq]=true&sort=publishedAt:desc with params: {}
+[2025-02-19 09:31:20] INFO: Sending GET request to /news/?locale=en&populate=*&filters[highlight][$eq]=false&sort=publishedAt:desc with params: {}
+[2025-02-19 09:31:20] INFO: Sending GET request to /news/?locale=en&populate=*&filters[$or][0][tags][tag][$eq]=AutoTag-d25&sort=publishedAt:desc with params: {}
+[2025-02-19 09:31:21] INFO: Sending DELETE request to /tags/581
+[2025-02-19 09:31:21] INFO: Sending DELETE request to /news/2850
+[2025-02-19 09:31:21] INFO: Sending DELETE request to /news/2851
+[2025-02-19 09:31:21] INFO: Sending DELETE request to /upload/files/5223

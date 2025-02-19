@@ -1,0 +1,14 @@
+[2025-02-19 09:20:30] INFO: Sending POST request to /employees? with data: {"data":{"name":"FirstEmployee-cfa","position":"Senior Test Automation","photo":"5179","biography":"Some biography","slug":"first-best-tester-cfa","leaderships":["1361"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-cfa","metaDescription":"FirstMetaDescription-d54e8e4c-2c73-4ec9-97e2-61a6597f119d","allowIndexing":true},"locale":"uk"}}
+[2025-02-19 09:20:30] INFO: Sending GET request to /employees/2294 with params: {}
+[2025-02-19 09:20:30] INFO: Sending POST request to /employees? with data: {"data":{"name":"SecondEmployee-cfa","position":"Junior Test Automation","photo":"5181","biography":"Some biography","slug":"second-best-tester-cfa","leaderships":["1361","1362"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-cfa","metaDescription":"SecondMetaDescription-5e3dde30-3c6c-4142-bfd1-1dae592aa1bc","allowIndexing":true},"locale":"uk"}}
+[2025-02-19 09:20:31] INFO: Sending GET request to /employees/2295 with params: {}
+[2025-02-19 09:20:35] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-19 09:20:42] INFO: Verify that URL includes expected part: /pro-nas/first-leadership-cfa
+[2025-02-19 09:20:43] INFO: Sending PUT request to /employees/2294 with data: {"data":{"name":"UpdatedEmployee-cfa","position":"Lead Test Automation","photo":"5181","biography":"Some updated biography","slug":"updated-tester-cfa","leaderships":["1361","1362"]}}
+[2025-02-19 09:20:47] INFO: Verify that URL includes expected part: /pro-nas/second-leadership-cfa
+[2025-02-19 09:20:47] INFO: Sending DELETE request to /employees/2294
+[2025-02-19 09:20:47] INFO: Sending DELETE request to /employees/2295
+[2025-02-19 09:20:48] INFO: Sending DELETE request to /leaderships/1361
+[2025-02-19 09:20:48] INFO: Sending DELETE request to /leaderships/1362
+[2025-02-19 09:20:48] INFO: Sending DELETE request to /upload/files/5179
+[2025-02-19 09:20:49] INFO: Sending DELETE request to /upload/files/5181

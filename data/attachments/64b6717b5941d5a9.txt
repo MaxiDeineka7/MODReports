@@ -1,0 +1,22 @@
+[2025-02-19 09:22:57] INFO: Sending POST request to /upload? with data: [object FormData]
+[2025-02-19 09:22:59] INFO: Sending GET request to /upload/files/5190 with params: {}
+[2025-02-19 09:22:59] INFO: Sending POST request to /upload? with data: [object FormData]
+[2025-02-19 09:23:08] INFO: Sending GET request to /upload/files/5191 with params: {}
+[2025-02-19 09:23:08] INFO: Sending POST request to /leaderships? with data: {"data":{"tab_title":"FirstLeadership-c8a","people":[],"slug":"first-leadership-c8a","order":0,"locale":"en"}}
+[2025-02-19 09:23:08] INFO: Sending GET request to /leaderships/1365 with params: {}
+[2025-02-19 09:23:08] INFO: Sending POST request to /leaderships? with data: {"data":{"tab_title":"SecondLeadership-c8a","people":[],"slug":"second-leadership-c8a","order":0,"locale":"en"}}
+[2025-02-19 09:23:08] INFO: Sending GET request to /leaderships/1366 with params: {}
+[2025-02-19 09:23:08] INFO: Sending POST request to /employees? with data: {"data":{"name":"FirstEmployee-c8a","position":"Senior Test Automation","photo":"5190","biography":"Some biography","slug":"first-best-tester-c8a","leaderships":["1365"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-c8a","metaDescription":"FirstMetaDescription-be1eeaa9-64c6-45e7-8bbb-bf749da27f5c","allowIndexing":true},"locale":"en"}}
+[2025-02-19 09:23:08] INFO: Sending GET request to /employees/2298 with params: {}
+[2025-02-19 09:23:08] INFO: Sending POST request to /employees? with data: {"data":{"name":"SecondEmployee-c8a","position":"Junior Test Automation","photo":"5191","biography":"Some biography","slug":"second-best-tester-c8a","leaderships":["1365","1366"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-c8a","metaDescription":"SecondMetaDescription-5965da6f-e24e-438d-ac1d-b1e799e92683","allowIndexing":true},"locale":"en"}}
+[2025-02-19 09:23:09] INFO: Sending GET request to /employees/2299 with params: {}
+[2025-02-19 09:23:13] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-19 09:23:18] INFO: Verify that URL includes expected part: en/about-us/first-leadership-c8a
+[2025-02-19 09:23:18] INFO: Sending PUT request to /employees/2298 with data: {"data":{"name":"UpdatedEmployee-c8a","position":"Lead Test Automation","photo":"5191","biography":"Some updated biography","slug":"updated-tester-c8a","leaderships":["1365","1366"]}}
+[2025-02-19 09:23:21] INFO: Verify that URL includes expected part: en/about-us/second-leadership-c8a
+[2025-02-19 09:23:22] INFO: Sending DELETE request to /employees/2298
+[2025-02-19 09:23:22] INFO: Sending DELETE request to /employees/2299
+[2025-02-19 09:23:23] INFO: Sending DELETE request to /leaderships/1365
+[2025-02-19 09:23:23] INFO: Sending DELETE request to /leaderships/1366
+[2025-02-19 09:23:23] INFO: Sending DELETE request to /upload/files/5190
+[2025-02-19 09:23:23] INFO: Sending DELETE request to /upload/files/5191
