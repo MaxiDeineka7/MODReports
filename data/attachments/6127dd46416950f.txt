@@ -1,0 +1,17 @@
+[2025-02-21 09:20:13] INFO: Sending POST request to /upload? with data: [object FormData]
+[2025-02-21 09:20:16] INFO: Sending GET request to /upload/files/5710 with params: {}
+[2025-02-21 09:20:16] INFO: Sending POST request to /upload? with data: [object FormData]
+[2025-02-21 09:20:33] INFO: Sending GET request to /upload/files/5712 with params: {}
+[2025-02-21 09:20:33] INFO: Sending POST request to /leaderships? with data: {"data":{"tab_title":"FirstLeadership-5e9","people":[],"slug":"first-leadership-5e9","order":0,"locale":"uk"}}
+[2025-02-21 09:20:33] INFO: Sending GET request to /leaderships/1445 with params: {}
+[2025-02-21 09:20:33] INFO: Sending POST request to /leaderships? with data: {"data":{"tab_title":"SecondLeadership-5e9","people":[],"slug":"second-leadership-5e9","order":0,"locale":"uk"}}
+[2025-02-21 09:20:34] INFO: Sending GET request to /leaderships/1446 with params: {}
+[2025-02-21 09:20:34] INFO: Sending POST request to /employees? with data: {"data":{"name":"FirstEmployee-5e9","position":"Senior Test Automation","photo":"5710","biography":"Some biography","slug":"first-best-tester-5e9","leaderships":["1445"],"seo":{"id":0,"metaTitle":"FirstMetaTitle-5e9","metaDescription":"FirstMetaDescription-2060ea86-4345-4bd3-ad3a-6f2a2f761742","allowIndexing":true},"locale":"uk"}}
+[2025-02-21 09:20:35] INFO: Sending GET request to /employees/2432 with params: {}
+[2025-02-21 09:20:35] INFO: Sending POST request to /employees? with data: {"data":{"name":"SecondEmployee-5e9","position":"Junior Test Automation","photo":"5712","biography":"Some biography","slug":"second-best-tester-5e9","leaderships":["1445","1446"],"seo":{"id":0,"metaTitle":"SecondMetaTitle-5e9","metaDescription":"SecondMetaDescription-760373c7-4bd5-4273-a7a6-bce233503c0b","allowIndexing":true},"locale":"uk"}}
+[2025-02-21 09:20:35] INFO: Sending GET request to /employees/2433 with params: {}
+[2025-02-21 09:21:02] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-21 09:21:10] INFO: Verify that URL includes expected part: /pro-nas/first-leadership-5e9
+[2025-02-21 09:21:13] INFO: Verify that URL includes expected part: /pro-nas/second-best-tester-5e9
+[2025-02-21 09:21:13] INFO: Sending DELETE request to /employees/2432
+[2025-02-21 09:21:13] INFO: Sending DELETE request to /employees/2433

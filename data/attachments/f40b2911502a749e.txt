@@ -1,0 +1,9 @@
+[2025-02-21 09:25:48] INFO: Sending POST request to /upload? with data: [object FormData]
+[2025-02-21 09:25:51] INFO: Sending GET request to /upload/files/5739 with params: {}
+[2025-02-21 09:25:51] INFO: Sending POST request to /news?populate=* with data: {"data":{"title":"Test news 2","slug":"test-c97","highlight":false,"content":"The First news for test","seo":{"id":0,"metaTitle":"Meta title for the First news","metaDescription":"Meta description for the First news","allowIndexing":false},"locale":"en"}}
+[2025-02-21 09:25:51] INFO: Sending GET request to /news/3401 with params: {}
+[2025-02-21 09:25:52] INFO: Sending POST request to /news?populate=* with data: {"data":{"title":"Test news 3","slug":"test2-c97","highlight":false,"content":"The First news for test","seo":{"id":0,"metaTitle":"Meta title for the First news","metaDescription":"Meta description for the First news","allowIndexing":false},"locale":"en"}}
+[2025-02-21 09:25:52] INFO: Sending GET request to /news/3402 with params: {}
+[2025-02-21 09:25:52] INFO: Sending POST request to /news?populate=* with data: {"data":{"title":"Test news","slug":"test-highlight-c97","highlight":true,"cover":["5739"],"content":"The First highlighted news for test","seo":{"id":0,"metaTitle":"Meta title for the First highlighted news","metaDescription":"Meta description for the First highlighted news","allowIndexing":false},"locale":"en"}}
+[2025-02-21 09:25:52] INFO: Sending GET request to /news/3403 with params: {}
+[2025-02-21 09:25:59] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/

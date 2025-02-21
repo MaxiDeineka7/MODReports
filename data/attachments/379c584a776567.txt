@@ -1,0 +1,17 @@
+[2025-02-21 09:21:43] INFO: Sending POST request to /assistance-categories? with data: {"data":{"title":"FirstCategory-6d8","locale":"uk"}}
+[2025-02-21 09:21:43] INFO: Sending GET request to /assistance-categories/1533 with params: {}
+[2025-02-21 09:21:43] INFO: Sending POST request to /assistance-categories? with data: {"data":{"title":"SecondCategory-6d8","locale":"uk"}}
+[2025-02-21 09:21:44] INFO: Sending GET request to /assistance-categories/1534 with params: {}
+[2025-02-21 09:21:44] INFO: Sending POST request to /assistances? with data: {"data":{"title":"FirstService-6d8","description":"First best service you have ever seen","link":"/first-service-6d8","assistance_categories":[1533,1534],"locale":"uk"}}
+[2025-02-21 09:21:44] INFO: Sending GET request to /assistances/1427 with params: {}
+[2025-02-21 09:21:44] INFO: Sending POST request to /assistances? with data: {"data":{"title":"SecondService-6d8","description":"Second best service you have ever seen","link":"https://www.google.com/","assistance_categories":[1533],"locale":"uk"}}
+[2025-02-21 09:21:44] INFO: Sending GET request to /assistances/1428 with params: {}
+[2025-02-21 09:21:45] INFO: Sending GET request to /assistance-categories/?locale=uk&populate=* with params: {}
+[2025-02-21 09:21:49] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-21 09:21:52] INFO: Verify that URL includes expected part: services
+[2025-02-21 09:21:55] INFO: Sending PUT request to /assistance-categories/1533 with data: {"data":{"title":"UpdatedFirstCategory-6d8","locale":"uk"}}
+[2025-02-21 09:21:55] INFO: Sending PUT request to /assistances/1427 with data: {"data":{"title":"UpdatedFirstService-6d8","description":"Updated First best service you have ever seen","link":"/updated-first-service-6d8","assistance_categories":[1533,1534],"locale":"uk"}}
+[2025-02-21 09:21:58] INFO: Sending DELETE request to /assistance-categories/1533
+[2025-02-21 09:21:58] INFO: Sending DELETE request to /assistance-categories/1534
+[2025-02-21 09:21:59] INFO: Sending DELETE request to /assistances/1427
+[2025-02-21 09:21:59] INFO: Sending DELETE request to /assistances/1428
