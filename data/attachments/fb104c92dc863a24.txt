@@ -1,0 +1,13 @@
+[2025-02-24 09:29:45] INFO: Sending POST request to /upload? with data: [object FormData]
+[2025-02-24 09:29:47] INFO: Sending GET request to /upload/files/6065 with params: {}
+[2025-02-24 09:29:47] INFO: Sending POST request to /news?populate=* with data: {"data":{"title":"Test first news","slug":"test-295","highlight":false,"content":"The First news for test","seo":{"id":0,"metaTitle":"Meta title for the First news","metaDescription":"Meta description for the First news","allowIndexing":false},"locale":"uk"}}
+[2025-02-24 09:29:48] INFO: Sending GET request to /news/3665 with params: {}
+[2025-02-24 09:29:48] INFO: Sending POST request to /explain-articles? with data: {"data":{"title":"ExplainArticle-295-3","subtitle":"highlight is FALSE","content":"test content","slug":"explain-article-295-3","highlight":false,"locale":"uk","cover":"6065","seo":{"id":0,"metaTitle":"MetaTitle-295-3","metaDescription":"MetaDescription-be7f49a0-e625-4db3-b66b-2802e2095f5f"}}}
+[2025-02-24 09:29:48] INFO: Sending GET request to /explain-articles/2774 with params: {}
+[2025-02-24 09:29:48] INFO: Sending POST request to /tags? with data: {"data":{"tag":"AutoTag-295","explanation_articles":"2774","locale":"uk"}}
+[2025-02-24 09:29:48] INFO: Sending GET request to /tags/784 with params: {}
+[2025-02-24 09:29:48] INFO: Sending POST request to /tags? with data: {"data":{"tag":"AutoTag-295","news":"3665","locale":"uk"}}
+[2025-02-24 09:29:48] ERROR: Failed to send POST request: Request failed with status code 400
+[2025-02-24 09:29:48] INFO: Sending DELETE request to /news/3665
+[2025-02-24 09:29:49] INFO: Sending DELETE request to /explain-articles/2774
+[2025-02-24 09:29:49] INFO: Sending DELETE request to /tags/784

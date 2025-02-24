@@ -1,0 +1,16 @@
+[2025-02-24 09:22:43] INFO: Sending POST request to /tags? with data: {"data":{"tag":"AutoTag-58e","locale":"uk"}}
+[2025-02-24 09:22:44] INFO: Sending GET request to /tags/776 with params: {}
+[2025-02-24 09:22:44] INFO: Sending POST request to /upload? with data: [object FormData]
+[2025-02-24 09:22:46] INFO: Sending GET request to /upload/files/6039 with params: {}
+[2025-02-24 09:22:46] INFO: Sending POST request to /upload? with data: [object FormData]
+[2025-02-24 09:22:48] INFO: Sending GET request to /upload/files/6040 with params: {}
+[2025-02-24 09:22:48] INFO: Sending POST request to /news?populate=* with data: {"data":{"title":"Test first news","slug":"test-58e","highlight":false,"content":"The First news for test","seo":{"id":0,"metaTitle":"Meta title for the First news","metaDescription":"Meta description for the First news","allowIndexing":false},"tags":["776"],"locale":"uk"}}
+[2025-02-24 09:22:48] INFO: Sending GET request to /news/3639 with params: {}
+[2025-02-24 09:22:48] INFO: Sending POST request to /news?populate=* with data: {"data":{"title":"Test first highlighted news","slug":"test-highlight-58e","highlight":true,"cover":["6040"],"content":"The First highlighted news for test","seo":{"id":0,"metaTitle":"Meta title for the First highlighted news","metaDescription":"Meta description for the First highlighted news","allowIndexing":false},"tags":["776"],"locale":"uk"}}
+[2025-02-24 09:22:49] INFO: Sending GET request to /news/3639 with params: {}
+[2025-02-24 09:22:49] INFO: Sending GET request to /news/?locale=uk&populate=* with params: {}
+[2025-02-24 09:22:49] INFO: Sending GET request to /news/?locale=uk&populate=*&filters[highlight][$eq]=true&sort=publishedAt:desc with params: {}
+[2025-02-24 09:22:49] INFO: Sending GET request to /news/?locale=uk&populate=*&filters[highlight][$eq]=false&sort=publishedAt:desc with params: {}
+[2025-02-24 09:22:50] INFO: Sending GET request to /news/?locale=uk&populate=*&filters[$or][0][tags][tag][$eq]=AutoTag-58e&sort=publishedAt:desc with params: {}
+[2025-02-24 09:22:50] INFO: Sending PUT request to /news/3639 with data: {"data":{"title":"Updated first news","slug":"updatedtest-58e","highlight":false,"content":"Updated the First news for test","seo":{"id":8956,"metaTitle":"Meta title for the First news","metaDescription":"Meta description for the First news","allowIndexing":false},"tags":["776"],"locale":"uk"}}
+[2025-02-24 09:22:54] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/

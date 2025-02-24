@@ -1,0 +1,8 @@
+[2025-02-24 09:26:28] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-24 09:26:32] INFO: Verify that URL includes expected part: AutoTag-442
+[2025-02-24 09:26:33] INFO: Sending DELETE request to /tags/779
+[2025-02-24 09:26:33] INFO: Sending DELETE request to /news/3650
+[2025-02-24 09:26:33] INFO: Sending DELETE request to /news/3651
+[2025-02-24 09:26:33] INFO: Sending DELETE request to /upload/files/6051
+[2025-02-24 09:26:33] INFO: Sending DELETE request to /tags/779
+[2025-02-24 09:26:34] ERROR: Failed to send DELETE request: Request failed with status code 404
