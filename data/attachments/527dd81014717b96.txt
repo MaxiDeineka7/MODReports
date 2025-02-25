@@ -1,0 +1,21 @@
+[2025-02-25 09:31:10] INFO: Sending POST request to /tags? with data: {"data":{"tag":"AutoTag-2c0","locale":"en"}}
+[2025-02-25 09:31:11] INFO: Sending GET request to /tags/850 with params: {}
+[2025-02-25 09:31:11] INFO: Sending POST request to /upload? with data: [object FormData]
+[2025-02-25 09:31:13] INFO: Sending GET request to /upload/files/6253 with params: {}
+[2025-02-25 09:31:13] INFO: Sending POST request to /upload? with data: [object FormData]
+[2025-02-25 09:31:15] INFO: Sending GET request to /upload/files/6254 with params: {}
+[2025-02-25 09:31:15] INFO: Sending POST request to /news?populate=* with data: {"data":{"title":"Test first news","slug":"test-2c0","highlight":false,"content":"The First news for test","seo":{"id":0,"metaTitle":"Meta title for the First news","metaDescription":"Meta description for the First news","allowIndexing":false},"tags":["850"],"locale":"en"}}
+[2025-02-25 09:31:15] INFO: Sending GET request to /news/3846 with params: {}
+[2025-02-25 09:31:15] INFO: Sending POST request to /news?populate=* with data: {"data":{"title":"Test first highlighted news","slug":"test-highlight-2c0","highlight":true,"cover":["6254"],"content":"The First highlighted news for test","seo":{"id":0,"metaTitle":"Meta title for the First highlighted news","metaDescription":"Meta description for the First highlighted news","allowIndexing":false},"tags":["850"],"locale":"en"}}
+[2025-02-25 09:31:16] INFO: Sending GET request to /news/3846 with params: {}
+[2025-02-25 09:31:16] INFO: Sending GET request to /news/?locale=en&populate=* with params: {}
+[2025-02-25 09:31:16] INFO: Sending GET request to /news/?locale=en&populate=*&filters[highlight][$eq]=true&sort=publishedAt:desc with params: {}
+[2025-02-25 09:31:16] INFO: Sending GET request to /news/?locale=en&populate=*&filters[highlight][$eq]=false&sort=publishedAt:desc with params: {}
+[2025-02-25 09:31:16] INFO: Sending GET request to /news/?locale=en&populate=*&filters[$or][0][tags][tag][$eq]=AutoTag-2c0&sort=publishedAt:desc with params: {}
+[2025-02-25 09:31:22] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-25 09:31:34] INFO: Sending DELETE request to /tags/850
+[2025-02-25 09:31:35] INFO: Sending DELETE request to /news/3846
+[2025-02-25 09:31:35] INFO: Sending DELETE request to /news/3847
+[2025-02-25 09:31:35] INFO: Sending DELETE request to /upload/files/6254
+[2025-02-25 09:31:35] INFO: Sending DELETE request to /tags/850
+[2025-02-25 09:31:36] ERROR: Failed to send DELETE request: Request failed with status code 404
