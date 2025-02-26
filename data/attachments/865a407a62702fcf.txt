@@ -1,0 +1,10 @@
+[2025-02-26 09:22:59] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-26 09:23:05] INFO: Verify that URL includes expected part: AutoTag-3ff
+[2025-02-26 09:23:06] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/873 with params: {} and data: {}
+[2025-02-26 09:23:07] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/873 - Status: 200
+[2025-02-26 09:23:07] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/3916 with params: {} and data: {}
+[2025-02-26 09:23:07] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/3916 - Status: 200
+[2025-02-26 09:23:07] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/3917 with params: {} and data: {}
+[2025-02-26 09:23:07] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/3917 - Status: 200
+[2025-02-26 09:23:07] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/6328 with params: {} and data: {}
+[2025-02-26 09:23:08] INFO: ✅ [DELETE] Response from /upload/files/6328 - Status: 200
