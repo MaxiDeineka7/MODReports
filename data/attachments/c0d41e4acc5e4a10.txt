@@ -1,0 +1,14 @@
+[2025-02-27 09:26:38] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-27 09:26:41] INFO: Verify that URL includes expected part: NewsAutoTag-503
+[2025-02-27 09:26:42] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/news/?locale=en&populate=*&filters[$or][0][tags][tag][$eq]=NewsAutoTag-503&sort=publishedAt:desc with params: {} and data: {}
+[2025-02-27 09:26:42] INFO: ✅ [GET] Response from /api/news/?locale=en&populate=*&filters[$or][0][tags][tag][$eq]=NewsAutoTag-503&sort=publishedAt:desc - Status: 200
+[2025-02-27 09:26:43] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/3975 with params: {} and data: {}
+[2025-02-27 09:26:43] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/3975 - Status: 200
+[2025-02-27 09:26:43] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/2923 with params: {} and data: {}
+[2025-02-27 09:26:43] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/2923 - Status: 200
+[2025-02-27 09:26:43] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/898 with params: {} and data: {}
+[2025-02-27 09:26:43] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/898 - Status: 200
+[2025-02-27 09:26:43] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/899 with params: {} and data: {}
+[2025-02-27 09:26:44] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/899 - Status: 200
+[2025-02-27 09:26:44] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/6441 with params: {} and data: {}
+[2025-02-27 09:26:45] INFO: ✅ [DELETE] Response from /upload/files/6441 - Status: 200
