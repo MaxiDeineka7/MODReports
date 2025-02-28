@@ -1,0 +1,16 @@
+[2025-02-28 09:29:44] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/assistance-categories/?locale=uk&populate=* with params: {} and data: {}
+[2025-02-28 09:29:45] INFO: ✅ [GET] Response from /api/assistance-categories/?locale=uk&populate=* - Status: 200
+[2025-02-28 09:29:50] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-02-28 09:29:59] INFO: Verify that URL includes expected part: services
+[2025-02-28 09:30:04] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category/1789?locale=uk with params: {} and data: {"title":"UpdatedFirstCategory-450","locale":"uk"}
+[2025-02-28 09:30:05] INFO: ✅ [PUT] Response from /content-manager/collection-types/api::assistance-category.assistance-category/1789?locale=uk - Status: 200
+[2025-02-28 09:30:05] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance/1683?locale=uk with params: {} and data: {"title":"UpdatedFirstService-450","description":"Updated First best service you have ever seen","link":"/updated-first-service-450","assistance_categories":{"connect":[{"id":1789,"position":{"end":false}},{"id":1790,"position":{"end":true}}]},"locale":"uk"}
+[2025-02-28 09:30:05] INFO: ✅ [PUT] Response from /content-manager/collection-types/api::assistance.assistance/1683?locale=uk - Status: 200
+[2025-02-28 09:30:08] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category/1789 with params: {} and data: {}
+[2025-02-28 09:30:08] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::assistance-category.assistance-category/1789 - Status: 200
+[2025-02-28 09:30:08] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category/1790 with params: {} and data: {}
+[2025-02-28 09:30:09] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::assistance-category.assistance-category/1790 - Status: 200
+[2025-02-28 09:30:09] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance/1683 with params: {} and data: {}
+[2025-02-28 09:30:09] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::assistance.assistance/1683 - Status: 200
+[2025-02-28 09:30:09] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance/1684 with params: {} and data: {}
+[2025-02-28 09:30:09] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::assistance.assistance/1684 - Status: 200
