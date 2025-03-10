@@ -1,0 +1,44 @@
+[2025-03-10 11:10:27] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/upload with params: {} and data: {"_overheadLength":261,"_valueLength":36,"_valuesToMeasure":[{"fd":null,"path":"/home/runner/work/mod.gov.ua.automation/mod.gov.ua.automation/test-data/testJpg.jpg","flags":"r","mode":438,"end":null,"bytesRead":0,"_events":{},"_readableState":{"highWaterMark":65536,"buffer":[],"bufferIndex":0,"length":0,"pipes":[],"awaitDrainWriters":null},"_eventsCount":3}],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":false,"_streams":["----------------------------961019403612204691137566\r\nContent-Disposition: form-data; name=\"files\"; filename=\"testJpg.jpg\"\r\nContent-Type: image/jpeg\r\n\r\n",{"source":{"fd":null,"path":"/home/runner/work/mod.gov.ua.automation/mod.gov.ua.automation/test-data/testJpg.jpg","flags":"r","mode":438,"end":null,"bytesRead":0,"_events":{},"_readableState":{"highWaterMark":65536,"buffer":[],"bufferIndex":0,"length":0,"pipes":[],"awaitDrainWriters":null},"_eventsCount":3},"dataSize":0,"maxDataSize":null,"pauseStream":true,"_maxDataSizeExceeded":false,"_released":false,"_bufferedEvents":[{"0":"pause"}],"_events":{},"_eventsCount":1},null,"----------------------------961019403612204691137566\r\nContent-Disposition: form-data; name=\"fileInfo\"\r\n\r\n","{\"name\":\"testJpg.jpg\",\"folder\":null}",null],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------961019403612204691137566"}
+[2025-03-10 11:10:29] INFO: ✅ [POST] Response from /upload - Status: 200
+[2025-03-10 11:10:29] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/upload/files/40601?locale=uk with params: {} and data: {}
+[2025-03-10 11:10:29] INFO: ✅ [GET] Response from /upload/files/40601?locale=uk - Status: 200
+[2025-03-10 11:10:29] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::post.post?locale=en with params: {} and data: "{\"title\":\"Test first news a7d\",\"slug\":\"test-a7d\",\"highlight\":false,\"content\":\"The First news for test\",\"seo\":{\"id\":0,\"metaTitle\":\"Meta title for the First news\",\"metaDescription\":\"Meta description for the First news\",\"allowIndexing\":false}}"
+[2025-03-10 11:10:29] INFO: ✅ [POST] Response from /content-manager/collection-types/api::post.post?locale=en - Status: 200
+[2025-03-10 11:10:29] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/533?locale=en with params: {} and data: {}
+[2025-03-10 11:10:29] INFO: ✅ [GET] Response from /content-manager/collection-types/api::post.post/533?locale=en - Status: 200
+[2025-03-10 11:10:29] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/533/actions/publish?locale=en with params: {} and data: {}
+[2025-03-10 11:10:29] INFO: ✅ [POST] Response from /content-manager/collection-types/api::post.post/533/actions/publish?locale=en - Status: 200
+[2025-03-10 11:10:29] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article?locale=en with params: {} and data: "{\"title\":\"ExplainArticle-a7d-3\",\"subtitle\":\"highlight is FALSE\",\"content\":\"test content\",\"slug\":\"explain-article-a7d-3\",\"highlight\":false,\"cover\":\"40601\",\"seo\":{\"id\":0,\"metaTitle\":\"MetaTitle-a7d-3\",\"metaDescription\":\"MetaDescription-27ead23a-9a87-42bf-a245-422be8b5c765\"}}"
+[2025-03-10 11:10:29] INFO: ✅ [POST] Response from /content-manager/collection-types/api::explain-article.explain-article?locale=en - Status: 200
+[2025-03-10 11:10:29] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/371?locale=uk with params: {} and data: {}
+[2025-03-10 11:10:29] INFO: ✅ [GET] Response from /content-manager/collection-types/api::explain-article.explain-article/371?locale=uk - Status: 200
+[2025-03-10 11:10:29] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/371/actions/publish?locale=en with params: {} and data: {}
+[2025-03-10 11:10:30] INFO: ✅ [POST] Response from /content-manager/collection-types/api::explain-article.explain-article/371/actions/publish?locale=en - Status: 200
+[2025-03-10 11:10:30] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag?locale=en with params: {} and data: "{\"tag\":\"ExplAutoTag-a7d\",\"explanation_articles\":{\"connect\":[{\"id\":\"371\",\"position\":{\"end\":true}}]}}"
+[2025-03-10 11:10:30] INFO: ✅ [POST] Response from /content-manager/collection-types/api::tag.tag?locale=en - Status: 200
+[2025-03-10 11:10:30] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/100?locale=en with params: {} and data: {}
+[2025-03-10 11:10:30] INFO: ✅ [GET] Response from /content-manager/collection-types/api::tag.tag/100?locale=en - Status: 200
+[2025-03-10 11:10:30] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/100/actions/publish?locale=en with params: {} and data: {}
+[2025-03-10 11:10:30] INFO: ✅ [POST] Response from /content-manager/collection-types/api::tag.tag/100/actions/publish?locale=en - Status: 200
+[2025-03-10 11:10:30] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag?locale=en with params: {} and data: "{\"tag\":\"NewsAutoTag-a7d\",\"news\":{\"connect\":[{\"id\":\"533\",\"position\":{\"end\":true}}]}}"
+[2025-03-10 11:10:30] INFO: ✅ [POST] Response from /content-manager/collection-types/api::tag.tag?locale=en - Status: 200
+[2025-03-10 11:10:30] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/101?locale=en with params: {} and data: {}
+[2025-03-10 11:10:30] INFO: ✅ [GET] Response from /content-manager/collection-types/api::tag.tag/101?locale=en - Status: 200
+[2025-03-10 11:10:30] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/101/actions/publish?locale=en with params: {} and data: {}
+[2025-03-10 11:10:30] INFO: ✅ [POST] Response from /content-manager/collection-types/api::tag.tag/101/actions/publish?locale=en - Status: 200
+[2025-03-10 11:10:31] INFO: 🚀 [PUT] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/100?locale=en with params: {} and data: {"tag":"Updated-AutoTag-a7d"}
+[2025-03-10 11:10:31] INFO: ✅ [PUT] Response from /content-manager/collection-types/api::tag.tag/100?locale=en - Status: 200
+[2025-03-10 11:10:34] INFO: Verify that URL includes expected part: https://frontend.mainstaging.testdev.mod.gov.ua/
+[2025-03-10 11:10:40] INFO: Verify that URL includes expected part: /explanation
+[2025-03-10 11:10:40] INFO: Verify that URL includes expected part: /explanation
+[2025-03-10 11:10:40] INFO: Verify that URL includes expected part: /explanation
+[2025-03-10 11:11:01] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/533 with params: {} and data: {}
+[2025-03-10 11:11:01] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/533 - Status: 200
+[2025-03-10 11:11:01] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/371 with params: {} and data: {}
+[2025-03-10 11:11:01] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/371 - Status: 200
+[2025-03-10 11:11:01] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/100 with params: {} and data: {}
+[2025-03-10 11:11:01] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/100 - Status: 200
+[2025-03-10 11:11:01] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/101 with params: {} and data: {}
+[2025-03-10 11:11:02] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/101 - Status: 200
+[2025-03-10 11:11:02] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/upload/files/40601 with params: {} and data: {}
+[2025-03-10 11:11:02] INFO: ✅ [DELETE] Response from /upload/files/40601 - Status: 200
