@@ -1,0 +1,11 @@
+[2025-03-12 09:30:03] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-03-12 09:30:28] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/4524 with params: {} and data: {}
+[2025-03-12 09:30:28] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/4524 - Status: 200
+[2025-03-12 09:30:28] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/3277 with params: {} and data: {}
+[2025-03-12 09:30:28] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/3277 - Status: 200
+[2025-03-12 09:30:28] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/1137 with params: {} and data: {}
+[2025-03-12 09:30:29] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/1137 - Status: 200
+[2025-03-12 09:30:29] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/1138 with params: {} and data: {}
+[2025-03-12 09:30:29] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/1138 - Status: 200
+[2025-03-12 09:30:29] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/7053 with params: {} and data: {}
+[2025-03-12 09:30:29] INFO: ✅ [DELETE] Response from /upload/files/7053 - Status: 200
