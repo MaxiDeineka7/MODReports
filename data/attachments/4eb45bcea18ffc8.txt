@@ -1,0 +1,29 @@
+[2025-03-13 09:27:30] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee?locale=en with params: {} and data: "{\"name\":\"FirstEmployee-97d\",\"position\":\"Senior Test Automation\",\"photo\":\"7239\",\"biography\":\"Some biography\",\"slug\":\"first-best-tester-97d\",\"leaderships\":[\"1741\"],\"seo\":{\"id\":0,\"metaTitle\":\"FirstMetaTitle-97d\",\"metaDescription\":\"FirstMetaDescription-b81f6b01-6205-4a77-937f-230c2b6a4e77\",\"allowIndexing\":true}}"
+[2025-03-13 09:27:30] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee?locale=en - Status: 200
+[2025-03-13 09:27:30] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/2946?locale=uk with params: {} and data: {}
+[2025-03-13 09:27:31] INFO: ✅ [GET] Response from /content-manager/collection-types/api::employee.employee/2946?locale=uk - Status: 200
+[2025-03-13 09:27:31] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/2946/actions/publish?locale=en with params: {} and data: {}
+[2025-03-13 09:27:32] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee/2946/actions/publish?locale=en - Status: 200
+[2025-03-13 09:27:32] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee?locale=en with params: {} and data: "{\"name\":\"SecondEmployee-97d\",\"position\":\"Junior Test Automation\",\"photo\":\"7241\",\"biography\":\"Some biography\",\"slug\":\"second-best-tester-97d\",\"leaderships\":[\"1741\",\"1742\"],\"seo\":{\"id\":0,\"metaTitle\":\"SecondMetaTitle-97d\",\"metaDescription\":\"SecondMetaDescription-4997b313-1651-4d47-8d8f-d1217bda1436\",\"allowIndexing\":true}}"
+[2025-03-13 09:27:32] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee?locale=en - Status: 200
+[2025-03-13 09:27:32] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/2947?locale=uk with params: {} and data: {}
+[2025-03-13 09:27:33] INFO: ✅ [GET] Response from /content-manager/collection-types/api::employee.employee/2947?locale=uk - Status: 200
+[2025-03-13 09:27:33] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/2947/actions/publish?locale=en with params: {} and data: {}
+[2025-03-13 09:27:33] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee/2947/actions/publish?locale=en - Status: 200
+[2025-03-13 09:27:37] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-03-13 09:27:39] INFO: Verify that URL includes expected part: en/about-us/first-leadership-97d
+[2025-03-13 09:27:40] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/1741?locale=en with params: {} and data: {"tab_title":"UpdatedTab-97d","slug":"updated-tab-97d"}
+[2025-03-13 09:27:40] INFO: ✅ [PUT] Response from /content-manager/collection-types/api::leadership.leadership/1741?locale=en - Status: 200
+[2025-03-13 09:27:41] INFO: Verify that URL includes expected part: en/about-us/updated-tab-97d
+[2025-03-13 09:27:44] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/2946 with params: {} and data: {}
+[2025-03-13 09:27:44] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::employee.employee/2946 - Status: 200
+[2025-03-13 09:27:44] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/2947 with params: {} and data: {}
+[2025-03-13 09:27:44] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::employee.employee/2947 - Status: 200
+[2025-03-13 09:27:44] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/1741 with params: {} and data: {}
+[2025-03-13 09:27:45] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::leadership.leadership/1741 - Status: 200
+[2025-03-13 09:27:45] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/1742 with params: {} and data: {}
+[2025-03-13 09:27:45] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::leadership.leadership/1742 - Status: 200
+[2025-03-13 09:27:45] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/7239 with params: {} and data: {}
+[2025-03-13 09:27:45] INFO: ✅ [DELETE] Response from /upload/files/7239 - Status: 200
+[2025-03-13 09:27:45] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/7241 with params: {} and data: {}
+[2025-03-13 09:27:46] INFO: ✅ [DELETE] Response from /upload/files/7241 - Status: 200
