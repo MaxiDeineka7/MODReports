@@ -1,0 +1,5 @@
+[2025-03-18 13:16:12] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=en with params: {} and data: {}
+[2025-03-18 13:16:13] INFO: ✅ [GET] Response from /content-manager/single-types/api::loss.loss?locale=en - Status: 200
+[2025-03-18 13:16:17] INFO: Verify that URL includes expected part: https://frontend.mainstaging.testdev.mod.gov.ua/
+[2025-03-18 13:16:29] INFO: 🚀 [PUT] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=en with params: {} and data: {"id":3,"title":"Umerov","locale":"en","link":null,"losses":[{"id":11,"quantity":2280,"title":"Personnel"},{"id":15,"quantity":8,"title":"Tanks"},{"id":14,"quantity":31,"title":"Combat vehicles"},{"id":13,"quantity":8,"title":"UAVs"},{"id":12,"quantity":10,"title":"Artillery systems"}]}
+[2025-03-18 13:16:30] INFO: ✅ [PUT] Response from /content-manager/single-types/api::loss.loss?locale=en - Status: 200

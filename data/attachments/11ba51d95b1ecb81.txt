@@ -1,0 +1,12 @@
+[2025-03-18 13:14:27] INFO: Verify that URL includes expected part: https://frontend.mainstaging.testdev.mod.gov.ua/
+[2025-03-18 13:14:29] INFO: Verify that URL includes expected part: explain-article-d42-1
+[2025-03-18 13:14:30] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/upload/files/40623 with params: {} and data: {}
+[2025-03-18 13:14:31] INFO: ✅ [DELETE] Response from /upload/files/40623 - Status: 200
+[2025-03-18 13:14:31] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/378 with params: {} and data: {}
+[2025-03-18 13:14:31] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/378 - Status: 200
+[2025-03-18 13:14:31] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/379 with params: {} and data: {}
+[2025-03-18 13:14:31] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/379 - Status: 200
+[2025-03-18 13:14:31] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/380 with params: {} and data: {}
+[2025-03-18 13:14:31] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/380 - Status: 200
+[2025-03-18 13:14:31] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/381 with params: {} and data: {}
+[2025-03-18 13:14:32] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/381 - Status: 200
