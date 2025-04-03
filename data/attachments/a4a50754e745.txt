@@ -1,0 +1,4 @@
+[2025-04-03 14:39:20] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/api/quick-link/?locale=uk&populate=* with params: {} and data: {}
+[2025-04-03 14:39:21] INFO: ✅ [GET] Response from /api/quick-link/?locale=uk&populate=* - Status: 200
+[2025-04-03 14:39:21] INFO: 🚀 [PUT] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/single-types/api::quick-link.quick-link?locale=uk with params: {} and data: {"locale":"uk","link":[{"id":86,"title":"Долучитися до війська","url":"https://army.gov.ua/#fil"},{"id":83,"title":"Електронна черга ТЦК","url":"https://q.mod.gov.ua/registration-place"},{"id":84,"title":"Отримати акредитацію","url":"/otrimati-akreditacziyu-zsu"},{"id":212,"title":"Стати постачальником","url":"https://dotua.org/"}]}
+[2025-04-03 14:39:21] INFO: ✅ [PUT] Response from /content-manager/single-types/api::quick-link.quick-link?locale=uk - Status: 200

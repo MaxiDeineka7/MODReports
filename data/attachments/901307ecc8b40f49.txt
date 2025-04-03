@@ -1,0 +1,34 @@
+[2025-04-03 14:39:10] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category?locale=uk with params: {} and data: "{\"title\":\"FirstCategory-b46\",\"locale\":\"uk\"}"
+[2025-04-03 14:39:10] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance-category.assistance-category?locale=uk - Status: 200
+[2025-04-03 14:39:10] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category/52?locale=uk with params: {} and data: {}
+[2025-04-03 14:39:10] INFO: ✅ [GET] Response from /content-manager/collection-types/api::assistance-category.assistance-category/52?locale=uk - Status: 200
+[2025-04-03 14:39:10] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category/52/actions/publish?locale=uk with params: {} and data: {}
+[2025-04-03 14:39:10] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance-category.assistance-category/52/actions/publish?locale=uk - Status: 200
+[2025-04-03 14:39:10] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category?locale=uk with params: {} and data: "{\"title\":\"SecondCategory-b46\",\"locale\":\"uk\"}"
+[2025-04-03 14:39:10] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance-category.assistance-category?locale=uk - Status: 200
+[2025-04-03 14:39:10] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category/53?locale=uk with params: {} and data: {}
+[2025-04-03 14:39:10] INFO: ✅ [GET] Response from /content-manager/collection-types/api::assistance-category.assistance-category/53?locale=uk - Status: 200
+[2025-04-03 14:39:10] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category/53/actions/publish?locale=uk with params: {} and data: {}
+[2025-04-03 14:39:10] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance-category.assistance-category/53/actions/publish?locale=uk - Status: 200
+[2025-04-03 14:39:10] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance?locale=uk with params: {} and data: "{\"title\":\"FirstService-b46\",\"description\":\"First best service you have ever seen\",\"link\":\"/first-service-b46\",\"assistance_categories\":{\"connect\":[{\"id\":52,\"position\":{\"end\":false}},{\"id\":53,\"position\":{\"end\":true}}]},\"locale\":\"uk\"}"
+[2025-04-03 14:39:10] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance.assistance?locale=uk - Status: 200
+[2025-04-03 14:39:10] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance/64?locale=uk with params: {} and data: {}
+[2025-04-03 14:39:11] INFO: ✅ [GET] Response from /content-manager/collection-types/api::assistance.assistance/64?locale=uk - Status: 200
+[2025-04-03 14:39:11] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance/64/actions/publish?locale=uk with params: {} and data: {}
+[2025-04-03 14:39:11] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance.assistance/64/actions/publish?locale=uk - Status: 200
+[2025-04-03 14:39:11] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance?locale=uk with params: {} and data: "{\"title\":\"SecondService-b46\",\"description\":\"Second best service you have ever seen\",\"link\":\"https://www.google.com/\",\"assistance_categories\":{\"connect\":[{\"id\":52,\"position\":{\"end\":true}}]},\"locale\":\"uk\"}"
+[2025-04-03 14:39:11] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance.assistance?locale=uk - Status: 200
+[2025-04-03 14:39:11] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance/65?locale=uk with params: {} and data: {}
+[2025-04-03 14:39:11] INFO: ✅ [GET] Response from /content-manager/collection-types/api::assistance.assistance/65?locale=uk - Status: 200
+[2025-04-03 14:39:11] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance/65/actions/publish?locale=uk with params: {} and data: {}
+[2025-04-03 14:39:11] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance.assistance/65/actions/publish?locale=uk - Status: 200
+[2025-04-03 14:39:11] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/api/assistance-categories/?locale=uk&populate=* with params: {} and data: {}
+[2025-04-03 14:39:11] INFO: ✅ [GET] Response from /api/assistance-categories/?locale=uk&populate=* - Status: 200
+[2025-04-03 14:39:11] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category/52 with params: {} and data: {}
+[2025-04-03 14:39:11] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::assistance-category.assistance-category/52 - Status: 200
+[2025-04-03 14:39:11] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category/53 with params: {} and data: {}
+[2025-04-03 14:39:11] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::assistance-category.assistance-category/53 - Status: 200
+[2025-04-03 14:39:11] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance/64 with params: {} and data: {}
+[2025-04-03 14:39:11] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::assistance.assistance/64 - Status: 200
+[2025-04-03 14:39:11] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance/65 with params: {} and data: {}
+[2025-04-03 14:39:12] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::assistance.assistance/65 - Status: 200
