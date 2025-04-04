@@ -1,0 +1,4 @@
+[2025-04-04 12:21:35] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=uk with params: {} and data: {}
+[2025-04-04 12:21:35] INFO: ✅ [GET] Response from /content-manager/single-types/api::loss.loss?locale=uk - Status: 200
+[2025-04-04 12:21:35] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=uk with params: {} and data: {"id":2,"title":"Орієнтовні втрати армії РФ за 07.10.2024","locale":"uk","link":null,"losses":[{"id":7,"quantity":565501,"title":"Особовий склад"},{"id":6,"quantity":1977,"title":"Танки"},{"id":8,"quantity":5649,"title":"Бойові машини"},{"id":9,"quantity":1831,"title":"БПЛА"},{"id":10,"quantity":101,"title":"Артилерійські системи"}]}
+[2025-04-04 12:21:36] INFO: ✅ [PUT] Response from /content-manager/single-types/api::loss.loss?locale=uk - Status: 200
