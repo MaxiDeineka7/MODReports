@@ -1,0 +1,4 @@
+[2025-04-07 12:24:17] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/quick-link/?locale=uk&populate=* with params: {} and data: {}
+[2025-04-07 12:24:17] INFO: ✅ [GET] Response from /api/quick-link/?locale=uk&populate=* - Status: 200
+[2025-04-07 12:24:18] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::quick-link.quick-link?locale=uk with params: {} and data: {"locale":"uk","link":[{"id":39,"title":"Долучитися до війська-906","url":"https://www.google.com/"},{"id":40,"title":"Електронна черга ТЦК-906","url":"https://www.google.com/"},{"id":41,"title":"Отримати акредитацію-906","url":"/otrimati-akreditacziyu-zsu"},{"id":42,"title":"Стати постачальником-906","url":"/news"}]}
+[2025-04-07 12:24:18] INFO: ✅ [PUT] Response from /content-manager/single-types/api::quick-link.quick-link?locale=uk - Status: 200
