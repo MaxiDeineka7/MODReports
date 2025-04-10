@@ -1,0 +1,2 @@
+[2025-04-10 09:30:04] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag?locale=en with params: {} and data: "{\"tag\":\"AutoTag-823\",\"locale\":\"en\"}"
+[2025-04-10 09:30:05] ERROR: ❌ [POST] Response Error from /content-manager/collection-types/api::tag.tag?locale=en - Status: 400, Data: {"data":null,"error":{"status":400,"name":"ValidationError","message":"This attribute must be unique","details":{"errors":[{"path":["tag"],"message":"This attribute must be unique","name":"ValidationError"}]}}}
