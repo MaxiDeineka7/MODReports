@@ -1,0 +1,39 @@
+[2025-04-17 09:30:48] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag?locale=en with params: {} and data: "{\"tag\":\"AutoTag-2e6\",\"locale\":\"en\"}"
+[2025-04-17 09:30:48] INFO: ✅ [POST] Response from /content-manager/collection-types/api::tag.tag?locale=en - Status: 200
+[2025-04-17 09:30:48] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/1996?locale=en with params: {} and data: {}
+[2025-04-17 09:30:49] INFO: ✅ [GET] Response from /content-manager/collection-types/api::tag.tag/1996?locale=en - Status: 200
+[2025-04-17 09:30:49] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/1996/actions/publish?locale=en with params: {} and data: {}
+[2025-04-17 09:30:49] INFO: ✅ [POST] Response from /content-manager/collection-types/api::tag.tag/1996/actions/publish?locale=en - Status: 200
+[2025-04-17 09:30:49] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/upload with params: {} and data: {"_overheadLength":261,"_valueLength":36,"_valuesToMeasure":[{"fd":null,"path":"/home/runner/work/mod.gov.ua.automation/mod.gov.ua.automation/test-data/testJpg.jpg","flags":"r","mode":438,"end":null,"bytesRead":0,"_events":{},"_readableState":{"highWaterMark":65536,"buffer":[],"bufferIndex":0,"length":0,"pipes":[],"awaitDrainWriters":null},"_eventsCount":3}],"writable":false,"readable":true,"dataSize":0,"maxDataSize":2097152,"pauseStreams":true,"_released":false,"_streams":["----------------------------121074411807271298569874\r\nContent-Disposition: form-data; name=\"files\"; filename=\"testJpg.jpg\"\r\nContent-Type: image/jpeg\r\n\r\n",{"source":{"fd":null,"path":"/home/runner/work/mod.gov.ua.automation/mod.gov.ua.automation/test-data/testJpg.jpg","flags":"r","mode":438,"end":null,"bytesRead":0,"_events":{},"_readableState":{"highWaterMark":65536,"buffer":[],"bufferIndex":0,"length":0,"pipes":[],"awaitDrainWriters":null},"_eventsCount":3},"dataSize":0,"maxDataSize":null,"pauseStream":true,"_maxDataSizeExceeded":false,"_released":false,"_bufferedEvents":[{"0":"pause"}],"_events":{},"_eventsCount":1},null,"----------------------------121074411807271298569874\r\nContent-Disposition: form-data; name=\"fileInfo\"\r\n\r\n","{\"name\":\"testJpg.jpg\",\"folder\":null}",null],"_currentStream":null,"_insideLoop":false,"_pendingNext":false,"_boundary":"--------------------------121074411807271298569874"}
+[2025-04-17 09:30:51] INFO: ✅ [POST] Response from /upload - Status: 200
+[2025-04-17 09:30:51] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/upload/files/9467?locale=uk with params: {} and data: {}
+[2025-04-17 09:30:52] INFO: ✅ [GET] Response from /upload/files/9467?locale=uk - Status: 200
+[2025-04-17 09:30:52] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post?locale=en with params: {} and data: "{\"title\":\"Test first news 2e6\",\"slug\":\"test-2e6\",\"highlight\":false,\"content\":\"The First news for test\",\"seo\":{\"id\":0,\"metaTitle\":\"Meta title for the First news\",\"metaDescription\":\"Meta description for the First news\",\"allowIndexing\":false},\"tags\":[\"1996\"]}"
+[2025-04-17 09:30:52] INFO: ✅ [POST] Response from /content-manager/collection-types/api::post.post?locale=en - Status: 200
+[2025-04-17 09:30:52] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/6594?locale=en with params: {} and data: {}
+[2025-04-17 09:30:52] INFO: ✅ [GET] Response from /content-manager/collection-types/api::post.post/6594?locale=en - Status: 200
+[2025-04-17 09:30:52] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/6594/actions/publish?locale=en with params: {} and data: {}
+[2025-04-17 09:30:53] INFO: ✅ [POST] Response from /content-manager/collection-types/api::post.post/6594/actions/publish?locale=en - Status: 200
+[2025-04-17 09:30:53] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post?locale=en with params: {} and data: "{\"title\":\"Test first highlighted news\",\"slug\":\"test-highlight-2e6\",\"highlight\":true,\"cover\":[\"9467\"],\"content\":\"The First highlighted news for test\",\"seo\":{\"id\":0,\"metaTitle\":\"Meta title for the First highlighted news\",\"metaDescription\":\"Meta description for the First highlighted news\",\"allowIndexing\":false},\"tags\":[\"1996\"]}"
+[2025-04-17 09:30:53] INFO: ✅ [POST] Response from /content-manager/collection-types/api::post.post?locale=en - Status: 200
+[2025-04-17 09:30:53] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/6595?locale=en with params: {} and data: {}
+[2025-04-17 09:30:53] INFO: ✅ [GET] Response from /content-manager/collection-types/api::post.post/6595?locale=en - Status: 200
+[2025-04-17 09:30:53] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/6595/actions/publish?locale=en with params: {} and data: {}
+[2025-04-17 09:30:54] INFO: ✅ [POST] Response from /content-manager/collection-types/api::post.post/6595/actions/publish?locale=en - Status: 200
+[2025-04-17 09:30:54] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/news/?locale=en&populate=* with params: {} and data: {}
+[2025-04-17 09:30:54] INFO: ✅ [GET] Response from /api/news/?locale=en&populate=* - Status: 200
+[2025-04-17 09:30:54] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/news/?locale=en&populate=*&filters[highlight][$eq]=true&sort=publishedAt:desc with params: {} and data: {}
+[2025-04-17 09:30:54] INFO: ✅ [GET] Response from /api/news/?locale=en&populate=*&filters[highlight][$eq]=true&sort=publishedAt:desc - Status: 200
+[2025-04-17 09:30:54] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/news/?locale=en&populate=*&filters[highlight][$eq]=false&sort=publishedAt:desc with params: {} and data: {}
+[2025-04-17 09:30:55] INFO: ✅ [GET] Response from /api/news/?locale=en&populate=*&filters[highlight][$eq]=false&sort=publishedAt:desc - Status: 200
+[2025-04-17 09:30:55] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/news/?locale=en&populate=*&filters[$or][0][tags][tag][$eq]=AutoTag-2e6&sort=publishedAt:desc with params: {} and data: {}
+[2025-04-17 09:30:55] INFO: ✅ [GET] Response from /api/news/?locale=en&populate=*&filters[$or][0][tags][tag][$eq]=AutoTag-2e6&sort=publishedAt:desc - Status: 200
+[2025-04-17 09:31:01] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-04-17 09:31:09] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/1996 with params: {} and data: {}
+[2025-04-17 09:31:10] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/1996 - Status: 200
+[2025-04-17 09:31:10] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/6594 with params: {} and data: {}
+[2025-04-17 09:31:10] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/6594 - Status: 200
+[2025-04-17 09:31:10] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/6595 with params: {} and data: {}
+[2025-04-17 09:31:11] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/6595 - Status: 200
+[2025-04-17 09:31:11] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/9467 with params: {} and data: {}
+[2025-04-17 09:31:12] INFO: ✅ [DELETE] Response from /upload/files/9467 - Status: 200
