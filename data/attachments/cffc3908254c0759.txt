@@ -1,0 +1,24 @@
+[2025-05-01 09:28:07] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article?locale=en with params: {} and data: "{\"slug\":\"article-b06-1\",\"title\":\"Child Page 1\"}"
+[2025-05-01 09:28:08] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article?locale=en - Status: 200
+[2025-05-01 09:28:08] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/483?locale=en with params: {} and data: {}
+[2025-05-01 09:28:08] INFO: ✅ [GET] Response from /content-manager/collection-types/api::article.article/483?locale=en - Status: 200
+[2025-05-01 09:28:08] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/483/actions/publish?locale=en with params: {} and data: {}
+[2025-05-01 09:28:08] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article/483/actions/publish?locale=en - Status: 200
+[2025-05-01 09:28:08] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article?locale=en with params: {} and data: "{\"slug\":\"article-b06-2\",\"title\":\"Child Page 2\"}"
+[2025-05-01 09:28:08] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article?locale=en - Status: 200
+[2025-05-01 09:28:08] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/484?locale=en with params: {} and data: {}
+[2025-05-01 09:28:08] INFO: ✅ [GET] Response from /content-manager/collection-types/api::article.article/484?locale=en - Status: 200
+[2025-05-01 09:28:08] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/484/actions/publish?locale=en with params: {} and data: {}
+[2025-05-01 09:28:09] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article/484/actions/publish?locale=en - Status: 200
+[2025-05-01 09:28:09] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article?locale=en with params: {} and data: "{\"slug\":\"article-b06-3\",\"title\":\"Main Article Page\",\"children\":{\"connect\":[{\"id\":483,\"position\":{\"end\":true}},{\"id\":484,\"position\":{\"before\":483}}]}}"
+[2025-05-01 09:28:09] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article?locale=en - Status: 200
+[2025-05-01 09:28:09] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/485?locale=en with params: {} and data: {}
+[2025-05-01 09:28:09] INFO: ✅ [GET] Response from /content-manager/collection-types/api::article.article/485?locale=en - Status: 200
+[2025-05-01 09:28:09] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/485/actions/publish?locale=en with params: {} and data: {}
+[2025-05-01 09:28:09] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article/485/actions/publish?locale=en - Status: 200
+[2025-05-01 09:28:10] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/483 with params: {} and data: {}
+[2025-05-01 09:28:10] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::article.article/483 - Status: 200
+[2025-05-01 09:28:10] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/484 with params: {} and data: {}
+[2025-05-01 09:28:10] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::article.article/484 - Status: 200
+[2025-05-01 09:28:10] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/485 with params: {} and data: {}
+[2025-05-01 09:28:11] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::article.article/485 - Status: 200
