@@ -1,0 +1,13 @@
+[2025-05-05 09:40:21] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-05-05 09:40:26] INFO: Verify that URL includes expected part: explain-article-2e8-1
+[2025-05-05 09:40:27] INFO: Verify that URL includes expected part: /en/about-us/rustem-umerov
+[2025-05-05 09:40:34] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/10262 with params: {} and data: {}
+[2025-05-05 09:40:34] INFO: ✅ [DELETE] Response from /upload/files/10262 - Status: 200
+[2025-05-05 09:40:34] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/5308 with params: {} and data: {}
+[2025-05-05 09:40:35] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/5308 - Status: 200
+[2025-05-05 09:40:35] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/5309 with params: {} and data: {}
+[2025-05-05 09:40:35] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/5309 - Status: 200
+[2025-05-05 09:40:35] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/5310 with params: {} and data: {}
+[2025-05-05 09:40:35] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/5310 - Status: 200
+[2025-05-05 09:40:35] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/5311 with params: {} and data: {}
+[2025-05-05 09:40:35] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/5311 - Status: 200
