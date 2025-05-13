@@ -1,0 +1,7 @@
+[2025-05-13 09:35:20] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-05-13 09:35:30] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/941 with params: {} and data: {}
+[2025-05-13 09:35:30] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/941 - Status: 200
+[2025-05-13 09:35:30] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/878 with params: {} and data: {}
+[2025-05-13 09:35:31] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/878 - Status: 200
+[2025-05-13 09:35:31] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-type.document-tag-type/875 with params: {} and data: {}
+[2025-05-13 09:35:31] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-type.document-tag-type/875 - Status: 200
