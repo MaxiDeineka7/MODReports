@@ -1,0 +1,5 @@
+[2025-05-14 09:23:57] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-05-14 09:24:02] INFO: Verify that URL includes expected part: tag-activity-ee6-1
+[2025-05-14 09:24:03] INFO: Verify that URL includes expected part: tag-type-ee6-2
+[2025-05-14 09:24:04] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/documents/?locale=uk&populate=*&filters[$or][0][document_tags_diyalnist][tag][$eq]=tag-activity-ee6-1-1&filters[$or][0][document_tags_type][tag][$eq]=tag-type-ee6-2-2 with params: {} and data: {}
+[2025-05-14 09:24:04] INFO: ✅ [GET] Response from /api/documents/?locale=uk&populate=*&filters[$or][0][document_tags_diyalnist][tag][$eq]=tag-activity-ee6-1-1&filters[$or][0][document_tags_type][tag][$eq]=tag-type-ee6-2-2 - Status: 200
