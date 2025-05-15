@@ -1,0 +1,13 @@
+[2025-05-15 09:24:29] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-05-15 09:24:31] INFO: Verify that URL includes expected part: explain-article-b15-1
+[2025-05-15 09:24:32] INFO: Verify that URL includes expected part: /sili-pidtrimki-zbrojnih-sil-ukrayini
+[2025-05-15 09:24:37] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/10881 with params: {} and data: {}
+[2025-05-15 09:24:38] INFO: ✅ [DELETE] Response from /upload/files/10881 - Status: 200
+[2025-05-15 09:24:38] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/5688 with params: {} and data: {}
+[2025-05-15 09:24:38] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/5688 - Status: 200
+[2025-05-15 09:24:38] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/5689 with params: {} and data: {}
+[2025-05-15 09:24:39] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/5689 - Status: 200
+[2025-05-15 09:24:39] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/5690 with params: {} and data: {}
+[2025-05-15 09:24:39] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/5690 - Status: 200
+[2025-05-15 09:24:39] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/5691 with params: {} and data: {}
+[2025-05-15 09:24:39] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/5691 - Status: 200
