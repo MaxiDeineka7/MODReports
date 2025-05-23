@@ -1,0 +1,5 @@
+[2025-05-23 09:38:11] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-05-23 09:38:14] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::media-link.media-link?locale=en with params: {} and data: {"locale":"en","link":[{"id":2228,"title":"АрміяFM","url":"https://www.armyfm.com.ua/"},{"title":"First new link-92c","url":"/news"},{"title":"Second new link-92c","url":"https://www.google.com/"}]}
+[2025-05-23 09:38:15] INFO: ✅ [PUT] Response from /content-manager/single-types/api::media-link.media-link?locale=en - Status: 200
+[2025-05-23 09:38:19] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::media-link.media-link?locale=en with params: {} and data: {"id":3,"locale":"en","link":[{"id":2228,"title":"АрміяFM","url":"https://www.armyfm.com.ua/"}]}
+[2025-05-23 09:38:19] INFO: ✅ [PUT] Response from /content-manager/single-types/api::media-link.media-link?locale=en - Status: 200
