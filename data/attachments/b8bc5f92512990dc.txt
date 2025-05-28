@@ -1,0 +1,14 @@
+[2025-05-28 09:23:23] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-05-28 09:23:27] INFO: Verify that URL includes expected part: tag-activity-50b-1
+[2025-05-28 09:23:42] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/diyalnist/normativno-pravova-baza does not contain expected part: tag-activity-50b-1. Error: page.waitForURL: Timeout 15000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "domcontentloaded"
+============================================================
+[2025-05-28 09:23:42] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/1236 with params: {} and data: {}
+[2025-05-28 09:23:42] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/1236 - Status: 200
+[2025-05-28 09:23:42] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/1237 with params: {} and data: {}
+[2025-05-28 09:23:42] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/1237 - Status: 200
+[2025-05-28 09:23:42] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/1032 with params: {} and data: {}
+[2025-05-28 09:23:43] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/1032 - Status: 200
+[2025-05-28 09:23:43] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-type.document-tag-type/1029 with params: {} and data: {}
+[2025-05-28 09:23:43] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-type.document-tag-type/1029 - Status: 200
