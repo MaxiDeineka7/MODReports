@@ -1,0 +1,9 @@
+[2025-05-29 09:26:50] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-05-29 09:26:52] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/loss/?locale=uk&populate=* with params: {} and data: {}
+[2025-05-29 09:26:52] INFO: ✅ [GET] Response from /api/loss/?locale=uk&populate=* - Status: 200
+[2025-05-29 09:26:53] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=uk with params: {} and data: {"title":"Орієнтовні втрати армії РФ за 07.10.2024","losses":[{"id":7,"quantity":"814074","title":"Особовий склад"},{"id":6,"quantity":"1142","title":"Танки"},{"id":8,"quantity":"4317","title":"Бойові машини"},{"id":9,"quantity":"6181","title":"БПЛА"},{"id":10,"quantity":"793","title":"Артилерійські системи"}]}
+[2025-05-29 09:26:53] INFO: ✅ [PUT] Response from /content-manager/single-types/api::loss.loss?locale=uk - Status: 200
+[2025-05-29 09:26:53] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/loss/?locale=uk&populate=* with params: {} and data: {}
+[2025-05-29 09:26:53] INFO: ✅ [GET] Response from /api/loss/?locale=uk&populate=* - Status: 200
+[2025-05-29 09:26:54] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=uk with params: {} and data: {"id":2,"title":"Орієнтовні втрати армії РФ за 07.10.2024","locale":"uk","link":null,"losses":[{"id":7,"title":"Особовий склад","quantity":565501},{"id":6,"title":"Танки","quantity":1977},{"id":8,"title":"Бойові машини","quantity":5649},{"id":9,"title":"БПЛА","quantity":1831},{"id":10,"title":"Артилерійські системи","quantity":101}]}
+[2025-05-29 09:26:55] INFO: ✅ [PUT] Response from /content-manager/single-types/api::loss.loss?locale=uk - Status: 200
