@@ -1,0 +1,27 @@
+[2025-06-04 09:40:28] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category?locale=en with params: {} and data: "{\"title\":\"FirstCategory-8fd\",\"locale\":\"en\"}"
+[2025-06-04 09:40:28] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance-category.assistance-category?locale=en - Status: 200
+[2025-06-04 09:40:28] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category/2593?locale=en with params: {} and data: {}
+[2025-06-04 09:40:29] INFO: ✅ [GET] Response from /content-manager/collection-types/api::assistance-category.assistance-category/2593?locale=en - Status: 200
+[2025-06-04 09:40:29] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category/2593/actions/publish?locale=en with params: {} and data: {}
+[2025-06-04 09:40:29] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance-category.assistance-category/2593/actions/publish?locale=en - Status: 200
+[2025-06-04 09:40:29] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category?locale=en with params: {} and data: "{\"title\":\"SecondCategory-8fd\",\"locale\":\"en\"}"
+[2025-06-04 09:40:29] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance-category.assistance-category?locale=en - Status: 200
+[2025-06-04 09:40:29] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category/2594?locale=en with params: {} and data: {}
+[2025-06-04 09:40:30] INFO: ✅ [GET] Response from /content-manager/collection-types/api::assistance-category.assistance-category/2594?locale=en - Status: 200
+[2025-06-04 09:40:30] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category/2594/actions/publish?locale=en with params: {} and data: {}
+[2025-06-04 09:40:31] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance-category.assistance-category/2594/actions/publish?locale=en - Status: 200
+[2025-06-04 09:40:31] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance?locale=en with params: {} and data: "{\"title\":\"FirstService-8fd\",\"description\":\"First best service you have ever seen\",\"link\":\"/first-service-8fd\",\"assistance_categories\":{\"connect\":[{\"id\":2593,\"position\":{\"end\":false}},{\"id\":2594,\"position\":{\"end\":true}}]},\"locale\":\"en\"}"
+[2025-06-04 09:40:31] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance.assistance?locale=en - Status: 200
+[2025-06-04 09:40:31] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance/2487?locale=en with params: {} and data: {}
+[2025-06-04 09:40:31] INFO: ✅ [GET] Response from /content-manager/collection-types/api::assistance.assistance/2487?locale=en - Status: 200
+[2025-06-04 09:40:31] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance/2487/actions/publish?locale=en with params: {} and data: {}
+[2025-06-04 09:40:32] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance.assistance/2487/actions/publish?locale=en - Status: 200
+[2025-06-04 09:40:32] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance?locale=en with params: {} and data: "{\"title\":\"SecondService-8fd\",\"description\":\"Second best service you have ever seen\",\"link\":\"https://www.google.com/\",\"assistance_categories\":{\"connect\":[{\"id\":2593,\"position\":{\"end\":true}}]},\"locale\":\"en\"}"
+[2025-06-04 09:40:33] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance.assistance?locale=en - Status: 200
+[2025-06-04 09:40:33] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance/2488?locale=en with params: {} and data: {}
+[2025-06-04 09:40:35] INFO: ✅ [GET] Response from /content-manager/collection-types/api::assistance.assistance/2488?locale=en - Status: 200
+[2025-06-04 09:40:35] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::assistance.assistance/2488/actions/publish?locale=en with params: {} and data: {}
+[2025-06-04 09:40:35] INFO: ✅ [POST] Response from /content-manager/collection-types/api::assistance.assistance/2488/actions/publish?locale=en - Status: 200
+[2025-06-04 09:40:35] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/assistance-categories/?locale=en&populate=* with params: {} and data: {}
+[2025-06-04 09:40:35] INFO: ✅ [GET] Response from /api/assistance-categories/?locale=en&populate=* - Status: 200
+[2025-06-04 09:40:40] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
