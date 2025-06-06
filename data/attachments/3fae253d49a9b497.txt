@@ -1,0 +1,2 @@
+[2025-06-06 09:28:42] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::media-link.media-link?locale=uk with params: {} and data: {}
+[2025-06-06 09:28:43] ERROR: ❌ [GET] Response Error from /content-manager/single-types/api::media-link.media-link?locale=uk - Status: 404, Data: {"data":null,"error":{"status":404,"name":"NotFoundError","message":"Not Found","details":{}}}
