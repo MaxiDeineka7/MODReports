@@ -1,0 +1,11 @@
+[2025-06-09 09:36:21] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=uk with params: {} and data: {}
+[2025-06-09 09:36:21] INFO: ✅ [GET] Response from /content-manager/single-types/api::loss.loss?locale=uk - Status: 200
+[2025-06-09 09:36:25] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-06-09 09:36:27] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/loss/?locale=uk&populate=* with params: {} and data: {}
+[2025-06-09 09:36:27] INFO: ✅ [GET] Response from /api/loss/?locale=uk&populate=* - Status: 200
+[2025-06-09 09:36:28] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=uk with params: {} and data: {"title":"Орієнтовні втрати армії РФ за 07.10.2024","losses":[{"id":7,"quantity":"938123","title":"Особовий склад"},{"id":6,"quantity":"6309","title":"Танки"},{"id":8,"quantity":"2180","title":"Бойові машини"},{"id":9,"quantity":"6678","title":"БПЛА"},{"id":10,"quantity":"858","title":"Артилерійські системи"}]}
+[2025-06-09 09:36:28] INFO: ✅ [PUT] Response from /content-manager/single-types/api::loss.loss?locale=uk - Status: 200
+[2025-06-09 09:36:28] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/loss/?locale=uk&populate=* with params: {} and data: {}
+[2025-06-09 09:36:29] INFO: ✅ [GET] Response from /api/loss/?locale=uk&populate=* - Status: 200
+[2025-06-09 09:36:30] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=uk with params: {} and data: {"id":2,"title":"Орієнтовні втрати армії РФ за 07.10.2024","locale":"uk","link":null,"losses":[{"id":7,"title":"Особовий склад","quantity":565501},{"id":6,"title":"Танки","quantity":1977},{"id":8,"title":"Бойові машини","quantity":5649},{"id":9,"title":"БПЛА","quantity":1831},{"id":10,"title":"Артилерійські системи","quantity":101}]}
+[2025-06-09 09:36:30] INFO: ✅ [PUT] Response from /content-manager/single-types/api::loss.loss?locale=uk - Status: 200
