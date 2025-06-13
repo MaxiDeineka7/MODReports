@@ -1,0 +1,25 @@
+[2025-06-13 10:21:50] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::article.article?locale=uk with params: {} and data: "{\"slug\":\"article-f0f-1\",\"title\":\"Child Page 1\"}"
+[2025-06-13 10:21:51] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article?locale=uk - Status: 200
+[2025-06-13 10:21:51] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/245?locale=uk with params: {} and data: {}
+[2025-06-13 10:21:51] INFO: ✅ [GET] Response from /content-manager/collection-types/api::article.article/245?locale=uk - Status: 200
+[2025-06-13 10:21:51] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/245/actions/publish?locale=uk with params: {} and data: {}
+[2025-06-13 10:21:52] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article/245/actions/publish?locale=uk - Status: 200
+[2025-06-13 10:21:52] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::article.article?locale=uk with params: {} and data: "{\"slug\":\"article-f0f-2\",\"title\":\"Child Page 2\"}"
+[2025-06-13 10:21:52] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article?locale=uk - Status: 200
+[2025-06-13 10:21:52] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/246?locale=uk with params: {} and data: {}
+[2025-06-13 10:21:52] INFO: ✅ [GET] Response from /content-manager/collection-types/api::article.article/246?locale=uk - Status: 200
+[2025-06-13 10:21:52] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/246/actions/publish?locale=uk with params: {} and data: {}
+[2025-06-13 10:21:52] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article/246/actions/publish?locale=uk - Status: 200
+[2025-06-13 10:21:52] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::article.article?locale=uk with params: {} and data: "{\"slug\":\"article-f0f-3\",\"title\":\"Main Article Page\",\"children\":{\"connect\":[{\"id\":245,\"position\":{\"end\":true}},{\"id\":246,\"position\":{\"before\":245}}]}}"
+[2025-06-13 10:21:53] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article?locale=uk - Status: 200
+[2025-06-13 10:21:53] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/247?locale=uk with params: {} and data: {}
+[2025-06-13 10:21:53] INFO: ✅ [GET] Response from /content-manager/collection-types/api::article.article/247?locale=uk - Status: 200
+[2025-06-13 10:21:53] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/247/actions/publish?locale=uk with params: {} and data: {}
+[2025-06-13 10:21:53] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article/247/actions/publish?locale=uk - Status: 200
+[2025-06-13 10:22:06] INFO: Verify that URL includes expected part: https://frontend.mainstaging.testdev.mod.gov.ua/
+[2025-06-13 10:22:17] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/245 with params: {} and data: {}
+[2025-06-13 10:22:17] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::article.article/245 - Status: 200
+[2025-06-13 10:22:17] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/246 with params: {} and data: {}
+[2025-06-13 10:22:18] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::article.article/246 - Status: 200
+[2025-06-13 10:22:18] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/247 with params: {} and data: {}
+[2025-06-13 10:22:18] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::article.article/247 - Status: 200

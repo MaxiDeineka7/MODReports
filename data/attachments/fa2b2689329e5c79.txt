@@ -1,0 +1,13 @@
+[2025-06-13 10:22:33] INFO: Verify that URL includes expected part: https://frontend.mainstaging.testdev.mod.gov.ua/
+[2025-06-13 10:22:41] INFO: Verify that URL includes expected part: tag-activity-825-1
+[2025-06-13 10:22:43] INFO: Verify that URL includes expected part: tag-type-825-2
+[2025-06-13 10:22:43] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/api/documents/?locale=uk&populate=*&filters[$or][0][document_tags_diyalnist][tag][$eq]=tag-activity-825-1-1&filters[$or][0][document_tags_type][tag][$eq]=tag-type-825-2-2 with params: {} and data: {}
+[2025-06-13 10:22:44] INFO: ✅ [GET] Response from /api/documents/?locale=uk&populate=*&filters[$or][0][document_tags_diyalnist][tag][$eq]=tag-activity-825-1-1&filters[$or][0][document_tags_type][tag][$eq]=tag-type-825-2-2 - Status: 200
+[2025-06-13 10:22:44] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/95 with params: {} and data: {}
+[2025-06-13 10:22:45] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/95 - Status: 200
+[2025-06-13 10:22:45] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/96 with params: {} and data: {}
+[2025-06-13 10:22:45] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/96 - Status: 200
+[2025-06-13 10:22:45] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/94 with params: {} and data: {}
+[2025-06-13 10:22:45] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/94 - Status: 200
+[2025-06-13 10:22:45] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-type.document-tag-type/98 with params: {} and data: {}
+[2025-06-13 10:22:45] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-type.document-tag-type/98 - Status: 200
