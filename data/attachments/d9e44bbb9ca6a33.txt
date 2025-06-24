@@ -1,7 +1,0 @@
-[2025-06-23 09:29:43] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::media-link.media-link?locale=uk with params: {} and data: {}
-[2025-06-23 09:29:44] INFO: ✅ [GET] Response from /content-manager/single-types/api::media-link.media-link?locale=uk - Status: 200
-[2025-06-23 09:29:48] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
-[2025-06-23 09:29:51] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::media-link.media-link?locale=uk with params: {} and data: {"locale":"uk","link":[{"title":"First new link-52c","url":"/news"},{"title":"Second new link-52c","url":"https://www.google.com/"}]}
-[2025-06-23 09:29:52] INFO: ✅ [PUT] Response from /content-manager/single-types/api::media-link.media-link?locale=uk - Status: 200
-[2025-06-23 09:30:05] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::media-link.media-link?locale=uk with params: {} and data: {"id":9,"locale":"uk","link":[]}
-[2025-06-23 09:30:06] INFO: ✅ [PUT] Response from /content-manager/single-types/api::media-link.media-link?locale=uk - Status: 200
