@@ -1,0 +1,15 @@
+[2025-07-01 09:27:32] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-07-01 09:27:34] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/single-types-seo/?locale=uk&populate=* with params: {} and data: {}
+[2025-07-01 09:27:34] INFO: ✅ [GET] Response from /api/single-types-seo/?locale=uk&populate=* - Status: 200
+[2025-07-01 09:27:35] INFO: Verify that URL includes expected part: tag-activity-85b-1
+[2025-07-01 09:27:35] INFO: Verify that URL includes expected part: tag-type-85b-2
+[2025-07-01 09:27:36] INFO: Verify that URL includes expected part: tag-activity-85b-1
+[2025-07-01 09:27:37] INFO: Verify that URL includes expected part: tag-type-85b-2
+[2025-07-01 09:27:39] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/1688 with params: {} and data: {}
+[2025-07-01 09:27:39] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/1688 - Status: 200
+[2025-07-01 09:27:39] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/1689 with params: {} and data: {}
+[2025-07-01 09:27:40] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/1689 - Status: 200
+[2025-07-01 09:27:40] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/1268 with params: {} and data: {}
+[2025-07-01 09:27:40] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/1268 - Status: 200
+[2025-07-01 09:27:40] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-type.document-tag-type/1257 with params: {} and data: {}
+[2025-07-01 09:27:41] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-type.document-tag-type/1257 - Status: 200
