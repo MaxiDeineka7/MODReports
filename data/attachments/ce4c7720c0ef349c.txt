@@ -1,0 +1,13 @@
+[2025-07-03 09:24:26] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-07-03 09:24:29] INFO: Verify that URL includes expected part: tag-activity-7bf-1
+[2025-07-03 09:24:30] INFO: Verify that URL includes expected part: tag-type-7bf-2
+[2025-07-03 09:24:30] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/documents/?locale=uk&populate=*&filters[$or][0][document_tags_diyalnist][tag][$eq]=tag-activity-7bf-1-1&filters[$or][0][document_tags_type][tag][$eq]=tag-type-7bf-2-2 with params: {} and data: {}
+[2025-07-03 09:24:31] INFO: ✅ [GET] Response from /api/documents/?locale=uk&populate=*&filters[$or][0][document_tags_diyalnist][tag][$eq]=tag-activity-7bf-1-1&filters[$or][0][document_tags_type][tag][$eq]=tag-type-7bf-2-2 - Status: 200
+[2025-07-03 09:24:31] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/1696 with params: {} and data: {}
+[2025-07-03 09:24:31] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/1696 - Status: 200
+[2025-07-03 09:24:31] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/1697 with params: {} and data: {}
+[2025-07-03 09:24:31] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/1697 - Status: 200
+[2025-07-03 09:24:31] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/1272 with params: {} and data: {}
+[2025-07-03 09:24:31] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/1272 - Status: 200
+[2025-07-03 09:24:31] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-type.document-tag-type/1261 with params: {} and data: {}
+[2025-07-03 09:24:32] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-type.document-tag-type/1261 - Status: 200
