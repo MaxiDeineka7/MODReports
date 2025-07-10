@@ -1,8 +1,0 @@
-[2025-07-09 09:44:58] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag?locale=en with params: {} and data: "{\"tag\":\"AutoTag-eef\",\"locale\":\"en\"}"
-[2025-07-09 09:44:58] INFO: ✅ [POST] Response from /content-manager/collection-types/api::tag.tag?locale=en - Status: 200
-[2025-07-09 09:44:58] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/2662?locale=en with params: {} and data: {}
-[2025-07-09 09:44:58] INFO: ✅ [GET] Response from /content-manager/collection-types/api::tag.tag/2662?locale=en - Status: 200
-[2025-07-09 09:44:58] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/2662/actions/publish?locale=en with params: {} and data: {}
-[2025-07-09 09:44:58] ERROR: ❌ [POST] Response Error from /content-manager/collection-types/api::tag.tag/2662/actions/publish?locale=en - Status: 400, Data: {"data":null,"error":{"status":400,"name":"ValidationError","message":"3 errors occurred","details":{"errors":[{"path":["news_seo"],"message":"news_seo must be a `object` type, but the final value was: `null`.","name":"ValidationError"},{"path":["news_title"],"message":"news_title must be a `string` type, but the final value was: `null`.","name":"ValidationError"},{"path":["slug"],"message":"slug must be a `string` type, but the final value was: `null`.","name":"ValidationError"}]}}}
-[2025-07-09 09:44:58] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/2662 with params: {} and data: {}
-[2025-07-09 09:44:59] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/2662 - Status: 200
