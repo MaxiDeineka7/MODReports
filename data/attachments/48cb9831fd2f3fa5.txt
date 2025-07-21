@@ -1,0 +1,10 @@
+[2025-07-21 09:32:24] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-07-21 09:32:28] INFO: Verify that URL includes expected part: tag-activity-f97-1
+[2025-07-21 09:32:50] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/2007 with params: {} and data: {}
+[2025-07-21 09:32:51] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/2007 - Status: 200
+[2025-07-21 09:32:51] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/2008 with params: {} and data: {}
+[2025-07-21 09:32:51] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/2008 - Status: 200
+[2025-07-21 09:32:51] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/1412 with params: {} and data: {}
+[2025-07-21 09:32:51] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/1412 - Status: 200
+[2025-07-21 09:32:51] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-type.document-tag-type/1401 with params: {} and data: {}
+[2025-07-21 09:32:51] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-type.document-tag-type/1401 - Status: 200
