@@ -1,5 +1,0 @@
-[2025-08-01 06:33:26] INFO: Verify that URL includes expected part: https://frontend.mainstaging.testdev.mod.gov.ua/
-[2025-08-01 06:33:29] INFO: Verify that URL includes expected part: tag-activity-d93-1
-[2025-08-01 06:33:29] INFO: Verify that URL includes expected part: tag-type-d93-2
-[2025-08-01 06:33:29] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/api/documents/?locale=uk&populate=*&filters[$or][0][document_tags_diyalnist][tag][$eq]=tag-activity-d93-1-1&filters[$or][0][document_tags_type][tag][$eq]=tag-type-d93-2-2&sort=acceptance_date:desc with params: {} and data: {}
-[2025-08-01 06:33:30] INFO: ✅ [GET] Response from /api/documents/?locale=uk&populate=*&filters[$or][0][document_tags_diyalnist][tag][$eq]=tag-activity-d93-1-1&filters[$or][0][document_tags_type][tag][$eq]=tag-type-d93-2-2&sort=acceptance_date:desc - Status: 200
