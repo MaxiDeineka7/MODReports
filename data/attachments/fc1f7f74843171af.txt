@@ -1,0 +1,25 @@
+[2025-08-07 09:40:17] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article?locale=uk with params: {} and data: "{\"slug\":\"article-2b8-1\",\"title\":\"Child Page 1\"}"
+[2025-08-07 09:40:18] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article?locale=uk - Status: 200
+[2025-08-07 09:40:18] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/1495?locale=uk with params: {} and data: {}
+[2025-08-07 09:40:19] INFO: ✅ [GET] Response from /content-manager/collection-types/api::article.article/1495?locale=uk - Status: 200
+[2025-08-07 09:40:19] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/1495/actions/publish?locale=uk with params: {} and data: {}
+[2025-08-07 09:40:19] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article/1495/actions/publish?locale=uk - Status: 200
+[2025-08-07 09:40:19] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article?locale=uk with params: {} and data: "{\"slug\":\"article-2b8-2\",\"title\":\"Child Page 2\"}"
+[2025-08-07 09:40:20] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article?locale=uk - Status: 200
+[2025-08-07 09:40:20] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/1496?locale=uk with params: {} and data: {}
+[2025-08-07 09:40:20] INFO: ✅ [GET] Response from /content-manager/collection-types/api::article.article/1496?locale=uk - Status: 200
+[2025-08-07 09:40:20] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/1496/actions/publish?locale=uk with params: {} and data: {}
+[2025-08-07 09:40:21] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article/1496/actions/publish?locale=uk - Status: 200
+[2025-08-07 09:40:21] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article?locale=uk with params: {} and data: "{\"slug\":\"article-2b8-3\",\"title\":\"Main Article Page\",\"children\":{\"connect\":[{\"id\":1495,\"position\":{\"end\":true}},{\"id\":1496,\"position\":{\"before\":1495}}]}}"
+[2025-08-07 09:40:22] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article?locale=uk - Status: 200
+[2025-08-07 09:40:22] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/1497?locale=uk with params: {} and data: {}
+[2025-08-07 09:40:23] INFO: ✅ [GET] Response from /content-manager/collection-types/api::article.article/1497?locale=uk - Status: 200
+[2025-08-07 09:40:23] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/1497/actions/publish?locale=uk with params: {} and data: {}
+[2025-08-07 09:40:23] INFO: ✅ [POST] Response from /content-manager/collection-types/api::article.article/1497/actions/publish?locale=uk - Status: 200
+[2025-08-07 09:40:28] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-08-07 09:40:39] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/1495 with params: {} and data: {}
+[2025-08-07 09:40:39] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::article.article/1495 - Status: 200
+[2025-08-07 09:40:39] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/1496 with params: {} and data: {}
+[2025-08-07 09:40:39] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::article.article/1496 - Status: 200
+[2025-08-07 09:40:39] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article/1497 with params: {} and data: {}
+[2025-08-07 09:40:39] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::article.article/1497 - Status: 200
