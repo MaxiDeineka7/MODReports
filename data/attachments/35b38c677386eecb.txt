@@ -1,0 +1,17 @@
+[2025-08-14 09:35:21] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-08-14 09:35:23] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/single-types-seo/?locale=en&populate=* with params: {} and data: {}
+[2025-08-14 09:35:23] INFO: ✅ [GET] Response from /api/single-types-seo/?locale=en&populate=* - Status: 200
+[2025-08-14 09:35:24] INFO: Verify that URL includes expected part: auto-tag-fea-1
+[2025-08-14 09:35:25] INFO: Verify that URL includes expected part: auto-tag-fea-2
+[2025-08-14 09:35:26] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/3709 with params: {} and data: {}
+[2025-08-14 09:35:26] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/3709 - Status: 200
+[2025-08-14 09:35:26] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/3710 with params: {} and data: {}
+[2025-08-14 09:35:27] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/3710 - Status: 200
+[2025-08-14 09:35:27] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/9967 with params: {} and data: {}
+[2025-08-14 09:35:27] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/9967 - Status: 200
+[2025-08-14 09:35:27] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/9968 with params: {} and data: {}
+[2025-08-14 09:35:27] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/9968 - Status: 200
+[2025-08-14 09:35:27] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/9969 with params: {} and data: {}
+[2025-08-14 09:35:27] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/9969 - Status: 200
+[2025-08-14 09:35:27] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/15119 with params: {} and data: {}
+[2025-08-14 09:35:28] INFO: ✅ [DELETE] Response from /upload/files/15119 - Status: 200
