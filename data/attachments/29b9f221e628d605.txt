@@ -1,7 +1,0 @@
-[2025-08-21 09:45:43] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::social-network.social-network?locale=en with params: {} and data: "{\"name\":\"x\",\"url\":\"https://x.com\"}"
-[2025-08-21 09:45:43] INFO: ✅ [POST] Response from /content-manager/collection-types/api::social-network.social-network?locale=en - Status: 200
-[2025-08-21 09:45:43] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::social-network.social-network/358?locale=en with params: {} and data: {}
-[2025-08-21 09:45:43] INFO: ✅ [GET] Response from /content-manager/collection-types/api::social-network.social-network/358?locale=en - Status: 200
-[2025-08-21 09:45:45] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
-[2025-08-21 09:45:52] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::social-network.social-network/358 with params: {} and data: {}
-[2025-08-21 09:45:53] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::social-network.social-network/358 - Status: 200
