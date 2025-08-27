@@ -1,0 +1,2 @@
+[2025-08-27 09:35:37] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::article.article?locale=en with params: {} and data: "{\"slug\":\"article-08a-1\",\"title\":\"Child Page 1\"}"
+[2025-08-27 09:35:37] ERROR: ❌ [POST] Response Error from /content-manager/collection-types/api::article.article?locale=en - Status: 502, Data: "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
