@@ -1,0 +1,11 @@
+[2025-09-03 09:43:40] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::quick-link.quick-link?locale=uk with params: {} and data: {}
+[2025-09-03 09:43:40] INFO: ✅ [GET] Response from /content-manager/single-types/api::quick-link.quick-link?locale=uk - Status: 200
+[2025-09-03 09:43:46] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-09-03 09:44:08] INFO: Verify that URL includes expected part: /otrimati-akreditacziyu-zsu
+[2025-09-03 09:44:10] INFO: Verify that URL includes expected part: /news
+[2025-09-03 09:44:11] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/ does not contain expected part: /news. Error: page.waitForURL: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "domcontentloaded"
+============================================================
+[2025-09-03 09:44:11] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::quick-link.quick-link?locale=uk with params: {} and data: {"id":1,"locale":"uk","link":[{"id":39,"title":"Долучитися до війська-906","url":"https://www.google.com/"},{"id":40,"title":"Електронна черга ТЦК-906","url":"https://www.google.com/"},{"id":41,"title":"Отримати акредитацію-906","url":"/otrimati-akreditacziyu-zsu"},{"id":1952,"title":"Стати постачальником-906","url":"/news"}]}
+[2025-09-03 09:44:12] INFO: ✅ [PUT] Response from /content-manager/single-types/api::quick-link.quick-link?locale=uk - Status: 200
