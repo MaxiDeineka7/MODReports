@@ -1,4 +1,0 @@
-[2025-09-09 09:27:04] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/footer/?locale=uk&populate[sections][populate]=* with params: {} and data: {}
-[2025-09-09 09:27:15] ERROR: ❌ [GET] Response Error from /api/footer/?locale=uk&populate[sections][populate]=* - Status: 504, Data: "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"
-[2025-09-09 09:27:15] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::footer.footer/?locale=uk with params: {} and data: {}
-[2025-09-09 09:27:25] ERROR: ❌ [PUT] Response Error from /content-manager/single-types/api::footer.footer/?locale=uk - Status: 504, Data: "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"
