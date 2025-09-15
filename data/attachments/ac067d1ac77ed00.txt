@@ -1,0 +1,15 @@
+[2025-09-15 09:43:43] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::innovative-project.innovative-project?locale=uk with params: {} and data: "{\"title\":\"NewProject-f3a\",\"subtitle\":\"Цей проект створений автоматизовано в тестувальницьких цілях.\",\"image\":\"17021\",\"link\":\"https://www.google.com/\",\"order\":0}"
+[2025-09-15 09:43:43] INFO: ✅ [POST] Response from /content-manager/collection-types/api::innovative-project.innovative-project?locale=uk - Status: 200
+[2025-09-15 09:43:43] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::innovative-project.innovative-project/2626?locale=uk with params: {} and data: {}
+[2025-09-15 09:43:43] INFO: ✅ [GET] Response from /content-manager/collection-types/api::innovative-project.innovative-project/2626?locale=uk - Status: 200
+[2025-09-15 09:43:43] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::innovative-project.innovative-project/2626/actions/publish?locale=uk with params: {} and data: {}
+[2025-09-15 09:43:44] INFO: ✅ [POST] Response from /content-manager/collection-types/api::innovative-project.innovative-project/2626/actions/publish?locale=uk - Status: 200
+[2025-09-15 09:43:46] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-09-15 09:43:57] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::innovative-project.innovative-project/2626?locale=uk with params: {} and data: {}
+[2025-09-15 09:43:58] INFO: ✅ [GET] Response from /content-manager/collection-types/api::innovative-project.innovative-project/2626?locale=uk - Status: 200
+[2025-09-15 09:43:58] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::innovative-project.innovative-project/2626 with params: {} and data: {}
+[2025-09-15 09:43:58] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::innovative-project.innovative-project/2626 - Status: 200
+[2025-09-15 09:43:58] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/17021 with params: {} and data: {}
+[2025-09-15 09:43:58] INFO: ✅ [DELETE] Response from /upload/files/17021 - Status: 200
+[2025-09-15 09:43:58] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/17022 with params: {} and data: {}
+[2025-09-15 09:43:59] INFO: ✅ [DELETE] Response from /upload/files/17022 - Status: 200
