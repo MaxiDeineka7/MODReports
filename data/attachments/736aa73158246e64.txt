@@ -1,0 +1,12 @@
+[2025-09-17 09:50:35] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-09-17 09:50:50] INFO: Verify that URL includes expected part: /explanation
+[2025-09-17 09:50:51] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/17230 with params: {} and data: {}
+[2025-09-17 09:50:52] INFO: ✅ [DELETE] Response from /upload/files/17230 - Status: 200
+[2025-09-17 09:50:52] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/10299 with params: {} and data: {}
+[2025-09-17 09:50:52] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/10299 - Status: 200
+[2025-09-17 09:50:52] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/10300 with params: {} and data: {}
+[2025-09-17 09:50:52] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/10300 - Status: 200
+[2025-09-17 09:50:52] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/10301 with params: {} and data: {}
+[2025-09-17 09:50:52] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/10301 - Status: 200
+[2025-09-17 09:50:52] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/10302 with params: {} and data: {}
+[2025-09-17 09:50:53] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/10302 - Status: 200
