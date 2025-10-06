@@ -1,0 +1,15 @@
+[2025-10-06 09:45:28] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-10-06 09:45:36] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/single-types-seo/?locale=uk&populate=* with params: {} and data: {}
+[2025-10-06 09:45:37] INFO: ✅ [GET] Response from /api/single-types-seo/?locale=uk&populate=* - Status: 200
+[2025-10-06 09:45:56] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/5539 with params: {} and data: {}
+[2025-10-06 09:45:56] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/5539 - Status: 200
+[2025-10-06 09:45:56] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/5540 with params: {} and data: {}
+[2025-10-06 09:45:56] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/5540 - Status: 200
+[2025-10-06 09:45:56] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/13656 with params: {} and data: {}
+[2025-10-06 09:45:57] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/13656 - Status: 200
+[2025-10-06 09:45:57] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/13657 with params: {} and data: {}
+[2025-10-06 09:45:57] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/13657 - Status: 200
+[2025-10-06 09:45:57] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/13658 with params: {} and data: {}
+[2025-10-06 09:45:57] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/13658 - Status: 200
+[2025-10-06 09:45:57] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/18311 with params: {} and data: {}
+[2025-10-06 09:45:57] INFO: ✅ [DELETE] Response from /upload/files/18311 - Status: 200
