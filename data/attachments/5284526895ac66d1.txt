@@ -1,0 +1,17 @@
+[2025-10-16 09:36:10] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-10-16 09:36:17] INFO: Verify that URL includes expected part: auto-tag-bea-1
+[2025-10-16 09:36:18] INFO: Verify that URL includes expected part: auto-tag-bea-2
+[2025-10-16 09:36:19] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/news/?locale=en&populate=*&filters[$or][0][tags][tag][$eq]=AutoTag-bea-1&filters[$or][1][tags][tag][$eq]=AutoTag-bea-2&sort=publishedAt:desc with params: {} and data: {}
+[2025-10-16 09:36:19] INFO: ✅ [GET] Response from /api/news/?locale=en&populate=*&filters[$or][0][tags][tag][$eq]=AutoTag-bea-1&filters[$or][1][tags][tag][$eq]=AutoTag-bea-2&sort=publishedAt:desc - Status: 200
+[2025-10-16 09:36:21] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/6060 with params: {} and data: {}
+[2025-10-16 09:36:21] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/6060 - Status: 200
+[2025-10-16 09:36:21] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/6061 with params: {} and data: {}
+[2025-10-16 09:36:21] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/6061 - Status: 200
+[2025-10-16 09:36:21] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/14572 with params: {} and data: {}
+[2025-10-16 09:36:21] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/14572 - Status: 200
+[2025-10-16 09:36:21] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/14573 with params: {} and data: {}
+[2025-10-16 09:36:22] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/14573 - Status: 200
+[2025-10-16 09:36:22] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/14574 with params: {} and data: {}
+[2025-10-16 09:36:22] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/14574 - Status: 200
+[2025-10-16 09:36:22] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/19264 with params: {} and data: {}
+[2025-10-16 09:36:22] INFO: ✅ [DELETE] Response from /upload/files/19264 - Status: 200
