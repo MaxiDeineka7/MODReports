@@ -1,0 +1,23 @@
+[2025-10-22 09:33:22] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee?locale=en with params: {} and data: "{\"name\":\"FirstEmployee-5d3\",\"position\":\"Senior Test Automation\",\"photo\":\"19461\",\"biography\":\"Some biography\",\"slug\":\"first-best-tester-5d3\",\"leaderships\":[\"5546\"],\"seo\":{\"id\":0,\"metaTitle\":\"FirstMetaTitle-5d3\",\"metaDescription\":\"FirstMetaDescription-3c4ec428-2bf5-4b86-ae2b-c87c5c0ead22\",\"allowIndexing\":true}}"
+[2025-10-22 09:33:22] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee?locale=en - Status: 200
+[2025-10-22 09:33:22] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7058?locale=uk with params: {} and data: {}
+[2025-10-22 09:33:22] INFO: ✅ [GET] Response from /content-manager/collection-types/api::employee.employee/7058?locale=uk - Status: 200
+[2025-10-22 09:33:22] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7058/actions/publish?locale=en with params: {} and data: {}
+[2025-10-22 09:33:22] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee/7058/actions/publish?locale=en - Status: 200
+[2025-10-22 09:33:22] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee?locale=en with params: {} and data: "{\"name\":\"SecondEmployee-5d3\",\"position\":\"Junior Test Automation\",\"photo\":\"19462\",\"biography\":\"Some biography\",\"slug\":\"second-best-tester-5d3\",\"leaderships\":[\"5546\",\"5547\"],\"seo\":{\"id\":0,\"metaTitle\":\"SecondMetaTitle-5d3\",\"metaDescription\":\"SecondMetaDescription-0303c609-7cf0-4ee7-ab28-0a80a6aac479\",\"allowIndexing\":true}}"
+[2025-10-22 09:33:23] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee?locale=en - Status: 200
+[2025-10-22 09:33:23] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7059?locale=uk with params: {} and data: {}
+[2025-10-22 09:33:23] INFO: ✅ [GET] Response from /content-manager/collection-types/api::employee.employee/7059?locale=uk - Status: 200
+[2025-10-22 09:33:23] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7059/actions/publish?locale=en with params: {} and data: {}
+[2025-10-22 09:33:23] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee/7059/actions/publish?locale=en - Status: 200
+[2025-10-22 09:33:27] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-10-22 09:33:29] INFO: Verify that URL includes expected part: en/about-us/first-leadership-5d3
+[2025-10-22 09:33:29] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7058?locale=en with params: {} and data: {"name":"UpdatedEmployee-5d3","position":"Lead Test Automation","photo":"19462","biography":"Some updated biography","slug":"updated-tester-5d3","leaderships":["5546","5547"]}
+[2025-10-22 09:33:30] INFO: ✅ [PUT] Response from /content-manager/collection-types/api::employee.employee/7058?locale=en - Status: 200
+[2025-10-22 09:33:30] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7058?locale=en with params: {} and data: {}
+[2025-10-22 09:33:30] INFO: ✅ [GET] Response from /content-manager/collection-types/api::employee.employee/7058?locale=en - Status: 200
+[2025-10-22 09:33:32] INFO: Verify that URL includes expected part: en/about-us/second-leadership-5d3
+[2025-10-22 09:33:32] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7058 with params: {} and data: {}
+[2025-10-22 09:33:33] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::employee.employee/7058 - Status: 200
+[2025-10-22 09:33:33] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7059 with params: {} and data: {}
+[2025-10-22 09:33:33] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::employee.employee/7059 - Status: 200
