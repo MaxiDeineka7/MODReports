@@ -1,0 +1,190 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4]:
+        - /url: "#main"
+      - navigation "Ministry of Defence of Ukraine" [ref=e5]:
+        - generic [ref=e6]:
+          - link "To the main page" [ref=e8]:
+            - /url: /en
+            - img [ref=e9]
+            - img "Ministry of Defense of Ukraine logo" [ref=e12]
+            - generic [ref=e14]: Ministry of Defence of Ukraine
+          - generic [ref=e15]:
+            - link "1512" [ref=e16]:
+              - /url: "tel: 1512"
+              - img [ref=e17]
+              - generic [ref=e19]: "1512"
+            - button "Search" [ref=e20] [cursor=pointer]:
+              - img [ref=e21] [cursor=pointer]
+            - button "Open navigation menu and more" [ref=e24] [cursor=pointer]
+      - main [ref=e30]:
+        - navigation "Breadcrumps" [ref=e31]:
+          - list [ref=e32]:
+            - listitem "Main page" [ref=e33]:
+              - link "Main page" [ref=e34] [cursor=pointer]:
+                - /url: /en
+              - img [ref=e36]
+            - listitem "We are explaining" [ref=e38]:
+              - link "We are explaining" [disabled] [ref=e39]:
+                - /url: /en/explanation
+        - heading "Explanation title" [level=1] [ref=e40]
+        - generic [ref=e41]:
+          - generic "Tags" [ref=e43]:
+            - heading "Tags" [level=2] [ref=e44]:
+              - button "Tags" [ref=e45] [cursor=pointer]:
+                - generic [ref=e46] [cursor=pointer]: Tags
+                - img [ref=e47] [cursor=pointer]
+            - group [ref=e50]:
+              - generic [ref=e51] [cursor=pointer]:
+                - checkbox "111111 2" [ref=e52] [cursor=pointer]
+                - generic [ref=e53] [cursor=pointer]:
+                  - img
+                - generic [ref=e55] [cursor=pointer]:
+                  - link "111111":
+                    - /url: /en/explanation/tag-explain-tag
+                  - generic [ref=e56] [cursor=pointer]: "2"
+              - generic [ref=e57] [cursor=pointer]:
+                - checkbox "222222222 1" [ref=e58] [cursor=pointer]
+                - generic [ref=e59] [cursor=pointer]:
+                  - img
+                - generic [ref=e61] [cursor=pointer]:
+                  - link "222222222":
+                    - /url: /en/explanation/tag-explain-tag-1
+                  - generic [ref=e62] [cursor=pointer]: "1"
+          - generic [ref=e63]:
+            - generic [ref=e65]:
+              - searchbox "Search explanations" [ref=e67]
+              - button "Search" [ref=e68] [cursor=pointer]:
+                - img [ref=e69] [cursor=pointer]
+            - list "We are explaining" [ref=e72]:
+              - listitem [ref=e73]:
+                - article "777888" [ref=e74]:
+                  - link "777888 16 October, 2025, 12:57 PM EET" [ref=e75]:
+                    - /url: /en/explanation/explain-article-18
+                    - generic [ref=e78]:
+                      - generic [ref=e80]: "777888"
+                      - time [ref=e81]: 16 October, 2025, 12:57 PM EET
+              - listitem [ref=e82]:
+                - article "5555566666" [ref=e83]:
+                  - link "5555566666 16 October, 2025, 12:52 PM EET" [ref=e84]:
+                    - /url: /en/explanation/explain-article-17
+                    - generic [ref=e87]:
+                      - generic [ref=e89]: "5555566666"
+                      - time [ref=e90]: 16 October, 2025, 12:52 PM EET
+              - listitem [ref=e91]:
+                - article "333444" [ref=e92]:
+                  - link "333444 16 October, 2025, 12:49 PM EET" [ref=e93]:
+                    - /url: /en/explanation/explain-article-16
+                    - generic [ref=e96]:
+                      - generic [ref=e98]: "333444"
+                      - time [ref=e99]: 16 October, 2025, 12:49 PM EET
+              - listitem [ref=e100]:
+                - article "Test1 test1" [ref=e101]:
+                  - link "Test1 test1 13 October, 2025, 5:31 PM EET" [ref=e102]:
+                    - /url: /en/explanation/explain-article-9
+                    - generic [ref=e105]:
+                      - generic [ref=e106]:
+                        - generic [ref=e107]: Test1
+                        - paragraph [ref=e108]: test1
+                      - time [ref=e109]: 13 October, 2025, 5:31 PM EET
+    - contentinfo [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - group "Leadership" [ref=e113]:
+            - heading "Leadership" [level=3] [ref=e114]
+            - list [ref=e115]:
+              - listitem [ref=e116]:
+                - link "Minister" [ref=e117]:
+                  - /url: /en/about/rustem-umerov
+              - listitem [ref=e119]:
+                - link "Leadership of the MoD" [ref=e120]:
+                  - /url: /en/about/mod-leadership
+              - listitem [ref=e122]:
+                - link "Commander-in-Chief of the AFU" [ref=e123]:
+                  - /url: /en/about/oleksandr-stanislavovych-syrskyi-en
+              - listitem [ref=e125]:
+                - link "Chief of the Defense Intelligence of Ukraine" [ref=e126]:
+                  - /url: /en/about/kyrylo-budanov-en
+              - listitem [ref=e128]:
+                - link "Head of the Administration of the STSS" [ref=e129]:
+                  - /url: /en/about/oleksandr-vasyliovych-yakovets-en
+          - group "Press" [ref=e131]:
+            - heading "Press" [level=3] [ref=e132]
+            - list [ref=e133]:
+              - listitem [ref=e134]:
+                - link "News" [ref=e135]:
+                  - /url: /en/news
+              - listitem [ref=e137]:
+                - link "Get accreditation" [ref=e138]:
+                  - /url: /en/get-accreditation-1
+              - listitem [ref=e140]:
+                - link "Access to military facilities" [ref=e141]:
+                  - /url: /en/procedure-for-the-access-of-the-media-representatives-to-the-facilities-of-the-ukrainian-defense-forces
+              - listitem [ref=e143]:
+                - link "FAQ" [ref=e144]:
+                  - /url: /en/frequently-asked-questions
+              - listitem [ref=e146]:
+                - link "Request forms" [ref=e147]:
+                  - /url: /en/request-forms
+          - group "Contact us" [ref=e149]:
+            - heading "Contact us" [level=3] [ref=e150]
+            - list [ref=e151]:
+              - listitem [ref=e152]:
+                - link "General inquiries" [ref=e153]:
+                  - /url: /en/contact-us
+              - listitem [ref=e155]:
+                - link "For media" [ref=e156]:
+                  - /url: /en/contacts-for-media
+              - listitem [ref=e158]:
+                - link "Recruitment" [ref=e159]:
+                  - /url: https://ildu.com.ua/
+            - list "Social media links" [ref=e162]:
+              - listitem [ref=e163]:
+                - link "Facebook" [ref=e164]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e165]
+              - listitem [ref=e168]:
+                - link "Instagram" [ref=e169]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e170]
+              - listitem [ref=e174]:
+                - link "YouTube" [ref=e175]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e176]
+              - listitem [ref=e179]:
+                - link "Facebook" [ref=e180]:
+                  - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                  - img [ref=e181]
+        - separator [ref=e184]
+        - generic [ref=e185]:
+          - generic [ref=e187]:
+            - img "Ministry of Defense of Ukraine logo" [ref=e188]
+            - generic [ref=e190]:
+              - paragraph [ref=e191]: © 2001–2025 MoD
+              - paragraph [ref=e192]:
+                - text: Content is available under the
+                - link "Creative Commons Attribution 4.0 International license" [ref=e193]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en
+                  - text: Creative
+                  - text: Commons Attribution 4.0 International license
+                - text: ","
+                - text: unless otherwise stated.
+              - link "Website accessibility information" [ref=e194]:
+                - /url: /en/accessibility-en
+          - figure [ref=e196]:
+            - generic [ref=e197]: Developed by
+            - link "OpenTech SoftServe logo" [ref=e198]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e199]
+          - paragraph [ref=e202]:
+            - generic [ref=e203]: BETA
+            - text: The functionality works in the mode of experimental operation
+        - paragraph [ref=e204]: The build is deployed about 21 hours ago 2025-10-27 12:27 (GMT+0) 6576545.
+  - alert [ref=e205]: Explanations list | Ministry of Defence of Ukraine
+  - iframe [ref=e206]:
+    
+```

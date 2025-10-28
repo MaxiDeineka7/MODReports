@@ -1,0 +1,495 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Перейти до головного вмісту" [ref=e4]:
+        - /url: "#main"
+      - navigation "Міністерство оборони України" [ref=e5]:
+        - generic [ref=e6]:
+          - link "На головну сторінку" [ref=e8]:
+            - /url: /
+            - img [ref=e9]
+            - img "Логотип Міністерства оборони України" [ref=e12]
+            - generic [ref=e14]: Міністерство оборони України
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - 'link "Гаряча лінія: 1513" [ref=e17]':
+                - /url: "tel: 1513"
+                - img [ref=e18]
+                - generic [ref=e20]: "Гаряча лінія:"
+                - generic [ref=e21]: "1513"
+              - list "Посилання на соціальні мережі" [ref=e22]:
+                - listitem [ref=e23]:
+                  - link "Facebook" [ref=e24]:
+                    - /url: https://www.facebook.com/MinistryofDefence.UA
+                    - img [ref=e25]
+                - listitem [ref=e28]:
+                  - link "Instagram" [ref=e29]:
+                    - /url: https://www.instagram.com/ministry_of_defense_ua/
+                    - img [ref=e30]
+                - listitem [ref=e34]:
+                  - link "YouTube" [ref=e35]:
+                    - /url: https://www.youtube.com/@uamod
+                    - img [ref=e36]
+                - listitem [ref=e39]:
+                  - link "Facebook" [ref=e40]:
+                    - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                    - img [ref=e41]
+              - list "Поточна мова Укрaїнська" [ref=e44]:
+                - listitem [ref=e45]:
+                  - link [ref=e46]:
+                    - /url: /news
+                    - text: Укр
+                - listitem [ref=e47]:
+                  - link "Змінити мову на Англійська" [ref=e48]:
+                    - /url: /en/news
+                    - text: Eng
+            - generic [ref=e49]:
+              - navigation "Головна навігація" [ref=e50]:
+                - button "Діяльність" [ref=e51] [cursor=pointer]:
+                  - img [ref=e53] [cursor=pointer]
+                - button "Про нас" [ref=e55] [cursor=pointer]:
+                  - img [ref=e57] [cursor=pointer]
+                - button "Новини" [ref=e59] [cursor=pointer]:
+                  - img [ref=e61] [cursor=pointer]
+                - button "Сервіси" [ref=e63] [cursor=pointer]:
+                  - img [ref=e65] [cursor=pointer]
+                - button "Пресцентр" [ref=e67] [cursor=pointer]:
+                  - img [ref=e69] [cursor=pointer]
+                - link "Контакти" [ref=e71]:
+                  - /url: /kontakti
+              - button "Пошук" [ref=e73] [cursor=pointer]:
+                - img [ref=e74] [cursor=pointer]
+              - link "Diia" [ref=e76]:
+                - /url: https://diia.gov.ua/
+                - img [ref=e77]
+      - main [ref=e81]:
+        - navigation "Навігаційні стежки" [ref=e82]:
+          - list [ref=e83]:
+            - listitem "Головна" [ref=e84]:
+              - link "Головна" [ref=e85] [cursor=pointer]:
+                - /url: /
+              - img [ref=e87]
+            - listitem "Новини" [ref=e89]:
+              - link "Новини" [disabled] [ref=e90]:
+                - /url: /news
+        - heading "Новини" [level=1] [ref=e91]
+        - generic [ref=e92]:
+          - generic "Теги" [ref=e94]:
+            - heading "Теги" [level=2] [ref=e95]:
+              - generic [ref=e96]: Теги
+            - group [ref=e98]:
+              - generic [ref=e99] [cursor=pointer]:
+                - checkbox "Відсіч агресору 12" [ref=e100] [cursor=pointer]
+                - generic [ref=e101] [cursor=pointer]:
+                  - img
+                - generic [ref=e103] [cursor=pointer]:
+                  - link "Відсіч агресору":
+                    - /url: /news/tag-vidsich-agresoru
+                  - generic [ref=e104] [cursor=pointer]: "12"
+              - generic [ref=e105] [cursor=pointer]:
+                - checkbox "Міжнародне партнерство 4" [ref=e106] [cursor=pointer]
+                - generic [ref=e107] [cursor=pointer]:
+                  - img
+                - generic [ref=e109] [cursor=pointer]:
+                  - link "Міжнародне партнерство":
+                    - /url: /news/tag-tag-mizhnarodne-partnerstvo
+                  - generic [ref=e110] [cursor=pointer]: "4"
+              - generic [ref=e111] [cursor=pointer]:
+                - checkbox "Цифровізація 4" [ref=e112] [cursor=pointer]
+                - generic [ref=e113] [cursor=pointer]:
+                  - img
+                - generic [ref=e115] [cursor=pointer]:
+                  - link "Цифровізація":
+                    - /url: /news/tag-czifrovizacziya
+                  - generic [ref=e116] [cursor=pointer]: "4"
+              - generic [ref=e117] [cursor=pointer]:
+                - checkbox "Дрони 4" [ref=e118] [cursor=pointer]
+                - generic [ref=e119] [cursor=pointer]:
+                  - img
+                - generic [ref=e121] [cursor=pointer]:
+                  - link "Дрони":
+                    - /url: /news/tag-droni
+                  - generic [ref=e122] [cursor=pointer]: "4"
+              - generic [ref=e123] [cursor=pointer]:
+                - checkbox "AutoTag-9f4-1 2" [ref=e124] [cursor=pointer]
+                - generic [ref=e125] [cursor=pointer]:
+                  - img
+                - generic [ref=e127] [cursor=pointer]:
+                  - link "AutoTag-9f4-1":
+                    - /url: /news/tag-auto-tag-9f4-1
+                  - generic [ref=e128] [cursor=pointer]: "2"
+              - generic [ref=e129] [cursor=pointer]:
+                - checkbox "Закупівлі 2" [ref=e130] [cursor=pointer]
+                - generic [ref=e131] [cursor=pointer]:
+                  - img
+                - generic [ref=e133] [cursor=pointer]:
+                  - link "Закупівлі":
+                    - /url: /news/tag-tag-zakupivli
+                  - generic [ref=e134] [cursor=pointer]: "2"
+              - generic [ref=e135] [cursor=pointer]:
+                - checkbox "AutoTag-9f4-2 1" [ref=e136] [cursor=pointer]
+                - generic [ref=e137] [cursor=pointer]:
+                  - img
+                - generic [ref=e139] [cursor=pointer]:
+                  - link "AutoTag-9f4-2":
+                    - /url: /news/tag-auto-tag-9f4-2
+                  - generic [ref=e140] [cursor=pointer]: "1"
+          - generic [ref=e141]:
+            - generic [ref=e143]:
+              - searchbox "Пошук в розділі Новини" [ref=e145]
+              - button "Знайти" [ref=e146] [cursor=pointer]:
+                - img [ref=e147] [cursor=pointer]
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - generic [ref=e152]:
+                  - time [ref=e153]:
+                    - heading "24 жовтня, п’ятниця" [level=3] [ref=e154]:
+                      - text: 24 жовтня,
+                      - generic [ref=e155]: п’ятниця
+                  - list "24 жовтня, п’ятниця" [ref=e156]:
+                    - listitem [ref=e157]:
+                      - article "Test news 3" [ref=e158]:
+                        - time [ref=e159]: 15:57
+                        - link "Test news 3" [ref=e161]:
+                          - /url: /news/test2-993
+                - generic [ref=e163]:
+                  - time [ref=e164]:
+                    - heading "13 жовтня, понеділок" [level=3] [ref=e165]:
+                      - text: 13 жовтня,
+                      - generic [ref=e166]: понеділок
+                  - list "13 жовтня, понеділок" [ref=e167]:
+                    - listitem [ref=e168]:
+                      - 'article "Футуристичний солдат: Поєднання технологій та української спадщини" [ref=e169]':
+                        - time [ref=e170]: 13:50
+                        - 'link "Футуристичний солдат: Поєднання технологій та української спадщини" [ref=e172]':
+                          - /url: /news/futuristichnij-soldat-poyednannya-tehnologij-ta-ukrayinskoyi-spadshhini
+                - generic [ref=e174]:
+                  - time [ref=e175]:
+                    - heading "6 жовтня, понеділок" [level=3] [ref=e176]:
+                      - text: 6 жовтня,
+                      - generic [ref=e177]: понеділок
+                  - list "6 жовтня, понеділок" [ref=e178]:
+                    - listitem [ref=e179]:
+                      - article "Міноборони отримало велику поставку техніки на понад 3.3 млн євро від партнерів у межах IT-коаліції" [ref=e180]:
+                        - time [ref=e181]: 11:38
+                        - link "Міноборони отримало велику поставку техніки на понад 3.3 млн євро від партнерів у межах IT-коаліції" [ref=e183]:
+                          - /url: /news/post-3
+                - generic [ref=e185]:
+                  - time [ref=e186]:
+                    - heading "17 вересня, середа" [level=3] [ref=e187]:
+                      - text: 17 вересня,
+                      - generic [ref=e188]: середа
+                  - list "17 вересня, середа" [ref=e189]:
+                    - listitem [ref=e190]:
+                      - article "екпекпек" [ref=e191]:
+                        - time [ref=e192]: 12:37
+                        - link "екпекпек" [ref=e194]:
+                          - /url: /news/post-8
+                - generic [ref=e196]:
+                  - time [ref=e197]:
+                    - heading "15 вересня, понеділок" [level=3] [ref=e198]:
+                      - text: 15 вересня,
+                      - generic [ref=e199]: понеділок
+                  - list "15 вересня, понеділок" [ref=e200]:
+                    - listitem [ref=e201]:
+                      - article "Test Таблиці" [ref=e202]:
+                        - time [ref=e203]: 19:19
+                        - link "Test Таблиці" [ref=e205]:
+                          - /url: /news/test-993-2
+                - generic [ref=e207]:
+                  - time [ref=e208]:
+                    - heading "15 серпня, п’ятниця" [level=3] [ref=e209]:
+                      - text: 15 серпня,
+                      - generic [ref=e210]: п’ятниця
+                  - list "15 серпня, п’ятниця" [ref=e211]:
+                    - listitem [ref=e212]:
+                      - article "Документ%" [ref=e213]:
+                        - time [ref=e214]: 18:30
+                        - link "Документ%" [ref=e216]:
+                          - /url: /news/test-80f-1
+                - generic [ref=e218]:
+                  - time [ref=e219]:
+                    - heading "8 серпня, п’ятниця" [level=3] [ref=e220]:
+                      - text: 8 серпня,
+                      - generic [ref=e221]: п’ятниця
+                  - list "8 серпня, п’ятниця" [ref=e222]:
+                    - listitem [ref=e223]:
+                      - article "Test newss" [ref=e224]:
+                        - time [ref=e225]: 07:05
+                        - link "Test newss" [ref=e227]:
+                          - /url: /news/post-4
+                - generic [ref=e229]:
+                  - time [ref=e230]:
+                    - heading "22 липня, вівторок" [level=3] [ref=e231]:
+                      - text: 22 липня,
+                      - generic [ref=e232]: вівторок
+                  - list "22 липня, вівторок" [ref=e233]:
+                    - listitem [ref=e234]:
+                      - article "Час відкладеної публікації" [ref=e235]:
+                        - time [ref=e236]: 16:36
+                        - link "Час відкладеної публікації" [ref=e238]:
+                          - /url: /news/post-1
+                    - listitem [ref=e239]:
+                      - article "Україна та Норвегія обговорили розвиток співпраці у сфері ОПК" [ref=e240]:
+                        - time [ref=e241]: 16:20
+                        - link "Україна та Норвегія обговорили розвиток співпраці у сфері ОПК" [ref=e243]:
+                          - /url: /news/ukrayina-ta-norvegiya-obgovorili-rozvitok-spivpraczi-u-sferi-opk
+                    - listitem [ref=e244]:
+                      - 'article "Як отримати статус УБД: ключові зміни та покрокова інструкція" [ref=e245]':
+                        - time [ref=e246]: 15:36
+                        - 'link "Як отримати статус УБД: ключові зміни та покрокова інструкція" [ref=e248]':
+                          - /url: /news/yak-otrymaty-status-ubd
+                - generic [ref=e250]:
+                  - time [ref=e251]:
+                    - heading "20 липня, неділя" [level=3] [ref=e252]:
+                      - text: 20 липня,
+                      - generic [ref=e253]: неділя
+                  - list "20 липня, неділя" [ref=e254]:
+                    - listitem [ref=e255]:
+                      - article "Час відкладеної публікації 02" [ref=e256]:
+                        - time [ref=e257]: 16:45
+                        - link "Час відкладеної публікації 02" [ref=e259]:
+                          - /url: /news/post-5
+                - generic [ref=e261]:
+                  - time [ref=e262]:
+                    - heading "25 березня, вівторок" [level=3] [ref=e263]:
+                      - text: 25 березня,
+                      - generic [ref=e264]: вівторок
+                  - list "25 березня, вівторок" [ref=e265]:
+                    - listitem [ref=e266]:
+                      - 'article "Загальні бойові втрати росіян за добу: 1 180 окупантів, 118 БПЛА та 61 артсистема" [ref=e267]':
+                        - time [ref=e268]: 11:31
+                        - 'link "Загальні бойові втрати росіян за добу: 1 180 окупантів, 118 БПЛА та 61 артсистема" [ref=e270]':
+                          - /url: /news/zagalni-bojovi-vtrati-rosiyan-za-dobu-1-180-okupantiv-118-bpla-ta-61-artsistema-1
+                    - listitem [ref=e271]:
+                      - article "Майже половина військових хоче бачити знижки на пальне та енергетику в Плюсах – результати опитування в Армія+" [ref=e272]:
+                        - time [ref=e273]: 11:30
+                        - link "Майже половина військових хоче бачити знижки на пальне та енергетику в Плюсах – результати опитування в Армія+" [ref=e275]:
+                          - /url: /news/majzhe-polovina-vijskovih-hoche-bachiti-znizhki-na-palne-ta-energetiku-v-plyusah-rezultati-opituvannya-v-armiya
+                    - listitem [ref=e276]:
+                      - 'article "Посилений захист військових: Міноборони тестує додаткові компоненти для бронежилета" [ref=e277]':
+                        - time [ref=e278]: 11:29
+                        - 'link "Посилений захист військових: Міноборони тестує додаткові компоненти для бронежилета" [ref=e280]':
+                          - /url: /news/posilenij-zahist-vijskovih-minoboroni-testuye-dodatkovi-komponenti-dlya-bronezhileta
+                - generic [ref=e282]:
+                  - time [ref=e283]:
+                    - heading "19 березня, середа" [level=3] [ref=e284]:
+                      - text: 19 березня,
+                      - generic [ref=e285]: середа
+                  - list "19 березня, середа" [ref=e286]:
+                    - listitem [ref=e287]:
+                      - article "test search" [ref=e288]:
+                        - time [ref=e289]: 17:29
+                        - link "test search" [ref=e291]:
+                          - /url: /news/test-search
+                - generic [ref=e293]:
+                  - time [ref=e294]:
+                    - heading "5 березня, середа" [level=3] [ref=e295]:
+                      - text: 5 березня,
+                      - generic [ref=e296]: середа
+                  - list "5 березня, середа" [ref=e297]:
+                    - listitem [ref=e298]:
+                      - article "Новини" [ref=e299]:
+                        - time [ref=e300]: 11:24
+                        - link "Новини" [ref=e302]:
+                          - /url: /news/post-7
+                - generic [ref=e304]:
+                  - time [ref=e305]:
+                    - heading "10 лютого, понеділок" [level=3] [ref=e306]:
+                      - text: 10 лютого,
+                      - generic [ref=e307]: понеділок
+                  - list "10 лютого, понеділок" [ref=e308]:
+                    - listitem [ref=e309]:
+                      - article "Тест підпис" [ref=e310]:
+                        - time [ref=e311]: 15:34
+                        - link "Тест підпис" [ref=e313]:
+                          - /url: /news/test-1
+                - generic [ref=e315]:
+                  - time [ref=e316]:
+                    - heading "17 січня, п’ятниця" [level=3] [ref=e317]:
+                      - text: 17 січня,
+                      - generic [ref=e318]: п’ятниця
+                  - list "17 січня, п’ятниця" [ref=e319]:
+                    - listitem [ref=e320]:
+                      - 'article "Український суперкар ZAZ ЗАЗорян: Технології цивільної та оборонної промисловості в одному концепті" [ref=e321]':
+                        - time [ref=e322]: 12:22
+                        - 'link "Український суперкар ZAZ ЗАЗорян: Технології цивільної та оборонної промисловості в одному концепті" [ref=e324]':
+                          - /url: /news/ukrayinskij-superkar-zaz-za-zoryan-tehnologiyi-czivilnoyi-ta-oboronnoyi-promislovosti-v-odnomu-konczepti
+                - generic [ref=e326]:
+                  - time [ref=e327]:
+                    - heading "16 січня, четвер" [level=3] [ref=e328]:
+                      - text: 16 січня,
+                      - generic [ref=e329]: четвер
+                  - list "16 січня, четвер" [ref=e330]:
+                    - listitem [ref=e331]:
+                      - article "Загальні бойові втрати росіян за добу 1290 осіб, 110 БПЛА та 59 артсистем" [ref=e332]:
+                        - time [ref=e333]: 15:09
+                        - link "Загальні бойові втрати росіян за добу 1290 осіб, 110 БПЛА та 59 артсистем" [ref=e335]:
+                          - /url: /news/zagalni-bojovi-vtrati-rosiyan-za-dobu-1290-osib-110-bpla-ta-59-artsistem
+                - generic [ref=e337]:
+                  - time [ref=e338]:
+                    - heading "12 січня, неділя" [level=3] [ref=e339]:
+                      - text: 12 січня,
+                      - generic [ref=e340]: неділя
+                  - list "12 січня, неділя" [ref=e341]:
+                    - listitem [ref=e342]:
+                      - article "До 5 червня військовозобов’язані з обмеженою придатністю мають повторно пройти ВЛК" [ref=e343]:
+                        - time [ref=e344]: 09:37
+                        - link "До 5 червня військовозобов’язані з обмеженою придатністю мають повторно пройти ВЛК" [ref=e346]:
+                          - /url: /news/do-5-chervnya-vijskovozobov-yazani-z-obmezhenoyu-pridatnistyu-mayut-povtorno-projti-vlk
+              - generic [ref=e347]:
+                - link "Попередня сторінка" [disabled]:
+                  - /url: ""
+                  - img
+                  - generic: Попередня сторінка
+                - navigation "Регіон пагінації" [ref=e348]:
+                  - list [ref=e349]:
+                    - generic: "1"
+                    - button "Сторінка 1" [ref=e350] [cursor=pointer]: "1"
+                    - button "Сторінка 2" [ref=e351] [cursor=pointer]: "2"
+                - link "Наступна сторінка" [ref=e352]:
+                  - /url: /news?page=2
+                  - generic [ref=e353]: Наступна сторінка
+                  - img [ref=e354]
+    - contentinfo [ref=e356]:
+      - generic [ref=e357]:
+        - generic [ref=e358]:
+          - group "Про нас" [ref=e359]:
+            - heading "Про нас" [level=3] [ref=e360]
+            - list [ref=e361]:
+              - listitem [ref=e362]:
+                - link "Керівництво Міноборони" [ref=e363]:
+                  - /url: /pro-nas/kerivnicztvo-ministerstva-oboroni-ukrayini
+              - listitem [ref=e365]:
+                - link "Головнокомандувач ЗСУ" [ref=e366]:
+                  - /url: /pro-nas/general-sirskij-oleksandr-stanislavovich
+              - listitem [ref=e368]:
+                - link "Керівник ГУР" [ref=e369]:
+                  - /url: /pro-nas/general-lejtenant-budanov-kirilo-oleksijovich
+              - listitem [ref=e371]:
+                - link "Керівник ДССТ" [ref=e372]:
+                  - /url: /pro-nas/yakovecz-oleksandr-vasilovich
+              - listitem [ref=e374]:
+                - link "Апарат Міністерства оборони" [ref=e375]:
+                  - /url: /aparat-ministerstva-oboroni
+              - listitem [ref=e377]:
+                - link "Генеральний штаб ЗСУ" [ref=e378]:
+                  - /url: https://www.mil.gov.ua/ministry/struktura-generalnogo-shtabu/
+          - group "Сервіси" [ref=e380]:
+            - heading "Сервіси" [level=3] [ref=e381]
+            - list [ref=e382]:
+              - listitem [ref=e383]:
+                - link "Воїнам та їх сім'ям" [ref=e384]:
+                  - /url: /services
+              - listitem [ref=e386]:
+                - link "Майбутнім воїнам" [ref=e387]:
+                  - /url: /services
+              - listitem [ref=e389]:
+                - link "Громадянам" [ref=e390]:
+                  - /url: /services
+          - group "Діяльність" [ref=e392]:
+            - heading "Діяльність" [level=3] [ref=e393]
+            - list [ref=e394]:
+              - listitem [ref=e395]:
+                - link "Антикорупційна" [ref=e396]:
+                  - /url: /antikorupczijna-diyalnist
+              - listitem [ref=e398]:
+                - link "Закупівельна" [ref=e399]:
+                  - /url: /zakupivelna-diyalnist
+              - listitem [ref=e401]:
+                - link "Нормативно-правова" [ref=e402]:
+                  - /url: https://www.mil.gov.ua/ministry/normativno-pravova-baza/
+              - listitem [ref=e404]:
+                - link "Майнова" [ref=e405]:
+                  - /url: https://www.mil.gov.ua/diyalnist/vidchuzhennya-vijskovogo-majna/ogoloshennya-ta-anonsi/
+              - listitem [ref=e407]:
+                - link "Кадрова" [ref=e408]:
+                  - /url: /kadrova-diyalnist
+              - listitem [ref=e410]:
+                - link "Фінансова" [ref=e411]:
+                  - /url: https://www.mil.gov.ua/diyalnist/finances/
+              - listitem [ref=e413]:
+                - link "Міжнародне співробітництво" [ref=e414]:
+                  - /url: /mizhnarodne-spivrobitnicztvo
+          - group "Прес-центр" [ref=e416]:
+            - heading "Прес-центр" [level=3] [ref=e417]
+            - list [ref=e418]:
+              - listitem [ref=e419]:
+                - link "Новини" [ref=e420]:
+                  - /url: /news
+              - listitem [ref=e422]:
+                - link "Пояснюємо" [ref=e423]:
+                  - /url: /explanation
+              - listitem [ref=e425]:
+                - link "Отримати акредитацію ЗСУ" [ref=e426]:
+                  - /url: /otrimati-akreditacziyu-zsu
+              - listitem [ref=e428]:
+                - link "Доступ на військові об'єкти" [ref=e429]:
+                  - /url: /dostup-na-vijskovi-ob-yekti
+              - listitem [ref=e431]:
+                - link "Поширені питання медіа" [ref=e432]:
+                  - /url: /poshireni-pitannya-media
+              - listitem [ref=e434]:
+                - link "Форми запитів" [ref=e435]:
+                  - /url: /formi-zapitiv
+          - group "Контакти" [ref=e437]:
+            - heading "Контакти" [level=3] [ref=e438]
+            - list [ref=e439]:
+              - listitem [ref=e440]:
+                - link "Контакти Міністерства" [ref=e441]:
+                  - /url: /kontakti
+              - listitem [ref=e443]:
+                - link "Для медіа" [ref=e444]:
+                  - /url: /kontakti-dlya-media
+              - listitem [ref=e446]:
+                - link "Галузевий державний архів" [ref=e447]:
+                  - /url: https://www.mil.gov.ua/zvernennya-gromadyan/galuzevij-derzhavnij-arxiv/
+            - list "Посилання на соціальні мережі" [ref=e450]:
+              - listitem [ref=e451]:
+                - link "Facebook" [ref=e452]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e453]
+              - listitem [ref=e456]:
+                - link "Instagram" [ref=e457]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e458]
+              - listitem [ref=e462]:
+                - link "YouTube" [ref=e463]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e464]
+              - listitem [ref=e467]:
+                - link "Facebook" [ref=e468]:
+                  - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                  - img [ref=e469]
+        - separator [ref=e472]
+        - generic [ref=e473]:
+          - generic [ref=e475]:
+            - img "Логотип Міністерства оборони України" [ref=e476]
+            - generic [ref=e478]:
+              - paragraph [ref=e479]: © 2001–2025 МОУ
+              - paragraph [ref=e480]:
+                - text: Контент доступний за ліцензією
+                - link "Creative Commons Attribution 4.0 International license" [ref=e481]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.uk
+                  - text: Creative
+                  - text: Commons Attribution 4.0 International license
+                - text: ","
+                - text: якщо не зазначено інше.
+              - link "Інформація про доступність вебсайту" [ref=e482]:
+                - /url: /accessibility
+          - figure [ref=e484]:
+            - generic [ref=e485]: Розроблено в
+            - link "OpenTech SoftServe лого" [ref=e486]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e487]
+          - paragraph [ref=e490]:
+            - generic [ref=e491]: BETA
+            - text: Функціонал працює в режимі дослідної експлуатації
+        - paragraph [ref=e492]: The build is deployed about 21 hours ago 2025-10-27 12:27 (GMT+0) 6576545.
+  - alert [ref=e493]: Новини SEO | Міністерство оборони України
+  - iframe [ref=e494]:
+    
+```
