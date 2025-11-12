@@ -1,0 +1,332 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main"
+      - navigation "Ministry of Defence of Ukraine" [ref=e5]:
+        - generic [ref=e6]:
+          - link "To the main page" [ref=e8] [cursor=pointer]:
+            - /url: /en
+            - img [ref=e9] [cursor=pointer]
+            - img "Ministry of Defense of Ukraine logo" [ref=e12] [cursor=pointer]
+            - generic [ref=e14] [cursor=pointer]: Ministry of Defence of Ukraine
+          - generic [ref=e15]:
+            - link "1512" [ref=e16] [cursor=pointer]:
+              - /url: "tel: 1512"
+              - img [ref=e17] [cursor=pointer]
+              - generic [ref=e19] [cursor=pointer]: "1512"
+            - button "Search" [ref=e20] [cursor=pointer]:
+              - img [ref=e21] [cursor=pointer]
+            - button "Open navigation menu and more" [ref=e24] [cursor=pointer]
+      - main [ref=e30]:
+        - navigation "Breadcrumps" [ref=e31]:
+          - list [ref=e32]:
+            - listitem "Main page" [ref=e33]:
+              - link "Main page" [ref=e34] [cursor=pointer]:
+                - /url: /en
+              - img [ref=e36]
+            - listitem "News" [ref=e38]:
+              - link "News" [disabled] [ref=e39]:
+                - /url: /en/news
+        - heading "News" [level=1] [ref=e40]
+        - generic [ref=e41]:
+          - generic "Tags" [ref=e43]:
+            - heading "Tags" [level=2] [ref=e44]:
+              - button "Tags" [ref=e45] [cursor=pointer]:
+                - generic [ref=e46] [cursor=pointer]: Tags
+                - img [ref=e47] [cursor=pointer]
+            - group [ref=e50]:
+              - generic [ref=e51] [cursor=pointer]:
+                - checkbox "People in the Army 6" [ref=e52] [cursor=pointer]
+                - generic [ref=e53] [cursor=pointer]:
+                  - img
+                - generic [ref=e55] [cursor=pointer]:
+                  - link "People in the Army":
+                    - /url: /en/news/tag-tag-people-in-the-army
+                  - generic [ref=e56] [cursor=pointer]: "6"
+              - generic [ref=e57] [cursor=pointer]:
+                - checkbox "Defence Industry and Innovations 4" [ref=e58] [cursor=pointer]
+                - generic [ref=e59] [cursor=pointer]:
+                  - img
+                - generic [ref=e61] [cursor=pointer]:
+                  - link "Defence Industry and Innovations":
+                    - /url: /en/news/tag-tag-defence-industry-and-innovations
+                  - generic [ref=e62] [cursor=pointer]: "4"
+              - generic [ref=e63] [cursor=pointer]:
+                - checkbox "International aid 2" [ref=e64] [cursor=pointer]
+                - generic [ref=e65] [cursor=pointer]:
+                  - img
+                - generic [ref=e67] [cursor=pointer]:
+                  - link "International aid":
+                    - /url: /en/news/tag-international-aid
+                  - generic [ref=e68] [cursor=pointer]: "2"
+              - generic [ref=e69] [cursor=pointer]:
+                - checkbox "Digitalization 2" [ref=e70] [cursor=pointer]
+                - generic [ref=e71] [cursor=pointer]:
+                  - img
+                - generic [ref=e73] [cursor=pointer]:
+                  - link "Digitalization":
+                    - /url: /en/news/tag-digitalization
+                  - generic [ref=e74] [cursor=pointer]: "2"
+              - generic [ref=e75] [cursor=pointer]:
+                - checkbox "AutoTag-850-1 2" [ref=e76] [cursor=pointer]
+                - generic [ref=e77] [cursor=pointer]:
+                  - img
+                - generic [ref=e79] [cursor=pointer]:
+                  - link "AutoTag-850-1":
+                    - /url: /en/news/tag-auto-tag-850-1
+                  - generic [ref=e80] [cursor=pointer]: "2"
+              - generic [ref=e81] [cursor=pointer]:
+                - checkbox "Combat 1" [ref=e82] [cursor=pointer]
+                - generic [ref=e83] [cursor=pointer]:
+                  - img
+                - generic [ref=e85] [cursor=pointer]:
+                  - link "Combat":
+                    - /url: /en/news/tag-tag-combat
+                  - generic [ref=e86] [cursor=pointer]: "1"
+              - generic [ref=e87] [cursor=pointer]:
+                - checkbox "Demining 1" [ref=e88] [cursor=pointer]
+                - generic [ref=e89] [cursor=pointer]:
+                  - img
+                - generic [ref=e91] [cursor=pointer]:
+                  - link "Demining":
+                    - /url: /en/news/tag-tag-1
+                  - generic [ref=e92] [cursor=pointer]: "1"
+              - generic [ref=e93] [cursor=pointer]:
+                - checkbox "AutoTag-850-2 1" [ref=e94] [cursor=pointer]
+                - generic [ref=e95] [cursor=pointer]:
+                  - img
+                - generic [ref=e97] [cursor=pointer]:
+                  - link "AutoTag-850-2":
+                    - /url: /en/news/tag-auto-tag-850-2
+                  - generic [ref=e98] [cursor=pointer]: "1"
+              - generic [ref=e99] [cursor=pointer]:
+                - checkbox "Updated-AutoTag-821 1" [ref=e100] [cursor=pointer]
+                - generic [ref=e101] [cursor=pointer]:
+                  - img
+                - generic [ref=e103] [cursor=pointer]:
+                  - link "Updated-AutoTag-821":
+                    - /url: /en/news/tag-auto-tag-821
+                  - generic [ref=e104] [cursor=pointer]: "1"
+          - generic [ref=e105]:
+            - generic [ref=e107]:
+              - searchbox "Search news" [ref=e109]
+              - button "Search" [ref=e110] [cursor=pointer]:
+                - img [ref=e111] [cursor=pointer]
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - generic [ref=e116]:
+                  - time [ref=e117]:
+                    - heading "November 12, Today" [level=3] [ref=e118]:
+                      - text: November 12,
+                      - generic [ref=e119]: Today
+                  - list "November 12 Today" [ref=e120]:
+                    - listitem [ref=e121]:
+                      - article "Test first highlighted news" [ref=e122]:
+                        - time [ref=e123]: 11:49
+                        - link "Test first highlighted news" [ref=e125] [cursor=pointer]:
+                          - /url: /en/news/test-highlight-850
+                    - listitem [ref=e126]:
+                      - article "Test second news 850" [ref=e127]:
+                        - time [ref=e128]: 11:49
+                        - link "Test second news 850" [ref=e130] [cursor=pointer]:
+                          - /url: /en/news/test-850-2
+                - generic [ref=e132]:
+                  - time [ref=e133]:
+                    - heading "March 24, Monday" [level=3] [ref=e134]:
+                      - text: March 24,
+                      - generic [ref=e135]: Monday
+                  - list "March 24, Monday" [ref=e136]:
+                    - listitem [ref=e137]:
+                      - article "Test news" [ref=e138]:
+                        - time [ref=e139]: 20:23
+                        - link "Test news" [ref=e141] [cursor=pointer]:
+                          - /url: /en/news/test-highlight-b38
+                    - listitem [ref=e142]:
+                      - article "Test news 3" [ref=e143]:
+                        - time [ref=e144]: 20:23
+                        - link "Test news 3" [ref=e146] [cursor=pointer]:
+                          - /url: /en/news/test2-b38
+                    - listitem [ref=e147]:
+                      - article "Test news 2" [ref=e148]:
+                        - time [ref=e149]: 20:23
+                        - link "Test news 2" [ref=e151] [cursor=pointer]:
+                          - /url: /en/news/test-b38
+                - generic [ref=e153]:
+                  - time [ref=e154]:
+                    - heading "February 18, Tuesday" [level=3] [ref=e155]:
+                      - text: February 18,
+                      - generic [ref=e156]: Tuesday
+                  - list "February 18, Tuesday" [ref=e157]:
+                    - listitem [ref=e158]:
+                      - article "Test news" [ref=e159]:
+                        - time [ref=e160]: 19:40
+                        - link "Test news" [ref=e162] [cursor=pointer]:
+                          - /url: /en/news/test2-b86
+                - generic [ref=e164]:
+                  - time [ref=e165]:
+                    - heading "February 6, Thursday" [level=3] [ref=e166]:
+                      - text: February 6,
+                      - generic [ref=e167]: Thursday
+                  - list "February 6, Thursday" [ref=e168]:
+                    - listitem [ref=e169]:
+                      - article "TestMM en first news" [ref=e170]:
+                        - time [ref=e171]: 12:14
+                        - link "TestMM en first news" [ref=e173] [cursor=pointer]:
+                          - /url: /en/news/test-37846238585632856783en
+                - generic [ref=e175]:
+                  - time [ref=e176]:
+                    - heading "January 24, Friday" [level=3] [ref=e177]:
+                      - text: January 24,
+                      - generic [ref=e178]: Friday
+                  - list "January 24, Friday" [ref=e179]:
+                    - listitem [ref=e180]:
+                      - article "Brigadier General of Justice Serhii Melnyk appointed Deputy Minister of Defence of Ukraine" [ref=e181]:
+                        - time [ref=e182]: 15:05
+                        - link "Brigadier General of Justice Serhii Melnyk appointed Deputy Minister of Defence of Ukraine" [ref=e184] [cursor=pointer]:
+                          - /url: /en/news/brigadier-general-of-justice-serhii-melnyk-appointed-deputy-minister-of-defence-of-ukraine
+                    - listitem [ref=e185]:
+                      - article "English time" [ref=e186]:
+                        - time [ref=e187]: 14:22
+                        - link "English time" [ref=e189] [cursor=pointer]:
+                          - /url: /en/news/e-1
+                    - listitem [ref=e190]:
+                      - article "During a meeting with a US delegation, Kateryna Chernohorenko revealed that the Army+ app will soon feature educational courses, an Electronic ID, and a loyalty program for service members" [ref=e191]:
+                        - time [ref=e192]: 11:05
+                        - link "During a meeting with a US delegation, Kateryna Chernohorenko revealed that the Army+ app will soon feature educational courses, an Electronic ID, and a loyalty program for service members" [ref=e194] [cursor=pointer]:
+                          - /url: /en/news/during-a-meeting-with-a-us-delegation-kateryna-chernohorenko-revealed-that-the-army-app-will-soon-feature-educational-courses-an-electronic-id-and-a-loyalty-program-for-service-members
+                    - listitem [ref=e195]:
+                      - article "During a meeting with a US delegation, Kateryna Chernohorenko revealed that the Army+ app will soon feature educational courses, an Electronic ID, and a loyalty program for service members" [ref=e196]:
+                        - time [ref=e197]: 10:25
+                        - link "During a meeting with a US delegation, Kateryna Chernohorenko revealed that the Army+ app will soon feature educational courses, an Electronic ID, and a loyalty program for service members" [ref=e199] [cursor=pointer]:
+                          - /url: /en/news/during-a-meeting-with-a-us-delegation-kateryna-chernohorenko-revealed-that-the-army-app-will-soon-feature-educational-courses-an-electronic-id-and-a-loyalty-program-for-service-members-1
+                - generic [ref=e201]:
+                  - time [ref=e202]:
+                    - heading "December 22 2024, Sunday" [level=3] [ref=e203]:
+                      - text: December 22 2024,
+                      - generic [ref=e204]: Sunday
+                  - list "December 22 2024, Sunday" [ref=e205]:
+                    - listitem [ref=e206]:
+                      - article "Serhii Boiev appointed Deputy Minister of Defence of Ukraine for European integration" [ref=e207]:
+                        - time [ref=e208]: 19:36
+                        - link "Serhii Boiev appointed Deputy Minister of Defence of Ukraine for European integration" [ref=e210] [cursor=pointer]:
+                          - /url: /en/news/serhii-boiev-appointed-deputy-minister-of-defence-of-ukraine-for-european-integration
+                    - listitem [ref=e211]:
+                      - article "MoD comprehensively inspects the catering services in military units" [ref=e212]:
+                        - time [ref=e213]: 19:31
+                        - link "MoD comprehensively inspects the catering services in military units" [ref=e215] [cursor=pointer]:
+                          - /url: /en/news/mo-d-comprehensively-inspects-the-catering-services-in-military-units
+                    - listitem [ref=e216]:
+                      - article "Congratulations of the Minister of Defence of Ukraine Rustem Umerov on the Day of Marines" [ref=e217]:
+                        - time [ref=e218]: 19:30
+                        - link "Congratulations of the Minister of Defence of Ukraine Rustem Umerov on the Day of Marines" [ref=e220] [cursor=pointer]:
+                          - /url: /en/news/post-12
+                    - listitem [ref=e221]:
+                      - article "The State Logistics Operator (DOT) has announced water procurement for the military for the second half of 2024" [ref=e222]:
+                        - time [ref=e223]: 19:29
+                        - link "The State Logistics Operator (DOT) has announced water procurement for the military for the second half of 2024" [ref=e225] [cursor=pointer]:
+                          - /url: /en/news/the-state-logistics-operator-dot-has-announced-water-procurement-for-the-military-for-the-second-half-of-2024-1
+              - generic [ref=e226]: "* News publication times are displayed in Eastern European Time (EET, UTC+2), which corresponds to Kyiv time during standard time."
+    - contentinfo [ref=e227]:
+      - generic [ref=e228]:
+        - generic [ref=e229]:
+          - group "Leadership" [ref=e230]:
+            - heading "Leadership" [level=3] [ref=e231]
+            - list [ref=e232]:
+              - listitem [ref=e233]:
+                - link "Minister" [ref=e234] [cursor=pointer]:
+                  - /url: /en/about/rustem-umerov
+              - listitem [ref=e236]:
+                - link "Leadership of the MoD" [ref=e237] [cursor=pointer]:
+                  - /url: /en/about/mod-leadership
+              - listitem [ref=e239]:
+                - link "Commander-in-Chief of the AFU" [ref=e240] [cursor=pointer]:
+                  - /url: /en/about/oleksandr-stanislavovych-syrskyi-en
+              - listitem [ref=e242]:
+                - link "Chief of the Defense Intelligence of Ukraine" [ref=e243] [cursor=pointer]:
+                  - /url: /en/about/kyrylo-budanov-en
+              - listitem [ref=e245]:
+                - link "Head of the Administration of the STSS" [ref=e246] [cursor=pointer]:
+                  - /url: /en/about/oleksandr-vasyliovych-yakovets-en
+          - group "Press" [ref=e248]:
+            - heading "Press" [level=3] [ref=e249]
+            - list [ref=e250]:
+              - listitem [ref=e251]:
+                - link "News" [ref=e252] [cursor=pointer]:
+                  - /url: /en/news
+              - listitem [ref=e254]:
+                - link "Get accreditation" [ref=e255] [cursor=pointer]:
+                  - /url: /en/get-accreditation-1
+              - listitem [ref=e257]:
+                - link "Access to military facilities" [ref=e258] [cursor=pointer]:
+                  - /url: /en/procedure-for-the-access-of-the-media-representatives-to-the-facilities-of-the-ukrainian-defense-forces
+              - listitem [ref=e260]:
+                - link "FAQ" [ref=e261] [cursor=pointer]:
+                  - /url: /en/frequently-asked-questions
+              - listitem [ref=e263]:
+                - link "Request forms" [ref=e264] [cursor=pointer]:
+                  - /url: /en/request-forms
+          - group "Contact us" [ref=e266]:
+            - heading "Contact us" [level=3] [ref=e267]
+            - list [ref=e268]:
+              - listitem [ref=e269]:
+                - link "General inquiries" [ref=e270] [cursor=pointer]:
+                  - /url: /en/contact-us
+              - listitem [ref=e272]:
+                - link "For media" [ref=e273] [cursor=pointer]:
+                  - /url: /en/contacts-for-media
+              - listitem [ref=e275]:
+                - link "Recruitment" [ref=e276] [cursor=pointer]:
+                  - /url: https://ildu.com.ua/
+            - list "Social media links" [ref=e279]:
+              - listitem [ref=e280]:
+                - link "Facebook" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e282] [cursor=pointer]
+              - listitem [ref=e285]:
+                - link "Instagram" [ref=e286] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e287] [cursor=pointer]
+              - listitem [ref=e291]:
+                - link "YouTube" [ref=e292] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e293] [cursor=pointer]
+              - listitem [ref=e296]:
+                - link "Facebook" [ref=e297] [cursor=pointer]:
+                  - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                  - img [ref=e298] [cursor=pointer]
+        - separator [ref=e301]
+        - generic [ref=e302]:
+          - generic [ref=e304]:
+            - img "Ministry of Defense of Ukraine logo" [ref=e305]
+            - generic [ref=e307]:
+              - paragraph [ref=e308]: © 2001–2025 MoD
+              - paragraph [ref=e309]:
+                - text: Content is available under the
+                - link "Creative Commons Attribution 4.0 International license" [ref=e310] [cursor=pointer]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en
+                  - text: Creative
+                  - text: Commons Attribution 4.0 International license
+                - text: ","
+                - text: unless otherwise stated.
+              - link "Website accessibility information" [ref=e311] [cursor=pointer]:
+                - /url: /en/accessibility-en
+          - figure [ref=e313]:
+            - generic [ref=e314]: Developed by
+            - link "OpenTech SoftServe logo" [ref=e315] [cursor=pointer]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e316] [cursor=pointer]
+          - paragraph [ref=e319]:
+            - generic [ref=e320]: BETA
+            - text: The functionality works in the mode of experimental operation
+        - paragraph [ref=e321]: The build is deployed 8 days ago 2025-11-04 15:09 (GMT+0) 56c2767.
+  - alert [ref=e322]: News list 123 | Ministry of Defence of Ukraine
+  - iframe [ref=e323]:
+    
+  - link "Допомога онлайн" [ref=e325] [cursor=pointer]:
+    - /url: https://widget-cz.ukc.gov.ua/build/popup.html?draggable=true&resizable=true&showButton=true&showBar=true&showContactCard=true&location=https%3A%2F%2Ffrontend.main.testdev.mod.gov.ua%2Fen%2Fnews&showControls=true&companyId=i177195357&
+    - generic [ref=e328] [cursor=pointer]: Допомога онлайн
+```
