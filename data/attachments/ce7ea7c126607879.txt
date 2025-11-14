@@ -1,0 +1,16 @@
+[2025-11-14 09:40:53] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-11-14 09:41:03] INFO: Verify that URL includes expected part: /explanation
+[2025-11-14 09:41:04] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/20992 with params: {} and data: {}
+[2025-11-14 09:41:05] INFO: ✅ [DELETE] Response from /upload/files/20992 - Status: 200
+[2025-11-14 09:41:05] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/13604 with params: {} and data: {}
+[2025-11-14 09:41:05] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/13604 - Status: 200
+[2025-11-14 09:41:05] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/13605 with params: {} and data: {}
+[2025-11-14 09:41:05] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/13605 - Status: 200
+[2025-11-14 09:41:05] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/13606 with params: {} and data: {}
+[2025-11-14 09:41:06] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/13606 - Status: 200
+[2025-11-14 09:41:06] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-article.explain-article/13607 with params: {} and data: {}
+[2025-11-14 09:41:06] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-article.explain-article/13607 - Status: 200
+[2025-11-14 09:41:06] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-tag.explain-tag/829 with params: {} and data: {}
+[2025-11-14 09:41:06] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-tag.explain-tag/829 - Status: 200
+[2025-11-14 09:41:06] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::explain-tag.explain-tag/830 with params: {} and data: {}
+[2025-11-14 09:41:06] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::explain-tag.explain-tag/830 - Status: 200
