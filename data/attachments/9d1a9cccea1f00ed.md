@@ -1,0 +1,410 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Перейти до головного вмісту" [ref=e4]:
+        - /url: "#main"
+      - navigation "Міністерство оборони України" [ref=e5]:
+        - generic [ref=e6]:
+          - link "На головну сторінку" [ref=e8]:
+            - /url: /
+            - img [ref=e9]
+            - img "Логотип Міністерства оборони України" [ref=e12]
+            - generic [ref=e14]: Міністерство оборони України
+          - generic [ref=e15]:
+            - link "1513" [ref=e16]:
+              - /url: "tel: 1513"
+              - img [ref=e17]
+              - generic [ref=e19]: "1513"
+            - button "Пошук" [ref=e20] [cursor=pointer]:
+              - img [ref=e21] [cursor=pointer]
+            - button "Відкрити меню навігації та інше" [ref=e24] [cursor=pointer]
+      - main [ref=e30]:
+        - navigation "Навігаційні стежки" [ref=e31]:
+          - list [ref=e32]:
+            - listitem "Головна" [ref=e33]:
+              - link "Головна" [ref=e34] [cursor=pointer]:
+                - /url: /
+              - img [ref=e36]
+            - listitem "Пояснюємо" [ref=e38]:
+              - link "Пояснюємо" [disabled] [ref=e39]:
+                - /url: /explanation
+        - heading "Пояснюємо" [level=1] [ref=e40]
+        - generic [ref=e41]:
+          - generic "Теги" [ref=e43]:
+            - heading "Теги" [level=2] [ref=e44]:
+              - button "Теги" [ref=e45] [cursor=pointer]:
+                - generic [ref=e46] [cursor=pointer]: Теги
+                - img [ref=e47] [cursor=pointer]
+            - group [ref=e50]:
+              - generic [ref=e51] [cursor=pointer]:
+                - checkbox "AutoTag-d14-1 3" [ref=e52] [cursor=pointer]
+                - generic [ref=e53] [cursor=pointer]:
+                  - img
+                - generic [ref=e55] [cursor=pointer]:
+                  - link "AutoTag-d14-1":
+                    - /url: /explanation/tag-auto-tag-d14-1
+                  - generic [ref=e56] [cursor=pointer]: "3"
+              - generic [ref=e57] [cursor=pointer]:
+                - checkbox "AutoTag-a25-1 2" [ref=e58] [cursor=pointer]
+                - generic [ref=e59] [cursor=pointer]:
+                  - img
+                - generic [ref=e61] [cursor=pointer]:
+                  - link "AutoTag-a25-1":
+                    - /url: /explanation/tag-auto-tag-a25-1
+                  - generic [ref=e62] [cursor=pointer]: "2"
+              - generic [ref=e63] [cursor=pointer]:
+                - checkbox "Test explain tag 1" [ref=e64] [cursor=pointer]
+                - generic [ref=e65] [cursor=pointer]:
+                  - img
+                - generic [ref=e67] [cursor=pointer]:
+                  - link "Test explain tag":
+                    - /url: /explanation/tag-explain-tag-2
+                  - generic [ref=e68] [cursor=pointer]: "1"
+              - generic [ref=e69] [cursor=pointer]:
+                - checkbox "AutoTag-d14-2 1" [ref=e70] [cursor=pointer]
+                - generic [ref=e71] [cursor=pointer]:
+                  - img
+                - generic [ref=e73] [cursor=pointer]:
+                  - link "AutoTag-d14-2":
+                    - /url: /explanation/tag-auto-tag-d14-2
+                  - generic [ref=e74] [cursor=pointer]: "1"
+          - generic [ref=e75]:
+            - generic [ref=e77]:
+              - searchbox "Пошук в розділі Пояснюємо" [ref=e79]
+              - button "Знайти" [ref=e80] [cursor=pointer]:
+                - img [ref=e81] [cursor=pointer]
+            - generic [ref=e83]:
+              - list "Пояснюємо" [ref=e84]:
+                - listitem [ref=e85]:
+                  - article "ExplainArticle-24e-4 highlight is TRUE" [ref=e86]:
+                    - link "ExplainArticle-24e-4 highlight is TRUE 17 листопада 2025, 11:44" [ref=e87]:
+                      - /url: /explanation/explain-article-24e-4
+                      - generic [ref=e90]:
+                        - generic [ref=e91]:
+                          - generic [ref=e92]: ExplainArticle-24e-4
+                          - paragraph [ref=e93]: highlight is TRUE
+                        - time [ref=e94]: 17 листопада 2025, 11:44
+                - listitem [ref=e95]:
+                  - article "ExplainArticle-24e-3 highlight is FALSE" [ref=e96]:
+                    - link "ExplainArticle-24e-3 highlight is FALSE 17 листопада 2025, 11:44" [ref=e97]:
+                      - /url: /explanation/explain-article-24e-3
+                      - generic [ref=e100]:
+                        - generic [ref=e101]:
+                          - generic [ref=e102]: ExplainArticle-24e-3
+                          - paragraph [ref=e103]: highlight is FALSE
+                        - time [ref=e104]: 17 листопада 2025, 11:44
+                - listitem [ref=e105]:
+                  - article "ExplainArticle-24e-2 highlight is TRUE" [ref=e106]:
+                    - link "ExplainArticle-24e-2 highlight is TRUE 17 листопада 2025, 11:44" [ref=e107]:
+                      - /url: /explanation/explain-article-24e-2
+                      - generic [ref=e110]:
+                        - generic [ref=e111]:
+                          - generic [ref=e112]: ExplainArticle-24e-2
+                          - paragraph [ref=e113]: highlight is TRUE
+                        - time [ref=e114]: 17 листопада 2025, 11:44
+                - listitem [ref=e115]:
+                  - article "ExplainArticle-24e-1 highlight is TRUE" [ref=e116]:
+                    - link "ExplainArticle-24e-1 highlight is TRUE 17 листопада 2025, 11:44" [ref=e117]:
+                      - /url: /explanation/explain-article-24e-1
+                      - generic [ref=e120]:
+                        - generic [ref=e121]:
+                          - generic [ref=e122]: ExplainArticle-24e-1
+                          - paragraph [ref=e123]: highlight is TRUE
+                        - time [ref=e124]: 17 листопада 2025, 11:44
+                - listitem [ref=e125]:
+                  - article "test-vova 2222" [ref=e126]:
+                    - link "test-vova 2222 7 листопада 2025, 7:56" [ref=e127]:
+                      - /url: /explanation/test-vova
+                      - generic [ref=e130]:
+                        - generic [ref=e131]:
+                          - generic [ref=e132]: test-vova
+                          - paragraph [ref=e133]: "2222"
+                        - time [ref=e134]: 7 листопада 2025, 7:56
+                - listitem [ref=e135]:
+                  - article "ExplainArticle-675-3 highlight is FALSE" [ref=e136]:
+                    - link "ExplainArticle-675-3 highlight is FALSE 4 листопада 2025, 1:44" [ref=e137]:
+                      - /url: /explanation/explain-article-675-3
+                      - generic [ref=e140]:
+                        - generic [ref=e141]:
+                          - generic [ref=e142]: ExplainArticle-675-3
+                          - paragraph [ref=e143]: highlight is FALSE
+                        - time [ref=e144]: 4 листопада 2025, 1:44
+                - listitem [ref=e145]:
+                  - article "ExplainArticle-ebf-3 highlight is FALSE" [ref=e146]:
+                    - link "ExplainArticle-ebf-3 highlight is FALSE 3 листопада 2025, 23:24" [ref=e147]:
+                      - /url: /explanation/explain-article-ebf-3
+                      - generic [ref=e150]:
+                        - generic [ref=e151]:
+                          - generic [ref=e152]: ExplainArticle-ebf-3
+                          - paragraph [ref=e153]: highlight is FALSE
+                        - time [ref=e154]: 3 листопада 2025, 23:24
+                - listitem [ref=e155]:
+                  - article "Фізичні особи-підприємці можуть подати заявку на кодифікацію озброєння" [ref=e156]:
+                    - link "Фізичні особи-підприємці можуть подати заявку на кодифікацію озброєння 4 серпня 2025, 15:36" [ref=e157]:
+                      - /url: /explanation/explain-article-1
+                      - generic [ref=e160]:
+                        - generic [ref=e162]: Фізичні особи-підприємці можуть подати заявку на кодифікацію озброєння
+                        - time [ref=e163]: 4 серпня 2025, 15:36
+                - listitem [ref=e164]:
+                  - article "Пояснюємо 02 Новини на цю тему" [ref=e165]:
+                    - 'link "Новий український смартфон: революція у світі технологій та кіберзахисту Пояснюємо 02 Новини на цю тему 6 травня 2025, 11:04" [ref=e166]':
+                      - /url: /explanation/poyasnyuyemo-02-novini-na-czyu-temu
+                      - 'img "Новий український смартфон: революція у світі технологій та кіберзахисту" [ref=e169]'
+                      - generic [ref=e170]:
+                        - generic [ref=e172]: Пояснюємо 02 Новини на цю тему
+                        - time [ref=e173]: 6 травня 2025, 11:04
+                - listitem [ref=e174]:
+                  - 'article "Розширення «Контракту 18-24» на операторів безпілотних систем: особливості нового контракту 30 липня Кабінет Міністрів України підтримав ініціативу Міністерства оборони щодо розширення експериментального проєкту «Контракт 18–24». Відтепер він поширюватиметься на штатні посади, пов’язані з експлуатацією безпілотних систем (БПС). Для громадян у віці до 25 років, які хочуть долучитися до війська за цими напрямками, затверджено окрему форму контракту." [ref=e175]':
+                    - 'link "Розширення «Контракту 18-24» на операторів безпілотних систем: особливості нового контракту 30 липня Кабінет Міністрів України підтримав ініціативу Міністерства оборони щодо розширення експериментального проєкту «Контракт 18–24». Відтепер він поширюватиметься на штатні посади, пов’язані з експлуатацією безпілотних систем (БПС). Для громадян у віці до 25 років, які хочуть долучитися до війська за цими напрямками, затверджено окрему форму контракту. 6 травня 2025, 10:25" [ref=e176]':
+                      - /url: /explanation/explain-article-15
+                      - generic [ref=e179]:
+                        - generic [ref=e180]:
+                          - generic [ref=e181]: "Розширення «Контракту 18-24» на операторів безпілотних систем: особливості нового контракту"
+                          - paragraph [ref=e182]: 30 липня Кабінет Міністрів України підтримав ініціативу Міністерства оборони щодо розширення експериментального проєкту «Контракт 18–24». Відтепер він поширюватиметься на штатні посади, пов’язані з експлуатацією безпілотних систем (БПС). Для громадян у віці до 25 років, які хочуть долучитися до війська за цими напрямками, затверджено окрему форму контракту.
+                        - time [ref=e183]: 6 травня 2025, 10:25
+                - listitem [ref=e184]:
+                  - article "aaatest aaa1" [ref=e185]:
+                    - link "aaatest aaa1 11 березня 2025, 10:14" [ref=e186]:
+                      - /url: /explanation/explain-article-11
+                      - img [ref=e189]
+                      - generic [ref=e190]:
+                        - generic [ref=e191]:
+                          - generic [ref=e192]: aaatest
+                          - paragraph [ref=e193]: aaa1
+                        - time [ref=e194]: 11 березня 2025, 10:14
+                - listitem [ref=e195]:
+                  - article "qqqtest qqq" [ref=e196]:
+                    - link "qqqtest qqq 11 березня 2025, 10:13" [ref=e197]:
+                      - /url: /explanation/explain-article-10
+                      - img [ref=e200]
+                      - generic [ref=e201]:
+                        - generic [ref=e202]:
+                          - generic [ref=e203]: qqqtest
+                          - paragraph [ref=e204]: qqq
+                        - time [ref=e205]: 11 березня 2025, 10:13
+                - listitem [ref=e206]:
+                  - article "Стаття Підзаголовок до пояснюємо" [ref=e207]:
+                    - link "Стаття Підзаголовок до пояснюємо 11 березня 2025, 10:12" [ref=e208]:
+                      - /url: /explanation/000test
+                      - generic [ref=e211]:
+                        - generic [ref=e212]:
+                          - generic [ref=e213]: Стаття
+                          - paragraph [ref=e214]: Підзаголовок до пояснюємо
+                        - time [ref=e215]: 11 березня 2025, 10:12
+                - listitem [ref=e216]:
+                  - article "789test 789789" [ref=e217]:
+                    - link "789test 789789 11 березня 2025, 10:12" [ref=e218]:
+                      - /url: /explanation/explain-article-8
+                      - img [ref=e221]
+                      - generic [ref=e222]:
+                        - generic [ref=e223]:
+                          - generic [ref=e224]: 789test
+                          - paragraph [ref=e225]: "789789"
+                        - time [ref=e226]: 11 березня 2025, 10:12
+                - listitem [ref=e227]:
+                  - article "345test" [ref=e228]:
+                    - link "345test 11 березня 2025, 10:10" [ref=e229]:
+                      - /url: /explanation/explain-article-6
+                      - img [ref=e232]
+                      - generic [ref=e233]:
+                        - generic [ref=e235]: 345test
+                        - time [ref=e236]: 11 березня 2025, 10:10
+                - listitem [ref=e237]:
+                  - 'article "Особиста кібербезпека: паролі та месенджери" [ref=e238]':
+                    - 'link "Новий український смартфон: революція у світі технологій та кіберзахисту Особиста кібербезпека: паролі та месенджери 7 березня 2025, 12:59" [ref=e239]':
+                      - /url: /explanation/explain-article-4
+                      - 'img "Новий український смартфон: революція у світі технологій та кіберзахисту" [ref=e242]'
+                      - generic [ref=e243]:
+                        - generic [ref=e245]: "Особиста кібербезпека: паролі та месенджери"
+                        - time [ref=e246]: 7 березня 2025, 12:59
+                - listitem [ref=e247]:
+                  - article "Апарат Міністерства оборони" [ref=e248]:
+                    - link "Апарат Міністерства оборони 5 березня 2025, 11:14" [ref=e249]:
+                      - /url: /explanation/explain-article-3
+                      - img [ref=e252]
+                      - generic [ref=e253]:
+                        - generic [ref=e255]: Апарат Міністерства оборони
+                        - time [ref=e256]: 5 березня 2025, 11:14
+                - listitem [ref=e257]:
+                  - article "Списки" [ref=e258]:
+                    - link "Списки 21 лютого 2025, 15:52" [ref=e259]:
+                      - /url: /explanation/34232
+                      - generic [ref=e262]:
+                        - generic [ref=e264]: Списки
+                        - time [ref=e265]: 21 лютого 2025, 15:52
+                - listitem [ref=e266]:
+                  - article "Як користуватися новою системою DOT-Chain та в чому її користь DOT-Chain — інноваційна ІТ-система від Державного оператора тилу для управління тиловими потребами ЗСУ. Її головне завдання — спростити процеси, збільшити поінформованість та посилити підтримку і військових, і постачальників." [ref=e267]:
+                    - link "вова Як користуватися новою системою DOT-Chain та в чому її користь DOT-Chain — інноваційна ІТ-система від Державного оператора тилу для управління тиловими потребами ЗСУ. Її головне завдання — спростити процеси, збільшити поінформованість та посилити підтримку і військових, і постачальників. 21 січня 2025, 14:10" [ref=e268]:
+                      - /url: /explanation/yak-koristuvatisya-novoyu-sistemoyu-dot-chain-ta-v-chomu-yiyi-korist
+                      - img "вова" [ref=e271]
+                      - generic [ref=e272]:
+                        - generic [ref=e273]:
+                          - generic [ref=e274]: Як користуватися новою системою DOT-Chain та в чому її користь
+                          - paragraph [ref=e275]: DOT-Chain — інноваційна ІТ-система від Державного оператора тилу для управління тиловими потребами ЗСУ. Її головне завдання — спростити процеси, збільшити поінформованість та посилити підтримку і військових, і постачальників.
+                        - time [ref=e276]: 21 січня 2025, 14:10
+                - listitem [ref=e277]:
+                  - article "Як вибрати і створити рапорт в Армія+ Відеоінструкція щодо алгоритму створення електронних рапортів у застосунку Армія+." [ref=e278]:
+                    - link "Як вибрати і створити рапорт в Армія+ Відеоінструкція щодо алгоритму створення електронних рапортів у застосунку Армія+. 17 січня 2025, 15:03" [ref=e279]:
+                      - /url: /explanation/yak-vibrati-i-stvoriti-raport-v-armiya-1
+                      - generic [ref=e282]:
+                        - generic [ref=e283]:
+                          - generic [ref=e284]: Як вибрати і створити рапорт в Армія+
+                          - paragraph [ref=e285]: Відеоінструкція щодо алгоритму створення електронних рапортів у застосунку Армія+.
+                        - time [ref=e286]: 17 січня 2025, 15:03
+              - generic [ref=e287]:
+                - link [disabled]:
+                  - /url: ""
+                  - img
+                - navigation "Регіон пагінації" [ref=e288]:
+                  - list [ref=e289]:
+                    - generic: "1"
+                    - button "Сторінка 1" [ref=e290] [cursor=pointer]: "1"
+                    - button "Сторінка 2" [ref=e291] [cursor=pointer]: "2"
+                - link [ref=e292]:
+                  - /url: /explanation?page=2
+                  - img [ref=e293]
+    - contentinfo [ref=e295]:
+      - generic [ref=e296]:
+        - generic [ref=e297]:
+          - group "Про нас" [ref=e298]:
+            - heading "Про нас" [level=3] [ref=e299]
+            - list [ref=e300]:
+              - listitem [ref=e301]:
+                - link "Керівництво Міноборони" [ref=e302]:
+                  - /url: /pro-nas/kerivnicztvo-ministerstva-oboroni-ukrayini
+              - listitem [ref=e304]:
+                - link "Головнокомандувач ЗСУ" [ref=e305]:
+                  - /url: /pro-nas/general-sirskij-oleksandr-stanislavovich
+              - listitem [ref=e307]:
+                - link "Керівник ГУР" [ref=e308]:
+                  - /url: /pro-nas/general-lejtenant-budanov-kirilo-oleksijovich
+              - listitem [ref=e310]:
+                - link "Керівник ДССТ" [ref=e311]:
+                  - /url: /pro-nas/yakovecz-oleksandr-vasilovich
+              - listitem [ref=e313]:
+                - link "Апарат Міністерства оборони" [ref=e314]:
+                  - /url: /aparat-ministerstva-oboroni
+              - listitem [ref=e316]:
+                - link "Генеральний штаб ЗСУ" [ref=e317]:
+                  - /url: https://www.mil.gov.ua/ministry/struktura-generalnogo-shtabu/
+          - group "Сервіси" [ref=e319]:
+            - heading "Сервіси" [level=3] [ref=e320]
+            - list [ref=e321]:
+              - listitem [ref=e322]:
+                - link "Воїнам та їх сім'ям" [ref=e323]:
+                  - /url: /services
+              - listitem [ref=e325]:
+                - link "Майбутнім воїнам" [ref=e326]:
+                  - /url: /services
+              - listitem [ref=e328]:
+                - link "Громадянам" [ref=e329]:
+                  - /url: /services
+          - group "Діяльність" [ref=e331]:
+            - heading "Діяльність" [level=3] [ref=e332]
+            - list [ref=e333]:
+              - listitem [ref=e334]:
+                - link "Антикорупційна" [ref=e335]:
+                  - /url: /antikorupczijna-diyalnist
+              - listitem [ref=e337]:
+                - link "Закупівельна" [ref=e338]:
+                  - /url: /zakupivelna-diyalnist
+              - listitem [ref=e340]:
+                - link "Нормативно-правова" [ref=e341]:
+                  - /url: https://www.mil.gov.ua/ministry/normativno-pravova-baza/
+              - listitem [ref=e343]:
+                - link "Майнова" [ref=e344]:
+                  - /url: https://www.mil.gov.ua/diyalnist/vidchuzhennya-vijskovogo-majna/ogoloshennya-ta-anonsi/
+              - listitem [ref=e346]:
+                - link "Кадрова" [ref=e347]:
+                  - /url: /kadrova-diyalnist
+              - listitem [ref=e349]:
+                - link "Фінансова" [ref=e350]:
+                  - /url: https://www.mil.gov.ua/diyalnist/finances/
+              - listitem [ref=e352]:
+                - link "Міжнародне співробітництво" [ref=e353]:
+                  - /url: /mizhnarodne-spivrobitnicztvo
+          - group "Прес-центр" [ref=e355]:
+            - heading "Прес-центр" [level=3] [ref=e356]
+            - list [ref=e357]:
+              - listitem [ref=e358]:
+                - link "Новини" [ref=e359]:
+                  - /url: /news
+              - listitem [ref=e361]:
+                - link "Пояснюємо" [ref=e362]:
+                  - /url: /explanation
+              - listitem [ref=e364]:
+                - link "Отримати акредитацію ЗСУ" [ref=e365]:
+                  - /url: /otrimati-akreditacziyu-zsu
+              - listitem [ref=e367]:
+                - link "Доступ на військові об'єкти" [ref=e368]:
+                  - /url: /dostup-na-vijskovi-ob-yekti
+              - listitem [ref=e370]:
+                - link "Поширені питання медіа" [ref=e371]:
+                  - /url: /poshireni-pitannya-media
+              - listitem [ref=e373]:
+                - link "Форми запитів" [ref=e374]:
+                  - /url: /formi-zapitiv
+          - group "Контакти" [ref=e376]:
+            - heading "Контакти" [level=3] [ref=e377]
+            - list [ref=e378]:
+              - listitem [ref=e379]:
+                - link "Контакти Міністерства" [ref=e380]:
+                  - /url: /kontakti
+              - listitem [ref=e382]:
+                - link "Для медіа" [ref=e383]:
+                  - /url: /kontakti-dlya-media
+              - listitem [ref=e385]:
+                - link "Галузевий державний архів" [ref=e386]:
+                  - /url: https://www.mil.gov.ua/zvernennya-gromadyan/galuzevij-derzhavnij-arxiv/
+            - list "Посилання на соціальні мережі" [ref=e389]:
+              - listitem [ref=e390]:
+                - link "Facebook" [ref=e391]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e392]
+              - listitem [ref=e395]:
+                - link "Instagram" [ref=e396]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e397]
+              - listitem [ref=e401]:
+                - link "YouTube" [ref=e402]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e403]
+              - listitem [ref=e406]:
+                - link "Facebook" [ref=e407]:
+                  - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                  - img [ref=e408]
+        - separator [ref=e411]
+        - generic [ref=e412]:
+          - generic [ref=e414]:
+            - img "Логотип Міністерства оборони України" [ref=e415]
+            - generic [ref=e417]:
+              - paragraph [ref=e418]: © 2001–2025 МОУ
+              - paragraph [ref=e419]:
+                - text: Контент доступний за ліцензією
+                - link "Creative Commons Attribution 4.0 International license" [ref=e420]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.uk
+                  - text: Creative
+                  - text: Commons Attribution 4.0 International license
+                - text: ","
+                - text: якщо не зазначено інше.
+              - link "Інформація про доступність вебсайту" [ref=e421]:
+                - /url: /accessibility
+          - figure [ref=e423]:
+            - generic [ref=e424]: Розроблено в
+            - link "OpenTech SoftServe лого" [ref=e425]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e426]
+          - paragraph [ref=e429]:
+            - generic [ref=e430]: BETA
+            - text: Функціонал працює в режимі дослідної експлуатації
+        - paragraph [ref=e431]: The build is deployed 4 days ago 2025-11-13 12:23 (GMT+0) 5053120.
+  - alert [ref=e432]: Армія + Роз'яснення | Міністерство оборони України
+  - iframe [ref=e433]:
+    
+  - link "Допомога онлайн" [ref=e435]:
+    - /url: https://widget-cz.ukc.gov.ua/build/popup.html?draggable=true&resizable=true&showButton=true&showBar=true&showContactCard=true&location=https%3A%2F%2Ffrontend.main.testdev.mod.gov.ua%2Fexplanation&showControls=true&companyId=i177195357&
+    - generic [ref=e438]: Допомога онлайн
+```
