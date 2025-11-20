@@ -1,0 +1,7 @@
+[2025-11-20 09:34:25] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/media-link/?locale=en&populate=* with params: {} and data: {}
+[2025-11-20 09:34:25] INFO: ✅ [GET] Response from /api/media-link/?locale=en&populate=* - Status: 200
+[2025-11-20 09:34:25] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/media-link/?locale=uk&populate=* with params: {} and data: {}
+[2025-11-20 09:34:25] INFO: ✅ [GET] Response from /api/media-link/?locale=uk&populate=* - Status: 200
+[2025-11-20 09:34:29] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-11-20 09:34:31] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::media-link.media-link?locale=en with params: {} and data: {}
+[2025-11-20 09:34:31] INFO: ✅ [DELETE] Response from /content-manager/single-types/api::media-link.media-link?locale=en - Status: 200
