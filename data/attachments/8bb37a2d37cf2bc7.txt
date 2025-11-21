@@ -1,0 +1,17 @@
+[2025-11-21 09:26:48] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-11-21 09:26:51] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/single-types-seo/?locale=uk&populate=* with params: {} and data: {}
+[2025-11-21 09:26:51] INFO: ✅ [GET] Response from /api/single-types-seo/?locale=uk&populate=* - Status: 200
+[2025-11-21 09:26:52] INFO: Verify that URL includes expected part: tag-activity-28e-1
+[2025-11-21 09:26:53] INFO: Verify that URL includes expected part: tag-type-28e-2
+[2025-11-21 09:27:04] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/7931 with params: {} and data: {}
+[2025-11-21 09:27:05] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/7931 - Status: 200
+[2025-11-21 09:27:05] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/7932 with params: {} and data: {}
+[2025-11-21 09:27:05] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/7932 - Status: 200
+[2025-11-21 09:27:05] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/7933 with params: {} and data: {}
+[2025-11-21 09:27:05] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/7933 - Status: 200
+[2025-11-21 09:27:05] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/7934 with params: {} and data: {}
+[2025-11-21 09:27:06] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/7934 - Status: 200
+[2025-11-21 09:27:06] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/2914 with params: {} and data: {}
+[2025-11-21 09:27:06] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/2914 - Status: 200
+[2025-11-21 09:27:06] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-type.document-tag-type/2902 with params: {} and data: {}
+[2025-11-21 09:27:07] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-type.document-tag-type/2902 - Status: 200
