@@ -1,0 +1,18 @@
+[2025-11-26 09:28:07] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-11-26 09:28:10] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/api/single-types-seo/?locale=uk&populate=* with params: {} and data: {}
+[2025-11-26 09:28:11] INFO: ✅ [GET] Response from /api/single-types-seo/?locale=uk&populate=* - Status: 200
+[2025-11-26 09:28:13] INFO: Verify that URL includes expected part: tag-activity-dee-1
+[2025-11-26 09:28:15] INFO: Verify that URL includes expected part: tag-type-dee-2
+[2025-11-26 09:28:16] INFO: Verify that URL includes expected part: tag-activity-dee-1
+[2025-11-26 09:28:26] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/8103 with params: {} and data: {}
+[2025-11-26 09:28:27] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/8103 - Status: 200
+[2025-11-26 09:28:27] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/8104 with params: {} and data: {}
+[2025-11-26 09:28:27] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/8104 - Status: 200
+[2025-11-26 09:28:27] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/8105 with params: {} and data: {}
+[2025-11-26 09:28:28] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/8105 - Status: 200
+[2025-11-26 09:28:28] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/8106 with params: {} and data: {}
+[2025-11-26 09:28:28] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/8106 - Status: 200
+[2025-11-26 09:28:28] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/2957 with params: {} and data: {}
+[2025-11-26 09:28:29] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/2957 - Status: 200
+[2025-11-26 09:28:29] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-type.document-tag-type/2945 with params: {} and data: {}
+[2025-11-26 09:28:29] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-type.document-tag-type/2945 - Status: 200
