@@ -1,0 +1,37 @@
+[2025-11-28 09:44:59] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee?locale=uk with params: {} and data: "{\"name\":\"FirstEmployee-92e\",\"position\":\"Senior Test Automation\",\"photo\":\"21852\",\"biography\":\"Some biography\",\"slug\":\"first-best-tester-92e\",\"leaderships\":[\"5844\"],\"seo\":{\"id\":0,\"metaTitle\":\"FirstMetaTitle-92e\",\"metaDescription\":\"FirstMetaDescription-87bcd153-8487-4875-bb6e-57538b97ce75\",\"allowIndexing\":true}}"
+[2025-11-28 09:45:00] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee?locale=uk - Status: 200
+[2025-11-28 09:45:00] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7816?locale=uk with params: {} and data: {}
+[2025-11-28 09:45:00] INFO: ✅ [GET] Response from /content-manager/collection-types/api::employee.employee/7816?locale=uk - Status: 200
+[2025-11-28 09:45:00] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7816/actions/publish?locale=uk with params: {} and data: {}
+[2025-11-28 09:45:00] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee/7816/actions/publish?locale=uk - Status: 200
+[2025-11-28 09:45:00] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee?locale=uk with params: {} and data: "{\"name\":\"SecondEmployee-92e\",\"position\":\"Junior Test Automation\",\"photo\":\"21853\",\"biography\":\"Some biography\",\"slug\":\"second-best-tester-92e\",\"leaderships\":[\"5844\",\"5845\"],\"seo\":{\"id\":0,\"metaTitle\":\"SecondMetaTitle-92e\",\"metaDescription\":\"SecondMetaDescription-e73c1528-d584-45e8-bd60-59c6ddcaa039\",\"allowIndexing\":true}}"
+[2025-11-28 09:45:00] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee?locale=uk - Status: 200
+[2025-11-28 09:45:00] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7817?locale=uk with params: {} and data: {}
+[2025-11-28 09:45:01] INFO: ✅ [GET] Response from /content-manager/collection-types/api::employee.employee/7817?locale=uk - Status: 200
+[2025-11-28 09:45:01] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7817/actions/publish?locale=uk with params: {} and data: {}
+[2025-11-28 09:45:01] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee/7817/actions/publish?locale=uk - Status: 200
+[2025-11-28 09:45:05] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-11-28 09:45:13] INFO: Verify that URL includes expected part: /pro-nas/first-leadership-92e
+[2025-11-28 09:45:13] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/5844?locale=uk with params: {} and data: {"tab_title":"UpdatedTab-92e","slug":"updated-tab-92e"}
+[2025-11-28 09:45:14] INFO: ✅ [PUT] Response from /content-manager/collection-types/api::leadership.leadership/5844?locale=uk - Status: 200
+[2025-11-28 09:45:15] INFO: Verify that URL includes expected part: /pro-nas/updated-tab-92e
+[2025-11-28 09:45:17] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7816 with params: {} and data: {}
+[2025-11-28 09:45:17] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::employee.employee/7816 - Status: 200
+[2025-11-28 09:45:18] INFO: Verify that URL includes expected part: /pro-nas/updated-tab-92e
+[2025-11-28 09:45:30] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7816 with params: {} and data: {}
+[2025-11-28 09:45:30] ERROR: ❌ [DELETE] Response Error from /content-manager/collection-types/api::employee.employee/7816 - Status: 404, Data: {"data":null,"error":{"status":404,"name":"NotFoundError","message":"Not Found","details":{}}}
+[2025-11-28 09:45:30] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/7817 with params: {} and data: {}
+[2025-11-28 09:45:30] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::employee.employee/7817 - Status: 200
+[2025-11-28 09:45:31] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/pro-nas/second-best-tester-92e does not contain expected part: /pro-nas/updated-tab-92e. Error: page.waitForURL: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "domcontentloaded"
+  navigated to "https://frontend.main.testdev.mod.gov.ua/pro-nas/second-best-tester-92e"
+============================================================
+[2025-11-28 09:45:31] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/5844 with params: {} and data: {}
+[2025-11-28 09:45:31] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::leadership.leadership/5844 - Status: 200
+[2025-11-28 09:45:31] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/5845 with params: {} and data: {}
+[2025-11-28 09:45:31] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::leadership.leadership/5845 - Status: 200
+[2025-11-28 09:45:31] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/21852 with params: {} and data: {}
+[2025-11-28 09:45:32] INFO: ✅ [DELETE] Response from /upload/files/21852 - Status: 200
+[2025-11-28 09:45:32] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/21853 with params: {} and data: {}
+[2025-11-28 09:45:33] INFO: ✅ [DELETE] Response from /upload/files/21853 - Status: 200
