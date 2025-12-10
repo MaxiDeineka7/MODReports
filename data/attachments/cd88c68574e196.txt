@@ -1,0 +1,15 @@
+[2025-12-10 09:31:52] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-12-10 09:31:56] INFO: Verify that URL includes expected part: tag-activity-321-1
+[2025-12-10 09:31:57] INFO: Verify that URL includes expected part: tag-type-321-2
+[2025-12-10 09:32:08] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/8683 with params: {} and data: {}
+[2025-12-10 09:32:09] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/8683 - Status: 200
+[2025-12-10 09:32:09] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/8684 with params: {} and data: {}
+[2025-12-10 09:32:09] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/8684 - Status: 200
+[2025-12-10 09:32:09] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/8685 with params: {} and data: {}
+[2025-12-10 09:32:10] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/8685 - Status: 200
+[2025-12-10 09:32:10] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document.document/8686 with params: {} and data: {}
+[2025-12-10 09:32:10] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document.document/8686 - Status: 200
+[2025-12-10 09:32:10] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/3102 with params: {} and data: {}
+[2025-12-10 09:32:10] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-diyalnist.document-tag-diyalnist/3102 - Status: 200
+[2025-12-10 09:32:10] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::document-tag-type.document-tag-type/3090 with params: {} and data: {}
+[2025-12-10 09:32:11] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::document-tag-type.document-tag-type/3090 - Status: 200
