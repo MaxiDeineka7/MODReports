@@ -1,0 +1,19 @@
+[2025-12-11 09:47:15] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/19107?locale=uk with params: {} and data: {"title":"Updated first news","slug":"updatedtest-be8","highlight":false,"content":"Updated the First news for test","seo":{"id":63399,"metaTitle":"Meta title for the First news","metaDescription":"Meta description for the First news","allowIndexing":false},"tags":["7776"]}
+[2025-12-11 09:47:16] INFO: ✅ [PUT] Response from /content-manager/collection-types/api::post.post/19107?locale=uk - Status: 200
+[2025-12-11 09:47:19] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua/
+[2025-12-11 09:47:27] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/7776 with params: {} and data: {}
+[2025-12-11 09:47:28] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/7776 - Status: 200
+[2025-12-11 09:47:28] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/7777 with params: {} and data: {}
+[2025-12-11 09:47:28] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::tag.tag/7777 - Status: 200
+[2025-12-11 09:47:28] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/19107 with params: {} and data: {}
+[2025-12-11 09:47:29] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/19107 - Status: 200
+[2025-12-11 09:47:29] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/19108 with params: {} and data: {}
+[2025-12-11 09:47:29] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/19108 - Status: 200
+[2025-12-11 09:47:29] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/19109 with params: {} and data: {}
+[2025-12-11 09:47:29] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/19109 - Status: 200
+[2025-12-11 09:47:29] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/19110 with params: {} and data: {}
+[2025-12-11 09:47:29] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/19110 - Status: 200
+[2025-12-11 09:47:29] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/19111 with params: {} and data: {}
+[2025-12-11 09:47:30] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/19111 - Status: 200
+[2025-12-11 09:47:30] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/22310 with params: {} and data: {}
+[2025-12-11 09:47:31] INFO: ✅ [DELETE] Response from /upload/files/22310 - Status: 200
