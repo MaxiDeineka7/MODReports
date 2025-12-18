@@ -1,0 +1,37 @@
+[2025-12-18 10:13:23] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee?locale=en with params: {} and data: "{\"name\":\"FirstEmployee-68b\",\"position\":\"Senior Test Automation\",\"photo\":\"22578\",\"biography\":\"Some biography\",\"slug\":\"first-best-tester-68b\",\"leaderships\":[\"5950\"],\"seo\":{\"id\":0,\"metaTitle\":\"FirstMetaTitle-68b\",\"metaDescription\":\"FirstMetaDescription-a74f050b-b7df-4692-a95e-fffe983d9095\",\"allowIndexing\":true}}"
+[2025-12-18 10:13:23] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee?locale=en - Status: 200
+[2025-12-18 10:13:23] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8102?locale=uk with params: {} and data: {}
+[2025-12-18 10:13:23] INFO: ✅ [GET] Response from /content-manager/collection-types/api::employee.employee/8102?locale=uk - Status: 200
+[2025-12-18 10:13:23] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8102/actions/publish?locale=en with params: {} and data: {}
+[2025-12-18 10:13:24] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee/8102/actions/publish?locale=en - Status: 200
+[2025-12-18 10:13:24] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee?locale=en with params: {} and data: "{\"name\":\"SecondEmployee-68b\",\"position\":\"Junior Test Automation\",\"photo\":\"22579\",\"biography\":\"Some biography\",\"slug\":\"second-best-tester-68b\",\"leaderships\":[\"5950\",\"5951\"],\"seo\":{\"id\":0,\"metaTitle\":\"SecondMetaTitle-68b\",\"metaDescription\":\"SecondMetaDescription-9f7b3c8a-4ffe-412f-b49b-fc700f55bcbc\",\"allowIndexing\":true}}"
+[2025-12-18 10:13:24] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee?locale=en - Status: 200
+[2025-12-18 10:13:24] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8103?locale=uk with params: {} and data: {}
+[2025-12-18 10:13:25] INFO: ✅ [GET] Response from /content-manager/collection-types/api::employee.employee/8103?locale=uk - Status: 200
+[2025-12-18 10:13:25] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8103/actions/publish?locale=en with params: {} and data: {}
+[2025-12-18 10:13:25] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee/8103/actions/publish?locale=en - Status: 200
+[2025-12-18 10:13:30] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua
+[2025-12-18 10:13:33] INFO: Verify that URL includes expected part: /en/about-us/first-leadership-68b
+[2025-12-18 10:13:33] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/5950?locale=en with params: {} and data: {"tab_title":"UpdatedTab-68b","slug":"updated-tab-68b"}
+[2025-12-18 10:13:34] INFO: ✅ [PUT] Response from /content-manager/collection-types/api::leadership.leadership/5950?locale=en - Status: 200
+[2025-12-18 10:13:34] INFO: Verify that URL includes expected part: /en/about-us/updated-tab-68b
+[2025-12-18 10:13:36] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8102 with params: {} and data: {}
+[2025-12-18 10:13:36] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::employee.employee/8102 - Status: 200
+[2025-12-18 10:13:37] INFO: Verify that URL includes expected part: /en/about-us/updated-tab-68b
+[2025-12-18 10:13:52] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/en/about-us/second-best-tester-68b does not contain expected part: /en/about-us/updated-tab-68b. Error: page.waitForURL: Timeout 15000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "domcontentloaded"
+  navigated to "https://frontend.main.testdev.mod.gov.ua/en/about-us/second-best-tester-68b"
+============================================================
+[2025-12-18 10:13:53] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8102 with params: {} and data: {}
+[2025-12-18 10:13:53] ERROR: ❌ [DELETE] Response Error from /content-manager/collection-types/api::employee.employee/8102 - Status: 404, Data: {"data":null,"error":{"status":404,"name":"NotFoundError","message":"Not Found","details":{}}}
+[2025-12-18 10:13:53] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8103 with params: {} and data: {}
+[2025-12-18 10:13:54] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::employee.employee/8103 - Status: 200
+[2025-12-18 10:13:54] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/5950 with params: {} and data: {}
+[2025-12-18 10:13:54] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::leadership.leadership/5950 - Status: 200
+[2025-12-18 10:13:54] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/5951 with params: {} and data: {}
+[2025-12-18 10:13:54] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::leadership.leadership/5951 - Status: 200
+[2025-12-18 10:13:54] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/22578 with params: {} and data: {}
+[2025-12-18 10:13:55] INFO: ✅ [DELETE] Response from /upload/files/22578 - Status: 200
+[2025-12-18 10:13:55] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/22579 with params: {} and data: {}
+[2025-12-18 10:13:55] INFO: ✅ [DELETE] Response from /upload/files/22579 - Status: 200

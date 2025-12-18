@@ -1,0 +1,37 @@
+[2025-12-18 11:15:24] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee?locale=en with params: {} and data: "{\"name\":\"FirstEmployee-570\",\"position\":\"Senior Test Automation\",\"photo\":\"22598\",\"biography\":\"Some biography\",\"slug\":\"first-best-tester-570\",\"leaderships\":[\"5954\"],\"seo\":{\"id\":0,\"metaTitle\":\"FirstMetaTitle-570\",\"metaDescription\":\"FirstMetaDescription-1f5e136e-74a4-4a0a-a467-e399eb087320\",\"allowIndexing\":true}}"
+[2025-12-18 11:15:24] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee?locale=en - Status: 200
+[2025-12-18 11:15:24] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8114?locale=uk with params: {} and data: {}
+[2025-12-18 11:15:24] INFO: ✅ [GET] Response from /content-manager/collection-types/api::employee.employee/8114?locale=uk - Status: 200
+[2025-12-18 11:15:24] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8114/actions/publish?locale=en with params: {} and data: {}
+[2025-12-18 11:15:25] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee/8114/actions/publish?locale=en - Status: 200
+[2025-12-18 11:15:25] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee?locale=en with params: {} and data: "{\"name\":\"SecondEmployee-570\",\"position\":\"Junior Test Automation\",\"photo\":\"22599\",\"biography\":\"Some biography\",\"slug\":\"second-best-tester-570\",\"leaderships\":[\"5954\",\"5955\"],\"seo\":{\"id\":0,\"metaTitle\":\"SecondMetaTitle-570\",\"metaDescription\":\"SecondMetaDescription-7bb18c4e-2c44-4483-a6eb-0c41f1a8a61a\",\"allowIndexing\":true}}"
+[2025-12-18 11:15:25] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee?locale=en - Status: 200
+[2025-12-18 11:15:25] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8115?locale=uk with params: {} and data: {}
+[2025-12-18 11:15:25] INFO: ✅ [GET] Response from /content-manager/collection-types/api::employee.employee/8115?locale=uk - Status: 200
+[2025-12-18 11:15:25] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8115/actions/publish?locale=en with params: {} and data: {}
+[2025-12-18 11:15:26] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee/8115/actions/publish?locale=en - Status: 200
+[2025-12-18 11:15:30] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua
+[2025-12-18 11:15:39] INFO: Verify that URL includes expected part: /en/about-us/first-leadership-570
+[2025-12-18 11:15:39] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/5954?locale=en with params: {} and data: {"tab_title":"UpdatedTab-570","slug":"updated-tab-570"}
+[2025-12-18 11:15:40] INFO: ✅ [PUT] Response from /content-manager/collection-types/api::leadership.leadership/5954?locale=en - Status: 200
+[2025-12-18 11:15:40] INFO: Verify that URL includes expected part: /en/about-us/updated-tab-570
+[2025-12-18 11:15:42] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8114 with params: {} and data: {}
+[2025-12-18 11:15:42] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::employee.employee/8114 - Status: 200
+[2025-12-18 11:15:43] INFO: Verify that URL includes expected part: /en/about-us/updated-tab-570
+[2025-12-18 11:15:54] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8114 with params: {} and data: {}
+[2025-12-18 11:15:55] ERROR: ❌ [DELETE] Response Error from /content-manager/collection-types/api::employee.employee/8114 - Status: 404, Data: {"data":null,"error":{"status":404,"name":"NotFoundError","message":"Not Found","details":{}}}
+[2025-12-18 11:15:55] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8115 with params: {} and data: {}
+[2025-12-18 11:15:55] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::employee.employee/8115 - Status: 200
+[2025-12-18 11:15:55] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/en/about-us/second-best-tester-570 does not contain expected part: /en/about-us/updated-tab-570. Error: page.waitForURL: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "domcontentloaded"
+  navigated to "https://frontend.main.testdev.mod.gov.ua/en/about-us/second-best-tester-570"
+============================================================
+[2025-12-18 11:15:55] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/5954 with params: {} and data: {}
+[2025-12-18 11:15:55] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::leadership.leadership/5954 - Status: 200
+[2025-12-18 11:15:55] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/5955 with params: {} and data: {}
+[2025-12-18 11:15:55] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::leadership.leadership/5955 - Status: 200
+[2025-12-18 11:15:55] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/22598 with params: {} and data: {}
+[2025-12-18 11:15:56] INFO: ✅ [DELETE] Response from /upload/files/22598 - Status: 200
+[2025-12-18 11:15:56] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/22599 with params: {} and data: {}
+[2025-12-18 11:15:56] INFO: ✅ [DELETE] Response from /upload/files/22599 - Status: 200
