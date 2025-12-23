@@ -1,0 +1,19 @@
+[2025-12-23 10:02:48] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::innovative-project.innovative-project?locale=en with params: {} and data: "{\"title\":\"NewProject-102\",\"subtitle\":\"Цей проект створений автоматизовано в тестувальницьких цілях.\",\"image\":\"22706\",\"link\":\"https://www.google.com/\",\"order\":0}"
+[2025-12-23 10:02:49] INFO: ✅ [POST] Response from /content-manager/collection-types/api::innovative-project.innovative-project?locale=en - Status: 200
+[2025-12-23 10:02:49] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::innovative-project.innovative-project/3234?locale=en with params: {} and data: {}
+[2025-12-23 10:02:49] INFO: ✅ [GET] Response from /content-manager/collection-types/api::innovative-project.innovative-project/3234?locale=en - Status: 200
+[2025-12-23 10:02:49] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::innovative-project.innovative-project/3234/actions/publish?locale=en with params: {} and data: {}
+[2025-12-23 10:02:49] INFO: ✅ [POST] Response from /content-manager/collection-types/api::innovative-project.innovative-project/3234/actions/publish?locale=en - Status: 200
+[2025-12-23 10:02:53] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua
+[2025-12-23 10:02:56] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::innovative-project.innovative-project/3234?locale=en with params: {} and data: {"title":"UpdatedProject-102","subtitle":"Цей проект створений та оновлений автоматизовано в тестувальницьких цілях.","image":"22707","link":"https://www.bing.com/"}
+[2025-12-23 10:02:56] INFO: ✅ [PUT] Response from /content-manager/collection-types/api::innovative-project.innovative-project/3234?locale=en - Status: 200
+[2025-12-23 10:02:56] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::innovative-project.innovative-project/3234?locale=en with params: {} and data: {}
+[2025-12-23 10:02:56] INFO: ✅ [GET] Response from /content-manager/collection-types/api::innovative-project.innovative-project/3234?locale=en - Status: 200
+[2025-12-23 10:02:57] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::innovative-project.innovative-project/3234?locale=uk with params: {} and data: {}
+[2025-12-23 10:02:57] INFO: ✅ [GET] Response from /content-manager/collection-types/api::innovative-project.innovative-project/3234?locale=uk - Status: 200
+[2025-12-23 10:02:57] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::innovative-project.innovative-project/3234 with params: {} and data: {}
+[2025-12-23 10:02:58] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::innovative-project.innovative-project/3234 - Status: 200
+[2025-12-23 10:02:58] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/22706 with params: {} and data: {}
+[2025-12-23 10:02:58] INFO: ✅ [DELETE] Response from /upload/files/22706 - Status: 200
+[2025-12-23 10:02:58] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/22707 with params: {} and data: {}
+[2025-12-23 10:02:58] INFO: ✅ [DELETE] Response from /upload/files/22707 - Status: 200
