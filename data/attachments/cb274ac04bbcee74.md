@@ -1,0 +1,289 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4]:
+        - /url: "#main"
+        - text: Skip to main content
+      - navigation [ref=e5]:
+        - generic [ref=e6]:
+          - link [ref=e8]:
+            - /url: /en
+            - img [ref=e9]
+            - img [ref=e12]
+            - heading [level=1] [ref=e14]: Ministry of Defence of Ukraine
+          - generic [ref=e15]:
+            - link [ref=e16]:
+              - /url: "tel: 1512"
+              - img [ref=e17]
+              - generic [ref=e19]: "1512"
+            - button [ref=e20] [cursor=pointer]:
+              - img [ref=e21] [cursor=pointer]
+            - button [ref=e24] [cursor=pointer]
+      - generic [ref=e30]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - link [ref=e37]:
+                - /url: /en/news/test-highlight-3b5
+                - paragraph [ref=e39] [cursor=pointer]: Test news
+              - link [ref=e42]:
+                - /url: /en/news/brigadier-general-of-justice-serhii-melnyk-appointed-deputy-minister-of-defence-of-ukraine
+                - paragraph [ref=e44] [cursor=pointer]: Brigadier General of Justice Serhii Melnyk appointed Deputy Minister of Defence of Ukraine
+              - link [ref=e47]:
+                - /url: /en/news/e-1
+                - img [ref=e48]
+                - paragraph [ref=e50] [cursor=pointer]: English time
+            - generic [ref=e51]:
+              - img [ref=e53] [cursor=pointer]
+              - img [ref=e60] [cursor=pointer]
+          - link [ref=e63]:
+            - /url: /en/news
+            - text: All news
+        - navigation [ref=e64]:
+          - link [ref=e65]:
+            - /url: https://www.google.com/
+            - generic [ref=e66]: Updated Join the Brave-a0f
+            - img [ref=e67]
+          - link [ref=e69]:
+            - /url: https://www.google.com/
+            - generic [ref=e70]: Updated FAQ for the Media-a0f
+            - img [ref=e71]
+          - link [ref=e73]:
+            - /url: https://www.google.com/
+            - generic [ref=e74]: Updated Media Accreditation-a0f
+            - img [ref=e75]
+          - link [ref=e77]:
+            - /url: https://www.google.com/
+            - generic [ref=e78]: Updated Become a Supplier-a0f
+            - img [ref=e79]
+      - main [ref=e81]:
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - heading [level=2] [ref=e86]: Latest news
+            - link [ref=e87]:
+              - /url: /en/news
+              - img [ref=e88]
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - article [ref=e92]:
+                - link [ref=e93]:
+                  - /url: /en/news/test2-3b5
+                  - generic [ref=e94]:
+                    - generic [ref=e95]: Test news 3
+                    - time [ref=e96]: 6 January, 2026, 1:27 PM EET
+              - article [ref=e97]:
+                - link [ref=e98]:
+                  - /url: /en/news/test-3b5
+                  - generic [ref=e99]:
+                    - generic [ref=e100]: Test news 2
+                    - time [ref=e101]: 6 January, 2026, 1:27 PM EET
+              - article [ref=e102]:
+                - link [ref=e103]:
+                  - /url: /en/news/test-26e
+                  - generic [ref=e104]:
+                    - generic [ref=e105]: Test first news 26e
+                    - time [ref=e106]: 6 January, 2026, 1:18 PM EET
+              - article [ref=e107]:
+                - link [ref=e108]:
+                  - /url: /en/news/test-no-tags-5b9-1
+                  - generic [ref=e109]:
+                    - generic [ref=e110]: Test news without tags 5b9
+                    - time [ref=e111]: 6 January, 2026, 1:08 PM EET
+              - article [ref=e112]:
+                - link [ref=e113]:
+                  - /url: /en/news/test-no-tags-644-1
+                  - generic [ref=e114]:
+                    - generic [ref=e115]: Test news without tags 644
+                    - time [ref=e116]: 6 January, 2026, 12:04 PM EET
+              - article [ref=e117]:
+                - link [ref=e118]:
+                  - /url: /en/news/test-no-tags-b78-1
+                  - generic [ref=e119]:
+                    - generic [ref=e120]: Test news without tags b78
+                    - time [ref=e121]: 6 January, 2026, 12:02 PM EET
+            - generic [ref=e122]:
+              - generic [ref=e123]: Estimated losses of the Russian Army for 07.10.2024
+              - generic [ref=e124]: according to the Situation Center of the Ministry of Defense
+              - generic [ref=e125]:
+                - generic [ref=e126]:
+                  - generic [ref=e127]: Personnel
+                  - generic [ref=e128]: 512 822
+                - generic [ref=e129]:
+                  - generic [ref=e130]: Tanks
+                  - generic [ref=e131]: "82"
+                - generic [ref=e132]:
+                  - generic [ref=e133]: Combat vehicles
+                  - generic [ref=e134]: "450"
+                - generic [ref=e135]:
+                  - generic [ref=e136]: UAVs
+                  - generic [ref=e137]: 9 721
+                - generic [ref=e138]:
+                  - generic [ref=e139]: Artillery systems
+                  - generic [ref=e140]: "50"
+              - link [ref=e141]:
+                - /url: /en/news?tags=losses
+                - text: Read more
+                - img [ref=e142]
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - heading [level=2] [ref=e148]: We are explaining
+            - link [ref=e149]:
+              - /url: /en/explanation
+              - img [ref=e150]
+          - article [ref=e153]:
+            - link [ref=e154]:
+              - /url: /en/explanation/explain-article-9
+              - img [ref=e156]
+              - generic [ref=e157]:
+                - generic [ref=e158]: Test1
+                - paragraph [ref=e159]: test1
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - heading [level=2] [ref=e164]: Innovative projects
+            - generic [ref=e165]:
+              - button [disabled] [ref=e166]:
+                - img [ref=e167]
+              - button [ref=e169] [cursor=pointer]:
+                - img [ref=e170] [cursor=pointer]
+          - region [ref=e172]:
+            - generic [ref=e173]:
+              - group [ref=e174]:
+                - link [ref=e175]:
+                  - /url: https://www.google.com/
+                  - img [ref=e177]
+                  - generic [ref=e178]:
+                    - generic [ref=e179]:
+                      - generic [ref=e180]: NewProject-59f
+                      - img [ref=e181]
+                    - generic [ref=e183]: Цей проект створений автоматизовано в тестувальницьких цілях.
+              - group [ref=e184]:
+                - link [ref=e185]:
+                  - /url: https://aplus.mod.gov.ua/
+                  - img [ref=e187]
+                  - generic [ref=e188]:
+                    - generic [ref=e189]:
+                      - generic [ref=e190]: Army+
+                      - img [ref=e191]
+                    - generic [ref=e193]: E-reports, surveys and other digital services for the military
+          - link [ref=e195]:
+            - /url: /en/projects
+            - text: More projects
+    - contentinfo [ref=e196]:
+      - generic [ref=e197]:
+        - generic [ref=e198]:
+          - group [ref=e199]:
+            - heading [level=3] [ref=e200]: Leadership
+            - list [ref=e201]:
+              - listitem [ref=e202]:
+                - link [ref=e203]:
+                  - /url: /en/about/rustem-umerov
+                  - generic [ref=e204]: Minister
+              - listitem [ref=e205]:
+                - link [ref=e206]:
+                  - /url: /en/about/mod-leadership
+                  - generic [ref=e207]: Leadership of the MoD
+              - listitem [ref=e208]:
+                - link [ref=e209]:
+                  - /url: /en/about/oleksandr-stanislavovych-syrskyi-en
+                  - generic [ref=e210]: Commander-in-Chief of the AFU
+              - listitem [ref=e211]:
+                - link [ref=e212]:
+                  - /url: /en/about/kyrylo-budanov-en
+                  - generic [ref=e213]: Chief of the Defense Intelligence of Ukraine
+              - listitem [ref=e214]:
+                - link [ref=e215]:
+                  - /url: /en/about/oleksandr-vasyliovych-yakovets-en
+                  - generic [ref=e216]: Head of the Administration of the STSS
+          - group [ref=e217]:
+            - heading [level=3] [ref=e218]: Press
+            - list [ref=e219]:
+              - listitem [ref=e220]:
+                - link [ref=e221]:
+                  - /url: /en/news
+                  - generic [ref=e222]: News
+              - listitem [ref=e223]:
+                - link [ref=e224]:
+                  - /url: /en/get-accreditation-1
+                  - generic [ref=e225]: Get accreditation
+              - listitem [ref=e226]:
+                - link [ref=e227]:
+                  - /url: /en/procedure-for-the-access-of-the-media-representatives-to-the-facilities-of-the-ukrainian-defense-forces
+                  - generic [ref=e228]: Access to military facilities
+              - listitem [ref=e229]:
+                - link [ref=e230]:
+                  - /url: /en/frequently-asked-questions
+                  - generic [ref=e231]: FAQ
+              - listitem [ref=e232]:
+                - link [ref=e233]:
+                  - /url: /en/request-forms
+                  - generic [ref=e234]: Request forms
+          - group [ref=e235]:
+            - heading [level=3] [ref=e236]: Contact us
+            - list [ref=e237]:
+              - listitem [ref=e238]:
+                - link [ref=e239]:
+                  - /url: /en/contact-us
+                  - generic [ref=e240]: General inquiries
+              - listitem [ref=e241]:
+                - link [ref=e242]:
+                  - /url: /en/contacts-for-media
+                  - generic [ref=e243]: For media
+              - listitem [ref=e244]:
+                - link [ref=e245]:
+                  - /url: https://ildu.com.ua/
+                  - generic [ref=e246]: Recruitment
+            - list [ref=e248]:
+              - listitem [ref=e249]:
+                - link [ref=e250]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e251]
+              - listitem [ref=e254]:
+                - link [ref=e255]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e256]
+              - listitem [ref=e260]:
+                - link [ref=e261]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e262]
+              - listitem [ref=e265]:
+                - link [ref=e266]:
+                  - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                  - img [ref=e267]
+        - separator [ref=e270]
+        - generic [ref=e271]:
+          - generic [ref=e273]:
+            - img [ref=e274]
+            - generic [ref=e276]:
+              - paragraph [ref=e277]: © 2001–2026 MoD
+              - paragraph [ref=e278]:
+                - text: Content is available under the
+                - link [ref=e279]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en
+                  - text: Creative Commons Attribution 4.0 International license
+                - text: ", unless otherwise stated."
+              - link [ref=e280]:
+                - /url: /en/accessibility-en
+                - text: Website accessibility information
+          - figure [ref=e282]:
+            - generic [ref=e283]: Developed by
+            - link [ref=e284]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e285]
+          - paragraph [ref=e288]:
+            - generic [ref=e289]: BETA
+            - text: The functionality works in the mode of experimental operation
+        - paragraph [ref=e290]: The build is deployed 19 days ago 2025-12-18 10:58 (GMT+0) 90d6fa3.
+  - alert [ref=e291]
+  - dialog [ref=e294]:
+    - button "Dismiss" [ref=e296] [cursor=pointer]
+    - searchbox "Search the site" [active] [ref=e300]: a
+    - button "Dismiss" [ref=e302] [cursor=pointer]
+  - iframe [ref=e303]:
+    
+  - link [ref=e305]:
+    - /url: https://widget-cz.ukc.gov.ua/build/popup.html?draggable=true&resizable=true&showButton=true&showBar=true&showContactCard=true&location=https%3A%2F%2Ffrontend.main.testdev.mod.gov.ua%2Fen&showControls=true&companyId=i177195357&
+    - generic [ref=e308]: Допомога онлайн
+```
