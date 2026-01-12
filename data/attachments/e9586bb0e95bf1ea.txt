@@ -1,5 +1,0 @@
-[2026-01-12 10:05:02] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::quick-link.quick-link?locale=uk with params: {} and data: {}
-[2026-01-12 10:05:02] INFO: ✅ [GET] Response from /content-manager/single-types/api::quick-link.quick-link?locale=uk - Status: 200
-[2026-01-12 10:05:07] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua
-[2026-01-12 10:05:17] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::quick-link.quick-link?locale=uk with params: {} and data: {"id":1,"locale":"uk","link":[{"id":39,"title":"Долучитися до війська-906","url":"https://www.google.com/"},{"id":40,"title":"Електронна черга ТЦК-906","url":"https://www.google.com/"},{"id":1952,"title":"Стати постачальником-906","url":"/news"},{"id":41,"title":"Отримати акредитацію-906","url":"/otrimati-akreditacziyu-zsu"}]}
-[2026-01-12 10:05:18] INFO: ✅ [PUT] Response from /content-manager/single-types/api::quick-link.quick-link?locale=uk - Status: 200
