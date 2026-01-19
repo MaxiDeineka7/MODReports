@@ -1,0 +1,216 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to main content" [ref=e4]:
+      - /url: "#main"
+    - navigation "Ministry of Defence of Ukraine" [ref=e5]:
+      - generic [ref=e6]:
+        - link "To the main page" [ref=e8]:
+          - /url: /en
+          - img [ref=e9]
+          - img "Ministry of Defense of Ukraine logo" [ref=e12]
+          - heading "Ministry of Defence of Ukraine" [level=1] [ref=e14]
+        - generic [ref=e15]:
+          - link "1512" [ref=e16]:
+            - /url: "tel: 1512"
+            - img [ref=e17]
+            - generic [ref=e19]: "1512"
+          - button "Search" [ref=e20] [cursor=pointer]:
+            - img [ref=e21] [cursor=pointer]
+          - button "Open navigation menu and more" [ref=e24] [cursor=pointer]
+    - generic [ref=e30]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - link [ref=e37]:
+              - /url: /en/news/test-highlight-4ea
+              - paragraph [ref=e39] [cursor=pointer]: Test news
+            - link [ref=e42]:
+              - /url: /en/news/test-highlight-fac-3
+              - paragraph [ref=e44] [cursor=pointer]: Test third highlighted news
+            - link [ref=e47]:
+              - /url: /en/news/test-highlight-fac-2
+              - paragraph [ref=e49] [cursor=pointer]: Test second highlighted news
+          - generic [ref=e50]:
+            - img [ref=e52] [cursor=pointer]
+            - img [ref=e55] [cursor=pointer]
+        - link "All news" [ref=e58]:
+          - /url: /en/news
+      - navigation "Quick links" [ref=e59]:
+        - link "Updated Join the Brave-a0f" [ref=e60]:
+          - /url: https://www.google.com/
+          - generic [ref=e61]: Updated Join the Brave-a0f
+          - img [ref=e62]
+        - link "Updated FAQ for the Media-a0f" [ref=e64]:
+          - /url: https://www.google.com/
+          - generic [ref=e65]: Updated FAQ for the Media-a0f
+          - img [ref=e66]
+        - link "Updated Media Accreditation-a0f" [ref=e68]:
+          - /url: https://www.google.com/
+          - generic [ref=e69]: Updated Media Accreditation-a0f
+          - img [ref=e70]
+        - link "Updated Become a Supplier-a0f" [ref=e72]:
+          - /url: https://www.google.com/
+          - generic [ref=e73]: Updated Become a Supplier-a0f
+          - img [ref=e74]
+    - main [ref=e76]:
+      - generic "Latest news" [ref=e79]:
+        - generic [ref=e80]:
+          - heading "Latest news" [level=2] [ref=e81]
+          - link "All news" [ref=e82]:
+            - /url: /en/news
+            - img [ref=e83]
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - article "Test news 3" [ref=e87]:
+              - link "Test news 3 Monday, 19 January 2026 at 12:22:26 GMT+02:00" [ref=e88]:
+                - /url: /en/news/test2-4ea
+                - time [ref=e91]: 19 January, 2026, 12:22 PM EET
+            - article "Test news 2" [ref=e92]:
+              - link "Test news 2 Monday, 19 January 2026 at 12:22:25 GMT+02:00" [ref=e93]:
+                - /url: /en/news/test-4ea
+                - time [ref=e96]: 19 January, 2026, 12:22 PM EET
+            - article "Test news without tags fac" [ref=e97]:
+              - link "Test news without tags fac Monday, 19 January 2026 at 12:21:46 GMT+02:00" [ref=e98]:
+                - /url: /en/news/test-no-tags-fac-1
+                - time [ref=e101]: 19 January, 2026, 12:21 PM EET
+            - article "Test second news fac" [ref=e102]:
+              - link "Test second news fac Monday, 19 January 2026 at 12:21:45 GMT+02:00" [ref=e103]:
+                - /url: /en/news/test-fac-2
+                - time [ref=e106]: 19 January, 2026, 12:21 PM EET
+            - article "Test first news fac" [ref=e107]:
+              - link "Test first news fac Monday, 19 January 2026 at 12:21:44 GMT+02:00" [ref=e108]:
+                - /url: /en/news/test-fac-1
+                - time [ref=e111]: 19 January, 2026, 12:21 PM EET
+            - article "Test news without tags 8a2" [ref=e112]:
+              - link "Test news without tags 8a2 Monday, 19 January 2026 at 12:20:24 GMT+02:00" [ref=e113]:
+                - /url: /en/news/test-no-tags-8a2-1
+                - time [ref=e116]: 19 January, 2026, 12:20 PM EET
+          - generic [ref=e117]:
+            - generic [ref=e120]:
+              - generic [ref=e123]: 707 620
+              - generic [ref=e126]: 4 918
+              - generic [ref=e129]: 5 373
+              - generic [ref=e132]: 4 580
+              - generic [ref=e135]: "855"
+            - link "Read more" [ref=e136]:
+              - /url: /en/news?tags=losses
+              - text: Read more
+              - img [ref=e137]
+      - generic "We are explaining" [ref=e141]:
+        - generic [ref=e142]:
+          - heading "We are explaining" [level=2] [ref=e143]
+          - link "All articles" [ref=e144]:
+            - /url: /en/explanation
+            - img [ref=e145]
+        - article "Test1" [ref=e148]:
+          - link "Article without photo Test1 test1" [ref=e149]:
+            - /url: /en/explanation/explain-article-9
+            - img "Article without photo" [ref=e151]
+            - paragraph [ref=e154]: test1
+      - generic [ref=e157]:
+        - generic [ref=e158]:
+          - heading "Innovative projects" [level=2] [ref=e159]
+          - generic [ref=e160]:
+            - button "Back" [disabled] [ref=e161]:
+              - img [ref=e162]
+            - button "Forward" [ref=e164] [cursor=pointer]:
+              - img [ref=e165] [cursor=pointer]
+        - region "Innovative projects" [ref=e167]
+        - link "More projects" [ref=e170]:
+          - /url: /en/projects
+  - contentinfo [ref=e171]:
+    - generic [ref=e172]:
+      - generic [ref=e173]:
+        - group "Leadership" [ref=e174]:
+          - heading "Leadership" [level=3] [ref=e175]
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "Minister" [ref=e178]:
+                - /url: /en/about/rustem-umerov
+            - listitem [ref=e180]:
+              - link "Leadership of the MoD" [ref=e181]:
+                - /url: /en/about/mod-leadership
+            - listitem [ref=e183]:
+              - link "Commander-in-Chief of the AFU" [ref=e184]:
+                - /url: /en/about/oleksandr-stanislavovych-syrskyi-en
+            - listitem [ref=e186]:
+              - link "Chief of the Defense Intelligence of Ukraine" [ref=e187]:
+                - /url: /en/about/kyrylo-budanov-en
+            - listitem [ref=e189]:
+              - link "Head of the Administration of the STSS" [ref=e190]:
+                - /url: /en/about/oleksandr-vasyliovych-yakovets-en
+        - group "Press" [ref=e192]:
+          - heading "Press" [level=3] [ref=e193]
+          - list [ref=e194]:
+            - listitem [ref=e195]:
+              - link "News" [ref=e196]:
+                - /url: /en/news
+            - listitem [ref=e198]:
+              - link "Get accreditation" [ref=e199]:
+                - /url: /en/get-accreditation-1
+            - listitem [ref=e201]:
+              - link "Access to military facilities" [ref=e202]:
+                - /url: /en/procedure-for-the-access-of-the-media-representatives-to-the-facilities-of-the-ukrainian-defense-forces
+            - listitem [ref=e204]:
+              - link "FAQ" [ref=e205]:
+                - /url: /en/frequently-asked-questions
+            - listitem [ref=e207]:
+              - link "Request forms" [ref=e208]:
+                - /url: /en/request-forms
+        - group "Contact us" [ref=e210]:
+          - heading "Contact us" [level=3] [ref=e211]
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - link "General inquiries" [ref=e214]:
+                - /url: /en/contact-us
+            - listitem [ref=e216]:
+              - link "For media" [ref=e217]:
+                - /url: /en/contacts-for-media
+            - listitem [ref=e219]:
+              - link "Recruitment" [ref=e220]:
+                - /url: https://ildu.com.ua/
+          - list "Social media links" [ref=e223]:
+            - listitem [ref=e224]:
+              - link "Facebook" [ref=e225]:
+                - /url: https://www.facebook.com/MinistryofDefence.UA
+                - img [ref=e226]
+            - listitem [ref=e229]:
+              - link "Instagram" [ref=e230]:
+                - /url: https://www.instagram.com/ministry_of_defense_ua/
+                - img [ref=e231]
+            - listitem [ref=e235]:
+              - link "YouTube" [ref=e236]:
+                - /url: https://www.youtube.com/@uamod
+                - img [ref=e237]
+            - listitem [ref=e240]:
+              - link "Facebook" [ref=e241]:
+                - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                - img [ref=e242]
+      - separator [ref=e245]
+      - generic [ref=e246]:
+        - generic [ref=e248]:
+          - img "Ministry of Defense of Ukraine logo" [ref=e249]
+          - generic [ref=e251]:
+            - paragraph [ref=e252]: © 2001–2026 MoD
+            - paragraph [ref=e253]:
+              - text: Content is available under the
+              - link "Creative Commons Attribution 4.0 International license" [ref=e254]:
+                - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en
+                - text: Creative
+                - text: Commons Attribution 4.0 International license
+              - text: ","
+              - text: unless otherwise stated.
+            - link "Website accessibility information" [ref=e255]:
+              - /url: /en/accessibility-en
+        - figure [ref=e257]:
+          - generic [ref=e258]: Developed by
+          - link "OpenTech SoftServe logo" [ref=e259]:
+            - /url: https://opentech.softserveinc.com
+            - img [ref=e260]
+        - paragraph [ref=e263]:
+          - generic [ref=e264]: BETA
+          - text: The functionality works in the mode of experimental operation
+```
