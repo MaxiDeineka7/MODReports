@@ -1,0 +1,9 @@
+[2026-01-20 06:33:00] INFO: Verify that URL includes expected part: https://frontend.mainstaging.testdev.mod.gov.ua
+[2026-01-20 06:33:05] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/999 with params: {} and data: {}
+[2026-01-20 06:33:05] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/999 - Status: 200
+[2026-01-20 06:33:05] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/1001 with params: {} and data: {}
+[2026-01-20 06:33:05] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/1001 - Status: 200
+[2026-01-20 06:33:05] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/1000 with params: {} and data: {}
+[2026-01-20 06:33:05] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::post.post/1000 - Status: 200
+[2026-01-20 06:33:05] INFO: 🚀 [DELETE] Request to https://backend.mainstaging.testdev.mod.gov.ua/upload/files/41302 with params: {} and data: {}
+[2026-01-20 06:33:05] INFO: ✅ [DELETE] Response from /upload/files/41302 - Status: 200

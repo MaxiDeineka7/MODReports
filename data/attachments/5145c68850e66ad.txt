@@ -1,0 +1,22 @@
+[2026-01-20 06:39:15] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=en with params: {} and data: {}
+[2026-01-20 06:39:16] INFO: ✅ [GET] Response from /content-manager/single-types/api::loss.loss?locale=en - Status: 200
+[2026-01-20 06:39:16] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=en with params: {} and data: {}
+[2026-01-20 06:39:16] INFO: ✅ [GET] Response from /content-manager/single-types/api::loss.loss?locale=en - Status: 200
+[2026-01-20 06:39:16] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss/actions/publish?locale=en with params: {} and data: {}
+[2026-01-20 06:39:16] INFO: ✅ [POST] Response from /content-manager/single-types/api::loss.loss/actions/publish?locale=en - Status: 200
+[2026-01-20 06:39:16] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=uk with params: {} and data: {}
+[2026-01-20 06:39:16] INFO: ✅ [GET] Response from /content-manager/single-types/api::loss.loss?locale=uk - Status: 200
+[2026-01-20 06:39:16] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=en with params: {} and data: {}
+[2026-01-20 06:39:16] INFO: ✅ [GET] Response from /content-manager/single-types/api::loss.loss?locale=en - Status: 200
+[2026-01-20 06:39:16] INFO: Losses block is already published en
+[2026-01-20 06:39:20] INFO: Verify that URL includes expected part: https://frontend.mainstaging.testdev.mod.gov.ua
+[2026-01-20 06:39:22] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=en with params: {} and data: {}
+[2026-01-20 06:39:22] INFO: ✅ [GET] Response from /content-manager/single-types/api::loss.loss?locale=en - Status: 200
+[2026-01-20 06:39:22] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss/actions/unpublish?locale=en with params: {} and data: {}
+[2026-01-20 06:39:22] INFO: ✅ [POST] Response from /content-manager/single-types/api::loss.loss/actions/unpublish?locale=en - Status: 200
+[2026-01-20 06:39:24] INFO: 🚀 [GET] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=en with params: {} and data: {}
+[2026-01-20 06:39:24] INFO: ✅ [GET] Response from /content-manager/single-types/api::loss.loss?locale=en - Status: 200
+[2026-01-20 06:39:24] INFO: 🚀 [POST] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss/actions/publish?locale=en with params: {} and data: {}
+[2026-01-20 06:39:24] INFO: ✅ [POST] Response from /content-manager/single-types/api::loss.loss/actions/publish?locale=en - Status: 200
+[2026-01-20 06:39:25] INFO: 🚀 [PUT] Request to https://backend.mainstaging.testdev.mod.gov.ua/content-manager/single-types/api::loss.loss?locale=en with params: {} and data: {"id":3,"title":"Umerov","locale":"en","link":null,"losses":[{"id":11,"quantity":2280,"title":"Personnel"},{"id":15,"quantity":8,"title":"Tanks"},{"id":14,"quantity":31,"title":"Combat vehicles"},{"id":13,"quantity":8,"title":"UAVs"},{"id":12,"quantity":10,"title":"Artillery systems"}],"publishedAt":null}
+[2026-01-20 06:39:25] INFO: ✅ [PUT] Response from /content-manager/single-types/api::loss.loss?locale=en - Status: 200

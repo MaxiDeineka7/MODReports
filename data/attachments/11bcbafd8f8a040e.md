@@ -1,0 +1,243 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main"
+      - navigation "Ministry of Defence of Ukraine" [ref=e5]:
+        - generic [ref=e6]:
+          - link "To the main page" [ref=e8] [cursor=pointer]:
+            - /url: /en
+            - img [ref=e9] [cursor=pointer]
+            - img "Ministry of Defense of Ukraine logo" [ref=e12] [cursor=pointer]
+            - heading "Ministry of Defence of Ukraine" [level=1] [ref=e14] [cursor=pointer]
+          - generic [ref=e15]:
+            - link "1512" [ref=e16] [cursor=pointer]:
+              - /url: "tel: 1512"
+              - img [ref=e17] [cursor=pointer]
+              - generic [ref=e19] [cursor=pointer]: "1512"
+            - button "Search" [ref=e20] [cursor=pointer]:
+              - img [ref=e21] [cursor=pointer]
+            - button "Open navigation menu and more" [ref=e24] [cursor=pointer]
+      - generic [ref=e30]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - link [ref=e37] [cursor=pointer]:
+                - /url: /en/news/test-highlight-512
+                - paragraph [ref=e39] [cursor=pointer]: Test news
+              - link [ref=e42] [cursor=pointer]:
+                - /url: /en/news/civilian-space-without-a-draft-21st-ukrainian-army-recruitment-centre-opened-in-sumy-region-1
+                - paragraph [ref=e44] [cursor=pointer]: "Civilian space without a draft: 21st Ukrainian army recruitment centre opened in Sumy region"
+              - link [ref=e47] [cursor=pointer]:
+                - /url: /en/news/meeting-with-the-ambassador-of-japan-ukrainian-deputy-defence-minister-called-for-further-cooperation-1
+                - paragraph [ref=e49] [cursor=pointer]: "Meeting with the Ambassador of Japan: Ukrainian Deputy Defence Minister called for further cooperation"
+            - generic [ref=e50]:
+              - img [ref=e52] [cursor=pointer]
+              - img [ref=e59] [cursor=pointer]
+          - link "All news" [ref=e62] [cursor=pointer]:
+            - /url: /en/news
+        - navigation "Quick links" [ref=e63]:
+          - link "Join the Brave" [ref=e64] [cursor=pointer]:
+            - /url: https://ildu.com.ua/
+            - generic [ref=e65] [cursor=pointer]: Join the Brave
+            - img [ref=e66] [cursor=pointer]
+          - link "FAQ for the Media" [ref=e68] [cursor=pointer]:
+            - /url: https://frontend.mainstaging.testdev.mod.gov.ua/en/frequently-asked-questions
+            - generic [ref=e69] [cursor=pointer]: FAQ for the Media
+            - img [ref=e70] [cursor=pointer]
+          - link "Media Accreditation" [ref=e72] [cursor=pointer]:
+            - /url: https://frontend.mainstaging.testdev.mod.gov.ua/en/get-accreditation-1
+            - generic [ref=e73] [cursor=pointer]: Media Accreditation
+            - img [ref=e74] [cursor=pointer]
+          - link "Become a Supplier" [ref=e76] [cursor=pointer]:
+            - /url: https://dotua.org/en/
+            - generic [ref=e77] [cursor=pointer]: Become a Supplier
+            - img [ref=e78] [cursor=pointer]
+      - main [ref=e80]:
+        - generic "Latest news" [ref=e83]:
+          - generic [ref=e84]:
+            - heading "Latest news" [level=2] [ref=e85]
+            - link "All news" [ref=e86] [cursor=pointer]:
+              - /url: /en/news
+              - img [ref=e87] [cursor=pointer]
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - article "Test news 3" [ref=e91]:
+                - link "Test news 3 Tuesday, 20 January 2026 at 09:01:32 GMT+02:00" [ref=e92] [cursor=pointer]:
+                  - /url: /en/news/test2-512
+                  - time [ref=e95] [cursor=pointer]: 20 January, 2026, 9:01 AM EET
+              - article "Test news 2" [ref=e96]:
+                - link "Test news 2 Tuesday, 20 January 2026 at 09:01:32 GMT+02:00" [ref=e97] [cursor=pointer]:
+                  - /url: /en/news/test-512
+                  - time [ref=e100] [cursor=pointer]: 20 January, 2026, 9:01 AM EET
+              - article "Test news without tags 796" [ref=e101]:
+                - link "Test news without tags 796 Tuesday, 20 January 2026 at 09:00:14 GMT+02:00" [ref=e102] [cursor=pointer]:
+                  - /url: /en/news/test-no-tags-796-1
+                  - time [ref=e105] [cursor=pointer]: 20 January, 2026, 9:00 AM EET
+              - article "Test news without tags 94b" [ref=e106]:
+                - link "Test news without tags 94b Tuesday, 20 January 2026 at 08:58:52 GMT+02:00" [ref=e107] [cursor=pointer]:
+                  - /url: /en/news/test-no-tags-94b-1
+                  - time [ref=e110] [cursor=pointer]: 20 January, 2026, 8:58 AM EET
+              - article "Test news without tags 055" [ref=e111]:
+                - link "Test news without tags 055 Tuesday, 20 January 2026 at 08:57:22 GMT+02:00" [ref=e112] [cursor=pointer]:
+                  - /url: /en/news/test-no-tags-055-1
+                  - time [ref=e115] [cursor=pointer]: 20 January, 2026, 8:57 AM EET
+              - article "Test news without tags 41f" [ref=e116]:
+                - link "Test news without tags 41f Tuesday, 20 January 2026 at 08:55:55 GMT+02:00" [ref=e117] [cursor=pointer]:
+                  - /url: /en/news/test-no-tags-41f-1
+                  - time [ref=e120] [cursor=pointer]: 20 January, 2026, 8:55 AM EET
+            - generic [ref=e121]:
+              - generic [ref=e124]:
+                - generic [ref=e127]: 2 280
+                - generic [ref=e130]: "8"
+                - generic [ref=e133]: "31"
+                - generic [ref=e136]: "8"
+                - generic [ref=e139]: "10"
+              - link "Read more" [ref=e140] [cursor=pointer]:
+                - /url: /en/news?tags=losses
+                - text: Read more
+                - img [ref=e141] [cursor=pointer]
+        - generic "We are explaining" [ref=e145]:
+          - generic [ref=e146]:
+            - heading "We are explaining" [level=2] [ref=e147]
+            - link "All articles" [ref=e148] [cursor=pointer]:
+              - /url: /en/explanation
+              - img [ref=e149] [cursor=pointer]
+          - generic [ref=e151]:
+            - article "explanation 3" [ref=e152]:
+              - link "explanation 3" [ref=e153] [cursor=pointer]:
+                - /url: /en/explanation/explain-article-2
+            - article "Explain 2" [ref=e157]:
+              - link "машина Explain 2" [ref=e158] [cursor=pointer]:
+                - /url: /en/explanation/explain-article-1
+                - img "машина" [ref=e160] [cursor=pointer]
+            - article "Explain test" [ref=e163]:
+              - link "Explain test Some test of Explain section" [ref=e164] [cursor=pointer]:
+                - /url: /en/explanation/explain-article
+                - paragraph [ref=e168] [cursor=pointer]: Some test of Explain section
+        - generic [ref=e171]:
+          - generic [ref=e172]:
+            - heading "Innovative projects" [level=2] [ref=e173]
+            - generic [ref=e174]:
+              - button "Back" [disabled] [ref=e175]:
+                - img [ref=e176]
+              - button "Forward" [ref=e178] [cursor=pointer]:
+                - img [ref=e179] [cursor=pointer]
+          - region "Innovative projects" [ref=e181]:
+            - generic [ref=e182]:
+              - group [ref=e183]:
+                - link "Army+ Army+ E-reports, surveys and other digital services for the military" [ref=e184] [cursor=pointer]:
+                  - /url: https://aplus.mod.gov.ua/
+                  - img "Army+" [ref=e186] [cursor=pointer]
+                  - generic "Army+" [ref=e188] [cursor=pointer]:
+                    - generic [ref=e189] [cursor=pointer]: Army+
+                    - img [ref=e190] [cursor=pointer]
+              - group [ref=e193]:
+                - link "Лого Резерв+ Reserve+ The app for conscripts, draftees and reservists" [ref=e194] [cursor=pointer]:
+                  - /url: https://reserveplus.mod.gov.ua/
+                  - img "Лого Резерв+" [ref=e196] [cursor=pointer]
+                  - generic "Reserve+" [ref=e198] [cursor=pointer]:
+                    - generic [ref=e199] [cursor=pointer]: Reserve+
+                    - img [ref=e200] [cursor=pointer]
+          - link "More projects" [ref=e204] [cursor=pointer]:
+            - /url: /en/projects
+    - contentinfo [ref=e205]:
+      - generic [ref=e206]:
+        - generic [ref=e207]:
+          - group "Leadership" [ref=e208]:
+            - heading "Leadership" [level=3] [ref=e209]
+            - list [ref=e210]:
+              - listitem [ref=e211]:
+                - link "Minister" [ref=e212] [cursor=pointer]:
+                  - /url: /en/about/rustem-umerov
+              - listitem [ref=e214]:
+                - link "Leadership of the MoD" [ref=e215] [cursor=pointer]:
+                  - /url: /en/about/mod-leadership
+              - listitem [ref=e217]:
+                - link "Commander-in-Chief of the AFU" [ref=e218] [cursor=pointer]:
+                  - /url: /en/about/oleksandr-stanislavovych-syrskyi-en
+              - listitem [ref=e220]:
+                - link "Chief of the Defense Intelligence of Ukraine" [ref=e221] [cursor=pointer]:
+                  - /url: /en/about/kyrylo-budanov-en
+              - listitem [ref=e223]:
+                - link "Head of the Administration of the STSS" [ref=e224] [cursor=pointer]:
+                  - /url: /en/about/oleksandr-vasyliovych-yakovets-en
+          - group "Press" [ref=e226]:
+            - heading "Press" [level=3] [ref=e227]
+            - list [ref=e228]:
+              - listitem [ref=e229]:
+                - link "News" [ref=e230] [cursor=pointer]:
+                  - /url: /en/news
+              - listitem [ref=e232]:
+                - link "Get accreditation" [ref=e233] [cursor=pointer]:
+                  - /url: /en/get-accreditation-1
+              - listitem [ref=e235]:
+                - link "Access to military facilities" [ref=e236] [cursor=pointer]:
+                  - /url: /en/procedure-for-the-access-of-the-media-representatives-to-the-facilities-of-the-ukrainian-defense-forces
+              - listitem [ref=e238]:
+                - link "FAQ" [ref=e239] [cursor=pointer]:
+                  - /url: /en/frequently-asked-questions
+              - listitem [ref=e241]:
+                - link "Request forms" [ref=e242] [cursor=pointer]:
+                  - /url: /en/request-forms
+          - group "Contact us" [ref=e244]:
+            - heading "Contact us" [level=3] [ref=e245]
+            - list [ref=e246]:
+              - listitem [ref=e247]:
+                - link "General inquiries" [ref=e248] [cursor=pointer]:
+                  - /url: /en/contact-us
+              - listitem [ref=e250]:
+                - link "For media" [ref=e251] [cursor=pointer]:
+                  - /url: /en/contacts-for-media
+              - listitem [ref=e253]:
+                - link "Recruitment" [ref=e254] [cursor=pointer]:
+                  - /url: https://ildu.com.ua/
+            - list "Social media links" [ref=e257]:
+              - listitem [ref=e258]:
+                - link "X (Twitter)" [ref=e259] [cursor=pointer]:
+                  - /url: https://x.com/DefenceU
+                  - img [ref=e260] [cursor=pointer]
+              - listitem [ref=e263]:
+                - link "YouTube" [ref=e264] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e265] [cursor=pointer]
+              - listitem [ref=e268]:
+                - link "Instagram" [ref=e269] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e270] [cursor=pointer]
+              - listitem [ref=e274]:
+                - link "Facebook" [ref=e275] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e276] [cursor=pointer]
+        - separator [ref=e279]
+        - generic [ref=e280]:
+          - generic [ref=e282]:
+            - img "Ministry of Defense of Ukraine logo" [ref=e283]
+            - generic [ref=e285]:
+              - paragraph [ref=e286]: © 2001–2026 MoD
+              - paragraph [ref=e287]:
+                - text: Content is available under the
+                - link "Creative Commons Attribution 4.0 International license" [ref=e288] [cursor=pointer]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en
+                  - text: Creative
+                  - text: Commons Attribution 4.0 International license
+                - text: ","
+                - text: unless otherwise stated.
+              - link "Website accessibility information" [ref=e289] [cursor=pointer]:
+                - /url: /en/accessibility-en
+          - figure [ref=e291]:
+            - generic [ref=e292]: Developed by
+            - link "OpenTech SoftServe logo" [ref=e293] [cursor=pointer]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e294] [cursor=pointer]
+          - paragraph [ref=e297]:
+            - generic [ref=e298]: BETA
+            - text: The functionality works in the mode of experimental operation
+        - paragraph [ref=e299]: The build is deployed about 16 hours ago 2026-01-19 15:30 (GMT+0) 841320f.
+  - alert [ref=e300]
+  - iframe [ref=e301]:
+    
+```
