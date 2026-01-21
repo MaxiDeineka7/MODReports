@@ -1,0 +1,37 @@
+[2026-01-21 09:50:03] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee?locale=en with params: {} and data: "{\"name\":\"FirstEmployee-d5c\",\"position\":\"Senior Test Automation\",\"photo\":\"23952\",\"biography\":\"Some biography\",\"slug\":\"first-best-tester-d5c\",\"leaderships\":[\"6226\"],\"seo\":{\"id\":0,\"metaTitle\":\"FirstMetaTitle-d5c\",\"metaDescription\":\"FirstMetaDescription-9c84e280-3eda-4ef0-bb68-b9cdc81734f3\",\"allowIndexing\":true}}"
+[2026-01-21 09:50:04] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee?locale=en - Status: 200
+[2026-01-21 09:50:04] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8780?locale=uk with params: {} and data: {}
+[2026-01-21 09:50:04] INFO: ✅ [GET] Response from /content-manager/collection-types/api::employee.employee/8780?locale=uk - Status: 200
+[2026-01-21 09:50:04] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8780/actions/publish?locale=en with params: {} and data: {}
+[2026-01-21 09:50:04] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee/8780/actions/publish?locale=en - Status: 200
+[2026-01-21 09:50:04] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee?locale=en with params: {} and data: "{\"name\":\"SecondEmployee-d5c\",\"position\":\"Junior Test Automation\",\"photo\":\"23953\",\"biography\":\"Some biography\",\"slug\":\"second-best-tester-d5c\",\"leaderships\":[\"6226\",\"6227\"],\"seo\":{\"id\":0,\"metaTitle\":\"SecondMetaTitle-d5c\",\"metaDescription\":\"SecondMetaDescription-d7717477-f044-4a01-8035-8523323b9ee2\",\"allowIndexing\":true}}"
+[2026-01-21 09:50:05] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee?locale=en - Status: 200
+[2026-01-21 09:50:05] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8781?locale=uk with params: {} and data: {}
+[2026-01-21 09:50:05] INFO: ✅ [GET] Response from /content-manager/collection-types/api::employee.employee/8781?locale=uk - Status: 200
+[2026-01-21 09:50:05] INFO: 🚀 [POST] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8781/actions/publish?locale=en with params: {} and data: {}
+[2026-01-21 09:50:05] INFO: ✅ [POST] Response from /content-manager/collection-types/api::employee.employee/8781/actions/publish?locale=en - Status: 200
+[2026-01-21 09:50:10] INFO: Verify that URL includes expected part: https://frontend.main.testdev.mod.gov.ua
+[2026-01-21 09:50:14] INFO: Verify that URL includes expected part: /en/about-us/first-leadership-d5c
+[2026-01-21 09:50:15] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/6226?locale=en with params: {} and data: {"tab_title":"UpdatedTab-d5c","slug":"updated-tab-d5c"}
+[2026-01-21 09:50:15] INFO: ✅ [PUT] Response from /content-manager/collection-types/api::leadership.leadership/6226?locale=en - Status: 200
+[2026-01-21 09:50:16] INFO: Verify that URL includes expected part: /en/about-us/updated-tab-d5c
+[2026-01-21 09:50:18] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8780 with params: {} and data: {}
+[2026-01-21 09:50:18] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::employee.employee/8780 - Status: 200
+[2026-01-21 09:50:20] INFO: Verify that URL includes expected part: /en/about-us/updated-tab-d5c
+[2026-01-21 09:50:33] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8780 with params: {} and data: {}
+[2026-01-21 09:50:34] ERROR: ❌ [DELETE] Response Error from /content-manager/collection-types/api::employee.employee/8780 - Status: 404, Data: {"data":null,"error":{"status":404,"name":"NotFoundError","message":"Not Found","details":{}}}
+[2026-01-21 09:50:34] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::employee.employee/8781 with params: {} and data: {}
+[2026-01-21 09:50:34] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::employee.employee/8781 - Status: 200
+[2026-01-21 09:50:34] ERROR: Target URL https://frontend.main.testdev.mod.gov.ua/en/about-us/second-best-tester-d5c does not contain expected part: /en/about-us/updated-tab-d5c. Error: page.waitForURL: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "domcontentloaded"
+  navigated to "https://frontend.main.testdev.mod.gov.ua/en/about-us/second-best-tester-d5c"
+============================================================
+[2026-01-21 09:50:34] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/6226 with params: {} and data: {}
+[2026-01-21 09:50:35] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::leadership.leadership/6226 - Status: 200
+[2026-01-21 09:50:35] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/content-manager/collection-types/api::leadership.leadership/6227 with params: {} and data: {}
+[2026-01-21 09:50:35] INFO: ✅ [DELETE] Response from /content-manager/collection-types/api::leadership.leadership/6227 - Status: 200
+[2026-01-21 09:50:35] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/23952 with params: {} and data: {}
+[2026-01-21 09:50:35] INFO: ✅ [DELETE] Response from /upload/files/23952 - Status: 200
+[2026-01-21 09:50:35] INFO: 🚀 [DELETE] Request to https://backend.main.testdev.mod.gov.ua/upload/files/23953 with params: {} and data: {}
+[2026-01-21 09:50:35] INFO: ✅ [DELETE] Response from /upload/files/23953 - Status: 200
