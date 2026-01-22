@@ -1,0 +1,311 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Перейти до головного вмісту" [ref=e4] [cursor=pointer]:
+        - /url: "#main"
+      - navigation "Міністерство оборони України" [ref=e5]:
+        - generic [ref=e6]:
+          - link "На головну сторінку" [ref=e8] [cursor=pointer]:
+            - /url: /
+            - img [ref=e9] [cursor=pointer]
+            - img "Логотип Міністерства оборони України" [ref=e12] [cursor=pointer]
+            - generic [ref=e14] [cursor=pointer]: Міністерство оборони України
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - 'link "Гаряча лінія: 1513" [ref=e17] [cursor=pointer]':
+                - /url: "tel: 1513"
+                - img [ref=e18] [cursor=pointer]
+                - generic [ref=e20] [cursor=pointer]: "Гаряча лінія:"
+                - generic [ref=e21] [cursor=pointer]: "1513"
+              - list "Посилання на соціальні мережі" [ref=e22]:
+                - listitem [ref=e23]:
+                  - link "Facebook" [ref=e24] [cursor=pointer]:
+                    - /url: https://www.facebook.com/MinistryofDefence.UA
+                    - img [ref=e25] [cursor=pointer]
+                - listitem [ref=e28]:
+                  - link "Instagram" [ref=e29] [cursor=pointer]:
+                    - /url: https://www.instagram.com/ministry_of_defense_ua/
+                    - img [ref=e30] [cursor=pointer]
+                - listitem [ref=e34]:
+                  - link "YouTube" [ref=e35] [cursor=pointer]:
+                    - /url: https://www.youtube.com/@uamod
+                    - img [ref=e36] [cursor=pointer]
+                - listitem [ref=e39]:
+                  - link "Facebook" [ref=e40] [cursor=pointer]:
+                    - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                    - img [ref=e41] [cursor=pointer]
+              - list "Поточна мова Укрaїнська" [ref=e44]:
+                - listitem [ref=e45]:
+                  - link [ref=e46]:
+                    - /url: /news
+                    - text: Укр
+                - listitem [ref=e47]:
+                  - link "Змінити мову на Англійська" [ref=e48] [cursor=pointer]:
+                    - /url: /en/news
+                    - text: Eng
+            - generic [ref=e49]:
+              - navigation "Головна навігація" [ref=e50]:
+                - button "Діяльність" [ref=e51] [cursor=pointer]:
+                  - img [ref=e53] [cursor=pointer]
+                - button "Про нас" [ref=e55] [cursor=pointer]:
+                  - img [ref=e57] [cursor=pointer]
+                - button "Новини" [ref=e59] [cursor=pointer]:
+                  - img [ref=e61] [cursor=pointer]
+                - button "Сервіси" [ref=e63] [cursor=pointer]:
+                  - img [ref=e65] [cursor=pointer]
+                - button "Пресцентр" [ref=e67] [cursor=pointer]:
+                  - img [ref=e69] [cursor=pointer]
+                - link "Контакти" [ref=e71] [cursor=pointer]:
+                  - /url: /kontakti
+              - button "Пошук" [ref=e73] [cursor=pointer]:
+                - img [ref=e74] [cursor=pointer]
+              - link "Diia" [ref=e76] [cursor=pointer]:
+                - /url: https://diia.gov.ua/
+                - img [ref=e77] [cursor=pointer]
+      - main [ref=e81]:
+        - navigation "Навігаційні стежки" [ref=e82]:
+          - list [ref=e83]:
+            - listitem "Головна" [ref=e84]:
+              - link "Головна" [ref=e85] [cursor=pointer]:
+                - /url: /
+              - img [ref=e87]
+            - listitem "Новини" [ref=e89]:
+              - link "Новини" [disabled] [ref=e90]:
+                - /url: /news
+        - heading "Новини" [level=1] [ref=e91]
+        - generic [ref=e92]:
+          - generic "Теги" [ref=e94]:
+            - heading "Теги" [level=2] [ref=e95]:
+              - generic [ref=e96]: Теги
+            - group [ref=e98]:
+              - generic [ref=e99] [cursor=pointer]:
+                - checkbox "Цифровізація 6" [ref=e100] [cursor=pointer]
+                - generic [ref=e101] [cursor=pointer]:
+                  - img
+                - generic [ref=e105] [cursor=pointer]: "6"
+              - generic [ref=e106] [cursor=pointer]:
+                - checkbox "Міжнародне партнерство 5" [ref=e107] [cursor=pointer]
+                - generic [ref=e108] [cursor=pointer]:
+                  - img
+                - generic [ref=e112] [cursor=pointer]: "5"
+              - generic [ref=e113] [cursor=pointer]:
+                - checkbox "Закупівлі 4" [ref=e114] [cursor=pointer]
+                - generic [ref=e115] [cursor=pointer]:
+                  - img
+                - generic [ref=e119] [cursor=pointer]: "4"
+              - generic [ref=e120] [cursor=pointer]:
+                - checkbox "AutoTag-373-1 4" [checked] [ref=e121] [cursor=pointer]
+                - generic [ref=e122] [cursor=pointer]:
+                  - img
+                - generic [ref=e126] [cursor=pointer]: "4"
+              - generic [ref=e127] [cursor=pointer]:
+                - checkbox "Діяльність Міноборони 02 2" [ref=e128] [cursor=pointer]
+                - generic [ref=e129] [cursor=pointer]:
+                  - img
+                - generic [ref=e133] [cursor=pointer]: "2"
+              - generic [ref=e134] [cursor=pointer]:
+                - checkbox "Дрони 2" [ref=e135] [cursor=pointer]
+                - generic [ref=e136] [cursor=pointer]:
+                  - img
+                - generic [ref=e140] [cursor=pointer]: "2"
+              - generic [ref=e141] [cursor=pointer]:
+                - checkbox "Дрони 02 2" [ref=e142] [cursor=pointer]
+                - generic [ref=e143] [cursor=pointer]:
+                  - img
+                - generic [ref=e147] [cursor=pointer]: "2"
+              - generic [ref=e148] [cursor=pointer]:
+                - checkbox "Технічні специфікації 1" [ref=e149] [cursor=pointer]
+                - generic [ref=e150] [cursor=pointer]:
+                  - img
+                - generic [ref=e154] [cursor=pointer]: "1"
+              - generic [ref=e155] [cursor=pointer]:
+                - checkbox "AutoTag-373-2 1" [checked] [ref=e156] [cursor=pointer]
+                - generic [ref=e157] [cursor=pointer]:
+                  - img
+                - generic [ref=e161] [cursor=pointer]: "1"
+          - generic [ref=e162]:
+            - generic [ref=e164]:
+              - searchbox "Пошук в розділі Новини" [ref=e166]
+              - button "Знайти" [ref=e167] [cursor=pointer]:
+                - img [ref=e168] [cursor=pointer]
+            - generic [ref=e171]:
+              - generic [ref=e172]: Знайдено 5 новин
+              - button "Очистити всі" [ref=e173] [cursor=pointer]
+              - button "AutoTag-373-1 Видалити тег" [ref=e176] [cursor=pointer]:
+                - img [ref=e177] [cursor=pointer]
+              - button "AutoTag-373-2 Видалити тег" [ref=e182] [cursor=pointer]:
+                - img [ref=e183] [cursor=pointer]
+            - generic [ref=e189]:
+              - time [ref=e190]:
+                - heading "22 січня, сьогодні" [level=3] [ref=e191]:
+                  - text: 22 січня,
+                  - generic [ref=e192]: сьогодні
+              - list "22 січня сьогодні" [ref=e193]:
+                - listitem [ref=e194]:
+                  - article "Test third highlighted news" [ref=e195]:
+                    - time [ref=e196]: 11:43
+                    - link "Test third highlighted news" [ref=e198] [cursor=pointer]:
+                      - /url: /news/test-highlight-373-3
+                - listitem [ref=e199]:
+                  - article "Test second highlighted news" [ref=e200]:
+                    - time [ref=e201]: 11:43
+                    - link "Test second highlighted news" [ref=e203] [cursor=pointer]:
+                      - /url: /news/test-highlight-373-2
+                - listitem [ref=e204]:
+                  - article "Test first highlighted news" [ref=e205]:
+                    - time [ref=e206]: 11:43
+                    - link "Test first highlighted news" [ref=e208] [cursor=pointer]:
+                      - /url: /news/test-highlight-373-1
+                - listitem [ref=e209]:
+                  - article "Test second news 373" [ref=e210]:
+                    - time [ref=e211]: 11:43
+                    - link "Test second news 373" [ref=e213] [cursor=pointer]:
+                      - /url: /news/test-373-2
+                - listitem [ref=e214]:
+                  - article "Test first news 373" [ref=e215]:
+                    - time [ref=e216]: 11:43
+                    - link "Test first news 373" [ref=e218] [cursor=pointer]:
+                      - /url: /news/test-373-1
+    - contentinfo [ref=e219]:
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - group "Про нас" [ref=e222]:
+            - heading "Про нас" [level=3] [ref=e223]
+            - list [ref=e224]:
+              - listitem [ref=e225]:
+                - link "Керівництво Міноборони" [ref=e226] [cursor=pointer]:
+                  - /url: /pro-nas/kerivnicztvo-ministerstva-oboroni-ukrayini
+              - listitem [ref=e228]:
+                - link "Головнокомандувач ЗСУ" [ref=e229] [cursor=pointer]:
+                  - /url: /pro-nas/general-sirskij-oleksandr-stanislavovich
+              - listitem [ref=e231]:
+                - link "Керівник ГУР" [ref=e232] [cursor=pointer]:
+                  - /url: /pro-nas/general-lejtenant-budanov-kirilo-oleksijovich
+              - listitem [ref=e234]:
+                - link "Керівник ДССТ" [ref=e235] [cursor=pointer]:
+                  - /url: /pro-nas/yakovecz-oleksandr-vasilovich
+              - listitem [ref=e237]:
+                - link "Апарат Міністерства оборони" [ref=e238] [cursor=pointer]:
+                  - /url: /aparat-ministerstva-oboroni
+              - listitem [ref=e240]:
+                - link "Генеральний штаб ЗСУ" [ref=e241] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/ministry/struktura-generalnogo-shtabu/
+          - group "Сервіси" [ref=e243]:
+            - heading "Сервіси" [level=3] [ref=e244]
+            - list [ref=e245]:
+              - listitem [ref=e246]:
+                - link "Воїнам та їх сім'ям" [ref=e247] [cursor=pointer]:
+                  - /url: /services
+              - listitem [ref=e249]:
+                - link "Майбутнім воїнам" [ref=e250] [cursor=pointer]:
+                  - /url: /services
+              - listitem [ref=e252]:
+                - link "Громадянам" [ref=e253] [cursor=pointer]:
+                  - /url: /services
+          - group "Діяльність" [ref=e255]:
+            - heading "Діяльність" [level=3] [ref=e256]
+            - list [ref=e257]:
+              - listitem [ref=e258]:
+                - link "Антикорупційна" [ref=e259] [cursor=pointer]:
+                  - /url: /antikorupczijna-diyalnist
+              - listitem [ref=e261]:
+                - link "Закупівельна" [ref=e262] [cursor=pointer]:
+                  - /url: /zakupivelna-diyalnist
+              - listitem [ref=e264]:
+                - link "Нормативно-правова" [ref=e265] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/ministry/normativno-pravova-baza/
+              - listitem [ref=e267]:
+                - link "Майнова" [ref=e268] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/diyalnist/vidchuzhennya-vijskovogo-majna/ogoloshennya-ta-anonsi/
+              - listitem [ref=e270]:
+                - link "Кадрова" [ref=e271] [cursor=pointer]:
+                  - /url: /kadrova-diyalnist
+              - listitem [ref=e273]:
+                - link "Фінансова" [ref=e274] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/diyalnist/finances/
+              - listitem [ref=e276]:
+                - link "Міжнародне співробітництво" [ref=e277] [cursor=pointer]:
+                  - /url: /mizhnarodne-spivrobitnicztvo
+          - group "Прес-центр" [ref=e279]:
+            - heading "Прес-центр" [level=3] [ref=e280]
+            - list [ref=e281]:
+              - listitem [ref=e282]:
+                - link "Новини" [ref=e283] [cursor=pointer]:
+                  - /url: /news
+              - listitem [ref=e285]:
+                - link "Пояснюємо" [ref=e286] [cursor=pointer]:
+                  - /url: /explanation
+              - listitem [ref=e288]:
+                - link "Отримати акредитацію ЗСУ" [ref=e289] [cursor=pointer]:
+                  - /url: /otrimati-akreditacziyu-zsu
+              - listitem [ref=e291]:
+                - link "Доступ на військові об'єкти" [ref=e292] [cursor=pointer]:
+                  - /url: /dostup-na-vijskovi-ob-yekti
+              - listitem [ref=e294]:
+                - link "Поширені питання медіа" [ref=e295] [cursor=pointer]:
+                  - /url: /poshireni-pitannya-media
+              - listitem [ref=e297]:
+                - link "Форми запитів" [ref=e298] [cursor=pointer]:
+                  - /url: /formi-zapitiv
+          - group "Контакти" [ref=e300]:
+            - heading "Контакти" [level=3] [ref=e301]
+            - list [ref=e302]:
+              - listitem [ref=e303]:
+                - link "Контакти Міністерства" [ref=e304] [cursor=pointer]:
+                  - /url: /kontakti
+              - listitem [ref=e306]:
+                - link "Для медіа" [ref=e307] [cursor=pointer]:
+                  - /url: /kontakti-dlya-media
+              - listitem [ref=e309]:
+                - link "Галузевий державний архів" [ref=e310] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/zvernennya-gromadyan/galuzevij-derzhavnij-arxiv/
+            - list "Посилання на соціальні мережі" [ref=e313]:
+              - listitem [ref=e314]:
+                - link "Facebook" [ref=e315] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e316] [cursor=pointer]
+              - listitem [ref=e319]:
+                - link "Instagram" [ref=e320] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e321] [cursor=pointer]
+              - listitem [ref=e325]:
+                - link "YouTube" [ref=e326] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e327] [cursor=pointer]
+              - listitem [ref=e330]:
+                - link "Facebook" [ref=e331] [cursor=pointer]:
+                  - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                  - img [ref=e332] [cursor=pointer]
+        - separator [ref=e335]
+        - generic [ref=e336]:
+          - generic [ref=e338]:
+            - img "Логотип Міністерства оборони України" [ref=e339]
+            - generic [ref=e341]:
+              - paragraph [ref=e342]: © 2001–2026 МОУ
+              - paragraph [ref=e343]:
+                - text: Контент доступний за ліцензією
+                - link "Creative Commons Attribution 4.0 International license" [ref=e344] [cursor=pointer]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.uk
+                  - text: Creative
+                  - text: Commons Attribution 4.0 International license
+                - text: ","
+                - text: якщо не зазначено інше.
+              - link "Інформація про доступність вебсайту" [ref=e345] [cursor=pointer]:
+                - /url: /accessibility
+          - figure [ref=e347]:
+            - generic [ref=e348]: Розроблено в
+            - link "OpenTech SoftServe лого" [ref=e349] [cursor=pointer]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e350] [cursor=pointer]
+          - paragraph [ref=e353]:
+            - generic [ref=e354]: BETA
+            - text: Функціонал працює в режимі дослідної експлуатації
+        - paragraph [ref=e355]: The build is deployed 2 days ago 2026-01-20 15:26 (GMT+0) 73bf058.
+  - alert [ref=e356]: Новини SEO | Міністерство оборони України
+  - iframe [ref=e357]:
+    
+  - generic [ref=e361] [cursor=pointer]: Допомога онлайн
+```
