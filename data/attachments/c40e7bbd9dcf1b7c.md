@@ -1,0 +1,219 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4]:
+        - /url: "#main"
+      - navigation "Ministry of Defence of Ukraine" [ref=e5]:
+        - generic [ref=e6]:
+          - link "To the main page" [ref=e8]:
+            - /url: /en
+            - img [ref=e9]
+            - img "Ministry of Defense of Ukraine logo" [ref=e12]
+            - generic [ref=e14]: Ministry of Defence of Ukraine
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - 'link "Hotline: 1512" [ref=e17]':
+                - /url: "tel: 1512"
+                - img [ref=e18]
+                - generic [ref=e20]: "Hotline:"
+                - generic [ref=e21]: "1512"
+              - list "Social media links" [ref=e22]:
+                - listitem [ref=e23]:
+                  - link "Facebook" [ref=e24]:
+                    - /url: https://www.facebook.com/MinistryofDefence.UA
+                    - img [ref=e25]
+                - listitem [ref=e28]:
+                  - link "Instagram" [ref=e29]:
+                    - /url: https://www.instagram.com/ministry_of_defense_ua/
+                    - img [ref=e30]
+                - listitem [ref=e34]:
+                  - link "YouTube" [ref=e35]:
+                    - /url: https://www.youtube.com/@uamod
+                    - img [ref=e36]
+                - listitem [ref=e39]:
+                  - link "X (Twitter)" [ref=e40]:
+                    - /url: https://x.com
+                    - img [ref=e41]
+                - listitem [ref=e44]:
+                  - link "Facebook" [ref=e45]:
+                    - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                    - img [ref=e46]
+              - list "Current language is English" [ref=e49]:
+                - listitem [ref=e50]:
+                  - link "Change your language to Ukrainian" [ref=e51]:
+                    - /url: /
+                    - text: Укр
+                - listitem [ref=e52]:
+                  - link [ref=e53]:
+                    - /url: /en/news/updatedtest-271
+                    - text: Eng
+            - generic [ref=e54]:
+              - navigation "Main-naviation" [ref=e55]:
+                - button "Activity" [ref=e56] [cursor=pointer]:
+                  - img [ref=e58] [cursor=pointer]
+                - button "Leadership" [ref=e60] [cursor=pointer]:
+                  - img [ref=e62] [cursor=pointer]
+              - button "Search" [ref=e64] [cursor=pointer]:
+                - img [ref=e65] [cursor=pointer]
+              - link "Diia" [ref=e67]:
+                - /url: https://diia.gov.ua/
+                - img [ref=e68]
+      - main [ref=e72]:
+        - navigation "Breadcrumps" [ref=e73]:
+          - list [ref=e74]:
+            - listitem "Main page" [ref=e75]:
+              - link "Main page" [ref=e76] [cursor=pointer]:
+                - /url: /en
+              - img [ref=e78]
+            - listitem "News" [ref=e80]:
+              - link "News" [ref=e81] [cursor=pointer]:
+                - /url: /en/news
+        - article [ref=e82]:
+          - generic [ref=e83]:
+            - heading "Updated first news" [level=1] [ref=e84]
+            - time [ref=e85]: 2 February, 2026, 12:06 PM EET
+          - generic [ref=e86]:
+            - generic [ref=e88]: Updated the First news for test
+            - generic [ref=e89]:
+              - heading "Tags" [level=3] [ref=e90]
+              - list [ref=e91]:
+                - listitem [ref=e92]:
+                  - link "AutoTag-271-1" [ref=e93]:
+                    - /url: /en/news/tag-auto-tag-271-1
+        - generic [ref=e95]:
+          - complementary [ref=e96]:
+            - heading "Share" [level=3] [ref=e97]
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - button "Share on Facebook" [ref=e100] [cursor=pointer]:
+                  - img [ref=e101] [cursor=pointer]
+              - listitem [ref=e104]:
+                - button "Share on X" [active] [ref=e105] [cursor=pointer]:
+                  - img [ref=e106] [cursor=pointer]
+          - complementary [ref=e109]:
+            - heading "Latest news" [level=3] [ref=e110]
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link [ref=e113]:
+                  - /url: /en/news/test-c5f
+                  - article [ref=e114]:
+                    - time [ref=e116]: 2 February, 2026, 12:07 PM EET
+              - listitem [ref=e117]:
+                - link [ref=e118]:
+                  - /url: /en/news/test-highlight-271-3
+                  - article [ref=e119]:
+                    - time [ref=e121]: 2 February, 2026, 12:06 PM EET
+              - listitem [ref=e122]:
+                - link [ref=e123]:
+                  - /url: /en/news/test-highlight-271-2
+                  - article [ref=e124]:
+                    - time [ref=e126]: 2 February, 2026, 12:06 PM EET
+              - listitem [ref=e127]:
+                - link [ref=e128]:
+                  - /url: /en/news/test-no-tags-271-1
+                  - article [ref=e129]:
+                    - time [ref=e131]: 2 February, 2026, 12:06 PM EET
+    - contentinfo [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - group "Leadership" [ref=e135]:
+            - heading "Leadership" [level=3] [ref=e136]
+            - list [ref=e137]:
+              - listitem [ref=e138]:
+                - link "Minister" [ref=e139]:
+                  - /url: /en/about/rustem-umerov
+              - listitem [ref=e141]:
+                - link "Leadership of the MoD" [ref=e142]:
+                  - /url: /en/about/mod-leadership
+              - listitem [ref=e144]:
+                - link "Commander-in-Chief of the AFU" [ref=e145]:
+                  - /url: /en/about/oleksandr-stanislavovych-syrskyi-en
+              - listitem [ref=e147]:
+                - link "Chief of the Defense Intelligence of Ukraine" [ref=e148]:
+                  - /url: /en/about/kyrylo-budanov-en
+              - listitem [ref=e150]:
+                - link "Head of the Administration of the STSS" [ref=e151]:
+                  - /url: /en/about/oleksandr-vasyliovych-yakovets-en
+          - group "Press" [ref=e153]:
+            - heading "Press" [level=3] [ref=e154]
+            - list [ref=e155]:
+              - listitem [ref=e156]:
+                - link "News" [ref=e157]:
+                  - /url: /en/news
+              - listitem [ref=e159]:
+                - link "Get accreditation" [ref=e160]:
+                  - /url: /en/get-accreditation-1
+              - listitem [ref=e162]:
+                - link "Access to military facilities" [ref=e163]:
+                  - /url: /en/procedure-for-the-access-of-the-media-representatives-to-the-facilities-of-the-ukrainian-defense-forces
+              - listitem [ref=e165]:
+                - link "FAQ" [ref=e166]:
+                  - /url: /en/frequently-asked-questions
+              - listitem [ref=e168]:
+                - link "Request forms" [ref=e169]:
+                  - /url: /en/request-forms
+          - group "Contact us" [ref=e171]:
+            - heading "Contact us" [level=3] [ref=e172]
+            - list [ref=e173]:
+              - listitem [ref=e174]:
+                - link "General inquiries" [ref=e175]:
+                  - /url: /en/contact-us
+              - listitem [ref=e177]:
+                - link "For media" [ref=e178]:
+                  - /url: /en/contacts-for-media
+              - listitem [ref=e180]:
+                - link "Recruitment" [ref=e181]:
+                  - /url: https://ildu.com.ua/
+            - list "Social media links" [ref=e184]:
+              - listitem [ref=e185]:
+                - link "Facebook" [ref=e186]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e187]
+              - listitem [ref=e190]:
+                - link "Instagram" [ref=e191]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e192]
+              - listitem [ref=e196]:
+                - link "YouTube" [ref=e197]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e198]
+              - listitem [ref=e201]:
+                - link "X (Twitter)" [ref=e202]:
+                  - /url: https://x.com
+                  - img [ref=e203]
+              - listitem [ref=e206]:
+                - link "Facebook" [ref=e207]:
+                  - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                  - img [ref=e208]
+        - separator [ref=e211]
+        - generic [ref=e212]:
+          - generic [ref=e214]:
+            - img "Ministry of Defense of Ukraine logo" [ref=e215]
+            - generic [ref=e217]:
+              - paragraph [ref=e218]: © 2001–2026 MoD
+              - paragraph [ref=e219]:
+                - text: Content is available under the
+                - link "Creative Commons Attribution 4.0 International license" [ref=e220]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en
+                  - text: Creative
+                  - text: Commons Attribution 4.0 International license
+                - text: ","
+                - text: unless otherwise stated.
+              - link "Website accessibility information" [ref=e221]:
+                - /url: /en/accessibility-en
+          - figure [ref=e223]:
+            - generic [ref=e224]: Developed by
+            - link "OpenTech SoftServe logo" [ref=e225]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e226]
+          - paragraph [ref=e229]:
+            - generic [ref=e230]: BETA
+            - text: The functionality works in the mode of experimental operation
+        - paragraph [ref=e231]: The build is deployed 4 days ago 2026-01-29 09:25 (GMT+0) 103136a.
+  - alert [ref=e232]: Meta title for the First news | MoD News
+  - iframe [ref=e233]:
+    
+```
