@@ -1,0 +1,232 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Перейти до головного вмісту" [ref=e4] [cursor=pointer]:
+        - /url: "#main"
+      - navigation "Міністерство оборони України" [ref=e5]:
+        - generic [ref=e6]:
+          - link "На головну сторінку" [ref=e8] [cursor=pointer]:
+            - /url: /
+            - img [ref=e9] [cursor=pointer]
+            - img "Логотип Міністерства оборони України" [ref=e12] [cursor=pointer]
+            - generic [ref=e14] [cursor=pointer]: Міністерство оборони України
+          - generic [ref=e15]:
+            - link "1513" [ref=e16] [cursor=pointer]:
+              - /url: "tel: 1513"
+              - img [ref=e17] [cursor=pointer]
+              - generic [ref=e19] [cursor=pointer]: "1513"
+            - button "Пошук" [ref=e20] [cursor=pointer]:
+              - img [ref=e21] [cursor=pointer]
+            - button "Відкрити меню навігації та інше" [ref=e24] [cursor=pointer]
+      - main [ref=e30]:
+        - navigation "Навігаційні стежки" [ref=e31]:
+          - list [ref=e32]:
+            - listitem "Головна" [ref=e33]:
+              - link "Головна" [ref=e34] [cursor=pointer]:
+                - /url: /
+              - img [ref=e36]
+            - listitem "Діяльність" [ref=e38]:
+              - link "Діяльність" [ref=e39] [cursor=pointer]:
+                - /url: /diyalnist
+              - img [ref=e41]
+            - listitem "Нормативно-правова база" [ref=e43]:
+              - link "Нормативно-правова база" [ref=e44] [cursor=pointer]:
+                - /url: /diyalnist/normativno-pravova-baza
+        - heading "Document-581-2" [level=1] [ref=e45]
+        - 'heading "Дата прийняття: 26 лютого 2025" [level=6] [ref=e46]'
+        - generic [ref=e47]:
+          - link "tag-activity-581-1-1" [ref=e48] [cursor=pointer]:
+            - /url: /diyalnist/normativno-pravova-baza/area-tag-activity-581-1
+            - generic [ref=e49] [cursor=pointer]: tag-activity-581-1-1
+          - link "tag-type-581-2-2" [ref=e50] [cursor=pointer]:
+            - /url: /diyalnist/normativno-pravova-baza/type-tag-type-581-2
+            - generic [ref=e51] [cursor=pointer]: tag-type-581-2-2
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - paragraph [ref=e54]: Управління масової інформації Міністерства оборони України
+            - generic [ref=e55]: "E-mail:"
+            - link "psmodu@post.mil.gov.ua" [ref=e56] [cursor=pointer]:
+              - /url: mailto:psmodu@post.mil.gov.ua
+          - paragraph [ref=e57]
+          - paragraph [ref=e58]:
+            - generic [ref=e61]: Цей браузер не підтримує перегляд цього документу
+            - link "Завантажити документ" [ref=e62] [cursor=pointer]:
+              - /url: https://frontend.main.testdev.mod.gov.ua/assets/example_paper_a3c33ad1db.pdf
+          - generic [ref=e63]:
+            - generic [ref=e64]: "Телефон:"
+            - link "+380 44 293 60 73" [ref=e65] [cursor=pointer]:
+              - /url: tel:+380 44 293 60 73
+          - list "Посилання на соціальні мережі" [ref=e67]:
+            - listitem [ref=e68]:
+              - link "facebook" [ref=e69] [cursor=pointer]:
+                - /url: https://www.facebook.com/
+                - img [ref=e70] [cursor=pointer]
+            - listitem [ref=e73]:
+              - link "twitter" [ref=e74] [cursor=pointer]:
+                - /url: https://x.com/
+                - img [ref=e75] [cursor=pointer]
+            - listitem [ref=e78]:
+              - link "youtube" [ref=e79] [cursor=pointer]:
+                - /url: https://www.youtube.com/
+                - img [ref=e80] [cursor=pointer]
+            - listitem [ref=e83]:
+              - link "instagram" [ref=e84] [cursor=pointer]:
+                - /url: https://www.instagram.com/
+                - img [ref=e85] [cursor=pointer]
+            - listitem [ref=e89]:
+              - link "telegram" [ref=e90] [cursor=pointer]:
+                - /url: https://web.telegram.org/
+                - img [ref=e91] [cursor=pointer]
+          - paragraph [ref=e94]
+          - heading "Запитання 1" [level=3] [ref=e97]:
+            - button "Запитання 1" [ref=e98] [cursor=pointer]
+          - list [ref=e99]:
+            - listitem [ref=e100]:
+              - link "Test title Test description" [ref=e101] [cursor=pointer]:
+                - /url: /pro-nas/umyerov-rustem-enverovich
+                - img [ref=e104] [cursor=pointer]
+    - contentinfo [ref=e107]:
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - group "Про нас" [ref=e110]:
+            - heading "Про нас" [level=3] [ref=e111]
+            - list [ref=e112]:
+              - listitem [ref=e113]:
+                - link "Керівництво Міноборони" [ref=e114] [cursor=pointer]:
+                  - /url: /pro-nas/kerivnicztvo-ministerstva-oboroni-ukrayini
+              - listitem [ref=e116]:
+                - link "Головнокомандувач ЗСУ" [ref=e117] [cursor=pointer]:
+                  - /url: /pro-nas/general-sirskij-oleksandr-stanislavovich
+              - listitem [ref=e119]:
+                - link "Керівник ГУР" [ref=e120] [cursor=pointer]:
+                  - /url: /pro-nas/general-lejtenant-budanov-kirilo-oleksijovich
+              - listitem [ref=e122]:
+                - link "Керівник ДССТ" [ref=e123] [cursor=pointer]:
+                  - /url: /pro-nas/yakovecz-oleksandr-vasilovich
+              - listitem [ref=e125]:
+                - link "Апарат Міністерства оборони" [ref=e126] [cursor=pointer]:
+                  - /url: /aparat-ministerstva-oboroni
+              - listitem [ref=e128]:
+                - link "Генеральний штаб ЗСУ" [ref=e129] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/ministry/struktura-generalnogo-shtabu/
+          - group "Сервіси" [ref=e131]:
+            - heading "Сервіси" [level=3] [ref=e132]
+            - list [ref=e133]:
+              - listitem [ref=e134]:
+                - link "Воїнам та їх сім'ям" [ref=e135] [cursor=pointer]:
+                  - /url: /servisy/voyinam-ta-yih-sim-yam-vidpovidi-na-pitannya
+              - listitem [ref=e137]:
+                - link "Майбутнім воїнам" [ref=e138] [cursor=pointer]:
+                  - /url: /servisy/majbutnim-voyinam
+              - listitem [ref=e140]:
+                - link "Громадянам" [ref=e141] [cursor=pointer]:
+                  - /url: /servisy/gromadyanam
+          - group "Діяльність" [ref=e143]:
+            - heading "Діяльність" [level=3] [ref=e144]
+            - list [ref=e145]:
+              - listitem [ref=e146]:
+                - link "Антикорупційна" [ref=e147] [cursor=pointer]:
+                  - /url: /antikorupczijna-diyalnist
+              - listitem [ref=e149]:
+                - link "Закупівельна" [ref=e150] [cursor=pointer]:
+                  - /url: /zakupivelna-diyalnist
+              - listitem [ref=e152]:
+                - link "Нормативно-правова" [ref=e153] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/ministry/normativno-pravova-baza/
+              - listitem [ref=e155]:
+                - link "Майнова" [ref=e156] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/diyalnist/vidchuzhennya-vijskovogo-majna/ogoloshennya-ta-anonsi/
+              - listitem [ref=e158]:
+                - link "Кадрова" [ref=e159] [cursor=pointer]:
+                  - /url: /kadrova-diyalnist
+              - listitem [ref=e161]:
+                - link "Фінансова" [ref=e162] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/diyalnist/finances/
+              - listitem [ref=e164]:
+                - link "Міжнародне співробітництво" [ref=e165] [cursor=pointer]:
+                  - /url: /mizhnarodne-spivrobitnicztvo
+          - group "Прес-центр" [ref=e167]:
+            - heading "Прес-центр" [level=3] [ref=e168]
+            - list [ref=e169]:
+              - listitem [ref=e170]:
+                - link "Новини" [ref=e171] [cursor=pointer]:
+                  - /url: /news
+              - listitem [ref=e173]:
+                - link "Пояснюємо" [ref=e174] [cursor=pointer]:
+                  - /url: /explanation
+              - listitem [ref=e176]:
+                - link "Отримати акредитацію ЗСУ" [ref=e177] [cursor=pointer]:
+                  - /url: /otrimati-akreditacziyu-zsu
+              - listitem [ref=e179]:
+                - link "Доступ на військові об'єкти" [ref=e180] [cursor=pointer]:
+                  - /url: /dostup-na-vijskovi-ob-yekti
+              - listitem [ref=e182]:
+                - link "Поширені питання медіа" [ref=e183] [cursor=pointer]:
+                  - /url: /poshireni-pitannya-media
+              - listitem [ref=e185]:
+                - link "Форми запитів" [ref=e186] [cursor=pointer]:
+                  - /url: /formi-zapitiv
+          - group "Контакти" [ref=e188]:
+            - heading "Контакти" [level=3] [ref=e189]
+            - list [ref=e190]:
+              - listitem [ref=e191]:
+                - link "Контакти Міністерства" [ref=e192] [cursor=pointer]:
+                  - /url: /kontakti
+              - listitem [ref=e194]:
+                - link "Для медіа" [ref=e195] [cursor=pointer]:
+                  - /url: /kontakti-dlya-media
+              - listitem [ref=e197]:
+                - link "Галузевий державний архів" [ref=e198] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/zvernennya-gromadyan/galuzevij-derzhavnij-arxiv/
+            - list "Посилання на соціальні мережі" [ref=e201]:
+              - listitem [ref=e202]:
+                - link "Facebook" [ref=e203] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e204] [cursor=pointer]
+              - listitem [ref=e207]:
+                - link "Instagram" [ref=e208] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e209] [cursor=pointer]
+              - listitem [ref=e213]:
+                - link "YouTube" [ref=e214] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e215] [cursor=pointer]
+              - listitem [ref=e218]:
+                - link "Facebook" [ref=e219] [cursor=pointer]:
+                  - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                  - img [ref=e220] [cursor=pointer]
+        - separator [ref=e223]
+        - generic [ref=e224]:
+          - generic [ref=e226]:
+            - img "Логотип Міністерства оборони України" [ref=e227]
+            - generic [ref=e229]:
+              - paragraph [ref=e230]: © 2001–2026 МОУ
+              - paragraph [ref=e231]:
+                - text: Контент доступний за ліцензією
+                - link "Creative Commons Attribution 4.0 International license" [ref=e232] [cursor=pointer]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.uk
+                  - text: Creative
+                  - text: Commons Attribution 4.0 International license
+                - text: ","
+                - text: якщо не зазначено інше.
+              - link "Інформація про доступність вебсайту" [ref=e233] [cursor=pointer]:
+                - /url: /accessibility
+          - figure [ref=e235]:
+            - generic [ref=e236]: Розроблено в
+            - link "OpenTech SoftServe лого" [ref=e237] [cursor=pointer]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e238] [cursor=pointer]
+          - paragraph [ref=e241]:
+            - generic [ref=e242]: BETA
+            - text: Функціонал працює в режимі дослідної експлуатації
+        - paragraph [ref=e243]: The build is deployed about 23 hours ago 2026-02-02 10:36 (GMT+0) 103136a.
+  - alert [ref=e244]
+  - iframe [ref=e245]:
+    
+  - link "Допомога онлайн" [ref=e247] [cursor=pointer]:
+    - /url: https://widget-cz.ukc.gov.ua/build/popup.html?draggable=true&resizable=true&showButton=true&showBar=true&showContactCard=true&location=https%3A%2F%2Ffrontend.main.testdev.mod.gov.ua%2Fdiyalnist%2Fnormativno-pravova-baza%2Fdocument-type-581-2&showControls=true&companyId=i177195357&
+    - generic [ref=e250] [cursor=pointer]: Допомога онлайн
+```

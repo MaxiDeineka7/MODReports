@@ -1,0 +1,208 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to main content" [ref=e4]:
+      - /url: "#main"
+    - navigation "Ministry of Defence of Ukraine" [ref=e5]:
+      - generic [ref=e6]:
+        - link "To the main page" [ref=e8]:
+          - /url: /en
+          - img [ref=e9]
+          - img "Ministry of Defense of Ukraine logo" [ref=e12]
+          - generic [ref=e14]: Ministry of Defence of Ukraine
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - 'link "Hotline: 1512" [ref=e17]':
+              - /url: "tel: 1512"
+              - img [ref=e18]
+              - generic [ref=e20]: "Hotline:"
+              - generic [ref=e21]: "1512"
+            - list "Social media links" [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Facebook" [ref=e24]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e25]
+              - listitem [ref=e28]:
+                - link "Instagram" [ref=e29]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e30]
+              - listitem [ref=e34]:
+                - link "YouTube" [ref=e35]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e36]
+              - listitem [ref=e39]:
+                - link "Facebook" [ref=e40]:
+                  - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                  - img [ref=e41]
+            - list "Current language is English" [ref=e44]:
+              - listitem [ref=e45]:
+                - link "Change your language to Ukrainian" [ref=e46]:
+                  - /url: /
+                  - text: Укр
+              - listitem [ref=e47]:
+                - link [ref=e48]:
+                  - /url: /en/explanation/explain-article-0c0-1
+                  - text: Eng
+          - generic [ref=e49]:
+            - navigation "Main-naviation" [ref=e50]:
+              - button "Activity" [ref=e51] [cursor=pointer]:
+                - img [ref=e53] [cursor=pointer]
+              - button "Leadership" [ref=e55] [cursor=pointer]:
+                - img [ref=e57] [cursor=pointer]
+            - button "Search" [ref=e59] [cursor=pointer]:
+              - img [ref=e60] [cursor=pointer]
+            - link "Diia" [ref=e62]:
+              - /url: https://diia.gov.ua/
+              - img [ref=e63]
+    - main [ref=e67]:
+      - navigation "Breadcrumps" [ref=e68]:
+        - list [ref=e69]:
+          - listitem "Main page" [ref=e70]:
+            - link "Main page" [ref=e71] [cursor=pointer]:
+              - /url: /en
+            - img [ref=e73]
+          - listitem "We are explaining" [ref=e75]:
+            - link "We are explaining" [ref=e76] [cursor=pointer]:
+              - /url: /en/explanation
+      - article [ref=e77]:
+        - generic [ref=e78]:
+          - heading "ExplainArticle-0c0-1" [level=1] [ref=e79]
+          - time [ref=e80]: 3 February, 2026, 11:55 AM EET
+        - generic [ref=e81]:
+          - figure [ref=e82]
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: highlight is TRUE
+            - generic [ref=e86]:
+              - generic [ref=e87]:
+                - paragraph [ref=e88]: Управління масової інформації Міністерства оборони України
+                - generic [ref=e89]: "E-mail:"
+                - link "psmodu@post.mil.gov.ua" [ref=e90]:
+                  - /url: mailto:psmodu@post.mil.gov.ua
+              - paragraph [ref=e91]
+              - paragraph [ref=e92]:
+                - generic [ref=e95]: This browser does not support viewing this document
+                - link "Download the document" [ref=e96]:
+                  - /url: https://frontend.main.testdev.mod.gov.ua/assets/example_paper_a3c33ad1db.pdf
+              - generic [ref=e97]:
+                - generic [ref=e98]: "Phone:"
+                - link "+380 44 293 60 73" [ref=e99]:
+                  - /url: tel:+380 44 293 60 73
+              - generic [ref=e101]:
+                - heading "spoiler" [level=3] [ref=e102]:
+                  - button "spoiler" [ref=e103] [cursor=pointer]
+                - paragraph [ref=e104]: alert
+                - paragraph [ref=e105]:
+                  - img [ref=e106]
+              - text: ","
+              - link "External link" [ref=e108]:
+                - /url: https://www.google.com/
+          - generic [ref=e109]:
+            - heading "Tags" [level=3] [ref=e110]
+            - list [ref=e111]:
+              - listitem [ref=e112]:
+                - link "AutoTag-0c0-1" [ref=e113]:
+                  - /url: /en/explanation/tag-auto-tag-0c0-1
+      - complementary [ref=e116]:
+        - heading "Share" [level=3] [ref=e117]
+        - list [ref=e118]:
+          - listitem [ref=e119]:
+            - button "Share on Facebook" [ref=e120] [cursor=pointer]:
+              - img [ref=e121] [cursor=pointer]
+          - listitem [ref=e124]:
+            - button "Share on X" [ref=e125] [cursor=pointer]:
+              - img [ref=e126] [cursor=pointer]
+  - contentinfo [ref=e129]:
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - group "Leadership" [ref=e132]:
+          - heading "Leadership" [level=3] [ref=e133]
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - link "Minister" [ref=e136]:
+                - /url: /en/about/rustem-umerov
+            - listitem [ref=e138]:
+              - link "Leadership of the MoD" [ref=e139]:
+                - /url: /en/about/mod-leadership
+            - listitem [ref=e141]:
+              - link "Commander-in-Chief of the AFU" [ref=e142]:
+                - /url: /en/about/oleksandr-stanislavovych-syrskyi-en
+            - listitem [ref=e144]:
+              - link "Chief of the Defense Intelligence of Ukraine" [ref=e145]:
+                - /url: /en/about/kyrylo-budanov-en
+            - listitem [ref=e147]:
+              - link "Head of the Administration of the STSS" [ref=e148]:
+                - /url: /en/about/oleksandr-vasyliovych-yakovets-en
+        - group "Press" [ref=e150]:
+          - heading "Press" [level=3] [ref=e151]
+          - list [ref=e152]:
+            - listitem [ref=e153]:
+              - link "News" [ref=e154]:
+                - /url: /en/news
+            - listitem [ref=e156]:
+              - link "Get accreditation" [ref=e157]:
+                - /url: /en/get-accreditation-1
+            - listitem [ref=e159]:
+              - link "Access to military facilities" [ref=e160]:
+                - /url: /en/procedure-for-the-access-of-the-media-representatives-to-the-facilities-of-the-ukrainian-defense-forces
+            - listitem [ref=e162]:
+              - link "FAQ" [ref=e163]:
+                - /url: /en/frequently-asked-questions
+            - listitem [ref=e165]:
+              - link "Request forms" [ref=e166]:
+                - /url: /en/request-forms
+        - group "Contact us" [ref=e168]:
+          - heading "Contact us" [level=3] [ref=e169]
+          - list [ref=e170]:
+            - listitem [ref=e171]:
+              - link "General inquiries" [ref=e172]:
+                - /url: /en/contact-us
+            - listitem [ref=e174]:
+              - link "For media" [ref=e175]:
+                - /url: /en/contacts-for-media
+            - listitem [ref=e177]:
+              - link "Recruitment" [ref=e178]:
+                - /url: https://ildu.com.ua/
+          - list "Social media links" [ref=e181]:
+            - listitem [ref=e182]:
+              - link "Facebook" [ref=e183]:
+                - /url: https://www.facebook.com/MinistryofDefence.UA
+                - img [ref=e184]
+            - listitem [ref=e187]:
+              - link "Instagram" [ref=e188]:
+                - /url: https://www.instagram.com/ministry_of_defense_ua/
+                - img [ref=e189]
+            - listitem [ref=e193]:
+              - link "YouTube" [ref=e194]:
+                - /url: https://www.youtube.com/@uamod
+                - img [ref=e195]
+            - listitem [ref=e198]:
+              - link "Facebook" [ref=e199]:
+                - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                - img [ref=e200]
+      - separator [ref=e203]
+      - generic [ref=e204]:
+        - generic [ref=e206]:
+          - img "Ministry of Defense of Ukraine logo" [ref=e207]
+          - generic [ref=e209]:
+            - paragraph [ref=e210]: © 2001–2026 MoD
+            - paragraph [ref=e211]:
+              - text: Content is available under the
+              - link "Creative Commons Attribution 4.0 International license" [ref=e212]:
+                - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en
+                - text: Creative
+                - text: Commons Attribution 4.0 International license
+              - text: ","
+              - text: unless otherwise stated.
+            - link "Website accessibility information" [ref=e213]:
+              - /url: /en/accessibility-en
+        - figure [ref=e215]:
+          - generic [ref=e216]: Developed by
+          - link "OpenTech SoftServe logo" [ref=e217]:
+            - /url: https://opentech.softserveinc.com
+            - img [ref=e218]
+        - paragraph [ref=e221]:
+          - generic [ref=e222]: BETA
+          - text: The functionality works in the mode of experimental operation
+```
