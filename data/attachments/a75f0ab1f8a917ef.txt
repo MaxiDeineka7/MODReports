@@ -1,0 +1,4 @@
+[2026-02-10 10:57:55] INFO: 🚀 [GET] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::footer.footer/?locale=uk with params: {} and data: {}
+[2026-02-10 10:57:55] ERROR: ❌ [GET] Response Error from /content-manager/single-types/api::footer.footer/?locale=uk - Status: 502, Data: "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
+[2026-02-10 10:57:55] INFO: 🚀 [PUT] Request to https://backend.main.testdev.mod.gov.ua/content-manager/single-types/api::footer.footer/?locale=uk with params: {} and data: {}
+[2026-02-10 10:57:55] ERROR: ❌ [PUT] Response Error from /content-manager/single-types/api::footer.footer/?locale=uk - Status: 502, Data: "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
