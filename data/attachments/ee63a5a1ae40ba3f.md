@@ -1,0 +1,240 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main"
+      - navigation "Ministry of Defence of Ukraine" [ref=e5]:
+        - generic [ref=e6]:
+          - link "To the main page" [ref=e8] [cursor=pointer]:
+            - /url: /en
+            - img [ref=e9] [cursor=pointer]
+            - img "Ministry of Defense of Ukraine logo" [ref=e12] [cursor=pointer]
+            - heading "Ministry of Defence of Ukraine" [level=1] [ref=e14] [cursor=pointer]
+          - generic [ref=e15]:
+            - link "1512" [ref=e16] [cursor=pointer]:
+              - /url: "tel: 1512"
+              - img [ref=e17] [cursor=pointer]
+              - generic [ref=e19] [cursor=pointer]: "1512"
+            - button "Search" [ref=e20] [cursor=pointer]:
+              - img [ref=e21] [cursor=pointer]
+            - button "Open navigation menu and more" [ref=e24] [cursor=pointer]
+      - generic [ref=e30]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - link [ref=e37] [cursor=pointer]:
+                - /url: /en/news/brigadier-general-of-justice-serhii-melnyk-appointed-deputy-minister-of-defence-of-ukraine
+                - paragraph [ref=e39] [cursor=pointer]: Brigadier General of Justice Serhii Melnyk appointed Deputy Minister of Defence of Ukraine
+              - link [ref=e42] [cursor=pointer]:
+                - /url: /en/news/e-1
+                - img [ref=e43] [cursor=pointer]
+                - paragraph [ref=e45] [cursor=pointer]: English time
+              - link [ref=e48] [cursor=pointer]:
+                - /url: /en/news/during-a-meeting-with-a-us-delegation-kateryna-chernohorenko-revealed-that-the-army-app-will-soon-feature-educational-courses-an-electronic-id-and-a-loyalty-program-for-service-members-1
+                - paragraph [ref=e50] [cursor=pointer]: During a meeting with a US delegation, Kateryna Chernohorenko revealed that the Army+ app will soon feature educational courses, an Electronic ID, and a loyalty program for service members
+            - generic [ref=e51]:
+              - img [ref=e53] [cursor=pointer]
+              - img [ref=e60] [cursor=pointer]
+          - link "All news" [ref=e63] [cursor=pointer]:
+            - /url: /en/news
+        - navigation "Quick links" [ref=e64]:
+          - link "Updated Join the Brave-a0f" [ref=e65] [cursor=pointer]:
+            - /url: https://www.google.com/
+            - generic [ref=e66] [cursor=pointer]: Updated Join the Brave-a0f
+            - img [ref=e67] [cursor=pointer]
+          - link "Updated FAQ for the Media-a0f" [ref=e69] [cursor=pointer]:
+            - /url: https://www.google.com/
+            - generic [ref=e70] [cursor=pointer]: Updated FAQ for the Media-a0f
+            - img [ref=e71] [cursor=pointer]
+          - link "Updated Media Accreditation-a0f" [ref=e73] [cursor=pointer]:
+            - /url: https://www.google.com/
+            - generic [ref=e74] [cursor=pointer]: Updated Media Accreditation-a0f
+            - img [ref=e75] [cursor=pointer]
+          - link "Updated Become a Supplier-a0f" [ref=e77] [cursor=pointer]:
+            - /url: https://www.google.com/
+            - generic [ref=e78] [cursor=pointer]: Updated Become a Supplier-a0f
+            - img [ref=e79] [cursor=pointer]
+      - main [ref=e81]:
+        - generic "Latest news" [ref=e84]:
+          - generic [ref=e85]:
+            - heading "Latest news" [level=2] [ref=e86]
+            - link "All news" [ref=e87] [cursor=pointer]:
+              - /url: /en/news
+              - img [ref=e88] [cursor=pointer]
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - article "Test news without tags afb" [ref=e92]:
+                - link "Test news without tags afb Tuesday, 24 February 2026 at 12:17:05 GMT+02:00" [ref=e93] [cursor=pointer]:
+                  - /url: /en/news/test-no-tags-afb-1
+                  - time [ref=e96] [cursor=pointer]: 24 February, 2026, 12:17 PM EET
+              - article "Test news without tags c52" [ref=e97]:
+                - link "Test news without tags c52 Tuesday, 24 February 2026 at 12:15:45 GMT+02:00" [ref=e98] [cursor=pointer]:
+                  - /url: /en/news/test-no-tags-c52-1
+                  - time [ref=e101] [cursor=pointer]: 24 February, 2026, 12:15 PM EET
+              - article "Test news without tags f86" [ref=e102]:
+                - link "Test news without tags f86 Tuesday, 24 February 2026 at 12:14:15 GMT+02:00" [ref=e103] [cursor=pointer]:
+                  - /url: /en/news/test-no-tags-f86-1
+                  - time [ref=e106] [cursor=pointer]: 24 February, 2026, 12:14 PM EET
+              - article "Test news without tags cab" [ref=e107]:
+                - link "Test news without tags cab Tuesday, 24 February 2026 at 12:12:37 GMT+02:00" [ref=e108] [cursor=pointer]:
+                  - /url: /en/news/test-no-tags-cab-1
+                  - time [ref=e111] [cursor=pointer]: 24 February, 2026, 12:12 PM EET
+              - article "Test news without tags 55e" [ref=e112]:
+                - link "Test news without tags 55e Monday, 23 February 2026 at 12:15:46 GMT+02:00" [ref=e113] [cursor=pointer]:
+                  - /url: /en/news/test-no-tags-55e-1
+                  - time [ref=e116] [cursor=pointer]: 23 February, 2026, 12:15 PM EET
+              - article "Test news without tags e33" [ref=e117]:
+                - link "Test news without tags e33 Monday, 23 February 2026 at 12:14:46 GMT+02:00" [ref=e118] [cursor=pointer]:
+                  - /url: /en/news/test-no-tags-e33-1
+                  - time [ref=e121] [cursor=pointer]: 23 February, 2026, 12:14 PM EET
+            - generic [ref=e122]:
+              - heading "Estimated losses of the Russian Army for 07.10.2024" [level=3] [ref=e123]
+              - generic [ref=e125]:
+                - generic [ref=e128]: 876 108
+                - generic [ref=e131]: 2 978
+                - generic [ref=e134]: "452"
+                - generic [ref=e137]: 6 801
+                - generic [ref=e140]: "48"
+              - link "Read more" [ref=e141] [cursor=pointer]:
+                - /url: ""
+                - text: Read more
+                - img [ref=e142] [cursor=pointer]
+        - generic "We are explaining" [ref=e146]:
+          - generic [ref=e147]:
+            - heading "We are explaining" [level=2] [ref=e148]
+            - link "All articles" [ref=e149] [cursor=pointer]:
+              - /url: /en/explanation
+              - img [ref=e150] [cursor=pointer]
+          - generic [ref=e152]:
+            - article "ExplainArticle-d32-4" [ref=e153]:
+              - link "ExplainArticle-d32-4 highlight is TRUE" [ref=e154] [cursor=pointer]:
+                - /url: /en/explanation/explain-article-d32-4
+                - paragraph [ref=e158] [cursor=pointer]: highlight is TRUE
+            - article "ExplainArticle-d32-2" [ref=e159]:
+              - link "ExplainArticle-d32-2 highlight is TRUE" [ref=e160] [cursor=pointer]:
+                - /url: /en/explanation/explain-article-d32-2
+                - paragraph [ref=e164] [cursor=pointer]: highlight is TRUE
+            - article "ExplainArticle-d32-1" [ref=e165]:
+              - link "ExplainArticle-d32-1 highlight is TRUE" [ref=e166] [cursor=pointer]:
+                - /url: /en/explanation/explain-article-d32-1
+                - paragraph [ref=e170] [cursor=pointer]: highlight is TRUE
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - heading "Innovative projects" [level=2] [ref=e175]
+            - generic [ref=e176]:
+              - button "Back" [disabled] [ref=e177]:
+                - img [ref=e178]
+              - button "Forward" [ref=e180] [cursor=pointer]:
+                - img [ref=e181] [cursor=pointer]
+          - region "Innovative projects" [ref=e183]:
+            - generic [ref=e184]:
+              - group [ref=e185]:
+                - link "NewProject-59f NewProject-59f Цей проект створений автоматизовано в тестувальницьких цілях." [ref=e186] [cursor=pointer]:
+                  - /url: https://www.google.com/
+                  - img "NewProject-59f" [ref=e188] [cursor=pointer]
+                  - generic "NewProject-59f" [ref=e190] [cursor=pointer]:
+                    - generic [ref=e191] [cursor=pointer]: NewProject-59f
+                    - img [ref=e192] [cursor=pointer]
+              - group [ref=e195]:
+                - link "NewProject-132 NewProject-132 Цей проект створений автоматизовано в тестувальницьких цілях." [ref=e196] [cursor=pointer]:
+                  - /url: https://www.google.com/
+                  - img "NewProject-132" [ref=e198] [cursor=pointer]
+                  - generic "NewProject-132" [ref=e200] [cursor=pointer]:
+                    - generic [ref=e201] [cursor=pointer]: NewProject-132
+                    - img [ref=e202] [cursor=pointer]
+          - link "More projects" [ref=e206] [cursor=pointer]:
+            - /url: /en/projects
+    - contentinfo [ref=e207]:
+      - generic [ref=e208]:
+        - generic [ref=e209]:
+          - group "Leadership" [ref=e210]:
+            - heading "Leadership" [level=3] [ref=e211]
+            - list [ref=e212]:
+              - listitem [ref=e213]:
+                - link "Minister" [ref=e214] [cursor=pointer]:
+                  - /url: /en/about/rustem-umerov
+              - listitem [ref=e216]:
+                - link "Leadership of the MoD" [ref=e217] [cursor=pointer]:
+                  - /url: /en/about/mod-leadership
+              - listitem [ref=e219]:
+                - link "Commander-in-Chief of the AFU" [ref=e220] [cursor=pointer]:
+                  - /url: /en/about/oleksandr-stanislavovych-syrskyi-en
+              - listitem [ref=e222]:
+                - link "Chief of the Defense Intelligence of Ukraine" [ref=e223] [cursor=pointer]:
+                  - /url: /en/about/kyrylo-budanov-en
+              - listitem [ref=e225]:
+                - link "Head of the Administration of the STSS" [ref=e226] [cursor=pointer]:
+                  - /url: /en/about/oleksandr-vasyliovych-yakovets-en
+          - group "Press" [ref=e228]:
+            - heading "Press" [level=3] [ref=e229]
+            - list [ref=e230]:
+              - listitem [ref=e231]:
+                - link "News" [ref=e232] [cursor=pointer]:
+                  - /url: /en/news
+              - listitem [ref=e234]:
+                - link "Get accreditation" [ref=e235] [cursor=pointer]:
+                  - /url: /en/get-accreditation-1
+              - listitem [ref=e237]:
+                - link "Access to military facilities" [ref=e238] [cursor=pointer]:
+                  - /url: /en/procedure-for-the-access-of-the-media-representatives-to-the-facilities-of-the-ukrainian-defense-forces
+              - listitem [ref=e240]:
+                - link "FAQ" [ref=e241] [cursor=pointer]:
+                  - /url: /en/frequently-asked-questions
+              - listitem [ref=e243]:
+                - link "Request forms" [ref=e244] [cursor=pointer]:
+                  - /url: /en/request-forms
+          - group "Contact us" [ref=e246]:
+            - heading "Contact us" [level=3] [ref=e247]
+            - list [ref=e248]:
+              - listitem [ref=e249]:
+                - link "General inquiries" [ref=e250] [cursor=pointer]:
+                  - /url: /en/contact-us
+              - listitem [ref=e252]:
+                - link "For media" [ref=e253] [cursor=pointer]:
+                  - /url: /en/contacts-for-media
+              - listitem [ref=e255]:
+                - link "Recruitment" [ref=e256] [cursor=pointer]:
+                  - /url: https://ildu.com.ua/
+            - list "Social media links" [ref=e259]:
+              - listitem [ref=e260]:
+                - link "Facebook" [ref=e261] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e262] [cursor=pointer]
+              - listitem [ref=e265]:
+                - link "Instagram" [ref=e266] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e267] [cursor=pointer]
+              - listitem [ref=e271]:
+                - link "YouTube" [ref=e272] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e273] [cursor=pointer]
+              - listitem [ref=e276]:
+                - link "Facebook" [ref=e277] [cursor=pointer]:
+                  - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                  - img [ref=e278] [cursor=pointer]
+        - separator [ref=e281]
+        - generic [ref=e282]:
+          - generic [ref=e284]:
+            - img [ref=e285]
+            - generic [ref=e287]:
+              - paragraph [ref=e288]: © 2001–2026 MoD
+              - paragraph [ref=e289]:
+                - text: Content is available under the
+                - link "Creative Commons Attribution 4.0 International license" [ref=e290] [cursor=pointer]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en
+                  - text: Creative
+                  - text: Commons Attribution 4.0 International license
+                - text: ","
+                - text: unless otherwise stated.
+              - link "Website accessibility information" [ref=e291] [cursor=pointer]:
+                - /url: /en/accessibility-en
+          - figure [ref=e293]:
+            - generic [ref=e294]: Developed by
+            - link "OpenTech SoftServe logo" [ref=e295] [cursor=pointer]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e296] [cursor=pointer]
+  - alert [ref=e298]: main page
+```
