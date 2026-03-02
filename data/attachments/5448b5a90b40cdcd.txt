@@ -1,0 +1,5 @@
+[2026-03-02 10:08:31] INFO: Verify that URL includes expected part: https://frontend.mod.testdev.mod.gov.ua
+[2026-03-02 10:08:32] INFO: Verify that URL includes expected part: /en
+[2026-03-02 10:08:33] INFO: Verify that URL includes expected part: explain-article-8c3-1
+[2026-03-02 10:08:57] INFO: 🚀 [DELETE] Request to https://backend.mod.testdev.mod.gov.ua/upload/files/24339 with params: {} and data: {}
+[2026-03-02 10:09:08] ERROR: ❌ [DELETE] Response Error from /upload/files/24339 - Status: 504, Data: "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"
