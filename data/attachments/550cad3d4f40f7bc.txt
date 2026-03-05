@@ -1,4 +1,0 @@
-[2026-03-04 10:03:43] INFO: Verify that URL includes expected part: https://frontend.mod.testdev.mod.gov.ua
-[2026-03-04 10:03:45] INFO: Verify that URL includes expected part: /en
-[2026-03-04 10:04:09] INFO: 🚀 [DELETE] Request to https://backend.mod.testdev.mod.gov.ua/content-manager/collection-types/api::tag.tag/8351 with params: {} and data: {}
-[2026-03-04 10:04:19] ERROR: ❌ [DELETE] Response Error from /content-manager/collection-types/api::tag.tag/8351 - Status: 504, Data: "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"
