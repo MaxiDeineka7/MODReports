@@ -1,0 +1,2 @@
+[2026-03-10 09:58:26] INFO: 🚀 [POST] Request to https://backend.mod.testdev.mod.gov.ua/content-manager/collection-types/api::article.article?locale=en with params: {} and data: "{\"slug\":\"article-ce1-1\",\"title\":\"Child Page 1\"}"
+[2026-03-10 09:58:26] ERROR: ❌ [POST] Response Error from /content-manager/collection-types/api::article.article?locale=en - Status: 503, Data: "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body>\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n</body>\r\n</html>\r\n"
