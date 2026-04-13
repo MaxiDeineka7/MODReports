@@ -1,0 +1,4 @@
+[2026-04-13 11:11:17] INFO: 🚀 [GET] Request to https://backend.mod.testdev.mod.gov.ua/api/media-link/?locale=uk&populate=* with params: {} and data: {}
+[2026-04-13 11:11:17] INFO: ✅ [GET] Response from /api/media-link/?locale=uk&populate=* - Status: 200 - Response body: {"data":{"id":12,"attributes":{"createdAt":"2025-11-19T11:52:46.621Z","updatedAt":"2026-01-11T19:42:11.756Z","publishedAt":"2025-11-19T11:52:49.895Z","locale":"uk","link":[{"id":2782,"title":"Урядовий контактний центр1","url":"https://ukc.gov.ua/"}]}},"meta":{}}
+[2026-04-13 11:11:17] INFO: 🚀 [GET] Request to https://backend.mod.testdev.mod.gov.ua/api/media-link/?locale=en&populate=* with params: {} and data: {}
+[2026-04-13 11:11:17] ERROR: ❌ [GET] Response Error from /api/media-link/?locale=en&populate=* - Status: 404, Data: {"data":null,"error":{"status":404,"name":"NotFoundError","message":"Not Found","details":{}}}
