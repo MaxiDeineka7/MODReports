@@ -1,0 +1,4 @@
+[2026-05-11 12:23:03] INFO: 🚀 [GET] Request to https://backend.mod.testdev.mod.gov.ua/content-manager/single-types/api::quick-link.quick-link?locale=uk with params: {} and data: {}
+[2026-05-11 12:23:13] ERROR: ❌ [GET] Response Error from /content-manager/single-types/api::quick-link.quick-link?locale=uk - Status: 504, Data: "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"
+[2026-05-11 12:23:13] INFO: 🚀 [PUT] Request to https://backend.mod.testdev.mod.gov.ua/content-manager/single-types/api::quick-link.quick-link?locale=uk with params: {} and data: {}
+[2026-05-11 12:23:24] ERROR: ❌ [PUT] Response Error from /content-manager/single-types/api::quick-link.quick-link?locale=uk - Status: 504, Data: "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"
