@@ -1,0 +1,374 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main"
+      - navigation "Ministry of Defence of Ukraine" [ref=e5]:
+        - generic [ref=e6]:
+          - link "To the main page" [ref=e8] [cursor=pointer]:
+            - /url: /en
+            - img [ref=e9] [cursor=pointer]
+            - img "Ministry of Defense of Ukraine logo" [ref=e12] [cursor=pointer]
+            - generic [ref=e14] [cursor=pointer]: Ministry of Defence of Ukraine
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - 'link "Hotline: 1513" [ref=e17] [cursor=pointer]':
+                - /url: /en/ministry-of-defence-of-ukraine-hotline
+                - img [ref=e18] [cursor=pointer]
+                - img [ref=e20] [cursor=pointer]
+                - generic [ref=e22] [cursor=pointer]: "Hotline:"
+                - generic [ref=e23] [cursor=pointer]: "1513"
+              - list "Social media links" [ref=e24]:
+                - listitem [ref=e25]:
+                  - link "Facebook" [ref=e26] [cursor=pointer]:
+                    - /url: https://www.facebook.com/MinistryofDefence.UA
+                    - img [ref=e27] [cursor=pointer]
+                - listitem [ref=e30]:
+                  - link "Instagram" [ref=e31] [cursor=pointer]:
+                    - /url: https://www.instagram.com/ministry_of_defense_ua/
+                    - img [ref=e32] [cursor=pointer]
+                - listitem [ref=e36]:
+                  - link "YouTube" [ref=e37] [cursor=pointer]:
+                    - /url: https://www.youtube.com/@uamod
+                    - img [ref=e38] [cursor=pointer]
+                - listitem [ref=e41]:
+                  - link "Facebook" [ref=e42] [cursor=pointer]:
+                    - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                    - img [ref=e43] [cursor=pointer]
+                - listitem [ref=e46]:
+                  - link "X (Twitter)" [ref=e47] [cursor=pointer]:
+                    - /url: https://x.com
+                    - img [ref=e48] [cursor=pointer]
+              - list "Current language is English" [ref=e51]:
+                - listitem [ref=e52]:
+                  - link "Change your language to Ukrainian" [ref=e53] [cursor=pointer]:
+                    - /url: /news
+                    - text: Укр
+                - listitem [ref=e54]:
+                  - link [ref=e55]:
+                    - /url: /en/news
+                    - text: Eng
+            - generic [ref=e56]:
+              - navigation "Main-naviation" [ref=e57]:
+                - button "Activity" [ref=e58] [cursor=pointer]:
+                  - img [ref=e60] [cursor=pointer]
+                - button "Leadership" [ref=e62] [cursor=pointer]:
+                  - img [ref=e64] [cursor=pointer]
+              - button "Search" [ref=e66] [cursor=pointer]:
+                - img [ref=e67] [cursor=pointer]
+      - main [ref=e70]:
+        - navigation "Breadcrumps" [ref=e71]:
+          - list [ref=e72]:
+            - listitem "Main page" [ref=e73]:
+              - link "Main page" [ref=e74] [cursor=pointer]:
+                - /url: /en
+              - img [ref=e76]
+            - listitem "News" [ref=e78]:
+              - link "News" [disabled] [ref=e79]:
+                - /url: /en/news
+        - heading "News" [level=1] [ref=e80]
+        - generic [ref=e81]:
+          - generic "Tags" [ref=e84]:
+            - generic [ref=e85]:
+              - heading "Tags" [level=2] [ref=e86]:
+                - generic [ref=e87]: Tags
+              - group "Tags" [ref=e89]:
+                - link "People in the Army 6" [ref=e91] [cursor=pointer]:
+                  - /url: /en/news/tag-tag-people-in-the-army
+                  - img [ref=e93] [cursor=pointer]
+                  - generic [ref=e97] [cursor=pointer]: "6"
+                - link "AutoTag-2ab-1 4" [ref=e99] [cursor=pointer]:
+                  - /url: /en/news/tag-auto-tag-2ab-1
+                  - img [ref=e101] [cursor=pointer]
+                  - generic [ref=e105] [cursor=pointer]: "4"
+                - link "AutoTag-ac9-1 4" [ref=e107] [cursor=pointer]:
+                  - /url: /en/news/tag-auto-tag-ac9-1
+                  - img [ref=e109] [cursor=pointer]
+                  - generic [ref=e113] [cursor=pointer]: "4"
+                - link "AutoTag-f21-1 4" [ref=e115] [cursor=pointer]:
+                  - /url: /en/news/tag-auto-tag-f21-1
+                  - img [ref=e117] [cursor=pointer]
+                  - generic [ref=e121] [cursor=pointer]: "4"
+                - link "Defence Industry and Innovations 4" [ref=e123] [cursor=pointer]:
+                  - /url: /en/news/tag-tag-defence-industry-and-innovations
+                  - img [ref=e125] [cursor=pointer]
+                  - generic [ref=e129] [cursor=pointer]: "4"
+                - link "AutoTag-6e0-1 3" [ref=e131] [cursor=pointer]:
+                  - /url: /en/news/tag-auto-tag-6e0-1
+                  - img [ref=e133] [cursor=pointer]
+                  - generic [ref=e137] [cursor=pointer]: "3"
+                - link "Digitalization 2" [ref=e139] [cursor=pointer]:
+                  - /url: /en/news/tag-digitalization
+                  - img [ref=e141] [cursor=pointer]
+                  - generic [ref=e145] [cursor=pointer]: "2"
+                - link "International aid 2" [ref=e147] [cursor=pointer]:
+                  - /url: /en/news/tag-international-aid
+                  - img [ref=e149] [cursor=pointer]
+                  - generic [ref=e153] [cursor=pointer]: "2"
+                - link "AutoTag-d0c-1 2" [ref=e155] [cursor=pointer]:
+                  - /url: /en/news/tag-auto-tag-d0c-1
+                  - img [ref=e157] [cursor=pointer]
+                  - generic [ref=e161] [cursor=pointer]: "2"
+                - link "Demining 1" [ref=e163] [cursor=pointer]:
+                  - /url: /en/news/tag-tag-1
+                  - img [ref=e165] [cursor=pointer]
+                  - generic [ref=e169] [cursor=pointer]: "1"
+                - link "AutoTag-f21-2 1" [ref=e171] [cursor=pointer]:
+                  - /url: /en/news/tag-auto-tag-f21-2
+                  - img [ref=e173] [cursor=pointer]
+                  - generic [ref=e177] [cursor=pointer]: "1"
+                - link "AutoTag-d0c-2 1" [ref=e179] [cursor=pointer]:
+                  - /url: /en/news/tag-auto-tag-d0c-2
+                  - img [ref=e181] [cursor=pointer]
+                  - generic [ref=e185] [cursor=pointer]: "1"
+                - link "AutoTag-6e0-2 1" [ref=e187] [cursor=pointer]:
+                  - /url: /en/news/tag-auto-tag-6e0-2
+                  - img [ref=e189] [cursor=pointer]
+                  - generic [ref=e193] [cursor=pointer]: "1"
+            - generic [ref=e194]:
+              - separator [ref=e195]
+              - button "Show more" [ref=e196] [cursor=pointer]:
+                - text: Show more
+                - img [ref=e197] [cursor=pointer]
+              - separator [ref=e200]
+          - generic [ref=e201]:
+            - generic [ref=e203]:
+              - searchbox "Search news" [ref=e205]
+              - button "Search" [ref=e206] [cursor=pointer]:
+                - img [ref=e207] [cursor=pointer]
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - generic [ref=e212]:
+                  - time [ref=e213]:
+                    - heading "May 14, Today" [level=3] [ref=e214]:
+                      - text: May 14,
+                      - generic [ref=e215]: Today
+                  - list "May 14 Today" [ref=e216]:
+                    - listitem [ref=e217]:
+                      - article "Test third highlighted news" [ref=e218]:
+                        - time [ref=e219]: 14:26
+                        - link "Test third highlighted news" [ref=e221] [cursor=pointer]:
+                          - /url: /en/news/test-highlight-f21-3
+                    - listitem [ref=e222]:
+                      - article "Test second highlighted news" [ref=e223]:
+                        - time [ref=e224]: 14:26
+                        - link "Test second highlighted news" [ref=e226] [cursor=pointer]:
+                          - /url: /en/news/test-highlight-f21-2
+                    - listitem [ref=e227]:
+                      - article "Test news without tags f21" [ref=e228]:
+                        - time [ref=e229]: 14:26
+                        - link "Test news without tags f21" [ref=e231] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-f21-1
+                    - listitem [ref=e232]:
+                      - article "Test first highlighted news" [ref=e233]:
+                        - time [ref=e234]: 14:26
+                        - link "Test first highlighted news" [ref=e236] [cursor=pointer]:
+                          - /url: /en/news/test-highlight-f21-1
+                    - listitem [ref=e237]:
+                      - article "Test second news f21" [ref=e238]:
+                        - time [ref=e239]: 14:26
+                        - link "Test second news f21" [ref=e241] [cursor=pointer]:
+                          - /url: /en/news/test-f21-2
+                    - listitem [ref=e242]:
+                      - article "Test first news f21" [ref=e243]:
+                        - time [ref=e244]: 14:26
+                        - link "Test first news f21" [ref=e246] [cursor=pointer]:
+                          - /url: /en/news/test-f21-1
+                    - listitem [ref=e247]:
+                      - article "Test news without tags 9ce" [ref=e248]:
+                        - time [ref=e249]: 14:25
+                        - link "Test news without tags 9ce" [ref=e251] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-9ce-1
+                - generic [ref=e253]:
+                  - time [ref=e254]:
+                    - heading "May 13, Yesterday" [level=3] [ref=e255]:
+                      - text: May 13,
+                      - generic [ref=e256]: Yesterday
+                  - list "May 13 Yesterday" [ref=e257]:
+                    - listitem [ref=e258]:
+                      - article "Test news without tags 707" [ref=e259]:
+                        - time [ref=e260]: 15:16
+                        - link "Test news without tags 707" [ref=e262] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-707-1
+                    - listitem [ref=e263]:
+                      - article "Test news without tags 777" [ref=e264]:
+                        - time [ref=e265]: 15:16
+                        - link "Test news without tags 777" [ref=e267] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-777-1
+                    - listitem [ref=e268]:
+                      - article "Test news without tags 897" [ref=e269]:
+                        - time [ref=e270]: 15:15
+                        - link "Test news without tags 897" [ref=e272] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-897-1
+                    - listitem [ref=e273]:
+                      - article "Test news without tags 6ac" [ref=e274]:
+                        - time [ref=e275]: 15:13
+                        - link "Test news without tags 6ac" [ref=e277] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-6ac-1
+                    - listitem [ref=e278]:
+                      - article "Test news without tags 7af" [ref=e279]:
+                        - time [ref=e280]: 15:12
+                        - link "Test news without tags 7af" [ref=e282] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-7af-1
+                    - listitem [ref=e283]:
+                      - article "Test news without tags b7c" [ref=e284]:
+                        - time [ref=e285]: 15:11
+                        - link "Test news without tags b7c" [ref=e287] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-b7c-1
+                    - listitem [ref=e288]:
+                      - article "Test news without tags a1e" [ref=e289]:
+                        - time [ref=e290]: 15:11
+                        - link "Test news without tags a1e" [ref=e292] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-a1e-1
+                    - listitem [ref=e293]:
+                      - article "Test news without tags a2d" [ref=e294]:
+                        - time [ref=e295]: 14:57
+                        - link "Test news without tags a2d" [ref=e297] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-a2d-1
+                    - listitem [ref=e298]:
+                      - article "Test news without tags 8e4" [ref=e299]:
+                        - time [ref=e300]: 14:56
+                        - link "Test news without tags 8e4" [ref=e302] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-8e4-1
+                    - listitem [ref=e303]:
+                      - article "Test news without tags 5bc" [ref=e304]:
+                        - time [ref=e305]: 12:27
+                        - link "Test news without tags 5bc" [ref=e307] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-5bc-1
+                    - listitem [ref=e308]:
+                      - article "Test news without tags 774" [ref=e309]:
+                        - time [ref=e310]: 12:26
+                        - link "Test news without tags 774" [ref=e312] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-774-1
+                    - listitem [ref=e313]:
+                      - article "Test news without tags 77a" [ref=e314]:
+                        - time [ref=e315]: 12:16
+                        - link "Test news without tags 77a" [ref=e317] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-77a-1
+                    - listitem [ref=e318]:
+                      - article "Test news without tags 6fa" [ref=e319]:
+                        - time [ref=e320]: 12:15
+                        - link "Test news without tags 6fa" [ref=e322] [cursor=pointer]:
+                          - /url: /en/news/test-no-tags-6fa-1
+              - generic [ref=e323]: "* News publication times are displayed in Eastern European Summer Time (EEST, UTC+3), which corresponds to Kyiv time during daylight saving time."
+              - generic [ref=e324]:
+                - link "Previous page" [disabled]:
+                  - /url: ""
+                  - img
+                  - generic: Previous page
+                - navigation "Pagination navigation" [ref=e325]:
+                  - list [ref=e326]:
+                    - generic: "1"
+                    - listitem [ref=e327]:
+                      - button "Page 1" [ref=e328] [cursor=pointer]: "1"
+                    - listitem [ref=e329]:
+                      - button "Page 2" [ref=e330] [cursor=pointer]: "2"
+                    - listitem [ref=e331]:
+                      - button "Page 3" [ref=e332] [cursor=pointer]: "3"
+                    - listitem [ref=e333]:
+                      - button "Page 6" [ref=e334] [cursor=pointer]:
+                        - img [ref=e335] [cursor=pointer]
+                    - listitem [ref=e339]:
+                      - button "Page 20" [ref=e340] [cursor=pointer]: "20"
+                - link "Next page" [ref=e341] [cursor=pointer]:
+                  - /url: /en/news?page=2
+                  - generic [ref=e342] [cursor=pointer]: Next page
+                  - img [ref=e343] [cursor=pointer]
+    - contentinfo [ref=e345]:
+      - generic [ref=e346]:
+        - generic [ref=e347]:
+          - group "Leadership" [ref=e348]:
+            - heading "Leadership" [level=3] [ref=e349]
+            - list [ref=e350]:
+              - listitem [ref=e351]:
+                - link "Minister" [ref=e352] [cursor=pointer]:
+                  - /url: /en/about/rustem-umerov
+              - listitem [ref=e354]:
+                - link "Leadership of the MoD" [ref=e355] [cursor=pointer]:
+                  - /url: /en/about/mod-leadership
+              - listitem [ref=e357]:
+                - link "Commander-in-Chief of the AFU" [ref=e358] [cursor=pointer]:
+                  - /url: /en/about/oleksandr-stanislavovych-syrskyi-en
+              - listitem [ref=e360]:
+                - link "Chief of the Defense Intelligence of Ukraine" [ref=e361] [cursor=pointer]:
+                  - /url: /en/about/kyrylo-budanov-en
+              - listitem [ref=e363]:
+                - link "Head of the Administration of the STSS" [ref=e364] [cursor=pointer]:
+                  - /url: /en/about/oleksandr-vasyliovych-yakovets-en
+          - group "Press" [ref=e366]:
+            - heading "Press" [level=3] [ref=e367]
+            - list [ref=e368]:
+              - listitem [ref=e369]:
+                - link "News" [ref=e370] [cursor=pointer]:
+                  - /url: /en/news
+              - listitem [ref=e372]:
+                - link "Get accreditation" [ref=e373] [cursor=pointer]:
+                  - /url: /en/get-accreditation-1
+              - listitem [ref=e375]:
+                - link "Access to military facilities" [ref=e376] [cursor=pointer]:
+                  - /url: /en/procedure-for-the-access-of-the-media-representatives-to-the-facilities-of-the-ukrainian-defense-forces
+              - listitem [ref=e378]:
+                - link "FAQ" [ref=e379] [cursor=pointer]:
+                  - /url: /en/frequently-asked-questions
+              - listitem [ref=e381]:
+                - link "Request forms" [ref=e382] [cursor=pointer]:
+                  - /url: /en/request-forms
+          - group "Contact us" [ref=e384]:
+            - heading "Contact us" [level=3] [ref=e385]
+            - list [ref=e386]:
+              - listitem [ref=e387]:
+                - link "General inquiries" [ref=e388] [cursor=pointer]:
+                  - /url: /en/contact-us
+              - listitem [ref=e390]:
+                - link "For media" [ref=e391] [cursor=pointer]:
+                  - /url: /en/contacts-for-media
+              - listitem [ref=e393]:
+                - link "Recruitment" [ref=e394] [cursor=pointer]:
+                  - /url: https://ildu.com.ua/
+            - list "Social media links" [ref=e397]:
+              - listitem [ref=e398]:
+                - link "Facebook" [ref=e399] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e400] [cursor=pointer]
+              - listitem [ref=e403]:
+                - link "Instagram" [ref=e404] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e405] [cursor=pointer]
+              - listitem [ref=e409]:
+                - link "YouTube" [ref=e410] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e411] [cursor=pointer]
+              - listitem [ref=e414]:
+                - link "Facebook" [ref=e415] [cursor=pointer]:
+                  - /url: https://facebook.main.testdev.mod.gov.ua/admin/content-man
+                  - img [ref=e416] [cursor=pointer]
+              - listitem [ref=e419]:
+                - link "X (Twitter)" [ref=e420] [cursor=pointer]:
+                  - /url: https://x.com
+                  - img [ref=e421] [cursor=pointer]
+        - separator [ref=e424]
+        - generic [ref=e425]:
+          - generic [ref=e427]:
+            - img [ref=e428]
+            - generic [ref=e430]:
+              - paragraph [ref=e431]: © 2001–2026 MoD
+              - paragraph [ref=e432]:
+                - text: Content is available under the
+                - link "Creative Commons Attribution 4.0 International license" [ref=e433] [cursor=pointer]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en
+                  - text: Creative
+                  - text: Commons Attribution 4.0 International license
+                - text: ","
+                - text: unless otherwise stated.
+          - figure [ref=e435]:
+            - generic [ref=e436]: Developed by
+            - link "OpenTech SoftServe logo" [ref=e437] [cursor=pointer]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e438] [cursor=pointer]
+          - link "Website accessibility information" [ref=e442] [cursor=pointer]:
+            - /url: /en/accessibility-en
+  - alert [ref=e443]: News list 123 | Ministry of Defence of Ukraine
+```
