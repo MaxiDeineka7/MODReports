@@ -1,0 +1,2 @@
+[2026-06-02 12:44:17] INFO: 🚀 [POST] Request to https://backend.mod.testdev.mod.gov.ua/content-manager/collection-types/api::social-network.social-network?locale=en with params: {} and data: "{\"name\":\"x\",\"url\":\"https://x.com\"}"
+[2026-06-02 12:44:17] ERROR: ❌ [POST] Response Error from /content-manager/collection-types/api::social-network.social-network?locale=en - Status: 401, Data: {"data":null,"error":{"status":401,"name":"UnauthorizedError","message":"Missing or invalid credentials","details":{}}}
