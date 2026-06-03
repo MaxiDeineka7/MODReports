@@ -1,4 +1,0 @@
-[2026-06-02 12:44:14] INFO: 🚀 [GET] Request to https://backend.mod.testdev.mod.gov.ua/content-manager/single-types/api::quick-link.quick-link?locale=en with params: {} and data: {}
-[2026-06-02 12:44:14] ERROR: ❌ [GET] Response Error from /content-manager/single-types/api::quick-link.quick-link?locale=en - Status: 401, Data: {"data":null,"error":{"status":401,"name":"UnauthorizedError","message":"Missing or invalid credentials","details":{}}}
-[2026-06-02 12:44:14] INFO: 🚀 [PUT] Request to https://backend.mod.testdev.mod.gov.ua/content-manager/single-types/api::quick-link.quick-link?locale=en with params: {} and data: {}
-[2026-06-02 12:44:15] ERROR: ❌ [PUT] Response Error from /content-manager/single-types/api::quick-link.quick-link?locale=en - Status: 401, Data: {"data":null,"error":{"status":401,"name":"UnauthorizedError","message":"Missing or invalid credentials","details":{}}}

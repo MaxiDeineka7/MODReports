@@ -1,2 +1,0 @@
-[2026-06-02 12:44:11] INFO: 🚀 [POST] Request to https://backend.mod.testdev.mod.gov.ua/content-manager/collection-types/api::assistance-category.assistance-category?locale=en with params: {} and data: "{\"title\":\"FirstCategory-a38\",\"locale\":\"en\"}"
-[2026-06-02 12:44:12] ERROR: ❌ [POST] Response Error from /content-manager/collection-types/api::assistance-category.assistance-category?locale=en - Status: 401, Data: {"data":null,"error":{"status":401,"name":"UnauthorizedError","message":"Missing or invalid credentials","details":{}}}
