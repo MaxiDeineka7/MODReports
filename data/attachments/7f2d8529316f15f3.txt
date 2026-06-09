@@ -1,4 +1,0 @@
-[2026-06-08 13:20:08] INFO: Verify that URL includes expected part: https://frontend.mod.testdev.mod.gov.ua
-[2026-06-08 13:20:08] INFO: Verify that URL includes expected part: /en
-[2026-06-08 13:20:11] INFO: 🚀 [DELETE] Request to https://backend.mod.testdev.mod.gov.ua/content-manager/collection-types/api::post.post/25541 with params: {} and data: {}
-[2026-06-08 13:20:11] ERROR: ❌ [DELETE] Response Error from /content-manager/collection-types/api::post.post/25541 - Status: 502, Data: "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
