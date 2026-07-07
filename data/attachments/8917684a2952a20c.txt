@@ -1,0 +1,2 @@
+[2026-07-07 11:53:40] INFO: 🚀 [POST] Request to https://backend.mod.testdev.mod.gov.ua/content-manager/collection-types/api::social-network.social-network?locale=uk with params: {} and data: "{\"name\":\"x\",\"url\":\"https://x.com\"}"
+[2026-07-07 11:53:41] ERROR: ❌ [POST] Response Error from /content-manager/collection-types/api::social-network.social-network?locale=uk - Status: 503, Data: "<html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body>\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n</body>\r\n</html>\r\n"
