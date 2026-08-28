@@ -1,0 +1,238 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main"
+      - navigation "Ministry of Defence of Ukraine" [ref=e5]:
+        - generic [ref=e6]:
+          - link "To the main page" [ref=e8] [cursor=pointer]:
+            - /url: /en
+            - img [ref=e9] [cursor=pointer]
+            - img "Ministry of Defense of Ukraine logo" [ref=e12] [cursor=pointer]
+            - generic [ref=e14] [cursor=pointer]: Ministry of Defence of Ukraine
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - 'link "Hotline: 1513" [ref=e17] [cursor=pointer]':
+                - /url: /en/ministry-of-defence-of-ukraine-hotline
+                - img [ref=e18] [cursor=pointer]
+                - img [ref=e20] [cursor=pointer]
+                - generic [ref=e22] [cursor=pointer]: "Hotline:"
+                - generic [ref=e23] [cursor=pointer]: "1513"
+              - list "Social media links" [ref=e24]:
+                - listitem [ref=e25]:
+                  - link "Facebook" [ref=e26] [cursor=pointer]:
+                    - /url: https://www.facebook.com/MinistryofDefence.UA
+                    - img [ref=e27] [cursor=pointer]
+                - listitem [ref=e30]:
+                  - link "Instagram" [ref=e31] [cursor=pointer]:
+                    - /url: https://www.instagram.com/ministry_of_defense_ua/
+                    - img [ref=e32] [cursor=pointer]
+                - listitem [ref=e36]:
+                  - link "YouTube" [ref=e37] [cursor=pointer]:
+                    - /url: https://www.youtube.com/@uamod
+                    - img [ref=e38] [cursor=pointer]
+                - listitem [ref=e41]:
+                  - link "X (Twitter)" [ref=e42] [cursor=pointer]:
+                    - /url: https://x.com
+                    - img [ref=e43] [cursor=pointer]
+              - list "Current language is English" [ref=e46]:
+                - listitem [ref=e47]:
+                  - link "Change your language to Ukrainian" [ref=e48] [cursor=pointer]:
+                    - /url: /explanation
+                    - text: Укр
+                - listitem [ref=e49]:
+                  - link [ref=e50]:
+                    - /url: /en/explainers
+                    - text: Eng
+            - generic [ref=e51]:
+              - navigation "Main-naviation" [ref=e52]:
+                - button "Activity" [ref=e53] [cursor=pointer]:
+                  - img [ref=e55] [cursor=pointer]
+                - button "Leadership" [ref=e57] [cursor=pointer]:
+                  - img [ref=e59] [cursor=pointer]
+                - button "News" [ref=e61] [cursor=pointer]:
+                  - img [ref=e63] [cursor=pointer]
+              - button "Search" [ref=e65] [cursor=pointer]:
+                - img [ref=e66] [cursor=pointer]
+      - main [ref=e69]:
+        - navigation "Breadcrumps" [ref=e70]:
+          - list [ref=e71]:
+            - listitem "Main page" [ref=e72]:
+              - link "Main page" [ref=e73] [cursor=pointer]:
+                - /url: /en
+              - img [ref=e75]
+            - listitem "Explainers" [ref=e77]:
+              - link "Explainers" [disabled] [ref=e78]:
+                - /url: /en/explainers
+        - heading "Explainers" [level=1] [ref=e79]
+        - generic [ref=e80]:
+          - generic [ref=e83]:
+            - heading "Tags" [level=2] [ref=e84]:
+              - generic [ref=e85]: Tags
+            - group "Tags" [ref=e87]:
+              - link "AutoTag-1ff-1 3" [ref=e89] [cursor=pointer]:
+                - /url: /en/explainers/tag-auto-tag-1ff-1
+                - img [ref=e91] [cursor=pointer]
+                - generic [ref=e95] [cursor=pointer]: "3"
+              - link "AutoTag-c1a-1 2" [ref=e97] [cursor=pointer]:
+                - /url: /en/explainers/tag-auto-tag-c1a-1
+                - img [ref=e99] [cursor=pointer]
+                - generic [ref=e103] [cursor=pointer]: "2"
+              - link "AutoTag-1ff-2 1" [ref=e105] [cursor=pointer]:
+                - /url: /en/explainers/tag-auto-tag-1ff-2
+                - img [ref=e107] [cursor=pointer]
+                - generic [ref=e111] [cursor=pointer]: "1"
+          - generic [ref=e112]:
+            - generic [ref=e114]:
+              - searchbox "Search explainers" [ref=e116]
+              - button "Search" [ref=e117] [cursor=pointer]:
+                - img [ref=e118] [cursor=pointer]
+            - list "Explainers" [ref=e121]:
+              - listitem [ref=e122]:
+                - article "ExplainArticle-1ff-4 highlight is TRUE" [ref=e123]:
+                  - link "ExplainArticle-1ff-4 highlight is TRUE 28 August, 2026, 11:58 PM EEST" [ref=e124] [cursor=pointer]:
+                    - /url: /en/explainers/explain-article-1ff-4
+                    - generic [ref=e127] [cursor=pointer]:
+                      - generic [ref=e128] [cursor=pointer]:
+                        - generic [ref=e129] [cursor=pointer]: ExplainArticle-1ff-4
+                        - paragraph [ref=e130] [cursor=pointer]: highlight is TRUE
+                      - time [ref=e131] [cursor=pointer]: 28 August, 2026, 11:58 PM EEST
+              - listitem [ref=e132]:
+                - article "ExplainArticle-1ff-3 highlight is FALSE" [ref=e133]:
+                  - link "ExplainArticle-1ff-3 highlight is FALSE 28 August, 2026, 11:58 PM EEST" [ref=e134] [cursor=pointer]:
+                    - /url: /en/explainers/explain-article-1ff-3
+                    - generic [ref=e137] [cursor=pointer]:
+                      - generic [ref=e138] [cursor=pointer]:
+                        - generic [ref=e139] [cursor=pointer]: ExplainArticle-1ff-3
+                        - paragraph [ref=e140] [cursor=pointer]: highlight is FALSE
+                      - time [ref=e141] [cursor=pointer]: 28 August, 2026, 11:58 PM EEST
+              - listitem [ref=e142]:
+                - article "ExplainArticle-1ff-2 highlight is TRUE" [ref=e143]:
+                  - link "ExplainArticle-1ff-2 highlight is TRUE 28 August, 2026, 11:58 PM EEST" [ref=e144] [cursor=pointer]:
+                    - /url: /en/explainers/explain-article-1ff-2
+                    - generic [ref=e147] [cursor=pointer]:
+                      - generic [ref=e148] [cursor=pointer]:
+                        - generic [ref=e149] [cursor=pointer]: ExplainArticle-1ff-2
+                        - paragraph [ref=e150] [cursor=pointer]: highlight is TRUE
+                      - time [ref=e151] [cursor=pointer]: 28 August, 2026, 11:58 PM EEST
+              - listitem [ref=e152]:
+                - article "ExplainArticle-1ff-1 highlight is TRUE" [ref=e153]:
+                  - link "ExplainArticle-1ff-1 highlight is TRUE 28 August, 2026, 11:58 PM EEST" [ref=e154] [cursor=pointer]:
+                    - /url: /en/explainers/explain-article-1ff-1
+                    - generic [ref=e157] [cursor=pointer]:
+                      - generic [ref=e158] [cursor=pointer]:
+                        - generic [ref=e159] [cursor=pointer]: ExplainArticle-1ff-1
+                        - paragraph [ref=e160] [cursor=pointer]: highlight is TRUE
+                      - time [ref=e161] [cursor=pointer]: 28 August, 2026, 11:58 PM EEST
+              - listitem [ref=e162]:
+                - article "ExplainArticle-c1a-2 highlight is TRUE" [ref=e163]:
+                  - link "ExplainArticle-c1a-2 highlight is TRUE 26 August, 2026, 12:45 PM EEST" [ref=e164] [cursor=pointer]:
+                    - /url: /en/explainers/explain-article-c1a-2
+                    - generic [ref=e167] [cursor=pointer]:
+                      - generic [ref=e168] [cursor=pointer]:
+                        - generic [ref=e169] [cursor=pointer]: ExplainArticle-c1a-2
+                        - paragraph [ref=e170] [cursor=pointer]: highlight is TRUE
+                      - time [ref=e171] [cursor=pointer]: 26 August, 2026, 12:45 PM EEST
+              - listitem [ref=e172]:
+                - article "ExplainArticle-c1a-1 highlight is TRUE" [ref=e173]:
+                  - link "ExplainArticle-c1a-1 highlight is TRUE 26 August, 2026, 12:45 PM EEST" [ref=e174] [cursor=pointer]:
+                    - /url: /en/explainers/explain-article-c1a-1
+                    - generic [ref=e177] [cursor=pointer]:
+                      - generic [ref=e178] [cursor=pointer]:
+                        - generic [ref=e179] [cursor=pointer]: ExplainArticle-c1a-1
+                        - paragraph [ref=e180] [cursor=pointer]: highlight is TRUE
+                      - time [ref=e181] [cursor=pointer]: 26 August, 2026, 12:45 PM EEST
+    - contentinfo [ref=e182]:
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - group "Leadership" [ref=e185]:
+            - heading "Leadership" [level=3] [ref=e186]
+            - list [ref=e187]:
+              - listitem [ref=e188]:
+                - link "Minister" [ref=e189] [cursor=pointer]:
+                  - /url: /en/about/rustem-umerov
+              - listitem [ref=e191]:
+                - link "Leadership of the MoD" [ref=e192] [cursor=pointer]:
+                  - /url: /en/about/mod-leadership
+              - listitem [ref=e194]:
+                - link "Commander-in-Chief of the AFU" [ref=e195] [cursor=pointer]:
+                  - /url: /en/about/oleksandr-stanislavovych-syrskyi-en
+              - listitem [ref=e197]:
+                - link "Chief of the Defense Intelligence of Ukraine" [ref=e198] [cursor=pointer]:
+                  - /url: /en/about/kyrylo-budanov-en
+              - listitem [ref=e200]:
+                - link "Head of the Administration of the STSS" [ref=e201] [cursor=pointer]:
+                  - /url: /en/about/oleksandr-vasyliovych-yakovets-en
+          - group "Press" [ref=e203]:
+            - heading "Press" [level=3] [ref=e204]
+            - list [ref=e205]:
+              - listitem [ref=e206]:
+                - link "News" [ref=e207] [cursor=pointer]:
+                  - /url: /en/news
+              - listitem [ref=e209]:
+                - link "Get accreditation" [ref=e210] [cursor=pointer]:
+                  - /url: /en/get-accreditation-1
+              - listitem [ref=e212]:
+                - link "Access to military facilities" [ref=e213] [cursor=pointer]:
+                  - /url: /en/procedure-for-the-access-of-the-media-representatives-to-the-facilities-of-the-ukrainian-defense-forces
+              - listitem [ref=e215]:
+                - link "FAQ" [ref=e216] [cursor=pointer]:
+                  - /url: /en/frequently-asked-questions
+              - listitem [ref=e218]:
+                - link "Request forms" [ref=e219] [cursor=pointer]:
+                  - /url: /en/request-forms
+          - group "Contact us" [ref=e221]:
+            - heading "Contact us" [level=3] [ref=e222]
+            - list [ref=e223]:
+              - listitem [ref=e224]:
+                - link "General inquiries" [ref=e225] [cursor=pointer]:
+                  - /url: /en/contact-us
+              - listitem [ref=e227]:
+                - link "For media" [ref=e228] [cursor=pointer]:
+                  - /url: /en/contacts-for-media
+              - listitem [ref=e230]:
+                - link "Recruitment" [ref=e231] [cursor=pointer]:
+                  - /url: https://ildu.com.ua/
+            - list "Social media links" [ref=e234]:
+              - listitem [ref=e235]:
+                - link "Facebook" [ref=e236] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e237] [cursor=pointer]
+              - listitem [ref=e240]:
+                - link "Instagram" [ref=e241] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e242] [cursor=pointer]
+              - listitem [ref=e246]:
+                - link "YouTube" [ref=e247] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e248] [cursor=pointer]
+              - listitem [ref=e251]:
+                - link "X (Twitter)" [ref=e252] [cursor=pointer]:
+                  - /url: https://x.com
+                  - img [ref=e253] [cursor=pointer]
+        - separator [ref=e256]
+        - generic [ref=e257]:
+          - generic [ref=e259]:
+            - img [ref=e260]
+            - generic [ref=e262]:
+              - paragraph [ref=e263]: © 2001–2026 MoD
+              - paragraph [ref=e264]:
+                - text: Content is available under the
+                - link "Creative Commons Attribution 4.0 International license" [ref=e265] [cursor=pointer]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en
+                  - text: Creative
+                  - text: Commons Attribution 4.0 International license
+                - text: ","
+                - text: unless otherwise stated.
+          - figure [ref=e267]:
+            - generic [ref=e268]: Developed by
+            - link "OpenTech SoftServe logo" [ref=e269] [cursor=pointer]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e270] [cursor=pointer]
+          - link "Website accessibility information" [ref=e274] [cursor=pointer]:
+            - /url: /en/accessibility-en
+  - alert [ref=e275]: Explanations list | Ministry of Defence of Ukraine
+```
