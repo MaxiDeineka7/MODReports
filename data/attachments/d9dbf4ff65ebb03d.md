@@ -1,0 +1,476 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Перейти до головного вмісту" [ref=e4] [cursor=pointer]:
+        - /url: "#main"
+      - navigation "Міністерство оборони України" [ref=e5]:
+        - generic [ref=e6]:
+          - link "На головну сторінку" [ref=e8] [cursor=pointer]:
+            - /url: /
+            - img [ref=e9] [cursor=pointer]
+            - img "Логотип Міністерства оборони України" [ref=e12] [cursor=pointer]
+            - generic [ref=e14] [cursor=pointer]: Міністерство оборони України
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - 'link "Гаряча лінія: 1515" [ref=e17] [cursor=pointer]':
+                - /url: /garyacha-liniya-minoboroni
+                - img [ref=e18] [cursor=pointer]
+                - img [ref=e20] [cursor=pointer]
+                - generic [ref=e22] [cursor=pointer]: "Гаряча лінія:"
+                - generic [ref=e23] [cursor=pointer]: "1515"
+              - list "Посилання на соціальні мережі" [ref=e24]:
+                - listitem [ref=e25]:
+                  - link "Facebook" [ref=e26] [cursor=pointer]:
+                    - /url: https://www.facebook.com/MinistryofDefence.UA
+                    - img [ref=e27] [cursor=pointer]
+                - listitem [ref=e30]:
+                  - link "Instagram" [ref=e31] [cursor=pointer]:
+                    - /url: https://www.instagram.com/ministry_of_defense_ua/
+                    - img [ref=e32] [cursor=pointer]
+                - listitem [ref=e36]:
+                  - link "YouTube" [ref=e37] [cursor=pointer]:
+                    - /url: https://www.youtube.com/@uamod
+                    - img [ref=e38] [cursor=pointer]
+                - listitem [ref=e41]:
+                  - link "X (Twitter)" [ref=e42] [cursor=pointer]:
+                    - /url: https://x.com
+                    - img [ref=e43] [cursor=pointer]
+              - list "Поточна мова Укрaїнська" [ref=e46]:
+                - listitem [ref=e47]:
+                  - link [ref=e48]:
+                    - /url: /diyalnist/normativno-pravova-baza
+                    - text: Укр
+                - listitem [ref=e49]:
+                  - link "Змінити мову на Англійська" [ref=e50] [cursor=pointer]:
+                    - /url: /en
+                    - text: Eng
+            - generic [ref=e51]:
+              - navigation "Головна навігація" [ref=e52]:
+                - button "Діяльність" [ref=e53] [cursor=pointer]:
+                  - img [ref=e55] [cursor=pointer]
+                - button "Про нас" [ref=e57] [cursor=pointer]:
+                  - img [ref=e59] [cursor=pointer]
+                - button "Новини" [ref=e61] [cursor=pointer]:
+                  - img [ref=e63] [cursor=pointer]
+                - button "Сервіси" [ref=e65] [cursor=pointer]:
+                  - img [ref=e67] [cursor=pointer]
+                - button "Пресцентр" [ref=e69] [cursor=pointer]:
+                  - img [ref=e71] [cursor=pointer]
+                - link "Контакти" [ref=e73] [cursor=pointer]:
+                  - /url: /kontakti
+              - button "Пошук" [ref=e75] [cursor=pointer]:
+                - img [ref=e76] [cursor=pointer]
+      - main [ref=e79]:
+        - link "Залишилось всього 20 днів на повернення з СЗЧ на особливих умовах" [ref=e80] [cursor=pointer]:
+          - /url: https://szch.army.gov.ua/?utm_source=mod-website&utm_medium=szch-top-banner
+          - text: Залишилось всього 20 днів на повернення з СЗЧ на особливих умовах
+          - img [ref=e81] [cursor=pointer]
+        - navigation "Навігаційні стежки" [ref=e83]:
+          - list [ref=e84]:
+            - listitem "Головна" [ref=e85]:
+              - link "Головна" [ref=e86] [cursor=pointer]:
+                - /url: /
+              - img [ref=e88]
+            - listitem "Діяльність" [ref=e90]:
+              - link "Діяльність" [ref=e91] [cursor=pointer]:
+                - /url: /diyalnist
+              - img [ref=e93]
+            - listitem "Нормативно-правова база" [ref=e95]:
+              - link "Нормативно-правова база" [disabled] [ref=e96]:
+                - /url: /diyalnist/normativno-pravova-baza
+        - heading "Нормативно-правова база" [level=1] [ref=e97]
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - heading "Сфера діяльності" [level=2] [ref=e101]:
+                - generic [ref=e102]: Сфера діяльності
+              - group "Сфера діяльності" [ref=e104]:
+                - link "Закупівельна діяльність" [ref=e105] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-zakupivelna-diyalnist
+                  - img [ref=e107] [cursor=pointer]
+                - link "tag-activity-7a3-1-1" [ref=e111] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-tag-activity-7a3-1
+                  - img [ref=e113] [cursor=pointer]
+                - link "tag-activity-24d-1-1" [ref=e117] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-tag-activity-24d-1
+                  - img [ref=e119] [cursor=pointer]
+                - link "tag-activity-f53-1-1" [ref=e123] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-tag-activity-f53-1
+                  - img [ref=e125] [cursor=pointer]
+                - link "tag-activity-f14-1-1" [ref=e129] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-tag-activity-f14-1
+                  - img [ref=e131] [cursor=pointer]
+                - link "tag-activity-ad2-1-1" [ref=e135] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-tag-activity-ad2-1
+                  - img [ref=e137] [cursor=pointer]
+                - link "tag-activity-88f-1-1" [ref=e141] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-tag-activity-88f-1
+                  - img [ref=e143] [cursor=pointer]
+                - link "tag-activity-d88-1-1" [ref=e147] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-tag-activity-d88-1
+                  - img [ref=e149] [cursor=pointer]
+                - link "Кадрова діяльність" [ref=e153] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-kadrova-diialnist
+                  - img [ref=e155] [cursor=pointer]
+                - link "Внутрішній контроль" [ref=e159] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-vnutrishnij-kontrol
+                  - img [ref=e161] [cursor=pointer]
+                - link "tag-activity-f3d-1-1" [ref=e165] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-tag-activity-f3d-1
+                  - img [ref=e167] [cursor=pointer]
+                - link "Доступ до публічної інформації" [ref=e171] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-dostup-do-publichnoyi-informacziyi
+                  - img [ref=e173] [cursor=pointer]
+                - link "Антикорупційна діяльність" [ref=e177] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-antikoruptsiina-diialnist
+                  - img [ref=e179] [cursor=pointer]
+                - link "tag-activity-680-1-1" [ref=e183] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-tag-activity-680-1
+                  - img [ref=e185] [cursor=pointer]
+                - link "tag-activity-158-1-1" [ref=e189] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-tag-activity-158-1
+                  - img [ref=e191] [cursor=pointer]
+                - link "tag-activity-4c4-1-1" [ref=e195] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-tag-activity-4c4-1
+                  - img [ref=e197] [cursor=pointer]
+                - link "tag-activity-953-1-1" [ref=e201] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-tag-activity-953-1
+                  - img [ref=e203] [cursor=pointer]
+                - link "tag-activity-a9f-1-1" [ref=e207] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-tag-activity-a9f-1
+                  - img [ref=e209] [cursor=pointer]
+                - link "Майнова діяльність 02" [ref=e213] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-mainova-diialnist-02
+                  - img [ref=e215] [cursor=pointer]
+                - link "Інше" [ref=e219] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-inshe
+                  - img [ref=e221] [cursor=pointer]
+                - link "Міжнародне співробітництво" [ref=e225] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-mizhnarodne-spivrobitnicztvo
+                  - img [ref=e227] [cursor=pointer]
+                - link "Нормативно-правова діяльність" [ref=e231] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-normativno-pravova-diyalnist
+                  - img [ref=e233] [cursor=pointer]
+                - link "Фінансова діяльність" [ref=e237] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-document-tag-diyalnist-3
+                  - img [ref=e239] [cursor=pointer]
+                - link "Стандартизація у сфері оборони Міністерства Оборони України (інженерно-інфраструктурного забезпечення)" [ref=e243] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/area-standartizacziya-u-sferi-oboroni
+                  - img [ref=e245] [cursor=pointer]
+            - generic [ref=e249]:
+              - heading "Тип документа" [level=2] [ref=e250]:
+                - generic [ref=e251]: Тип документа
+              - group "Тип документа" [ref=e253]:
+                - link "Договір" [ref=e254] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-dogovir
+                  - img [ref=e256] [cursor=pointer]
+                - link "Накази" [ref=e260] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-nakazi
+                  - img [ref=e262] [cursor=pointer]
+                - link "test222222" [ref=e266] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-document-tag-type-3
+                  - img [ref=e268] [cursor=pointer]
+                - link "Технічні специфікації (інженерно-інфраструктурного забезпечення)" [ref=e272] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tehnichni-speczifikacziyi-inzhenerno-infrastrukturnogo-zabezpechennya
+                  - img [ref=e274] [cursor=pointer]
+                - link "Test Tag Type" [ref=e278] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-9fd-2
+                  - img [ref=e280] [cursor=pointer]
+                - link "tag-type-f3d-2-2" [ref=e284] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-f3d-2
+                  - img [ref=e286] [cursor=pointer]
+                - link "tag-type-680-2-2" [ref=e290] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-680-2
+                  - img [ref=e292] [cursor=pointer]
+                - link "Технічні специфікації (символіка та паперова продукція)" [ref=e296] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tehnichni-speczifikacziyi-simvolika-ta-paperova-produkcziya
+                  - img [ref=e298] [cursor=pointer]
+                - link "Технічні специфікації (льотно-технічне обмундирування)" [ref=e302] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tehnichni-speczifikacziyi-lotno-tehnichne-obmundiruvannya
+                  - img [ref=e304] [cursor=pointer]
+                - link "tag-type-24d-2-2" [ref=e308] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-24d-2
+                  - img [ref=e310] [cursor=pointer]
+                - link "Технічні специфікації (речове забезпечення)" [ref=e314] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tehnichni-speczifikacziyi-rechove-zabezpechennya
+                  - img [ref=e316] [cursor=pointer]
+                - link "Інше" [ref=e320] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-inshe-1
+                  - img [ref=e322] [cursor=pointer]
+                - link "tag-type-e25-2-2" [ref=e326] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-e25-2
+                  - img [ref=e328] [cursor=pointer]
+                - link "tag-type-4c4-2-2" [ref=e332] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-4c4-2
+                  - img [ref=e334] [cursor=pointer]
+                - link "tag-type-e04-2-2" [ref=e338] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-e04-2
+                  - img [ref=e340] [cursor=pointer]
+                - link "tag-type-88f-2-2" [ref=e344] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-88f-2
+                  - img [ref=e346] [cursor=pointer]
+                - link "tag-type-158-2-2" [ref=e350] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-158-2
+                  - img [ref=e352] [cursor=pointer]
+                - link "tag-type-d4c-2-2" [ref=e356] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-d4c-2
+                  - img [ref=e358] [cursor=pointer]
+                - link "tag-type-ee1-2-2" [ref=e362] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-ee1-2
+                  - img [ref=e364] [cursor=pointer]
+                - link "tag-type-7a3-2-2" [ref=e368] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-7a3-2
+                  - img [ref=e370] [cursor=pointer]
+                - link "tag-type-f53-2-2" [ref=e374] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-f53-2
+                  - img [ref=e376] [cursor=pointer]
+                - link "tag-type-ce9-2-2" [ref=e380] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-ce9-2
+                  - img [ref=e382] [cursor=pointer]
+                - link "tag-type-e85-2-2" [ref=e386] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-e85-2
+                  - img [ref=e388] [cursor=pointer]
+                - link "tag-type-a9f-2-2" [ref=e392] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-tag-type-a9f-2
+                  - img [ref=e394] [cursor=pointer]
+                - link "Звернення" [ref=e398] [cursor=pointer]:
+                  - /url: /diyalnist/normativno-pravova-baza/type-zvernennia
+                  - img [ref=e400] [cursor=pointer]
+          - generic [ref=e404]:
+            - generic [ref=e406]:
+              - generic [ref=e407]:
+                - searchbox "Пошук в розділі Документи" [ref=e409]: Наказ
+                - button "Знайти" [ref=e410] [cursor=pointer]:
+                  - img [ref=e411] [cursor=pointer]
+              - button "Фільтр за датою прийняття" [ref=e414] [cursor=pointer]:
+                - generic [ref=e415] [cursor=pointer]: Дата прийняття
+                - generic [ref=e416] [cursor=pointer]:
+                  - generic [ref=e417] [cursor=pointer]: За весь час
+                  - img [ref=e418] [cursor=pointer]
+            - generic [ref=e422]:
+              - generic [ref=e423]: Знайдено 14 документів
+              - button "Очистити всі" [ref=e424] [cursor=pointer]
+              - button "Наказ Видалити пошуковий запит" [ref=e427] [cursor=pointer]:
+                - img [ref=e428] [cursor=pointer]
+            - generic [ref=e432]:
+              - heading "Останні документи" [level=2] [ref=e433]
+              - list [ref=e434]:
+                - listitem [ref=e435]:
+                  - article [ref=e436]:
+                    - link "_r_1m_ Стандартизація у сфері оборони Міністерства Оборони України (інженерно-інфраструктурного забезпечення) Інше" [ref=e437] [cursor=pointer]:
+                      - /url: /diyalnist/normativno-pravova-baza/document-type-c5b-3
+                      - generic "_r_1m_" [ref=e438] [cursor=pointer]: Наказ про створення комісії
+                - listitem [ref=e442]:
+                  - article [ref=e443]:
+                    - link "_r_2e_ Фінансова діяльність Договір" [ref=e444] [cursor=pointer]:
+                      - /url: /diyalnist/normativno-pravova-baza/test-2
+                      - generic "_r_2e_" [ref=e445] [cursor=pointer]: Наказ Міністерства оборони України № 46 від 26.01.2023 «Питання Міністерства оборони України»
+                - listitem [ref=e449]:
+                  - article [ref=e450]:
+                    - link "Від 26 лютого 2025 _r_2f_ tag-activity-7a3-1-1 tag-type-7a3-2-2" [ref=e451] [cursor=pointer]:
+                      - /url: /diyalnist/normativno-pravova-baza/document-type-7a3-4
+                      - generic [ref=e452] [cursor=pointer]: Від 26 лютого 2025
+                      - generic "_r_2f_" [ref=e453] [cursor=pointer]: Наказ Пошук-7a3-1
+                - listitem [ref=e457]:
+                  - article [ref=e458]:
+                    - link "Від 26 лютого 2025 _r_2g_ tag-activity-a9f-1-1 tag-type-a9f-2-2" [ref=e459] [cursor=pointer]:
+                      - /url: /diyalnist/normativno-pravova-baza/document-type-a9f-4
+                      - generic [ref=e460] [cursor=pointer]: Від 26 лютого 2025
+                      - generic "_r_2g_" [ref=e461] [cursor=pointer]: Наказ Пошук-a9f-1
+                - listitem [ref=e465]:
+                  - article [ref=e466]:
+                    - link "Від 26 лютого 2025 _r_2h_ tag-activity-88f-1-1 tag-type-88f-2-2" [ref=e467] [cursor=pointer]:
+                      - /url: /diyalnist/normativno-pravova-baza/document-type-88f-4
+                      - generic [ref=e468] [cursor=pointer]: Від 26 лютого 2025
+                      - generic "_r_2h_" [ref=e469] [cursor=pointer]: Наказ Пошук-88f-1
+                - listitem [ref=e473]:
+                  - article [ref=e474]:
+                    - link "Від 26 лютого 2025 _r_2i_ tag-activity-158-1-1 tag-type-158-2-2" [ref=e475] [cursor=pointer]:
+                      - /url: /diyalnist/normativno-pravova-baza/document-type-158-4
+                      - generic [ref=e476] [cursor=pointer]: Від 26 лютого 2025
+                      - generic "_r_2i_" [ref=e477] [cursor=pointer]: Наказ Пошук-158-1
+                - listitem [ref=e481]:
+                  - article [ref=e482]:
+                    - link "Від 12 травня 2024 _r_2j_ Стандартизація у сфері оборони Міністерства Оборони України (інженерно-інфраструктурного забезпечення) Договір" [ref=e483] [cursor=pointer]:
+                      - /url: /diyalnist/normativno-pravova-baza/test-14
+                      - generic [ref=e484] [cursor=pointer]: Від 12 травня 2024
+                      - generic "_r_2j_" [ref=e485] [cursor=pointer]: Наказ про затвердження оборонної політики
+                - listitem [ref=e489]:
+                  - article [ref=e490]:
+                    - link "_r_2k_ Інше" [ref=e491] [cursor=pointer]:
+                      - /url: /diyalnist/normativno-pravova-baza/nakaz-mou-vid-07-04-2024-223-pro-utvorennya-auditorskogo-komitetu-ministerstva-oboroni-ukrayini
+                      - generic "_r_2k_" [ref=e492] [cursor=pointer]: Наказ МОУ від 07.04.2024 № 223 "Про утворення Аудиторського комітету Міністерства оборони України"
+                - listitem [ref=e496]:
+                  - article [ref=e497]:
+                    - link "Від 26 лютого 2025 _r_24_ tag-activity-7a3-1-1 tag-type-7a3-2-2" [ref=e498] [cursor=pointer]:
+                      - /url: /diyalnist/normativno-pravova-baza/document-type-7a3-5
+                      - generic [ref=e499] [cursor=pointer]: Від 26 лютого 2025
+                      - generic "_r_24_" [ref=e500] [cursor=pointer]: Document Search-7a3-2
+                - listitem [ref=e504]:
+                  - article [ref=e505]:
+                    - link "Від 26 лютого 2025 _r_2l_ tag-activity-a9f-1-1 tag-type-a9f-2-2" [ref=e506] [cursor=pointer]:
+                      - /url: /diyalnist/normativno-pravova-baza/document-type-a9f-5
+                      - generic [ref=e507] [cursor=pointer]: Від 26 лютого 2025
+                      - generic "_r_2l_" [ref=e508] [cursor=pointer]: Document Search-a9f-2
+                - listitem [ref=e512]:
+                  - article [ref=e513]:
+                    - link "Від 26 лютого 2025 _r_2m_ tag-activity-88f-1-1 tag-type-88f-2-2" [ref=e514] [cursor=pointer]:
+                      - /url: /diyalnist/normativno-pravova-baza/document-type-88f-5
+                      - generic [ref=e515] [cursor=pointer]: Від 26 лютого 2025
+                      - generic "_r_2m_" [ref=e516] [cursor=pointer]: Document Search-88f-2
+                - listitem [ref=e520]:
+                  - article [ref=e521]:
+                    - link "Від 26 лютого 2025 _r_2n_ Стандартизація у сфері оборони Міністерства Оборони України (інженерно-інфраструктурного забезпечення) Технічні специфікації (символіка та паперова продукція)" [ref=e522] [cursor=pointer]:
+                      - /url: /diyalnist/normativno-pravova-baza/document-type-437-5
+                      - generic [ref=e523] [cursor=pointer]: Від 26 лютого 2025
+                      - generic "_r_2n_" [ref=e524] [cursor=pointer]: Обґрунтування технічних та якісних характеристик предмета закупівлі за код ДК 021:2015 «Єдиний закупівельний словник» 44170000-2 «Плити, листи, стрічки та фольга, пов'язані з конструкційними матеріалами» UA-2025-08-11-008672-а
+                - listitem [ref=e528]:
+                  - article [ref=e529]:
+                    - link "_r_2o_ Фінансова діяльність Інше" [ref=e530] [cursor=pointer]:
+                      - /url: /diyalnist/normativno-pravova-baza/test-10
+                      - generic "_r_2o_" [ref=e531] [cursor=pointer]: Проєкт технічних специфікацій "Беретні знаки" ТС А01XJ.58473-656:2025 (01)
+                - listitem [ref=e535]:
+                  - article [ref=e536]:
+                    - link "Від 24 січня 2025 _r_2p_ Фінансова діяльність Договір" [ref=e537] [cursor=pointer]:
+                      - /url: /diyalnist/normativno-pravova-baza/document-1
+                      - generic [ref=e538] [cursor=pointer]: Від 24 січня 2025
+                      - generic "_r_2p_" [ref=e539] [cursor=pointer]: День прийняття документу
+    - contentinfo [ref=e543]:
+      - generic [ref=e544]:
+        - generic [ref=e545]:
+          - group "Про нас" [ref=e546]:
+            - heading "Про нас" [level=3] [ref=e547]
+            - list [ref=e548]:
+              - listitem [ref=e549]:
+                - link "Керівництво Міноборони" [ref=e550] [cursor=pointer]:
+                  - /url: /pro-nas/kerivnicztvo-ministerstva-oboroni-ukrayini
+              - listitem [ref=e552]:
+                - link "Головнокомандувач ЗСУ" [ref=e553] [cursor=pointer]:
+                  - /url: /pro-nas/general-sirskij-oleksandr-stanislavovich
+              - listitem [ref=e555]:
+                - link "Керівник ГУР" [ref=e556] [cursor=pointer]:
+                  - /url: /pro-nas/general-lejtenant-budanov-kirilo-oleksijovich
+              - listitem [ref=e558]:
+                - link "Керівник ДССТ" [ref=e559] [cursor=pointer]:
+                  - /url: /pro-nas/yakovecz-oleksandr-vasilovich
+              - listitem [ref=e561]:
+                - link "Апарат Міністерства оборони" [ref=e562] [cursor=pointer]:
+                  - /url: /aparat-ministerstva-oboroni
+              - listitem [ref=e564]:
+                - link "Генеральний штаб ЗСУ" [ref=e565] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/ministry/struktura-generalnogo-shtabu/
+          - group "Сервіси" [ref=e567]:
+            - heading "Сервіси" [level=3] [ref=e568]
+            - list [ref=e569]:
+              - listitem [ref=e570]:
+                - link "Воїнам та їх сім'ям" [ref=e571] [cursor=pointer]:
+                  - /url: /servisy/voinam-ta-yikhnim-simiam
+              - listitem [ref=e573]:
+                - link "Майбутнім воїнам" [ref=e574] [cursor=pointer]:
+                  - /url: /servisy/majbutnim-voyinam
+              - listitem [ref=e576]:
+                - link "Громадянам" [ref=e577] [cursor=pointer]:
+                  - /url: /servisy/gromadyanam
+          - group "Діяльність" [ref=e579]:
+            - heading "Діяльність" [level=3] [ref=e580]
+            - list [ref=e581]:
+              - listitem [ref=e582]:
+                - link "Антикорупційна" [ref=e583] [cursor=pointer]:
+                  - /url: /diyalnist/antikorupczijna-diyalnist
+              - listitem [ref=e585]:
+                - link "Закупівельна" [ref=e586] [cursor=pointer]:
+                  - /url: /zakupivelna-diyalnist
+              - listitem [ref=e588]:
+                - link "Нормативно-правова" [ref=e589] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/ministry/normativno-pravova-baza/
+              - listitem [ref=e591]:
+                - link "Майнова" [ref=e592] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/diyalnist/vidchuzhennya-vijskovogo-majna/ogoloshennya-ta-anonsi/
+              - listitem [ref=e594]:
+                - link "Кадрова" [ref=e595] [cursor=pointer]:
+                  - /url: /kadrova-diyalnist
+              - listitem [ref=e597]:
+                - link "Фінансова" [ref=e598] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/diyalnist/finances/
+              - listitem [ref=e600]:
+                - link "Міжнародне співробітництво" [ref=e601] [cursor=pointer]:
+                  - /url: /mizhnarodne-spivrobitnicztvo
+          - group "Прес-центр" [ref=e603]:
+            - heading "Прес-центр" [level=3] [ref=e604]
+            - list [ref=e605]:
+              - listitem [ref=e606]:
+                - link "Новини" [ref=e607] [cursor=pointer]:
+                  - /url: /news
+              - listitem [ref=e609]:
+                - link "Пояснюємо" [ref=e610] [cursor=pointer]:
+                  - /url: /explanation
+              - listitem [ref=e612]:
+                - link "Отримати акредитацію ЗСУ" [ref=e613] [cursor=pointer]:
+                  - /url: /otrimati-akreditacziyu-zsu
+              - listitem [ref=e615]:
+                - link "Доступ на військові об'єкти" [ref=e616] [cursor=pointer]:
+                  - /url: /dostup-na-vijskovi-ob-yekti
+              - listitem [ref=e618]:
+                - link "Поширені питання медіа" [ref=e619] [cursor=pointer]:
+                  - /url: /poshireni-pitannya-media
+              - listitem [ref=e621]:
+                - link "Форми запитів" [ref=e622] [cursor=pointer]:
+                  - /url: /formi-zapitiv
+          - group "Контакти" [ref=e624]:
+            - heading "Контакти" [level=3] [ref=e625]
+            - list [ref=e626]:
+              - listitem [ref=e627]:
+                - link "Контакти Міністерства" [ref=e628] [cursor=pointer]:
+                  - /url: /kontakti
+              - listitem [ref=e630]:
+                - link "Для медіа" [ref=e631] [cursor=pointer]:
+                  - /url: /kontakti-dlya-media
+              - listitem [ref=e633]:
+                - link "Галузевий державний архів" [ref=e634] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/zvernennya-gromadyan/galuzevij-derzhavnij-arxiv/
+              - listitem [ref=e636]:
+                - link "Зовнішнє посилання" [ref=e637] [cursor=pointer]:
+                  - /url: https://www.google.com
+            - list "Посилання на соціальні мережі" [ref=e640]:
+              - listitem [ref=e641]:
+                - link "Facebook" [ref=e642] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e643] [cursor=pointer]
+              - listitem [ref=e646]:
+                - link "Instagram" [ref=e647] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e648] [cursor=pointer]
+              - listitem [ref=e652]:
+                - link "YouTube" [ref=e653] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e654] [cursor=pointer]
+              - listitem [ref=e657]:
+                - link "X (Twitter)" [ref=e658] [cursor=pointer]:
+                  - /url: https://x.com
+                  - img [ref=e659] [cursor=pointer]
+        - separator [ref=e662]
+        - generic [ref=e663]:
+          - generic [ref=e665]:
+            - img [ref=e666]
+            - generic [ref=e668]:
+              - paragraph [ref=e669]: © 2001–2026 МОУ
+              - paragraph [ref=e670]:
+                - text: Контент доступний за ліцензією
+                - link "Creative Commons Attribution 4.0 International license" [ref=e671] [cursor=pointer]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.uk
+                  - text: Creative
+                  - text: Commons Attribution 4.0 International license
+                - text: ","
+                - text: якщо не зазначено інше.
+          - figure [ref=e673]:
+            - generic [ref=e674]: Розроблено в
+            - link "OpenTech SoftServe лого" [ref=e675] [cursor=pointer]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e676] [cursor=pointer]
+          - link "Інформація про доступність вебсайту" [ref=e680] [cursor=pointer]:
+            - /url: /accessibility
+  - alert [ref=e681]: Нормативно-правова база
+```
