@@ -1,0 +1,472 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - heading [level=4] [ref=e7]: Ми дбаємо про захист ваших даних
+          - paragraph [ref=e8]:
+            - text: Ми використовуємо файли cookie, щоб забезпечити вам найкращий досвід роботи на нашому веб-сайті. Продовжуючи користуватися сайтом, ви погоджуєтесь на використання файлів cookie. Детальніше про
+            - link [ref=e9] [cursor=pointer]:
+              - /url: /cookies-policy
+              - text: політику використання файлів cookie
+            - text: .
+        - button [ref=e10] [cursor=pointer]: Погоджуюсь
+      - link [ref=e11] [cursor=pointer]:
+        - /url: "#main"
+        - text: Перейти до головного вмісту
+      - navigation [ref=e12]:
+        - generic [ref=e13]:
+          - link [ref=e15] [cursor=pointer]:
+            - /url: /
+            - img [ref=e16] [cursor=pointer]
+            - heading [level=1] [ref=e18] [cursor=pointer]: Міністерство оборони України
+          - generic [ref=e19]:
+            - link [ref=e20] [cursor=pointer]:
+              - /url: /garyacha-liniya-minoboroni
+              - img [ref=e21] [cursor=pointer]
+              - img [ref=e23] [cursor=pointer]
+              - generic [ref=e25] [cursor=pointer]: "1515"
+            - button [ref=e26] [cursor=pointer]:
+              - img [ref=e27] [cursor=pointer]
+            - button [expanded] [ref=e30] [cursor=pointer]
+      - generic [ref=e35]:
+        - link [ref=e36] [cursor=pointer]:
+          - /url: https://szch.army.gov.ua/?utm_source=mod-website&utm_medium=szch-top-banner
+          - text: Залишилось всього 9 днів на повернення з СЗЧ на особливих умовах
+          - img [ref=e37] [cursor=pointer]
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - link [ref=e45] [cursor=pointer]:
+                - /url: /news/opytuvannya-shhodo-zadovolenosti-suhpajkamy
+                - paragraph [ref=e47] [cursor=pointer]: В Армія+ стартувало опитування щодо рівня задоволеності сухпайками
+              - link [ref=e50] [cursor=pointer]:
+                - /url: /news/futuristichnij-soldat-poyednannya-tehnologij-ta-ukrayinskoyi-spadshhini
+                - paragraph [ref=e52] [cursor=pointer]: "Футуристичний солдат: Поєднання технологій та української спадщини"
+              - link [ref=e55] [cursor=pointer]:
+                - /url: /news/yak-otrymaty-status-ubd
+                - img [ref=e56] [cursor=pointer]
+                - paragraph [ref=e58] [cursor=pointer]: "Як отримати статус УБД: ключові зміни та покрокова інструкція"
+            - generic [ref=e59]:
+              - img [ref=e61] [cursor=pointer]
+              - img [ref=e68] [cursor=pointer]
+          - link [ref=e71] [cursor=pointer]:
+            - /url: /news
+            - text: Всі новини
+        - navigation [ref=e72]:
+          - link [ref=e73] [cursor=pointer]:
+            - /url: https://armyinform.com.ua/2026/04/24/vid-ideyi-do-vprovadzhennya-v-pidrozdili-v-armiya-zapustyly-kurs-iz-czyfrovoyi-transformacziyi/
+            - generic [ref=e74] [cursor=pointer]:
+              - generic [ref=e75] [cursor=pointer]: 🛡️
+              - generic [ref=e76] [cursor=pointer]: Трансформація сил оборони
+            - img [ref=e77] [cursor=pointer]
+          - link [ref=e79] [cursor=pointer]:
+            - /url: https://armyinform.com.ua/2026/04/24/vid-ideyi-do-vprovadzhennya-v-pidrozdili-v-armiya-zapustyly-kurs-iz-czyfrovoyi-transformacziyi/
+            - generic [ref=e80] [cursor=pointer]:
+              - generic [ref=e81] [cursor=pointer]: 📝
+              - generic [ref=e82] [cursor=pointer]: Нові контракти
+            - img [ref=e83] [cursor=pointer]
+          - link [ref=e85] [cursor=pointer]:
+            - /url: https://www.zbroya.gov.ua/
+            - generic [ref=e87] [cursor=pointer]: Нові постачальники зброї
+            - img [ref=e88] [cursor=pointer]
+          - link [ref=e90] [cursor=pointer]:
+            - /url: /news/minoboroni-ponovlyue-priznachennya-kerivnikiv-svoih-pidpriemstv
+            - generic [ref=e91] [cursor=pointer]:
+              - generic [ref=e92] [cursor=pointer]: ⭐
+              - generic [ref=e93] [cursor=pointer]: Зіркова новина
+            - img [ref=e94] [cursor=pointer]
+      - main [ref=e96]:
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - heading [level=2] [ref=e101]: Останні новини
+            - link [ref=e102] [cursor=pointer]:
+              - /url: /news
+              - img [ref=e103] [cursor=pointer]
+          - generic [ref=e105]:
+            - generic [ref=e106]:
+              - article [ref=e107]:
+                - link [ref=e108] [cursor=pointer]:
+                  - /url: /news/test-no-tags-02b-1
+                  - generic [ref=e109] [cursor=pointer]:
+                    - generic [ref=e110] [cursor=pointer]: Test news without tags 02b
+                    - time [ref=e111] [cursor=pointer]: 10 вересня 2026, 16:55
+              - article [ref=e112]:
+                - link [ref=e113] [cursor=pointer]:
+                  - /url: /news/test-no-tags-bbf-1
+                  - generic [ref=e114] [cursor=pointer]:
+                    - generic [ref=e115] [cursor=pointer]: Test news without tags bbf
+                    - time [ref=e116] [cursor=pointer]: 10 вересня 2026, 16:54
+              - article [ref=e117]:
+                - link [ref=e118] [cursor=pointer]:
+                  - /url: /news/test-no-tags-62a-1
+                  - generic [ref=e119] [cursor=pointer]:
+                    - generic [ref=e120] [cursor=pointer]: Test news without tags 62a
+                    - time [ref=e121] [cursor=pointer]: 10 вересня 2026, 16:53
+              - article [ref=e122]:
+                - link [ref=e123] [cursor=pointer]:
+                  - /url: /news/test-no-tags-b46-1
+                  - generic [ref=e124] [cursor=pointer]:
+                    - generic [ref=e125] [cursor=pointer]: Test news without tags b46
+                    - time [ref=e126] [cursor=pointer]: 10 вересня 2026, 16:33
+              - article [ref=e127]:
+                - link [ref=e128] [cursor=pointer]:
+                  - /url: /news/test-no-tags-4d6-1
+                  - generic [ref=e129] [cursor=pointer]:
+                    - generic [ref=e130] [cursor=pointer]: Test news without tags 4d6
+                    - time [ref=e131] [cursor=pointer]: 10 вересня 2026, 16:32
+              - article [ref=e132]:
+                - link [ref=e133] [cursor=pointer]:
+                  - /url: /news/test-no-tags-21a-1
+                  - generic [ref=e134] [cursor=pointer]:
+                    - generic [ref=e135] [cursor=pointer]: Test news without tags 21a
+                    - time [ref=e136] [cursor=pointer]: 10 вересня 2026, 16:31
+            - generic [ref=e137]:
+              - heading [level=3] [ref=e138]: Загальні бойові втрати ворога за минулу добу
+              - generic [ref=e139]: за інформацією Збройних сил України
+              - generic [ref=e140]:
+                - generic [ref=e141]:
+                  - generic [ref=e142]: Особовий склад
+                  - generic [ref=e143]: 502 737
+                - generic [ref=e144]:
+                  - generic [ref=e145]: Танки
+                  - generic [ref=e146]: 8 511
+                - generic [ref=e147]:
+                  - generic [ref=e148]: Бойові машини
+                  - generic [ref=e149]: 7 375
+                - generic [ref=e150]:
+                  - generic [ref=e151]: БПЛА
+                  - generic [ref=e152]: 1 197
+                - generic [ref=e153]:
+                  - generic [ref=e154]: Артилерійські системи
+                  - generic [ref=e155]: "613"
+              - link [ref=e156] [cursor=pointer]:
+                - /url: /news?tags=Відсіч+агресору
+                - text: Детальніше
+                - img [ref=e157] [cursor=pointer]
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - heading [level=2] [ref=e163]: Пояснюємо
+            - link [ref=e164] [cursor=pointer]:
+              - /url: /explanation
+              - img [ref=e165] [cursor=pointer]
+          - generic [ref=e167]:
+            - article [ref=e168]:
+              - link [ref=e169] [cursor=pointer]:
+                - /url: /explanation/explain-article-c69-4
+                - generic [ref=e171] [cursor=pointer]:
+                  - generic [ref=e172] [cursor=pointer]: ExplainArticle-c69-4
+                  - paragraph [ref=e173] [cursor=pointer]: highlight is TRUE
+            - article [ref=e174]:
+              - link [ref=e175] [cursor=pointer]:
+                - /url: /explanation/explain-article-c69-2
+                - generic [ref=e177] [cursor=pointer]:
+                  - generic [ref=e178] [cursor=pointer]: ExplainArticle-c69-2
+                  - paragraph [ref=e179] [cursor=pointer]: highlight is TRUE
+            - article [ref=e180]:
+              - link [ref=e181] [cursor=pointer]:
+                - /url: /explanation/explain-article-c69-1
+                - generic [ref=e183] [cursor=pointer]:
+                  - generic [ref=e184] [cursor=pointer]: ExplainArticle-c69-1
+                  - paragraph [ref=e185] [cursor=pointer]: highlight is TRUE
+            - article [ref=e186]:
+              - link [ref=e187] [cursor=pointer]:
+                - /url: /explanation/first-explanation-01-1
+                - generic [ref=e189] [cursor=pointer]:
+                  - generic [ref=e190] [cursor=pointer]: First explanation 01
+                  - paragraph [ref=e191] [cursor=pointer]: 95%, 100%
+        - generic [ref=e194]:
+          - heading [level=2] [ref=e195]: Сервіси
+          - tablist [ref=e197]:
+            - tab [selected] [ref=e198] [cursor=pointer]:
+              - generic [ref=e199] [cursor=pointer]: Воїнам та їх сім'ям
+            - tab [ref=e200] [cursor=pointer]:
+              - generic [ref=e201] [cursor=pointer]: Громадянам
+            - tab [ref=e202] [cursor=pointer]:
+              - generic [ref=e203] [cursor=pointer]: Майбутнім воїнам
+            - tab [ref=e204] [cursor=pointer]:
+              - generic [ref=e205] [cursor=pointer]: Військовий облік є складовою змісту мобілізаційної підготовки держави та ведеться з метою забезпечення повного та якісного укомплектування
+          - generic [ref=e206]:
+            - list [ref=e207]:
+              - listitem [ref=e208]:
+                - link [ref=e209] [cursor=pointer]:
+                  - /url: /vijskovij-oblik
+                  - generic [ref=e210] [cursor=pointer]:
+                    - generic [ref=e211] [cursor=pointer]: Військовий облік
+                    - img [ref=e212] [cursor=pointer]
+                  - generic [ref=e214] [cursor=pointer]: Тут зібрана ключова інформація, що стосується обліку військовозобов'язаних громадян.
+              - listitem [ref=e215]:
+                - link [ref=e216] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/zvernennya-gromadyan/aktualni-pitannya-gromadyan.html
+                  - generic [ref=e217] [cursor=pointer]:
+                    - generic [ref=e218] [cursor=pointer]: Відповіді на поширені питання
+                    - img [ref=e219] [cursor=pointer]
+                  - generic [ref=e221] [cursor=pointer]: Відповіді на найактуальніші запитання громадян щодо військової служби та пов'язаних тем.
+              - listitem [ref=e222]:
+                - link [ref=e223] [cursor=pointer]:
+                  - /url: https://q.mod.gov.ua/registration-place
+                  - generic [ref=e224] [cursor=pointer]:
+                    - generic [ref=e225] [cursor=pointer]: Онлайн запис до ТЦК
+                    - img [ref=e226] [cursor=pointer]
+                  - generic [ref=e228] [cursor=pointer]: Зручний та легкий запис в електронну чергу до ТЦК.
+              - listitem [ref=e229]:
+                - link [ref=e230] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/content/27302024/_Informatsiina_dovidka_shchodo_oformlennia_vidstrochky_vid_pryzovu_na_viiskovu_sluzhbu_pid_chas_mobilizatsii_viiskovozoboviazanym_iaki_zabronovani.pdf
+                  - generic [ref=e231] [cursor=pointer]:
+                    - generic [ref=e232] [cursor=pointer]: Бронювання та відстрочка. механізм бронювання військовозобов'язаних
+                    - img [ref=e233] [cursor=pointer]
+                  - generic [ref=e235] [cursor=pointer]: Інформація про оформлення відстрочки та механізм бронювання військовозобов'язаних.
+            - link [ref=e236] [cursor=pointer]:
+              - /url: /servisy/voinam-ta-yikhnim-simiam
+              - text: Більше сервісів
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - heading [level=2] [ref=e241]: Інноваційні проєкти
+            - generic [ref=e242]:
+              - button [disabled] [ref=e243]:
+                - img [ref=e244]
+              - button [ref=e246] [cursor=pointer]:
+                - img [ref=e247] [cursor=pointer]
+          - region [ref=e249]:
+            - generic [ref=e250]:
+              - group [ref=e251]:
+                - link [ref=e252] [cursor=pointer]:
+                  - /url: https://www.google.com/
+                  - img [ref=e254] [cursor=pointer]
+                  - generic [ref=e255] [cursor=pointer]:
+                    - generic [ref=e256] [cursor=pointer]:
+                      - generic [ref=e257] [cursor=pointer]: NewProject-b93
+                      - img [ref=e258] [cursor=pointer]
+                    - generic [ref=e260] [cursor=pointer]: Цей проект створений автоматизовано в тестувальницьких цілях.
+              - group [ref=e261]:
+                - link [ref=e262] [cursor=pointer]:
+                  - /url: https://www.google.com/
+                  - img [ref=e264] [cursor=pointer]
+                  - generic [ref=e265] [cursor=pointer]:
+                    - generic [ref=e266] [cursor=pointer]:
+                      - generic [ref=e267] [cursor=pointer]: NewProject-e75
+                      - img [ref=e268] [cursor=pointer]
+                    - generic [ref=e270] [cursor=pointer]: Цей проект створений автоматизовано в тестувальницьких цілях.
+          - link [ref=e272] [cursor=pointer]:
+            - /url: /projects
+            - text: Більше проєктів
+      - list [ref=e276]:
+        - listitem [ref=e277]:
+          - link [ref=e278] [cursor=pointer]:
+            - /url: https://ukc.gov.ua/
+            - generic [ref=e279] [cursor=pointer]: Урядовий контактний центр1
+            - img [ref=e280] [cursor=pointer]
+    - contentinfo [ref=e282]:
+      - generic [ref=e283]:
+        - generic [ref=e284]:
+          - group [ref=e285]:
+            - heading [level=3] [ref=e286]: Про нас
+            - list [ref=e287]:
+              - listitem [ref=e288]:
+                - link [ref=e289] [cursor=pointer]:
+                  - /url: /pro-nas/kerivnicztvo-ministerstva-oboroni-ukrayini
+                  - generic [ref=e290] [cursor=pointer]: Керівництво Міноборони
+              - listitem [ref=e291]:
+                - link [ref=e292] [cursor=pointer]:
+                  - /url: /pro-nas/general-sirskij-oleksandr-stanislavovich
+                  - generic [ref=e293] [cursor=pointer]: Головнокомандувач ЗСУ
+              - listitem [ref=e294]:
+                - link [ref=e295] [cursor=pointer]:
+                  - /url: /pro-nas/general-lejtenant-budanov-kirilo-oleksijovich
+                  - generic [ref=e296] [cursor=pointer]: Керівник ГУР
+              - listitem [ref=e297]:
+                - link [ref=e298] [cursor=pointer]:
+                  - /url: /pro-nas/yakovecz-oleksandr-vasilovich
+                  - generic [ref=e299] [cursor=pointer]: Керівник ДССТ
+              - listitem [ref=e300]:
+                - link [ref=e301] [cursor=pointer]:
+                  - /url: /pro-nas/aparat-ministerstva-oboroni
+                  - generic [ref=e302] [cursor=pointer]: Апарат Міністерства оборони
+              - listitem [ref=e303]:
+                - link [ref=e304] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/ministry/struktura-generalnogo-shtabu/
+                  - generic [ref=e305] [cursor=pointer]: Генеральний штаб ЗСУ
+          - group [ref=e306]:
+            - heading [level=3] [ref=e307]: Сервіси
+            - list [ref=e308]:
+              - listitem [ref=e309]:
+                - link [ref=e310] [cursor=pointer]:
+                  - /url: /servisy/voinam-ta-yikhnim-simiam
+                  - generic [ref=e311] [cursor=pointer]: Воїнам та їх сім'ям
+              - listitem [ref=e312]:
+                - link [ref=e313] [cursor=pointer]:
+                  - /url: /servisy/majbutnim-voyinam
+                  - generic [ref=e314] [cursor=pointer]: Майбутнім воїнам
+              - listitem [ref=e315]:
+                - link [ref=e316] [cursor=pointer]:
+                  - /url: /servisy/gromadyanam
+                  - generic [ref=e317] [cursor=pointer]: Громадянам
+          - group [ref=e318]:
+            - heading [level=3] [ref=e319]: Діяльність
+            - list [ref=e320]:
+              - listitem [ref=e321]:
+                - link [ref=e322] [cursor=pointer]:
+                  - /url: /diyalnist/antikorupczijna-diyalnist
+                  - generic [ref=e323] [cursor=pointer]: Антикорупційна
+              - listitem [ref=e324]:
+                - link [ref=e325] [cursor=pointer]:
+                  - /url: /zakupivelna-diyalnist
+                  - generic [ref=e326] [cursor=pointer]: Закупівельна
+              - listitem [ref=e327]:
+                - link [ref=e328] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/ministry/normativno-pravova-baza/
+                  - generic [ref=e329] [cursor=pointer]: Нормативно-правова
+              - listitem [ref=e330]:
+                - link [ref=e331] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/diyalnist/vidchuzhennya-vijskovogo-majna/ogoloshennya-ta-anonsi/
+                  - generic [ref=e332] [cursor=pointer]: Майнова
+              - listitem [ref=e333]:
+                - link [ref=e334] [cursor=pointer]:
+                  - /url: /kadrova-diyalnist
+                  - generic [ref=e335] [cursor=pointer]: Кадрова
+              - listitem [ref=e336]:
+                - link [ref=e337] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/diyalnist/finances/
+                  - generic [ref=e338] [cursor=pointer]: Фінансова
+              - listitem [ref=e339]:
+                - link [ref=e340] [cursor=pointer]:
+                  - /url: /diyalnist/mizhnarodne-spivrobitnicztvo
+                  - generic [ref=e341] [cursor=pointer]: Міжнародне співробітництво
+          - group [ref=e342]:
+            - heading [level=3] [ref=e343]: Прес-центр
+            - list [ref=e344]:
+              - listitem [ref=e345]:
+                - link [ref=e346] [cursor=pointer]:
+                  - /url: /news
+                  - generic [ref=e347] [cursor=pointer]: Новини
+              - listitem [ref=e348]:
+                - link [ref=e349] [cursor=pointer]:
+                  - /url: /explanation
+                  - generic [ref=e350] [cursor=pointer]: Пояснюємо
+              - listitem [ref=e351]:
+                - link [ref=e352] [cursor=pointer]:
+                  - /url: /otrimati-akreditacziyu-zsu
+                  - generic [ref=e353] [cursor=pointer]: Отримати акредитацію ЗСУ
+              - listitem [ref=e354]:
+                - link [ref=e355] [cursor=pointer]:
+                  - /url: /dostup-na-vijskovi-ob-yekti
+                  - generic [ref=e356] [cursor=pointer]: Доступ на військові об'єкти
+              - listitem [ref=e357]:
+                - link [ref=e358] [cursor=pointer]:
+                  - /url: /poshireni-pitannya-media
+                  - generic [ref=e359] [cursor=pointer]: Поширені питання медіа
+              - listitem [ref=e360]:
+                - link [ref=e361] [cursor=pointer]:
+                  - /url: /formi-zapitiv
+                  - generic [ref=e362] [cursor=pointer]: Форми запитів
+          - group [ref=e363]:
+            - heading [level=3] [ref=e364]: Контакти
+            - list [ref=e365]:
+              - listitem [ref=e366]:
+                - link [ref=e367] [cursor=pointer]:
+                  - /url: /kontakti
+                  - generic [ref=e368] [cursor=pointer]: Контакти Міністерства
+              - listitem [ref=e369]:
+                - link [ref=e370] [cursor=pointer]:
+                  - /url: /kontakti-dlya-media
+                  - generic [ref=e371] [cursor=pointer]: Для медіа
+              - listitem [ref=e372]:
+                - link [ref=e373] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/zvernennya-gromadyan/galuzevij-derzhavnij-arxiv/
+                  - generic [ref=e374] [cursor=pointer]: Галузевий державний архів
+              - listitem [ref=e375]:
+                - link [ref=e376] [cursor=pointer]:
+                  - /url: https://www.google.com
+                  - generic [ref=e377] [cursor=pointer]: Зовнішнє посилання
+            - list [ref=e379]:
+              - listitem [ref=e380]:
+                - link [ref=e381] [cursor=pointer]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e382] [cursor=pointer]
+              - listitem [ref=e385]:
+                - link [ref=e386] [cursor=pointer]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e387] [cursor=pointer]
+              - listitem [ref=e391]:
+                - link [ref=e392] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e393] [cursor=pointer]
+              - listitem [ref=e396]:
+                - link [ref=e397] [cursor=pointer]:
+                  - /url: https://x.com
+                  - img [ref=e398] [cursor=pointer]
+        - separator [ref=e401]
+        - generic [ref=e402]:
+          - generic [ref=e404]:
+            - img [ref=e405]
+            - generic [ref=e407]:
+              - paragraph [ref=e408]: © 2001–2026 МОУ
+              - paragraph [ref=e409]:
+                - text: Контент доступний за ліцензією
+                - link [ref=e410] [cursor=pointer]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.uk
+                  - text: Creative Commons Attribution 4.0 International license
+                - text: ", якщо не зазначено інше."
+          - figure [ref=e412]:
+            - generic [ref=e413]: Розроблено в
+            - link [ref=e414] [cursor=pointer]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e415] [cursor=pointer]
+          - link [ref=e419] [cursor=pointer]:
+            - /url: /accessibility
+            - text: Інформація про доступність вебсайту
+  - alert [ref=e420]
+  - dialog "Меню навігації та інше" [active] [ref=e422]:
+    - button "Dismiss" [ref=e424] [cursor=pointer]
+    - navigation "Головна навігація" [ref=e425]:
+      - button "Діяльність" [ref=e427] [cursor=pointer]:
+        - generic [ref=e428] [cursor=pointer]: Діяльність
+        - img [ref=e429] [cursor=pointer]
+      - button "Про нас" [ref=e432] [cursor=pointer]:
+        - generic [ref=e433] [cursor=pointer]: Про нас
+        - img [ref=e434] [cursor=pointer]
+      - button "Новини" [ref=e437] [cursor=pointer]:
+        - generic [ref=e438] [cursor=pointer]: Новини
+        - img [ref=e439] [cursor=pointer]
+      - button "Сервіси" [ref=e442] [cursor=pointer]:
+        - generic [ref=e443] [cursor=pointer]: Сервіси
+        - img [ref=e444] [cursor=pointer]
+      - button "Пресцентр" [ref=e447] [cursor=pointer]:
+        - generic [ref=e448] [cursor=pointer]: Пресцентр
+        - img [ref=e449] [cursor=pointer]
+      - link "Контакти01" [ref=e452] [cursor=pointer]:
+        - /url: /kontakti
+        - generic [ref=e453] [cursor=pointer]: Контакти01
+    - generic [ref=e454]:
+      - list "Посилання на соціальні мережі" [ref=e456]:
+        - listitem [ref=e457]:
+          - link "Facebook" [ref=e458] [cursor=pointer]:
+            - /url: https://www.facebook.com/MinistryofDefence.UA
+            - img [ref=e459] [cursor=pointer]
+        - listitem [ref=e462]:
+          - link "Instagram" [ref=e463] [cursor=pointer]:
+            - /url: https://www.instagram.com/ministry_of_defense_ua/
+            - img [ref=e464] [cursor=pointer]
+        - listitem [ref=e468]:
+          - link "YouTube" [ref=e469] [cursor=pointer]:
+            - /url: https://www.youtube.com/@uamod
+            - img [ref=e470] [cursor=pointer]
+        - listitem [ref=e473]:
+          - link "X (Twitter)" [ref=e474] [cursor=pointer]:
+            - /url: https://x.com
+            - img [ref=e475] [cursor=pointer]
+      - separator [ref=e479]
+      - list "Поточна мова Укрaїнська" [ref=e481]:
+        - listitem [ref=e482]:
+          - link [ref=e483]:
+            - /url: /
+            - text: Укр
+        - listitem [ref=e484]:
+          - link "Змінити мову на Англійська" [ref=e485] [cursor=pointer]:
+            - /url: /en
+            - text: Eng
+    - button "Dismiss" [ref=e487] [cursor=pointer]
+```
