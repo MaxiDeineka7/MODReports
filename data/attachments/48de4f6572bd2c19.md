@@ -1,0 +1,411 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Перейти до головного вмісту" [ref=e4]:
+        - /url: "#main"
+      - navigation "Міністерство оборони України" [ref=e6]:
+        - generic [ref=e7]:
+          - link "На головну сторінку" [ref=e9]:
+            - /url: /
+            - img [ref=e10]
+            - img "Логотип Міністерства оборони України" [ref=e13]
+            - heading "Міністерство оборони України" [level=1] [ref=e15]
+          - generic [ref=e16]:
+            - generic [ref=e17]:
+              - 'link "Гаряча лінія: 1515" [ref=e18] [cursor=pointer]':
+                - /url: /garyacha-liniya-minoboroni
+                - img [ref=e19] [cursor=pointer]
+                - img [ref=e21] [cursor=pointer]
+                - generic [ref=e23] [cursor=pointer]: "Гаряча лінія:"
+                - generic [ref=e24] [cursor=pointer]: "1515"
+              - list "Посилання на соціальні мережі" [ref=e25]:
+                - listitem [ref=e26]:
+                  - link "Facebook" [ref=e27]:
+                    - /url: https://www.facebook.com/MinistryofDefence.UA
+                    - img [ref=e28]
+                - listitem [ref=e31]:
+                  - link "Instagram" [ref=e32]:
+                    - /url: https://www.instagram.com/ministry_of_defense_ua/
+                    - img [ref=e33]
+                - listitem [ref=e37]:
+                  - link "YouTube" [ref=e38]:
+                    - /url: https://www.youtube.com/@uamod
+                    - img [ref=e39]
+                - listitem [ref=e42]:
+                  - link "X (Twitter)" [ref=e43]:
+                    - /url: https://x.com
+                    - img [ref=e44]
+              - list "Поточна мова Укрaїнська" [ref=e47]:
+                - listitem [ref=e48]:
+                  - link [ref=e49]:
+                    - /url: /
+                    - text: Укр
+                - listitem [ref=e50]:
+                  - link "Змінити мову на Англійська" [ref=e51]:
+                    - /url: /en
+                    - text: Eng
+            - generic [ref=e52]:
+              - navigation "Main navigation" [ref=e54]:
+                - group [ref=e55]:
+                  - img [ref=e58] [cursor=pointer]
+                - group [ref=e60]:
+                  - img [ref=e63] [cursor=pointer]
+                - group [ref=e65]:
+                  - img [ref=e68] [cursor=pointer]
+                - group [ref=e70]:
+                  - img [ref=e73] [cursor=pointer]
+                - group [ref=e75]:
+                  - img [ref=e78] [cursor=pointer]
+                - link "Контакти" [ref=e80]:
+                  - /url: /kontakti
+              - group [ref=e82]:
+                - img [ref=e85] [cursor=pointer]
+      - generic [ref=e88]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - link [ref=e95]:
+                - /url: /news/opytuvannya-shhodo-zadovolenosti-suhpajkamy
+                - paragraph [ref=e97] [cursor=pointer]: В Армія+ стартувало опитування щодо рівня задоволеності сухпайками
+              - link [ref=e100]:
+                - /url: /news/futuristichnij-soldat-poyednannya-tehnologij-ta-ukrayinskoyi-spadshhini
+                - paragraph [ref=e102] [cursor=pointer]: "Футуристичний солдат: Поєднання технологій та української спадщини"
+              - link [ref=e105]:
+                - /url: /news/yak-otrymaty-status-ubd
+                - img [ref=e106]
+                - paragraph [ref=e108] [cursor=pointer]: "Як отримати статус УБД: ключові зміни та покрокова інструкція"
+            - generic [ref=e109]:
+              - img [ref=e111] [cursor=pointer]
+              - img [ref=e118] [cursor=pointer]
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - heading "Головні новини" [level=2] [ref=e122]
+              - list [ref=e123]:
+                - listitem [ref=e124] [cursor=pointer]:
+                  - link "В Армія+ стартувало опитування щодо рівня задоволеності сухпайками середа, 3-є червня 2026 р. о 17:41:53 GMT+03:00" [ref=e125] [cursor=pointer]:
+                    - generic [ref=e126] [cursor=pointer]: В Армія+ стартувало опитування щодо рівня задоволеності сухпайками
+                    - time [ref=e128] [cursor=pointer]: 3 червня 2026, 17:41
+                - listitem [ref=e129] [cursor=pointer]:
+                  - 'link "Футуристичний солдат: Поєднання технологій та української спадщини понеділок, 13-е жовтня 2025 р. о 13:50:05 GMT+03:00" [ref=e130] [cursor=pointer]':
+                    - generic [ref=e131] [cursor=pointer]: "Футуристичний солдат: Поєднання технологій та української спадщини"
+                    - time [ref=e133] [cursor=pointer]: 13 жовтня 2025, 13:50
+                - listitem [ref=e134] [cursor=pointer]:
+                  - 'link "Як отримати статус УБД: ключові зміни та покрокова інструкція вівторок, 22-е липня 2025 р. о 15:36:41 GMT+03:00" [ref=e135] [cursor=pointer]':
+                    - generic [ref=e136] [cursor=pointer]: "Як отримати статус УБД: ключові зміни та покрокова інструкція"
+                    - time [ref=e138] [cursor=pointer]: 22 липня 2025, 15:36
+            - link "Всі новини" [ref=e139] [cursor=pointer]:
+              - /url: /news
+        - navigation "Швидкі посилання" [ref=e140]:
+          - link "Трансформація сил оборони" [ref=e141] [cursor=pointer]:
+            - /url: https://armyinform.com.ua/2026/04/24/vid-ideyi-do-vprovadzhennya-v-pidrozdili-v-armiya-zapustyly-kurs-iz-czyfrovoyi-transformacziyi/
+            - generic [ref=e142] [cursor=pointer]:
+              - generic [ref=e143] [cursor=pointer]: 🛡️
+              - generic [ref=e144] [cursor=pointer]: Трансформація сил оборони
+            - img [ref=e145] [cursor=pointer]
+          - link "Нові контракти" [ref=e147] [cursor=pointer]:
+            - /url: https://armyinform.com.ua/2026/04/24/vid-ideyi-do-vprovadzhennya-v-pidrozdili-v-armiya-zapustyly-kurs-iz-czyfrovoyi-transformacziyi/
+            - generic [ref=e148] [cursor=pointer]:
+              - generic [ref=e149] [cursor=pointer]: 📝
+              - generic [ref=e150] [cursor=pointer]: Нові контракти
+            - img [ref=e151] [cursor=pointer]
+          - link "Нові постачальники зброї" [ref=e153] [cursor=pointer]:
+            - /url: https://www.zbroya.gov.ua/
+            - generic [ref=e155] [cursor=pointer]: Нові постачальники зброї
+            - img [ref=e156] [cursor=pointer]
+          - link "Зіркова новина" [ref=e158] [cursor=pointer]:
+            - /url: /news/minoboroni-ponovlyue-priznachennya-kerivnikiv-svoih-pidpriemstv
+            - generic [ref=e159] [cursor=pointer]:
+              - generic [ref=e160] [cursor=pointer]: ⭐
+              - generic [ref=e161] [cursor=pointer]: Зіркова новина
+            - img [ref=e162] [cursor=pointer]
+      - main [ref=e164]:
+        - generic "Останні новини" [ref=e167]:
+          - generic [ref=e168]:
+            - heading "Останні новини" [level=2] [ref=e169]
+            - link "Всі новини" [ref=e170] [cursor=pointer]:
+              - /url: /news
+              - generic [ref=e171] [cursor=pointer]: Всі новини
+              - img [ref=e172] [cursor=pointer]
+          - generic [ref=e174]:
+            - generic [ref=e175]:
+              - article "Test news without tags bbf" [ref=e176]:
+                - link "Новина без фото Test news without tags bbf четвер, 10-е вересня 2026 р. о 16:54:56 GMT+03:00" [ref=e177] [cursor=pointer]:
+                  - /url: /news/test-no-tags-bbf-1
+                  - img "Новина без фото" [ref=e179] [cursor=pointer]
+                  - time [ref=e182] [cursor=pointer]: 10 вересня 2026, 16:54
+              - article "Test news without tags 62a" [ref=e183]:
+                - link "Новина без фото Test news without tags 62a четвер, 10-е вересня 2026 р. о 16:53:52 GMT+03:00" [ref=e184] [cursor=pointer]:
+                  - /url: /news/test-no-tags-62a-1
+                  - img "Новина без фото" [ref=e186] [cursor=pointer]
+                  - time [ref=e189] [cursor=pointer]: 10 вересня 2026, 16:53
+              - article "Test news without tags b46" [ref=e190]:
+                - link "Новина без фото Test news without tags b46 четвер, 10-е вересня 2026 р. о 16:33:55 GMT+03:00" [ref=e191] [cursor=pointer]:
+                  - /url: /news/test-no-tags-b46-1
+                  - img "Новина без фото" [ref=e193] [cursor=pointer]
+                  - time [ref=e196] [cursor=pointer]: 10 вересня 2026, 16:33
+              - article "Test news without tags 4d6" [ref=e197]:
+                - link "Новина без фото Test news without tags 4d6 четвер, 10-е вересня 2026 р. о 16:32:46 GMT+03:00" [ref=e198] [cursor=pointer]:
+                  - /url: /news/test-no-tags-4d6-1
+                  - img "Новина без фото" [ref=e200] [cursor=pointer]
+                  - time [ref=e203] [cursor=pointer]: 10 вересня 2026, 16:32
+              - article "Test news without tags 21a" [ref=e204]:
+                - link "Новина без фото Test news without tags 21a четвер, 10-е вересня 2026 р. о 16:31:21 GMT+03:00" [ref=e205] [cursor=pointer]:
+                  - /url: /news/test-no-tags-21a-1
+                  - img "Новина без фото" [ref=e207] [cursor=pointer]
+                  - time [ref=e210] [cursor=pointer]: 10 вересня 2026, 16:31
+              - article "Test news 3" [ref=e211]:
+                - link "Новина без фото Test news 3 четвер, 10-е вересня 2026 р. о 10:06:49 GMT+03:00" [ref=e212] [cursor=pointer]:
+                  - /url: /news/test-news-3-2
+                  - img "Новина без фото" [ref=e214] [cursor=pointer]
+                  - time [ref=e217] [cursor=pointer]: 10 вересня 2026, 10:06
+            - generic [ref=e218]:
+              - heading "Загальні бойові втрати ворога за минулу добу" [level=3] [ref=e219]
+              - generic [ref=e221]:
+                - generic [ref=e224]: 502 737
+                - generic [ref=e227]: 8 511
+                - generic [ref=e230]: 7 375
+                - generic [ref=e233]: 1 197
+                - generic [ref=e236]: "613"
+              - link "Детальніше" [ref=e237] [cursor=pointer]:
+                - /url: /news?tags=Відсіч+агресору
+                - text: Детальніше
+                - img [ref=e238] [cursor=pointer]
+        - generic "Пояснюємо" [ref=e242]:
+          - generic [ref=e243]:
+            - heading "Пояснюємо" [level=2] [ref=e244]
+            - link "Всі статті" [ref=e245] [cursor=pointer]:
+              - /url: /explanation
+              - generic [ref=e246] [cursor=pointer]: Всі статті
+              - img [ref=e247] [cursor=pointer]
+          - generic [ref=e249]:
+            - 'article "Військовий облік на підприємстві: головні правила та обов’язки роботодавців" [ref=e250]':
+              - 'link "Військовий облік на підприємстві: головні правила та обов’язки роботодавців Військовий облік на підприємстві: головні правила та обов’язки роботодавців explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської" [ref=e251] [cursor=pointer]':
+                - /url: /explanation/copy-explain-and-widget01-poyasnyuyemo
+                - 'img "Військовий облік на підприємстві: головні правила та обов’язки роботодавців" [ref=e253] [cursor=pointer]'
+                - paragraph [ref=e256] [cursor=pointer]: explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської
+            - article "explain-and-widget01 Пояснюємо" [ref=e257]:
+              - 'link "Військовий облік на підприємстві: головні правила та обов’язки роботодавців explain-and-widget01 Пояснюємо explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської" [ref=e258] [cursor=pointer]':
+                - /url: /explanation/explain-and-widget
+                - 'img "Військовий облік на підприємстві: головні правила та обов’язки роботодавців" [ref=e260] [cursor=pointer]'
+                - paragraph [ref=e263] [cursor=pointer]: explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської explain-and-widget01 Напрямки довгострокової допомоги ЄС представив Чарльз Фріз - заступник Генерального секретаря з питань спільної політики безпеки і оборони Європейської
+            - article "First explanation 01" [ref=e264]:
+              - link "First explanation 01 95%, 100%" [ref=e265] [cursor=pointer]:
+                - /url: /explanation/first-explanation-01-1
+                - paragraph [ref=e269] [cursor=pointer]: 95%, 100%
+            - 'article "Розширення «Контракту 18-24» на операторів безпілотних систем: особливості нового контракту." [ref=e270]':
+              - 'link "Укрробот і майбутнє Розширення «Контракту 18-24» на операторів безпілотних систем: особливості нового контракту. 30 липня Кабінет Міністрів України підтримав ініціативу Міністерства оборони щодо розширення експериментального проєкту «Контракт 18–24». Відтепер він поширюватиметься на штатні посади, пов’язані з експлуатацією безпілотних систем (БПС). Для громадян у віці до 25 років, які хочуть долучитися до війська за цими напрямками, затверджено окрему форму контракту." [ref=e271] [cursor=pointer]':
+                - /url: /explanation/explain-article-15
+                - img "Укрробот і майбутнє" [ref=e273] [cursor=pointer]
+                - paragraph [ref=e276] [cursor=pointer]: 30 липня Кабінет Міністрів України підтримав ініціативу Міністерства оборони щодо розширення експериментального проєкту «Контракт 18–24». Відтепер він поширюватиметься на штатні посади, пов’язані з експлуатацією безпілотних систем (БПС). Для громадян у віці до 25 років, які хочуть долучитися до війська за цими напрямками, затверджено окрему форму контракту.
+        - generic [ref=e279]:
+          - heading "Сервіси" [level=2] [ref=e280]
+          - tablist "Категорії сервісів" [ref=e282]:
+            - tab "Воїнам та їх сім'ям" [selected] [ref=e283] [cursor=pointer]
+            - tab "Громадянам" [ref=e285] [cursor=pointer]
+            - tab "Майбутнім воїнам" [ref=e287] [cursor=pointer]
+            - tab "Військовий облік є складовою змісту мобілізаційної підготовки держави та ведеться з метою забезпечення повного та якісного укомплектування" [ref=e289] [cursor=pointer]
+          - generic [ref=e291]:
+            - list "Сервіси" [ref=e292]:
+              - listitem [ref=e293]:
+                - link "Військовий облік Тут зібрана ключова інформація, що стосується обліку військовозобов'язаних громадян." [ref=e294] [cursor=pointer]:
+                  - /url: /vijskovij-oblik
+                  - img [ref=e297] [cursor=pointer]
+              - listitem [ref=e300]:
+                - link "Відповіді на поширені питання Відповіді на найактуальніші запитання громадян щодо військової служби та пов'язаних тем." [ref=e301] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/zvernennya-gromadyan/aktualni-pitannya-gromadyan.html
+                  - img [ref=e304] [cursor=pointer]
+              - listitem [ref=e307]:
+                - link "Онлайн запис до ТЦК Зручний та легкий запис в електронну чергу до ТЦК." [ref=e308] [cursor=pointer]:
+                  - /url: https://q.mod.gov.ua/registration-place
+                  - img [ref=e311] [cursor=pointer]
+              - listitem [ref=e314]:
+                - link "Бронювання та відстрочка. механізм бронювання військовозобов'язаних Інформація про оформлення відстрочки та механізм бронювання військовозобов'язаних." [ref=e315] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/content/27302024/_Informatsiina_dovidka_shchodo_oformlennia_vidstrochky_vid_pryzovu_na_viiskovu_sluzhbu_pid_chas_mobilizatsii_viiskovozoboviazanym_iaki_zabronovani.pdf
+                  - img [ref=e318] [cursor=pointer]
+            - link "Більше сервісів" [ref=e321] [cursor=pointer]:
+              - /url: /servisy/voinam-ta-yikhnim-simiam
+        - generic [ref=e324]:
+          - generic [ref=e325]:
+            - heading "Інноваційні проєкти" [level=2] [ref=e326]
+            - generic [ref=e327]:
+              - button "Назад" [disabled] [ref=e328]:
+                - img [ref=e329]
+              - button "Вперед" [ref=e331] [cursor=pointer]:
+                - img [ref=e332] [cursor=pointer]
+          - region "Інноваційні проєкти" [ref=e334]:
+            - generic [ref=e335]:
+              - group [ref=e336]:
+                - link "NewProject-b93 NewProject-b93 Цей проект створений автоматизовано в тестувальницьких цілях." [ref=e337] [cursor=pointer]:
+                  - /url: https://www.google.com/
+                  - img "NewProject-b93" [ref=e339] [cursor=pointer]
+                  - generic "NewProject-b93" [ref=e341] [cursor=pointer]:
+                    - generic [ref=e342] [cursor=pointer]: NewProject-b93
+                    - img [ref=e343] [cursor=pointer]
+              - group [ref=e346]:
+                - link "Проєкт без фото NewProject-e75 Цей проект створений автоматизовано в тестувальницьких цілях." [ref=e347] [cursor=pointer]:
+                  - /url: https://www.google.com/
+                  - img "Проєкт без фото" [ref=e349] [cursor=pointer]
+                  - generic "NewProject-e75" [ref=e351] [cursor=pointer]:
+                    - generic [ref=e352] [cursor=pointer]: NewProject-e75
+                    - img [ref=e353] [cursor=pointer]
+              - group [ref=e356]:
+                - link "Армія+ Армія+ Електронні рапорти, опитування та інші цифрові послуги для військових" [ref=e357] [cursor=pointer]:
+                  - /url: https://aplus.mod.gov.ua/
+                  - img "Армія+" [ref=e359] [cursor=pointer]
+                  - generic "Армія+" [ref=e361] [cursor=pointer]:
+                    - generic [ref=e362] [cursor=pointer]: Армія+
+                    - img [ref=e363] [cursor=pointer]
+              - group [ref=e366]:
+                - link "Дерегуляція Дерегуляція Запропонувати процес у сфері оборони, що потребує дерегуляції або оптимізації" [ref=e367] [cursor=pointer]:
+                  - /url: https://deregulation.mod.gov.ua/
+                  - img "Дерегуляція" [ref=e369] [cursor=pointer]
+                  - generic "Дерегуляція" [ref=e371] [cursor=pointer]:
+                    - generic [ref=e372] [cursor=pointer]: Дерегуляція
+                    - img [ref=e373] [cursor=pointer]
+          - link "Більше проєктів" [ref=e377] [cursor=pointer]:
+            - /url: /projects
+      - list "Медіа посилання" [ref=e381]:
+        - listitem [ref=e382]:
+          - link "Урядовий контактний центр1" [ref=e383] [cursor=pointer]:
+            - /url: https://ukc.gov.ua/
+            - generic [ref=e384] [cursor=pointer]: Урядовий контактний центр1
+            - img [ref=e385] [cursor=pointer]
+    - contentinfo [ref=e387]:
+      - generic [ref=e388]:
+        - generic [ref=e389]:
+          - group "Про нас" [ref=e390]:
+            - heading "Про нас" [level=3] [ref=e391]
+            - list [ref=e392]:
+              - listitem [ref=e393]:
+                - link "Керівництво Міноборони" [ref=e394] [cursor=pointer]:
+                  - /url: /pro-nas/kerivnicztvo-ministerstva-oboroni-ukrayini
+              - listitem [ref=e396]:
+                - link "Головнокомандувач ЗСУ" [ref=e397] [cursor=pointer]:
+                  - /url: /pro-nas/general-sirskij-oleksandr-stanislavovich
+              - listitem [ref=e399]:
+                - link "Керівник ГУР" [ref=e400] [cursor=pointer]:
+                  - /url: /pro-nas/general-lejtenant-budanov-kirilo-oleksijovich
+              - listitem [ref=e402]:
+                - link "Керівник ДССТ" [ref=e403] [cursor=pointer]:
+                  - /url: /pro-nas/yakovecz-oleksandr-vasilovich
+              - listitem [ref=e405]:
+                - link "Апарат Міністерства оборони" [ref=e406] [cursor=pointer]:
+                  - /url: /pro-nas/aparat-ministerstva-oboroni
+              - listitem [ref=e408]:
+                - link "Генеральний штаб ЗСУ" [ref=e409] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/ministry/struktura-generalnogo-shtabu/
+          - group "Сервіси" [ref=e411]:
+            - heading "Сервіси" [level=3] [ref=e412]
+            - list [ref=e413]:
+              - listitem [ref=e414]:
+                - link "Воїнам та їх сім'ям" [ref=e415] [cursor=pointer]:
+                  - /url: /servisy/voinam-ta-yikhnim-simiam
+              - listitem [ref=e417]:
+                - link "Майбутнім воїнам" [ref=e418] [cursor=pointer]:
+                  - /url: /servisy/majbutnim-voyinam
+              - listitem [ref=e420]:
+                - link "Громадянам" [ref=e421] [cursor=pointer]:
+                  - /url: /servisy/gromadyanam
+          - group "Діяльність" [ref=e423]:
+            - heading "Діяльність" [level=3] [ref=e424]
+            - list [ref=e425]:
+              - listitem [ref=e426]:
+                - link "Антикорупційна" [ref=e427] [cursor=pointer]:
+                  - /url: /diyalnist/antikorupczijna-diyalnist
+              - listitem [ref=e429]:
+                - link "Закупівельна" [ref=e430] [cursor=pointer]:
+                  - /url: /zakupivelna-diyalnist
+              - listitem [ref=e432]:
+                - link "Нормативно-правова" [ref=e433] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/ministry/normativno-pravova-baza/
+              - listitem [ref=e435]:
+                - link "Майнова" [ref=e436] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/diyalnist/vidchuzhennya-vijskovogo-majna/ogoloshennya-ta-anonsi/
+              - listitem [ref=e438]:
+                - link "Кадрова" [ref=e439] [cursor=pointer]:
+                  - /url: /kadrova-diyalnist
+              - listitem [ref=e441]:
+                - link "Фінансова" [ref=e442] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/diyalnist/finances/
+              - listitem [ref=e444]:
+                - link "Міжнародне співробітництво" [ref=e445] [cursor=pointer]:
+                  - /url: /diyalnist/mizhnarodne-spivrobitnicztvo
+          - group "Прес-центр" [ref=e447]:
+            - heading "Прес-центр" [level=3] [ref=e448]
+            - list [ref=e449]:
+              - listitem [ref=e450]:
+                - link "Новини" [ref=e451] [cursor=pointer]:
+                  - /url: /news
+              - listitem [ref=e453]:
+                - link "Пояснюємо" [ref=e454] [cursor=pointer]:
+                  - /url: /explanation
+              - listitem [ref=e456]:
+                - link "Отримати акредитацію ЗСУ" [ref=e457] [cursor=pointer]:
+                  - /url: /otrimati-akreditacziyu-zsu
+              - listitem [ref=e459]:
+                - link "Доступ на військові об'єкти" [ref=e460] [cursor=pointer]:
+                  - /url: /dostup-na-vijskovi-ob-yekti
+              - listitem [ref=e462]:
+                - link "Поширені питання медіа" [ref=e463] [cursor=pointer]:
+                  - /url: /poshireni-pitannya-media
+              - listitem [ref=e465]:
+                - link "Форми запитів" [ref=e466] [cursor=pointer]:
+                  - /url: /formi-zapitiv
+          - group "Контакти" [ref=e468]:
+            - heading "Контакти" [level=3] [ref=e469]
+            - list [ref=e470]:
+              - listitem [ref=e471]:
+                - link "Контакти Міністерства" [ref=e472] [cursor=pointer]:
+                  - /url: /kontakti
+              - listitem [ref=e474]:
+                - link "Для медіа" [ref=e475] [cursor=pointer]:
+                  - /url: /kontakti-dlya-media
+              - listitem [ref=e477]:
+                - link "Галузевий державний архів" [ref=e478] [cursor=pointer]:
+                  - /url: https://www.mil.gov.ua/zvernennya-gromadyan/galuzevij-derzhavnij-arxiv/
+              - listitem [ref=e480]:
+                - link "Зовнішнє посилання" [ref=e481] [cursor=pointer]:
+                  - /url: https://www.google.com
+            - list "Посилання на соціальні мережі" [ref=e484]:
+              - listitem [ref=e485]:
+                - link "Facebook" [ref=e486]:
+                  - /url: https://www.facebook.com/MinistryofDefence.UA
+                  - img [ref=e487]
+              - listitem [ref=e490]:
+                - link "Instagram" [ref=e491]:
+                  - /url: https://www.instagram.com/ministry_of_defense_ua/
+                  - img [ref=e492]
+              - listitem [ref=e496]:
+                - link "YouTube" [ref=e497]:
+                  - /url: https://www.youtube.com/@uamod
+                  - img [ref=e498]
+              - listitem [ref=e501]:
+                - link "X (Twitter)" [ref=e502]:
+                  - /url: https://x.com
+                  - img [ref=e503]
+        - separator [ref=e506]
+        - generic [ref=e507]:
+          - generic [ref=e509]:
+            - img [ref=e510]
+            - generic [ref=e512]:
+              - paragraph [ref=e513]: © 2001–2026 МОУ
+              - paragraph [ref=e514]:
+                - text: Контент доступний за ліцензією
+                - link "Creative Commons Attribution 4.0 International license" [ref=e515]:
+                  - /url: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.uk
+                  - text: Creative
+                  - text: Commons Attribution 4.0 International license
+                - text: ","
+                - text: якщо не зазначено інше.
+          - figure [ref=e517]:
+            - generic [ref=e518]: Розроблено в
+            - link "OpenTech SoftServe лого" [ref=e519]:
+              - /url: https://opentech.softserveinc.com
+              - img [ref=e520]
+          - link "Інформація про доступність вебсайту" [ref=e524]:
+            - /url: /accessibility
+  - alert [ref=e525]
+```
